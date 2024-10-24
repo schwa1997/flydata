@@ -5,6 +5,7 @@
 - Group Members:
   1. Huimin Chen - huimin.chen@studenti.unipd.it  - Computer Engineering
   2. Luca Pellegrini - luca.pellegrini.5@studenti.unipd.it - Computer Engineering
+  3. Nele Lauryssen - nele.lauryssen@studenti.unipd.it - Computer Science
 
 ## Selected Datasets
    -  **airports**
@@ -29,5 +30,14 @@
    - **Airline Service Quality Performance 234 (On-Time performance data)**
         - URL: https://www.bts.gov/browse-statistical-products-and-data/bts-publications/airline-service-quality-performance-234-time
         - Description: 
- - 
+   - **runways**
+        - URL: https://ourairports.com/data/
+        - Description: this dataset contains the list of length and width of runways with the following information: Airport ID, length, width, surface material, lighted, start and end latitude, start and end longitude, elevation, heading.
+   - **frequencies**
+        - URL: https://ourairports.com/data/
+        - Description: this dataset contains a list of frequencies with the following information: Airport ID, frequency type, description, frequency in MHz.
+   - **delay causes**
+        - URL: https://www.kaggle.com/datasets/sriharshaeedala/airline-delay or https://www.transtats.bts.gov/ot_delay/ot_delaycause1.asp
+        - Description: this dataset contains a list of delays and causes with the following information: Date, Carrier info, Airport ID, number of minutes delayed for different causes, number of flights cancelled, total delays.
+
 
