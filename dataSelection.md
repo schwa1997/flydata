@@ -69,7 +69,7 @@
 
 ## Model Design
 
-![Graph Component Model](GraphComp.png)
+![Graph Component Model](GraphComp.svg)
 
 ### Main Entities
 1. Flight: flight number, departure time, arrival time, departure airport, arrival airport, route, aircraft etc.
