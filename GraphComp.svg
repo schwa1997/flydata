@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Livello_1" data-name="Livello 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720.37 532.02">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 9.07px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17, .cls-18 {
+        fill: #000;
+      }
+
+      .cls-1, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14 {
+        isolation: isolate;
+      }
+
+      .cls-1, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-17 {
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-2, .cls-19 {
+        stroke-width: 0px;
+      }
+
+      .cls-20 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-3 {
+        font-size: 8.06px;
+      }
+
+      .cls-4 {
+        font-size: 17.81px;
+      }
+
+      .cls-5 {
+        font-size: 8.83px;
+      }
+
+      .cls-6 {
+        font-size: 8.63px;
+      }
+
+      .cls-21 {
+        stroke-width: 4px;
+      }
+
+      .cls-21, .cls-8, .cls-15, .cls-16, .cls-18 {
+        stroke: #000;
+      }
+
+      .cls-21, .cls-19 {
+        fill: #fff;
+      }
+
+      .cls-7 {
+        font-size: 8.99px;
+      }
+
+      .cls-8 {
+        stroke-miterlimit: 4;
+        stroke-width: 5px;
+      }
+
+      .cls-9 {
+        font-size: 16.23px;
+      }
+
+      .cls-10 {
+        font-size: 16.55px;
+      }
+
+      .cls-11 {
+        font-size: 15.18px;
+      }
+
+      .cls-22 {
+        letter-spacing: -.11em;
+      }
+
+      .cls-12 {
+        font-size: 12.12px;
+      }
+
+      .cls-13 {
+        font-size: 14.33px;
+      }
+
+      .cls-23 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-14 {
+        font-size: 8.64px;
+      }
+
+      .cls-24 {
+        letter-spacing: 0em;
+      }
+
+      .cls-15 {
+        stroke-width: 5px;
+      }
+
+      .cls-25 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-16 {
+        stroke-miterlimit: 4;
+        stroke-width: 5px;
+      }
+
+      .cls-17 {
+        font-size: 12px;
+      }
+
+      .cls-26 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-27 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-18 {
+        stroke-miterlimit: 4;
+        stroke-width: 5px;
+      }
+    </style>
+  </defs>
+  <text class="cls-17" transform="translate(247.41 138.74)"><tspan x="0" y="0">AirportCode^^xsd:String</tspan></text>
+  <text class="cls-17" transform="translate(231.89 77.7)"><tspan x="0" y="0">ArrivalCRS^^xsd:Date</tspan><tspan class="cls-26" x="117.96" y="0">T</tspan><tspan x="124.84" y="0">ime</tspan></text>
+  <text class="cls-17" transform="translate(204.99 65.18)"><tspan x="0" y="0">Arrival</tspan><tspan class="cls-26" x="34" y="0">T</tspan><tspan x="40.89" y="0">imeGate^^xsd:Date</tspan><tspan class="cls-26" x="144.86" y="0">T</tspan><tspan x="151.74" y="0">ime</tspan></text>
+  <text class="cls-17" transform="translate(230.55 52.52)"><tspan x="0" y="0">ArrivalOAG^^xsd:Date</tspan><tspan class="cls-26" x="119.29" y="0">T</tspan><tspan x="126.18" y="0">ime</tspan></text>
+  <text class="cls-17" transform="translate(212.53 126.26)"><tspan x="0" y="0">DepartureCRS^^xsd:Date</tspan><tspan class="cls-26" x="137.31" y="0">T</tspan><tspan x="144.2" y="0">ime</tspan></text>
+  <text class="cls-17" transform="translate(182.29 112.98)"><tspan x="0" y="0">Departure</tspan><tspan class="cls-26" x="53.36" y="0">T</tspan><tspan x="60.25" y="0">ime Gate^^xsd:Date</tspan><tspan class="cls-26" x="167.55" y="0">T</tspan><tspan x="174.43" y="0">ime</tspan></text>
+  <text class="cls-17" transform="translate(211.19 101.34)"><tspan x="0" y="0">DepartureOAG^^xsd:Date</tspan><tspan class="cls-26" x="138.65" y="0">T</tspan><tspan x="145.54" y="0">ime</tspan></text>
+  <text class="cls-17" transform="translate(231 39.98)"><tspan x="0" y="0">Arrival</tspan><tspan class="cls-26" x="34" y="0">T</tspan><tspan x="40.89" y="0">ime^^xsd:Date</tspan><tspan class="cls-26" x="118.84" y="0">T</tspan><tspan x="125.72" y="0">ime</tspan></text>
+  <text class="cls-17" transform="translate(211.64 89.2)"><tspan x="0" y="0">Departure</tspan><tspan class="cls-26" x="53.36" y="0">T</tspan><tspan x="60.25" y="0">ime^^xsd:Date</tspan><tspan class="cls-26" x="138.2" y="0">T</tspan><tspan x="145.08" y="0">ime</tspan></text>
+  <text class="cls-17" transform="translate(449.49 470.52)"><tspan x="0" y="0">Name^^xsd:String</tspan><tspan x="0" y="14.4">I</tspan><tspan class="cls-20" x="3.33" y="14.4">AT</tspan><tspan x="16.89" y="14.4">A^^xsd:String</tspan><tspan x="0" y="28.8">ICAO^^xsd:String</tspan><tspan x="0" y="43.2">Callsign^^xsd:String</tspan><tspan x="0" y="57.6">Country^^xsd:String</tspan></text>
+  <text class="cls-17" transform="translate(597.73 184.68) rotate(1.87)"><tspan x="0" y="0">I</tspan><tspan class="cls-20" x="3.33" y="0">AT</tspan><tspan x="16.89" y="0">ACode^^xsd:String</tspan></text>
+  <text class="cls-17" transform="translate(598.23 199.61)"><tspan x="0" y="0">City^^xsd:String</tspan></text>
+  <text class="cls-17" transform="translate(598.66 212.79)"><tspan x="0" y="0">Country^^xsd:String</tspan></text>
+  <text class="cls-17" transform="translate(45.13 178.77)"><tspan class="cls-22" x="0" y="0">T</tspan><tspan x="6" y="0">ailCode^^xsd:String</tspan></text>
+  <text class="cls-17" transform="translate(40.11 503.91)"><tspan x="0" y="0">Name^^xsd:String</tspan></text>
+  <text class="cls-17" transform="translate(40.11 339.45)"><tspan x="0" y="0">Name^^xsd:String</tspan></text>
+  <text class="cls-17" transform="translate(597.73 157.64)"><tspan x="0" y="0">Name^^xsd:String</tspan><tspan x="0" y="14.4">ICAOCode^^xsd:String</tspan></text>
+  <text class="cls-17" transform="translate(382.27 10.3)"><tspan class="cls-26" x="0" y="0">T</tspan><tspan x="6.88" y="0">imeLongestGround</tspan><tspan class="cls-26" x="108.95" y="0">T</tspan><tspan x="115.83" y="0">ime</tspan><tspan class="cls-23" x="135.17" y="0">A</tspan><tspan x="142.96" y="0">wayFromGate^^xsd:Date</tspan><tspan class="cls-26" x="276.93" y="0">T</tspan><tspan x="283.81" y="0">ime</tspan><tspan x="0" y="14.4">NumberOfLandingsAtDivertedAirports^^xsd:Date</tspan><tspan class="cls-26" x="260.04" y="14.4">T</tspan><tspan x="266.92" y="14.4">ime</tspan><tspan class="cls-22" x="0" y="28.8">T</tspan><tspan x="6" y="28.8">otalGround</tspan><tspan class="cls-26" x="65.37" y="28.8">T</tspan><tspan x="72.26" y="28.8">ime</tspan><tspan class="cls-23" x="91.59" y="28.8">A</tspan><tspan x="99.38" y="28.8">wayFromGate^^xsd:Date</tspan><tspan class="cls-26" x="233.35" y="28.8">T</tspan><tspan x="240.23" y="28.8">ime</tspan><tspan x="0" y="43.2">DelayE^^xsd:Date</tspan><tspan class="cls-26" x="97.3" y="43.2">T</tspan><tspan x="104.19" y="43.2">ime</tspan><tspan x="0" y="57.6">DelayF^^xsd:Date</tspan><tspan class="cls-26" x="96.63" y="57.6">T</tspan><tspan x="103.51" y="57.6">ime</tspan><tspan x="0" y="72">DelayG^^xsd:Date</tspan><tspan class="cls-26" x="98.63" y="72">T</tspan><tspan x="105.52" y="72">ime</tspan><tspan x="0" y="86.4">DelayH^^xsd:Date</tspan><tspan class="cls-26" x="97.96" y="86.4">T</tspan><tspan x="104.85" y="86.4">ime</tspan><tspan x="0" y="100.8">DelayI^^xsd:Date</tspan><tspan class="cls-26" x="92.63" y="100.8">T</tspan><tspan x="99.52" y="100.8">ime</tspan><tspan x="0" y="115.2">CancellationCode{A,B,C,D}^^xsd:String</tspan><tspan x="0" y="129.6">FlightNumber^^xsd:String</tspan></text>
+  <text class="cls-17" transform="translate(163.64 27.92)"><tspan x="0" y="0">FirstGateDeparture</tspan><tspan class="cls-26" x="102.7" y="0">T</tspan><tspan x="109.59" y="0">ime^^xsd:Date</tspan><tspan class="cls-26" x="187.54" y="0">T</tspan><tspan x="194.43" y="0">ime</tspan></text>
+  <text class="cls-17" transform="translate(440.84 330.33)"><tspan x="0" y="0">Code^^xsd:String</tspan></text>
+  <g>
+    <g>
+      <g>
+        <path class="cls-15" d="M413.46,177.16l21.12-2.05c.76-.07,1.53-.11,2.3-.11h51.6c.77,0,1.54.04,2.3.11l7.11.69h0"/>
+        <polygon class="cls-2" points="497.89 175.79 495.8 180.59 511.9 177.16 496.86 170.7 497.89 175.79"/>
+      </g>
+      <g>
+        <path class="cls-19" d="M435.34,167.98h54.69c1.56,0,2.83,1.21,2.83,2.7v8.63c0,1.49-1.27,2.7-2.83,2.7h-54.69c-1.56,0-2.83-1.21-2.83-2.7v-8.63c0-1.49,1.27-2.7,2.83-2.7Z"/>
+        <text class="cls-6" transform="translate(435.34 177.32) scale(1.05 1)"><tspan x="0" y="0">hasDeparture</tspan></text>
+      </g>
+    </g>
+    <g>
+      <g>
+        <path class="cls-15" d="M413.46,183.62l21.12,2.05c.76.07,1.53.11,2.3.11h51.6c.77,0,1.54-.04,2.3-.11l7.11-.69h0"/>
+        <polygon class="cls-2" points="497.89 184.98 496.86 190.08 511.9 183.62 495.8 180.19 497.89 184.98"/>
+      </g>
+      <g>
+        <path class="cls-19" d="M442.61,178.77h40.15c1.56,0,2.83,1.21,2.83,2.7v8.63c0,1.49-1.27,2.7-2.83,2.7h-40.15c-1.56,0-2.83-1.21-2.83-2.7v-8.63c0-1.49,1.27-2.7,2.83-2.7Z"/>
+        <text class="cls-6" transform="translate(442.61 188.12) scale(1.05 1)"><tspan x="0" y="0">hasArrival</tspan></text>
+      </g>
+    </g>
+    <g>
+      <g>
+        <path class="cls-18" d="M346.78,179.4l-83.89-2.48"/>
+        <polygon class="cls-2" points="262.89 176.92 264.62 172 248.81 176.51 264.29 181.94 262.89 176.92"/>
+      </g>
+      <g>
+        <path class="cls-19" d="M283.49,170.51l43.15,1.27c1.56.05,2.79,1.29,2.74,2.78l-.28,8.63c-.05,1.49-1.36,2.66-2.92,2.61l-43.15-1.27c-1.56-.05-2.79-1.29-2.74-2.78l.28-8.63c.05-1.49,1.36-2.66,2.92-2.61Z"/>
+        <text class="cls-14" transform="translate(283.19 179.86) rotate(1.69) scale(1.05 1) skewX(-.17)"><tspan x="0" y="0">hasAircraft</tspan></text>
+      </g>
+    </g>
+    <g>
+      <g>
+        <path class="cls-8" d="M229.98,204.17l129.5,254.42"/>
+        <polygon class="cls-2" points="359.47 458.59 354.09 459.42 365.62 470.67 363.48 455.08 359.47 458.59"/>
+      </g>
+      <g>
+        <path class="cls-19" d="M291.83,309.61l19.05,37.42c.68,1.34.09,2.96-1.31,3.61l-8.16,3.77c-1.41.65-3.1.09-3.79-1.25l-19.05-37.42c-.68-1.34-.09-2.96,1.31-3.61l8.16-3.77c1.41-.65,3.1-.09,3.79,1.25Z"/>
+        <text class="cls-7" transform="translate(283 313.69) rotate(63.02) scale(.97 1) skewX(-2.26)"><tspan x="0" y="0">PropertyOf</tspan></text>
+      </g>
+    </g>
+    <g>
+      <g>
+        <path class="cls-15" d="M215.39,207.36v84.95"/>
+        <polygon class="cls-2" points="215.39 292.31 210.18 290.82 215.39 305.73 220.61 290.82 215.39 292.31"/>
+      </g>
+      <g>
+        <path class="cls-19" d="M208.03,266.09v-32.5c0-1.49,1.27-2.7,2.83-2.7h9.07c1.56,0,2.83,1.21,2.83,2.7v32.5c0,1.49-1.27,2.7-2.83,2.7h-9.07c-1.56,0-2.83-1.21-2.83-2.7Z"/>
+        <text class="cls-1" transform="translate(217.84 266.09) rotate(-90) scale(.95 1)"><tspan x="0" y="0">has</tspan><tspan class="cls-25" x="14.62" y="0">T</tspan><tspan class="cls-24" x="19.66" y="0">ype</tspan></text>
+      </g>
+    </g>
+    <g>
+      <g>
+        <path class="cls-15" d="M215.39,369.41v84.65"/>
+        <polygon class="cls-2" points="215.39 454.06 210.18 452.57 215.39 467.48 220.61 452.57 215.39 454.06"/>
+      </g>
+      <g>
+        <path class="cls-19" d="M208.03,444v-64.52c0-1.49,1.27-2.7,2.83-2.7h9.07c1.56,0,2.83,1.21,2.83,2.7v64.52c0,1.49-1.27,2.7-2.83,2.7h-9.07c-1.56,0-2.83-1.21-2.83-2.7Z"/>
+        <text class="cls-1" transform="translate(217.84 444) rotate(-90) scale(.95 1)"><tspan x="0" y="0">hasManufacturer</tspan></text>
+      </g>
+    </g>
+    <g>
+      <g>
+        <path class="cls-15" d="M380.2,212.23v64.18"/>
+        <polygon class="cls-2" points="380.2 276.41 374.98 274.92 380.2 289.83 385.42 274.92 380.2 276.41"/>
+      </g>
+      <g>
+        <path class="cls-19" d="M372.83,262.72v-36.8c0-1.49,1.27-2.7,2.83-2.7h9.07c1.56,0,2.83,1.21,2.83,2.7v36.8c0,1.49-1.27,2.7-2.83,2.7h-9.07c-1.56,0-2.83-1.21-2.83-2.7Z"/>
+        <text class="cls-1" transform="translate(382.65 262.72) rotate(-90) scale(.95 1)"><tspan x="0" y="0">hasRoute</tspan></text>
+      </g>
+    </g>
+    <g>
+      <g>
+        <path class="cls-15" d="M380.2,353.51v100.55"/>
+        <polygon class="cls-2" points="380.2 454.06 374.98 452.57 380.2 467.48 385.42 452.57 380.2 454.06"/>
+      </g>
+      <g>
+        <path class="cls-19" d="M372.83,422.42v-37.27c0-1.49,1.27-2.7,2.83-2.7h9.07c1.56,0,2.83,1.21,2.83,2.7v37.27c0,1.49-1.27,2.7-2.83,2.7h-9.07c-1.56,0-2.83-1.21-2.83-2.7Z"/>
+        <text class="cls-1" transform="translate(382.65 422.42) rotate(-90) scale(.95 1)"><tspan x="0" y="0">hasCarier</tspan></text>
+      </g>
+    </g>
+    <g>
+      <g>
+        <path class="cls-16" d="M402.66,298.09l14.26-14.98c.52-.54,1.06-1.06,1.63-1.55l40.34-34.54,40.34-34.54c.57-.49,1.17-.95,1.79-1.38l5.77-4.01h0"/>
+        <polygon class="cls-2" points="506.79 207.08 508.6 211.97 518.16 199.17 502.45 203.94 506.79 207.08"/>
+      </g>
+      <g>
+        <path class="cls-19" d="M433.63,259.21l40.67-34.83c1.16-1,2.95-.91,4,.2l6.06,6.42c1.05,1.11.95,2.81-.21,3.81l-40.67,34.83c-1.16,1-2.95.91-4-.2l-6.06-6.42c-1.05-1.11-.95-2.81.21-3.81Z"/>
+        <text class="cls-5" transform="translate(440.19 266.16) rotate(-40.58) skewX(2.76)"><tspan x="0" y="0">hasDeparture</tspan></text>
+      </g>
+    </g>
+    <g>
+      <g>
+        <path class="cls-16" d="M407.2,302.89l17.15-11.92c.62-.43,1.22-.89,1.79-1.38l40.34-34.54,40.34-34.54c.57-.49,1.12-1.01,1.63-1.55l4.8-5.04h0"/>
+        <polygon class="cls-2" points="513.24 213.91 516.05 218.35 522.7 203.97 508.32 211.68 513.24 213.91"/>
+      </g>
+      <g>
+        <path class="cls-19" d="M446.62,262.61l29.85-25.57c1.16-1,2.95-.91,4,.2l6.06,6.42c1.05,1.11.95,2.81-.21,3.81l-29.85,25.57c-1.16,1-2.95.91-4-.2l-6.06-6.42c-1.05-1.11-.95-2.81.21-3.81Z"/>
+        <text class="cls-5" transform="translate(453.18 269.56) rotate(-40.58) skewX(2.76)"><tspan x="0" y="0">hasArrival</tspan></text>
+      </g>
+    </g>
+    <g>
+      <ellipse class="cls-21" cx="380.2" cy="180.39" rx="29.47" ry="28.06"/>
+      <text class="cls-4" transform="translate(357.33 185.22) scale(1.05 1)"><tspan x="0" y="0">Flight</tspan></text>
+    </g>
+    <g>
+      <ellipse class="cls-21" cx="380.2" cy="499.32" rx="29.47" ry="28.06"/>
+      <text class="cls-9" transform="translate(357 503.72) scale(1.05 1)"><tspan x="0" y="0">Carier</tspan></text>
+    </g>
+    <g>
+      <ellipse class="cls-21" cx="545.16" cy="180.39" rx="29.47" ry="28.06"/>
+      <text class="cls-11" transform="translate(521.7 184.5) scale(1.05 1)"><tspan x="0" y="0">Airport</tspan></text>
+    </g>
+    <g>
+      <ellipse class="cls-21" cx="215.39" cy="175.52" rx="29.47" ry="28.06"/>
+      <text class="cls-13" transform="translate(191.56 179.4) scale(1.05 1)"><tspan x="0" y="0">Aircraft</tspan></text>
+    </g>
+    <g>
+      <ellipse class="cls-21" cx="215.39" cy="337.57" rx="29.47" ry="28.06"/>
+      <g>
+        <text class="cls-12" transform="translate(195.24 333.58) scale(1.05 1)"><tspan x="0" y="0">Aircraft</tspan></text>
+        <text class="cls-12" transform="translate(201.6 348.13) scale(1.05 1)"><tspan class="cls-27" x="0" y="0">T</tspan><tspan x="6.74" y="0">ype</tspan></text>
+      </g>
+    </g>
+    <g>
+      <ellipse class="cls-21" cx="215.39" cy="499.32" rx="29.47" ry="28.06"/>
+      <text class="cls-3" transform="translate(190.45 501.5) scale(1.05 1)"><tspan x="0" y="0">Manufacturer</tspan></text>
+    </g>
+    <g>
+      <ellipse class="cls-21" cx="380.2" cy="321.67" rx="29.47" ry="28.06"/>
+      <text class="cls-10" transform="translate(357.02 326.15) scale(1.05 1)"><tspan x="0" y="0">Route</tspan></text>
+    </g>
+  </g>
+</svg>
