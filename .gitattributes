@@ -1,0 +1,4 @@
+*.asc filter=lfs diff=lfs merge=lfs -text
+*.txt filter=lfs diff=lfs merge=lfs -text
+Data[[:space:]]Collection/5-flight-raw.asc filter=lfs diff=lfs merge=lfs -text
+Data[[:space:]]Collection/7-aircrafts.txt filter=lfs diff=lfs merge=lfs -text
