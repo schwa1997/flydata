@@ -32,33 +32,37 @@
 
 ###  http://www.semanticweb.org/nele/ontologies/2024/10/flydata/hasAircraft
 :hasAircraft rdf:type owl:ObjectProperty ,
-                      owl:FunctionalProperty ;
-             rdfs:domain :Flight ;
+                      owl:FunctionalProperty ,
+                      owl:IrreflexiveProperty ;
+             rdfs:domain :Flight ,
+                         [ rdf:type owl:Restriction ;
+                           owl:onProperty :hasAircraft ;
+                           owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                           owl:onClass :Aircraft
+                         ] ;
              rdfs:range :Aircraft ;
-             rdfs:comment "This property  describes with which aircraft a certain flight will be flown."@en ;
+             rdfs:comment "This property describes with which aircraft a certain flight will be flown."@en ;
              rdfs:label "has Aircraft"@en .
-
-
-###  http://www.semanticweb.org/nele/ontologies/2024/10/flydata/hasAircraftType
-:hasAircraftType rdf:type owl:ObjectProperty ;
-                 rdfs:domain :Aircraft .
 
 
 ###  http://www.semanticweb.org/nele/ontologies/2024/10/flydata/hasAirport
 :hasAirport rdf:type owl:ObjectProperty ;
-            rdfs:domain :Route ,
+            rdfs:domain :Weather ,
                         [ rdf:type owl:Restriction ;
                           owl:onProperty :hasAirport ;
                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                          owl:onClass :Airport
+                          owl:onClass :Weather
                         ] ;
             rdfs:range :Airport .
 
 
 ###  http://www.semanticweb.org/nele/ontologies/2024/10/flydata/hasArrivalAirport
 :hasArrivalAirport rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf :hasAirport ;
-                   rdfs:domain [ rdf:type owl:Restriction ;
+                   rdfs:subPropertyOf owl:topObjectProperty ;
+                   rdf:type owl:FunctionalProperty ,
+                            owl:IrreflexiveProperty ;
+                   rdfs:domain :Route ,
+                               [ rdf:type owl:Restriction ;
                                  owl:onProperty :hasArrivalAirport ;
                                  owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                  owl:onClass :Airport
@@ -70,8 +74,11 @@
 
 ###  http://www.semanticweb.org/nele/ontologies/2024/10/flydata/hasDepartureAirport
 :hasDepartureAirport rdf:type owl:ObjectProperty ;
-                     rdfs:subPropertyOf :hasAirport ;
-                     rdfs:domain [ rdf:type owl:Restriction ;
+                     rdfs:subPropertyOf owl:topObjectProperty ;
+                     rdf:type owl:FunctionalProperty ,
+                              owl:IrreflexiveProperty ;
+                     rdfs:domain :Route ,
+                                 [ rdf:type owl:Restriction ;
                                    owl:onProperty :hasDepartureAirport ;
                                    owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                    owl:onClass :Airport
@@ -82,15 +89,32 @@
 
 
 ###  http://www.semanticweb.org/nele/ontologies/2024/10/flydata/hasManufacturer
-:hasManufacturer rdf:type owl:ObjectProperty ;
-                 rdfs:domain :Aircraft ;
+:hasManufacturer rdf:type owl:ObjectProperty ,
+                          owl:FunctionalProperty ,
+                          owl:IrreflexiveProperty ;
+                 rdfs:domain :Model ;
                  rdfs:range :Manufacturer ;
                  rdfs:comment "This property assigns a manufacturer to a certain aircraft type."@en ;
                  rdfs:label "has Manufacturer"@en .
 
 
+###  http://www.semanticweb.org/nele/ontologies/2024/10/flydata/hasModel
+:hasModel rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty ;
+          rdf:type owl:FunctionalProperty ,
+                   owl:IrreflexiveProperty ;
+          rdfs:domain :Aircraft ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :hasAircraft ;
+                        owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                        owl:onClass :Model
+                      ] ;
+          rdfs:range :Model .
+
+
 ###  http://www.semanticweb.org/nele/ontologies/2024/10/flydata/hasRoute
-:hasRoute rdf:type owl:ObjectProperty ;
+:hasRoute rdf:type owl:ObjectProperty ,
+                   owl:IrreflexiveProperty ;
           rdfs:domain :Carrier ;
           rdfs:range :Route ;
           rdfs:comment "This property assigns a specific route to a certain flight. Route and Flight will have the same departure and arrival airports."@en ;
@@ -98,13 +122,16 @@
 
 
 ###  http://www.semanticweb.org/nele/ontologies/2024/10/flydata/hasRunway
-:hasRunway rdf:type owl:ObjectProperty ;
+:hasRunway rdf:type owl:ObjectProperty ,
+                    owl:IrreflexiveProperty ;
            rdfs:domain :Airport ;
            rdfs:range :Runway .
 
 
 ###  http://www.semanticweb.org/nele/ontologies/2024/10/flydata/isLocatedInCity
-:isLocatedInCity rdf:type owl:ObjectProperty ;
+:isLocatedInCity rdf:type owl:ObjectProperty ,
+                          owl:FunctionalProperty ,
+                          owl:IrreflexiveProperty ;
                  rdfs:domain :Airport ,
                              [ rdf:type owl:Restriction ;
                                owl:onProperty :isLocatedInCity ;
@@ -116,28 +143,39 @@
                  rdfs:label "is located in city"@en .
 
 
-###  http://www.semanticweb.org/nele/ontologies/2024/10/flydata/isLocatedInCountry
-:isLocatedInCountry rdf:type owl:ObjectProperty ;
-                    rdfs:domain :City ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty :isLocatedInCountry ;
-                                  owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                  owl:onClass :Country
-                                ] ;
-                    rdfs:range :Country ;
-                    rdfs:comment "This property describes in which country an entity is located."@en ;
-                    rdfs:label "is located in country"@en .
+###  http://www.semanticweb.org/nele/ontologies/2024/10/flydata/isLocatedInState
+:isLocatedInState rdf:type owl:ObjectProperty ,
+                           owl:FunctionalProperty ,
+                           owl:IrreflexiveProperty ;
+                  rdfs:domain :City ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty :isLocatedInState ;
+                                owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                owl:onClass :State
+                              ] ;
+                  rdfs:range :State ;
+                  rdfs:comment "This property describes in which state an entity is located."@en ;
+                  rdfs:label "is located in State"@en .
 
 
 ###  http://www.semanticweb.org/nele/ontologies/2024/10/flydata/isOperatedBy
-:isOperatedBy rdf:type owl:ObjectProperty ;
+:isOperatedBy rdf:type owl:ObjectProperty ,
+                       owl:FunctionalProperty ,
+                       owl:IrreflexiveProperty ;
               rdfs:domain :Flight ;
               rdfs:range :Carrier .
 
 
 ###  http://www.semanticweb.org/nele/ontologies/2024/10/flydata/isOwnedByCarrier
-:isOwnedByCarrier rdf:type owl:ObjectProperty ;
-                  rdfs:domain :Aircraft ;
+:isOwnedByCarrier rdf:type owl:ObjectProperty ,
+                           owl:FunctionalProperty ,
+                           owl:IrreflexiveProperty ;
+                  rdfs:domain :Aircraft ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty :isOwnedByCarrier ;
+                                owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                owl:onClass :Carrier
+                              ] ;
                   rdfs:range :Carrier ;
                   rdfs:comment "This property indicates which airline carrier owns a specific aircraft."@en ;
                   rdfs:label "is owned by"@en .
@@ -223,23 +261,30 @@
 
 
 ###  http://www.semanticweb.org/nele/ontologies/2024/10/flydata/callSign
-:callSign rdf:type owl:DatatypeProperty ;
-          rdfs:domain :Carrier ;
+:callSign rdf:type owl:DatatypeProperty ,
+                   owl:FunctionalProperty ;
+          rdfs:domain :Carrier ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :callSign ;
+                        owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                        owl:onDataRange xsd:string
+                      ] ;
           rdfs:range xsd:string .
 
 
 ###  http://www.semanticweb.org/nele/ontologies/2024/10/flydata/cancellationCode
-:cancellationCode rdf:type owl:DatatypeProperty ;
+:cancellationCode rdf:type owl:DatatypeProperty ,
+                           owl:FunctionalProperty ;
                   rdfs:domain :Flight ;
                   rdfs:range [ rdf:type rdfs:Datatype ;
                                owl:oneOf [ rdf:type rdf:List ;
-                                           rdf:first "A" ;
+                                           rdf:first "A"@en ;
                                            rdf:rest [ rdf:type rdf:List ;
-                                                      rdf:first "B" ;
+                                                      rdf:first "B"@en ;
                                                       rdf:rest [ rdf:type rdf:List ;
-                                                                 rdf:first "C" ;
+                                                                 rdf:first "C"@en ;
                                                                  rdf:rest [ rdf:type rdf:List ;
-                                                                            rdf:first "D" ;
+                                                                            rdf:first "D"@en ;
                                                                             rdf:rest rdf:nil
                                                                           ]
                                                                ]
@@ -251,27 +296,36 @@
 
 
 ###  http://www.semanticweb.org/nele/ontologies/2024/10/flydata/closed
-:closed rdf:type owl:DatatypeProperty ;
-        rdfs:domain :Runway ;
+:closed rdf:type owl:DatatypeProperty ,
+                 owl:FunctionalProperty ;
+        rdfs:domain :Runway ,
+                    [ rdf:type owl:Restriction ;
+                      owl:onProperty :closed ;
+                      owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                      owl:onDataRange xsd:boolean
+                    ] ;
         rdfs:range xsd:boolean ;
         rdfs:comment "Indicates if the runway is closed"@en ;
         rdfs:label "closed"@en .
 
 
 ###  http://www.semanticweb.org/nele/ontologies/2024/10/flydata/dayOfTheWeek
-:dayOfTheWeek rdf:type owl:DatatypeProperty ;
+:dayOfTheWeek rdf:type owl:DatatypeProperty ,
+                       owl:FunctionalProperty ;
               rdfs:domain :Flight ;
               rdfs:range xsd:nonNegativeInteger .
 
 
 ###  http://www.semanticweb.org/nele/ontologies/2024/10/flydata/flightDate
-:flightDate rdf:type owl:DatatypeProperty ;
+:flightDate rdf:type owl:DatatypeProperty ,
+                     owl:FunctionalProperty ;
             rdfs:domain :Flight ;
-            rdfs:range xsd:integer .
+            rdfs:range xsd:dateTime .
 
 
 ###  http://www.semanticweb.org/nele/ontologies/2024/10/flydata/lengthFt
-:lengthFt rdf:type owl:DatatypeProperty ;
+:lengthFt rdf:type owl:DatatypeProperty ,
+                   owl:FunctionalProperty ;
           rdfs:domain :Runway ;
           rdfs:range xsd:nonNegativeInteger ;
           rdfs:comment "Length of the runway in feet"@en ;
@@ -279,7 +333,8 @@
 
 
 ###  http://www.semanticweb.org/nele/ontologies/2024/10/flydata/lighted
-:lighted rdf:type owl:DatatypeProperty ;
+:lighted rdf:type owl:DatatypeProperty ,
+                  owl:FunctionalProperty ;
          rdfs:domain :Runway ;
          rdfs:range xsd:boolean ;
          rdfs:comment "Indicates if the runway is lighted"@en ;
@@ -287,12 +342,24 @@
 
 
 ###  http://www.semanticweb.org/nele/ontologies/2024/10/flydata/name
-:name rdf:type owl:DatatypeProperty ;
+:name rdf:type owl:DatatypeProperty ,
+               owl:FunctionalProperty ;
+      rdfs:domain [ rdf:type owl:Class ;
+                    owl:unionOf ( :Airport
+                                  :Carrier
+                                  :City
+                                  :Manufacturer
+                                  :Model
+                                  :Runway
+                                  :State
+                                )
+                  ] ;
       rdfs:range xsd:string .
 
 
 ###  http://www.semanticweb.org/nele/ontologies/2024/10/flydata/population
-:population rdf:type owl:DatatypeProperty ;
+:population rdf:type owl:DatatypeProperty ,
+                     owl:FunctionalProperty ;
             rdfs:domain :City ;
             rdfs:range xsd:nonNegativeInteger .
 
@@ -303,7 +370,8 @@
 
 
 ###  http://www.semanticweb.org/nele/ontologies/2024/10/flydata/surface
-:surface rdf:type owl:DatatypeProperty ;
+:surface rdf:type owl:DatatypeProperty ,
+                  owl:FunctionalProperty ;
          rdfs:domain :Runway ;
          rdfs:range xsd:string ;
          rdfs:comment "Surface material of the runway (e.g., ASPH-G for asphalt-grooved)"@en ;
@@ -311,24 +379,65 @@
 
 
 ###  http://www.semanticweb.org/nele/ontologies/2024/10/flydata/timeInClock
-:timeInClock rdf:type owl:DatatypeProperty ;
+:timeInClock rdf:type owl:DatatypeProperty ,
+                      owl:FunctionalProperty ;
              rdfs:domain :Flight ;
-             rdfs:range [ rdf:type rdfs:Datatype ;
-                          owl:onDatatype xsd:integer ;
-                          owl:withRestrictions ( [ xsd:minInclusive 0
-                                                 ]
-                                                 [ xsd:maxInclusive 2359
-                                                 ]
-                                               )
-                        ] ;
-             rdfs:comment "Time in HHMM format (24-hour clock), e.g., 1430 for 2:30 PM"@en ;
+             rdfs:range xsd:dateTime ;
+             rdfs:comment "DateTime"@en ;
              rdfs:label "time in clock"@en .
 
 
 ###  http://www.semanticweb.org/nele/ontologies/2024/10/flydata/timeInMinutes
-:timeInMinutes rdf:type owl:DatatypeProperty ;
+:timeInMinutes rdf:type owl:DatatypeProperty ,
+                        owl:FunctionalProperty ;
                rdfs:domain :Flight ;
                rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/nele/ontologies/2024/10/flydata/weatherDate
+:weatherDate rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty ;
+             rdfs:domain :Weather ,
+                         [ rdf:type owl:Restriction ;
+                           owl:onProperty :weatherDate ;
+                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                           owl:onDataRange xsd:dateTime
+                         ] ;
+             rdfs:range xsd:dateTime ;
+             rdfs:comment "Date of a weather object"@en ;
+             rdfs:label "weather date"@en .
+
+
+###  http://www.semanticweb.org/nele/ontologies/2024/10/flydata/weatherType
+:weatherType rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty ;
+             rdfs:domain :Weather ;
+             rdfs:range xsd:nonNegativeInteger ;
+             rdfs:comment """It specifies the weather conditions occured during the day
+
+0 = Normal
+1 = Fog, ice fog, or freezing fog (may include heavy fog)
+2 = Heavy fog or heaving freezing fog (not always distinguished from fog)
+3 = Thunder
+4 = Ice pellets, sleet, snow pellets, or small hail
+5 = Hail (may include small hail)
+6 = Glaze or rime
+7 = Dust, volcanic ash, blowing dust, blowing sand, or blowing obstruction
+8 = Smoke or haze
+9 = Blowing or drifting snow
+10 = Tornado, waterspout, or funnel cloud
+11 = High or damaging winds
+12 = Blowing spray
+13 = Mist
+14 = Drizzle
+15 = Freezing drizzle
+16 = Rain (may include freezing rain, drizzle, and freezing drizzle)
+17 = Freezing rain
+18 = Snow, snow pellets, snow grains, or ice crystals
+19 = Unknown source of precipitation
+21 = Ground fog
+22 = Ice fog or freezing fog"""@en ;
+             rdfs:label "weather type"@en .
 
 
 ###  http://www.semanticweb.org/nele/ontologies/2024/10/flydata/widthFt
@@ -364,46 +473,15 @@ The name of the individual will be the name of the airport."""@en ;
 
 ###  http://www.semanticweb.org/nele/ontologies/2024/10/flydata/City
 :City rdf:type owl:Class ;
-      rdfs:comment "The city where the airport is located."@en ,
-                   "This class represents cities where airports can be located."@en ;
+      rdfs:comment "This class represents cities where airports can be located."@en ;
       rdfs:label "City"@en .
-
-
-###  http://www.semanticweb.org/nele/ontologies/2024/10/flydata/Country
-:Country rdf:type owl:Class ;
-         rdfs:comment "The country where the airport is located or where the carrier is based."@en ,
-                      "This class represents countries where airports, carriers, and cities can be located."@en ;
-         rdfs:label "Country"@en .
 
 
 ###  http://www.semanticweb.org/nele/ontologies/2024/10/flydata/Flight
 :Flight rdf:type owl:Class ;
-        rdfs:subClassOf [ rdf:type owl:Restriction ;
-                          owl:onProperty :ActualWheels-offTime ;
-                          owl:someValuesFrom [ rdf:type rdfs:Datatype ;
-                                               owl:onDatatype xsd:integer ;
-                                               owl:withRestrictions ( [ xsd:minInclusive 0
-                                                                      ]
-                                                                      [ xsd:maxInclusive 2359
-                                                                      ]
-                                                                    )
-                                             ]
-                        ] ,
-                        [ rdf:type owl:Restriction ;
-                          owl:onProperty :ActualWheels-onTime ;
-                          owl:someValuesFrom [ rdf:type rdfs:Datatype ;
-                                               owl:onDatatype xsd:integer ;
-                                               owl:withRestrictions ( [ xsd:minInclusive 0
-                                                                      ]
-                                                                      [ xsd:maxInclusive 2359
-                                                                      ]
-                                                                    )
-                                             ]
-                        ] ;
         rdfs:comment """This class will store important data about one specific flight.
         Rules:
-        1. Wheels-on time must be greater than Wheels-off time
-        2. All times must be valid 24-hour format (0000-2359)"""@en ;
+        1. Wheels-on time must be greater than Wheels-off time"""@en ;
         rdfs:label "Flight"@en .
 
 
@@ -411,6 +489,12 @@ The name of the individual will be the name of the airport."""@en ;
 :Manufacturer rdf:type owl:Class ;
               rdfs:comment "This class stores the different manufacturers of airplanes."@en ;
               rdfs:label "Manufacturer"@en .
+
+
+###  http://www.semanticweb.org/nele/ontologies/2024/10/flydata/Model
+:Model rdf:type owl:Class ;
+       rdfs:comment "Describes the model type of each aircraft"@en ;
+       rdfs:label "Model"@en .
 
 
 ###  http://www.semanticweb.org/nele/ontologies/2024/10/flydata/Route
@@ -424,4 +508,36 @@ The name of the individual will be the name of the airport."""@en ;
         rdfs:comment "Airport can have several runways. It has length, width, and other features." .
 
 
-###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi
+###  http://www.semanticweb.org/nele/ontologies/2024/10/flydata/State
+:State rdf:type owl:Class ;
+       rdfs:comment "This class represents states where airports, carriers, and cities can be located."@en ;
+       rdfs:label "State"@en .
+
+
+###  http://www.semanticweb.org/nele/ontologies/2024/10/flydata/Weather
+:Weather rdf:type owl:Class ;
+         rdfs:comment "It describes a wheather condition of a certain airport in a certain time"@en ;
+         rdfs:label "Weather"@en .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Aircraft
+                :Airport
+                :Carrier
+                :City
+                :Flight
+                :Manufacturer
+                :Model
+                :Route
+                :Runway
+                :State
+                :Weather
+              )
+] .
+
+
+###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi
