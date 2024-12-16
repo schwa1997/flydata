@@ -33,12 +33,17 @@ Our project focuses on flight-related data, including flights, airlines, routes,
 - **GraphDB Free**
   - RDF database for querying the ontology
   - Download: https://graphdb.ontotext.com/
-
 ### 📁 File Structure
 
 #### 📁 Data Selection Folder
+Contains documentation about our chosen datasets and domain:
 
-This folder contains the files related to the task 'Domain and Data Selection'.
+- 📄 domain_selection.pdf
+  - Group name and members
+  - Dataset sources and URLs
+  - Domain description and rationale
+  - Technical challenges
+  - Dataset characteristics
 
 Our group will decide on the open dataset(s) to model and process for the project. The submission should include a PDF file with the following information:
 
