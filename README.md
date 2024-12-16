@@ -59,12 +59,32 @@ This folder contains the files related to the task 'Ontology'.
 - flydata(with data).ttl
   This is the ontology with the data loaded. You can see the data loaded by opening the file in Protege.
 
-#### 📁 Data Processing Folder
+#### 📁 Data Collection Folder
 
-This folder contains the files related to the task 'Data Population'.
+This folder contains the files related to the task 'Data Collection'.
+- CSVData
+  - airports.csv
+  - cities.csv
+  - countries.csv
+  - routes.csv
+  - ...  
+- OriginalData
+  - airports.dat
+  - cities.xlsx
+  - countries.bat
+  - routes.dat
+  - ...
+##### DataConversion.py
+This script converts the original data into CSV format.
 
-- 1. countries.bat
-- 2. cities.xlax
-- 3. airport.dat
-- 4. routes.dat
+#### 📁 Serialization Folder
+#### - ttl folder
+- airport.ttl
+- city.ttl
+- country.ttl
+- route.ttl
 - ...
+
+#### - serializeAirportCity.py
+This script serializes the airport and city data into RDF format.
+
