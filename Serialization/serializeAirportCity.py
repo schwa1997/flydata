@@ -40,10 +40,12 @@ def read_airports():
         with open(AIRPORTS_PATH, 'r', encoding='utf-8') as file:
             reader = csv.DictReader(file)
             for row in reader:
-                airports.append({
-                    'name': row['Name'].strip('"'),  # Remove any quotes
-                    'city': row['City'].strip('"')   # Remove any quotes
-                })
+                if row['IATA']:  # Only include airports with IATA code
+                    airports.append({
+                        'name': row['Name'].strip('"'),
+                        'city': row['City'].strip('"'),
+                        'iata': row['IATA'].strip('"')
+                    })
     except Exception as e:
         print(f"Error reading airports file: {str(e)}")
         raise
@@ -83,9 +85,8 @@ def serialize_to_ttl():
 
     # Add airports and their relationships to the airport graph
     for airport in airports:
-        # Remove special characters and spaces, then URL encode
-        airport_id = quote(airport['name'].encode('ascii', 'ignore').decode().replace(" ", "_").replace("'", "").replace(",", "").replace("/", "_"))
-        airport_uri = URIRef(str(FDO) + airport_id)
+        # Use IATA code directly in the URI
+        airport_uri = URIRef(str(FDO) + airport['iata'])
         
         # Add airport triples
         g_airport.add((airport_uri, RDF.type, FDO.Airport))
