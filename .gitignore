@@ -1,3 +1,5 @@
+desktop.ini
 /DataCollection/5-flight-raw.asc
 /DataCollection/7-aircrafts.txt
-/Ontology/desktop.ini
+DataCollection/CSVData/flights.csv
+DataCollection/OriginalData/ontime.td.202408.asc
