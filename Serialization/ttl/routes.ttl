@@ -1,0 +1,5524 @@
+@prefix fdo: <http://www.semanticweb.org/nele/ontologies/2024/10/flydata/> .
+
+fdo:ABEATL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ATL ;
+    fdo:hasDepartureAirport fdo:ABE ;
+    fdo:hasRoute fdo: .
+
+fdo:ABQDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:ABQ ;
+    fdo:hasRoute fdo: .
+
+fdo:ABQPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:ABQ ;
+    fdo:hasRoute fdo: .
+
+fdo:AEXATL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ATL ;
+    fdo:hasDepartureAirport fdo:AEX ;
+    fdo:hasRoute fdo: .
+
+fdo:AGSATL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ATL ;
+    fdo:hasDepartureAirport fdo:AGS ;
+    fdo:hasRoute fdo: .
+
+fdo:ALBCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:ALB ;
+    fdo:hasRoute fdo: .
+
+fdo:ALBDTW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DTW ;
+    fdo:hasDepartureAirport fdo:ALB ;
+    fdo:hasRoute fdo: .
+
+fdo:ALBLGA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LGA ;
+    fdo:hasDepartureAirport fdo:ALB ;
+    fdo:hasRoute fdo: .
+
+fdo:ANCDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:ANC ;
+    fdo:hasRoute fdo: .
+
+fdo:ATLABE a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ABE ;
+    fdo:hasDepartureAirport fdo:ATL ;
+    fdo:hasRoute fdo: .
+
+fdo:ATLAEX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:AEX ;
+    fdo:hasDepartureAirport fdo:ATL ;
+    fdo:hasRoute fdo: .
+
+fdo:ATLAGS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:AGS ;
+    fdo:hasDepartureAirport fdo:ATL ;
+    fdo:hasRoute fdo: .
+
+fdo:ATLBHM a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BHM ;
+    fdo:hasDepartureAirport fdo:ATL ;
+    fdo:hasRoute fdo: .
+
+fdo:ATLBMI a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BMI ;
+    fdo:hasDepartureAirport fdo:ATL ;
+    fdo:hasRoute fdo: .
+
+fdo:ATLBTR a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BTR ;
+    fdo:hasDepartureAirport fdo:ATL ;
+    fdo:hasRoute fdo: .
+
+fdo:ATLCAE a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CAE ;
+    fdo:hasDepartureAirport fdo:ATL ;
+    fdo:hasRoute fdo: .
+
+fdo:ATLCHA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CHA ;
+    fdo:hasDepartureAirport fdo:ATL ;
+    fdo:hasRoute fdo: .
+
+fdo:ATLCHO a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CHO ;
+    fdo:hasDepartureAirport fdo:ATL ;
+    fdo:hasRoute fdo: .
+
+fdo:ATLCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:ATL ;
+    fdo:hasRoute fdo: .
+
+fdo:ATLCSG a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CSG ;
+    fdo:hasDepartureAirport fdo:ATL ;
+    fdo:hasRoute fdo: .
+
+fdo:ATLDAY a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DAY ;
+    fdo:hasDepartureAirport fdo:ATL ;
+    fdo:hasRoute fdo: .
+
+fdo:ATLDCA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DCA ;
+    fdo:hasDepartureAirport fdo:ATL ;
+    fdo:hasRoute fdo: .
+
+fdo:ATLDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:ATL ;
+    fdo:hasRoute fdo: .
+
+fdo:ATLEVV a fdo:Route ;
+    fdo:hasArrivalAirport fdo:EVV ;
+    fdo:hasDepartureAirport fdo:ATL ;
+    fdo:hasRoute fdo: .
+
+fdo:ATLGNV a fdo:Route ;
+    fdo:hasArrivalAirport fdo:GNV ;
+    fdo:hasDepartureAirport fdo:ATL ;
+    fdo:hasRoute fdo: .
+
+fdo:ATLGSP a fdo:Route ;
+    fdo:hasArrivalAirport fdo:GSP ;
+    fdo:hasDepartureAirport fdo:ATL ;
+    fdo:hasRoute fdo: .
+
+fdo:ATLGTR a fdo:Route ;
+    fdo:hasArrivalAirport fdo:GTR ;
+    fdo:hasDepartureAirport fdo:ATL ;
+    fdo:hasRoute fdo: .
+
+fdo:ATLHPN a fdo:Route ;
+    fdo:hasArrivalAirport fdo:HPN ;
+    fdo:hasDepartureAirport fdo:ATL ;
+    fdo:hasRoute fdo: .
+
+fdo:ATLHSV a fdo:Route ;
+    fdo:hasArrivalAirport fdo:HSV ;
+    fdo:hasDepartureAirport fdo:ATL ;
+    fdo:hasRoute fdo: .
+
+fdo:ATLILM a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ILM ;
+    fdo:hasDepartureAirport fdo:ATL ;
+    fdo:hasRoute fdo: .
+
+fdo:ATLLAX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LAX ;
+    fdo:hasDepartureAirport fdo:ATL ;
+    fdo:hasRoute fdo: .
+
+fdo:ATLLFT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LFT ;
+    fdo:hasDepartureAirport fdo:ATL ;
+    fdo:hasRoute fdo: .
+
+fdo:ATLLIT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LIT ;
+    fdo:hasDepartureAirport fdo:ATL ;
+    fdo:hasRoute fdo: .
+
+fdo:ATLMGM a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MGM ;
+    fdo:hasDepartureAirport fdo:ATL ;
+    fdo:hasRoute fdo: .
+
+fdo:ATLMIA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MIA ;
+    fdo:hasDepartureAirport fdo:ATL ;
+    fdo:hasRoute fdo: .
+
+fdo:ATLMLI a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MLI ;
+    fdo:hasDepartureAirport fdo:ATL ;
+    fdo:hasRoute fdo: .
+
+fdo:ATLMLU a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MLU ;
+    fdo:hasDepartureAirport fdo:ATL ;
+    fdo:hasRoute fdo: .
+
+fdo:ATLMOB a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MOB ;
+    fdo:hasDepartureAirport fdo:ATL ;
+    fdo:hasRoute fdo: .
+
+fdo:ATLOAJ a fdo:Route ;
+    fdo:hasArrivalAirport fdo:OAJ ;
+    fdo:hasDepartureAirport fdo:ATL ;
+    fdo:hasRoute fdo: .
+
+fdo:ATLORD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORD ;
+    fdo:hasDepartureAirport fdo:ATL ;
+    fdo:hasRoute fdo: .
+
+fdo:ATLPHL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHL ;
+    fdo:hasDepartureAirport fdo:ATL ;
+    fdo:hasRoute fdo: .
+
+fdo:ATLPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:ATL ;
+    fdo:hasRoute fdo: .
+
+fdo:ATLRDU a fdo:Route ;
+    fdo:hasArrivalAirport fdo:RDU ;
+    fdo:hasDepartureAirport fdo:ATL ;
+    fdo:hasRoute fdo: .
+
+fdo:ATLROA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ROA ;
+    fdo:hasDepartureAirport fdo:ATL ;
+    fdo:hasRoute fdo: .
+
+fdo:ATLSGF a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SGF ;
+    fdo:hasDepartureAirport fdo:ATL ;
+    fdo:hasRoute fdo: .
+
+fdo:ATLSHV a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SHV ;
+    fdo:hasDepartureAirport fdo:ATL ;
+    fdo:hasRoute fdo: .
+
+fdo:ATLTLH a fdo:Route ;
+    fdo:hasArrivalAirport fdo:TLH ;
+    fdo:hasDepartureAirport fdo:ATL ;
+    fdo:hasRoute fdo: .
+
+fdo:ATLTRI a fdo:Route ;
+    fdo:hasArrivalAirport fdo:TRI ;
+    fdo:hasDepartureAirport fdo:ATL ;
+    fdo:hasRoute fdo: .
+
+fdo:ATLTYS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:TYS ;
+    fdo:hasDepartureAirport fdo:ATL ;
+    fdo:hasRoute fdo: .
+
+fdo:ATLVLD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:VLD ;
+    fdo:hasDepartureAirport fdo:ATL ;
+    fdo:hasRoute fdo: .
+
+fdo:ATLXNA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:XNA ;
+    fdo:hasDepartureAirport fdo:ATL ;
+    fdo:hasRoute fdo: .
+
+fdo:ATWMSP a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MSP ;
+    fdo:hasDepartureAirport fdo:ATW ;
+    fdo:hasRoute fdo: .
+
+fdo:AUSBOS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BOS ;
+    fdo:hasDepartureAirport fdo:AUS ;
+    fdo:hasRoute fdo: .
+
+fdo:AUSCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:AUS ;
+    fdo:hasRoute fdo: .
+
+fdo:AUSDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:AUS ;
+    fdo:hasRoute fdo: .
+
+fdo:AUSJFK a fdo:Route ;
+    fdo:hasArrivalAirport fdo:JFK ;
+    fdo:hasDepartureAirport fdo:AUS ;
+    fdo:hasRoute fdo: .
+
+fdo:AUSLAS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LAS ;
+    fdo:hasDepartureAirport fdo:AUS ;
+    fdo:hasRoute fdo: .
+
+fdo:AUSLAX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LAX ;
+    fdo:hasDepartureAirport fdo:AUS ;
+    fdo:hasRoute fdo: .
+
+fdo:AUSMIA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MIA ;
+    fdo:hasDepartureAirport fdo:AUS ;
+    fdo:hasRoute fdo: .
+
+fdo:AUSORD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORD ;
+    fdo:hasDepartureAirport fdo:AUS ;
+    fdo:hasRoute fdo: .
+
+fdo:AUSPHL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHL ;
+    fdo:hasDepartureAirport fdo:AUS ;
+    fdo:hasRoute fdo: .
+
+fdo:AUSPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:AUS ;
+    fdo:hasRoute fdo: .
+
+fdo:AUSSNA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SNA ;
+    fdo:hasDepartureAirport fdo:AUS ;
+    fdo:hasRoute fdo: .
+
+fdo:AVLCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:AVL ;
+    fdo:hasRoute fdo: .
+
+fdo:AVLDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:AVL ;
+    fdo:hasRoute fdo: .
+
+fdo:AVLLGA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LGA ;
+    fdo:hasDepartureAirport fdo:AVL ;
+    fdo:hasRoute fdo: .
+
+fdo:AVPCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:AVP ;
+    fdo:hasRoute fdo: .
+
+fdo:BDLCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:BDL ;
+    fdo:hasRoute fdo: .
+
+fdo:BDLDCA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DCA ;
+    fdo:hasDepartureAirport fdo:BDL ;
+    fdo:hasRoute fdo: .
+
+fdo:BDLLGA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LGA ;
+    fdo:hasDepartureAirport fdo:BDL ;
+    fdo:hasRoute fdo: .
+
+fdo:BDLMIA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MIA ;
+    fdo:hasDepartureAirport fdo:BDL ;
+    fdo:hasRoute fdo: .
+
+fdo:BDLORD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORD ;
+    fdo:hasDepartureAirport fdo:BDL ;
+    fdo:hasRoute fdo: .
+
+fdo:BDLPHL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHL ;
+    fdo:hasDepartureAirport fdo:BDL ;
+    fdo:hasRoute fdo: .
+
+fdo:BFLDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:BFL ;
+    fdo:hasRoute fdo: .
+
+fdo:BFLPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:BFL ;
+    fdo:hasRoute fdo: .
+
+fdo:BGMDTW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DTW ;
+    fdo:hasDepartureAirport fdo:BGM ;
+    fdo:hasRoute fdo: .
+
+fdo:BGRCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:BGR ;
+    fdo:hasRoute fdo: .
+
+fdo:BGRDCA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DCA ;
+    fdo:hasDepartureAirport fdo:BGR ;
+    fdo:hasRoute fdo: .
+
+fdo:BGRJFK a fdo:Route ;
+    fdo:hasArrivalAirport fdo:JFK ;
+    fdo:hasDepartureAirport fdo:BGR ;
+    fdo:hasRoute fdo: .
+
+fdo:BGRLGA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LGA ;
+    fdo:hasDepartureAirport fdo:BGR ;
+    fdo:hasRoute fdo: .
+
+fdo:BGRPHL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHL ;
+    fdo:hasDepartureAirport fdo:BGR ;
+    fdo:hasRoute fdo: .
+
+fdo:BHMATL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ATL ;
+    fdo:hasDepartureAirport fdo:BHM ;
+    fdo:hasRoute fdo: .
+
+fdo:BHMLGA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LGA ;
+    fdo:hasDepartureAirport fdo:BHM ;
+    fdo:hasRoute fdo: .
+
+fdo:BISMSP a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MSP ;
+    fdo:hasDepartureAirport fdo:BIS ;
+    fdo:hasRoute fdo: .
+
+fdo:BMIATL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ATL ;
+    fdo:hasDepartureAirport fdo:BMI ;
+    fdo:hasRoute fdo: .
+
+fdo:BNACLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:BNA ;
+    fdo:hasRoute fdo: .
+
+fdo:BNADCA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DCA ;
+    fdo:hasDepartureAirport fdo:BNA ;
+    fdo:hasRoute fdo: .
+
+fdo:BNADFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:BNA ;
+    fdo:hasRoute fdo: .
+
+fdo:BNALGA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LGA ;
+    fdo:hasDepartureAirport fdo:BNA ;
+    fdo:hasRoute fdo: .
+
+fdo:BNAMIA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MIA ;
+    fdo:hasDepartureAirport fdo:BNA ;
+    fdo:hasRoute fdo: .
+
+fdo:BNAORD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORD ;
+    fdo:hasDepartureAirport fdo:BNA ;
+    fdo:hasRoute fdo: .
+
+fdo:BNAPHL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHL ;
+    fdo:hasDepartureAirport fdo:BNA ;
+    fdo:hasRoute fdo: .
+
+fdo:BNAPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:BNA ;
+    fdo:hasRoute fdo: .
+
+fdo:BNARDU a fdo:Route ;
+    fdo:hasArrivalAirport fdo:RDU ;
+    fdo:hasDepartureAirport fdo:BNA ;
+    fdo:hasRoute fdo: .
+
+fdo:BOIDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:BOI ;
+    fdo:hasRoute fdo: .
+
+fdo:BOSAUS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:AUS ;
+    fdo:hasDepartureAirport fdo:BOS ;
+    fdo:hasRoute fdo: .
+
+fdo:BOSCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:BOS ;
+    fdo:hasRoute fdo: .
+
+fdo:BOSDCA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DCA ;
+    fdo:hasDepartureAirport fdo:BOS ;
+    fdo:hasRoute fdo: .
+
+fdo:BOSDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:BOS ;
+    fdo:hasRoute fdo: .
+
+fdo:BOSLAX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LAX ;
+    fdo:hasDepartureAirport fdo:BOS ;
+    fdo:hasRoute fdo: .
+
+fdo:BOSMIA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MIA ;
+    fdo:hasDepartureAirport fdo:BOS ;
+    fdo:hasRoute fdo: .
+
+fdo:BOSORD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORD ;
+    fdo:hasDepartureAirport fdo:BOS ;
+    fdo:hasRoute fdo: .
+
+fdo:BOSPHL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHL ;
+    fdo:hasDepartureAirport fdo:BOS ;
+    fdo:hasRoute fdo: .
+
+fdo:BOSPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:BOS ;
+    fdo:hasRoute fdo: .
+
+fdo:BTRATL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ATL ;
+    fdo:hasDepartureAirport fdo:BTR ;
+    fdo:hasRoute fdo: .
+
+fdo:BTVCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:BTV ;
+    fdo:hasRoute fdo: .
+
+fdo:BTVDCA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DCA ;
+    fdo:hasDepartureAirport fdo:BTV ;
+    fdo:hasRoute fdo: .
+
+fdo:BTVDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:BTV ;
+    fdo:hasRoute fdo: .
+
+fdo:BTVDTW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DTW ;
+    fdo:hasDepartureAirport fdo:BTV ;
+    fdo:hasRoute fdo: .
+
+fdo:BTVJFK a fdo:Route ;
+    fdo:hasArrivalAirport fdo:JFK ;
+    fdo:hasDepartureAirport fdo:BTV ;
+    fdo:hasRoute fdo: .
+
+fdo:BTVLGA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LGA ;
+    fdo:hasDepartureAirport fdo:BTV ;
+    fdo:hasRoute fdo: .
+
+fdo:BTVPHL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHL ;
+    fdo:hasDepartureAirport fdo:BTV ;
+    fdo:hasRoute fdo: .
+
+fdo:BUFCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:BUF ;
+    fdo:hasRoute fdo: .
+
+fdo:BUFDCA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DCA ;
+    fdo:hasDepartureAirport fdo:BUF ;
+    fdo:hasRoute fdo: .
+
+fdo:BUFDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:BUF ;
+    fdo:hasRoute fdo: .
+
+fdo:BUFDTW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DTW ;
+    fdo:hasDepartureAirport fdo:BUF ;
+    fdo:hasRoute fdo: .
+
+fdo:BUFJFK a fdo:Route ;
+    fdo:hasArrivalAirport fdo:JFK ;
+    fdo:hasDepartureAirport fdo:BUF ;
+    fdo:hasRoute fdo: .
+
+fdo:BUFLGA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LGA ;
+    fdo:hasDepartureAirport fdo:BUF ;
+    fdo:hasRoute fdo: .
+
+fdo:BUFORD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORD ;
+    fdo:hasDepartureAirport fdo:BUF ;
+    fdo:hasRoute fdo: .
+
+fdo:BUFPHL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHL ;
+    fdo:hasDepartureAirport fdo:BUF ;
+    fdo:hasRoute fdo: .
+
+fdo:BURDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:BUR ;
+    fdo:hasRoute fdo: .
+
+fdo:BURPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:BUR ;
+    fdo:hasRoute fdo: .
+
+fdo:BWICLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:BWI ;
+    fdo:hasRoute fdo: .
+
+fdo:BWIDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:BWI ;
+    fdo:hasRoute fdo: .
+
+fdo:BWIJFK a fdo:Route ;
+    fdo:hasArrivalAirport fdo:JFK ;
+    fdo:hasDepartureAirport fdo:BWI ;
+    fdo:hasRoute fdo: .
+
+fdo:BWIORD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORD ;
+    fdo:hasDepartureAirport fdo:BWI ;
+    fdo:hasRoute fdo: .
+
+fdo:BZNCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:BZN ;
+    fdo:hasRoute fdo: .
+
+fdo:BZNDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:BZN ;
+    fdo:hasRoute fdo: .
+
+fdo:BZNORD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORD ;
+    fdo:hasDepartureAirport fdo:BZN ;
+    fdo:hasRoute fdo: .
+
+fdo:CAEATL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ATL ;
+    fdo:hasDepartureAirport fdo:CAE ;
+    fdo:hasRoute fdo: .
+
+fdo:CAELGA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LGA ;
+    fdo:hasDepartureAirport fdo:CAE ;
+    fdo:hasRoute fdo: .
+
+fdo:CHAATL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ATL ;
+    fdo:hasDepartureAirport fdo:CHA ;
+    fdo:hasRoute fdo: .
+
+fdo:CHADTW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DTW ;
+    fdo:hasDepartureAirport fdo:CHA ;
+    fdo:hasRoute fdo: .
+
+fdo:CHOATL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ATL ;
+    fdo:hasDepartureAirport fdo:CHO ;
+    fdo:hasRoute fdo: .
+
+fdo:CHOLGA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LGA ;
+    fdo:hasDepartureAirport fdo:CHO ;
+    fdo:hasRoute fdo: .
+
+fdo:CHSCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:CHS ;
+    fdo:hasRoute fdo: .
+
+fdo:CHSDCA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DCA ;
+    fdo:hasDepartureAirport fdo:CHS ;
+    fdo:hasRoute fdo: .
+
+fdo:CHSDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:CHS ;
+    fdo:hasRoute fdo: .
+
+fdo:CHSDTW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DTW ;
+    fdo:hasDepartureAirport fdo:CHS ;
+    fdo:hasRoute fdo: .
+
+fdo:CHSJFK a fdo:Route ;
+    fdo:hasArrivalAirport fdo:JFK ;
+    fdo:hasDepartureAirport fdo:CHS ;
+    fdo:hasRoute fdo: .
+
+fdo:CHSLGA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LGA ;
+    fdo:hasDepartureAirport fdo:CHS ;
+    fdo:hasRoute fdo: .
+
+fdo:CHSMIA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MIA ;
+    fdo:hasDepartureAirport fdo:CHS ;
+    fdo:hasRoute fdo: .
+
+fdo:CHSPHL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHL ;
+    fdo:hasDepartureAirport fdo:CHS ;
+    fdo:hasRoute fdo: .
+
+fdo:CIDCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:CID ;
+    fdo:hasRoute fdo: .
+
+fdo:CIDDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:CID ;
+    fdo:hasRoute fdo: .
+
+fdo:CLECLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:CLE ;
+    fdo:hasRoute fdo: .
+
+fdo:CLEDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:CLE ;
+    fdo:hasRoute fdo: .
+
+fdo:CLEDTW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DTW ;
+    fdo:hasDepartureAirport fdo:CLE ;
+    fdo:hasRoute fdo:,
+        fdo:OO .
+
+fdo:CLEJFK a fdo:Route ;
+    fdo:hasArrivalAirport fdo:JFK ;
+    fdo:hasDepartureAirport fdo:CLE ;
+    fdo:hasRoute fdo: .
+
+fdo:CLELGA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LGA ;
+    fdo:hasDepartureAirport fdo:CLE ;
+    fdo:hasRoute fdo: .
+
+fdo:CLEMSP a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MSP ;
+    fdo:hasDepartureAirport fdo:CLE ;
+    fdo:hasRoute fdo: .
+
+fdo:CLEORD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORD ;
+    fdo:hasDepartureAirport fdo:CLE ;
+    fdo:hasRoute fdo: .
+
+fdo:CLEPHL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHL ;
+    fdo:hasDepartureAirport fdo:CLE ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTALB a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ALB ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTATL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ATL ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTAUS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:AUS ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTAVL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:AVL ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTAVP a fdo:Route ;
+    fdo:hasArrivalAirport fdo:AVP ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTBDL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BDL ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTBGR a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BGR ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTBNA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BNA ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTBOS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BOS ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTBTV a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BTV ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTBUF a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BUF ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTBWI a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BWI ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTBZN a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BZN ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTCHS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CHS ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTCID a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CID ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTCLE a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLE ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTCMH a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CMH ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTCVG a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CVG ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTDCA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DCA ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTDEN a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DEN ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTDTW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DTW ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTEWR a fdo:Route ;
+    fdo:hasArrivalAirport fdo:EWR ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTEYW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:EYW ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTFLL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:FLL ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTGEG a fdo:Route ;
+    fdo:hasArrivalAirport fdo:GEG ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTGRR a fdo:Route ;
+    fdo:hasArrivalAirport fdo:GRR ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTGSO a fdo:Route ;
+    fdo:hasArrivalAirport fdo:GSO ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTGSP a fdo:Route ;
+    fdo:hasArrivalAirport fdo:GSP ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTIAH a fdo:Route ;
+    fdo:hasArrivalAirport fdo:IAH ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTILM a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ILM ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTIND a fdo:Route ;
+    fdo:hasArrivalAirport fdo:IND ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTJAC a fdo:Route ;
+    fdo:hasArrivalAirport fdo:JAC ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTJAX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:JAX ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTJFK a fdo:Route ;
+    fdo:hasArrivalAirport fdo:JFK ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTLAS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LAS ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTLAX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LAX ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTLEX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LEX ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTLGA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LGA ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTLIT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LIT ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTMCI a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MCI ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTMCO a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MCO ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTMDT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MDT ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTMEM a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MEM ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTMIA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MIA ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTMKE a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MKE ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTMSN a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MSN ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTMSP a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MSP ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTMSY a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MSY ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTMYR a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MYR ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTOKC a fdo:Route ;
+    fdo:hasArrivalAirport fdo:OKC ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTOMA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:OMA ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTONT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ONT ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTORD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORD ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTORF a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORF ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTPBI a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PBI ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTPDX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PDX ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTPHL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHL ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTPIT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PIT ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTPNS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PNS ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTPVD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PVD ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTPWM a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PWM ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTRDU a fdo:Route ;
+    fdo:hasArrivalAirport fdo:RDU ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTRIC a fdo:Route ;
+    fdo:hasArrivalAirport fdo:RIC ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTROC a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ROC ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTSAN a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SAN ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTSAT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SAT ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTSAV a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SAV ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTSDF a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SDF ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTSEA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SEA ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTSFO a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SFO ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTSLC a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SLC ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTSMF a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SMF ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTSNA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SNA ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTSRQ a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SRQ ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTSTL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:STL ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTSTT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:STT ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTSYR a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SYR ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTTPA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:TPA ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTTUL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:TUL ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTTYS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:TYS ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTVPS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:VPS ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CLTXNA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:XNA ;
+    fdo:hasDepartureAirport fdo:CLT ;
+    fdo:hasRoute fdo: .
+
+fdo:CMHCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:CMH ;
+    fdo:hasRoute fdo: .
+
+fdo:CMHDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:CMH ;
+    fdo:hasRoute fdo: .
+
+fdo:CMHMSP a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MSP ;
+    fdo:hasDepartureAirport fdo:CMH ;
+    fdo:hasRoute fdo: .
+
+fdo:CMHPHL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHL ;
+    fdo:hasDepartureAirport fdo:CMH ;
+    fdo:hasRoute fdo: .
+
+fdo:CMHPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:CMH ;
+    fdo:hasRoute fdo: .
+
+fdo:COSDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:COS ;
+    fdo:hasRoute fdo: .
+
+fdo:CSGATL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ATL ;
+    fdo:hasDepartureAirport fdo:CSG ;
+    fdo:hasRoute fdo: .
+
+fdo:CVGCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:CVG ;
+    fdo:hasRoute fdo: .
+
+fdo:CVGDCA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DCA ;
+    fdo:hasDepartureAirport fdo:CVG ;
+    fdo:hasRoute fdo: .
+
+fdo:CVGDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:CVG ;
+    fdo:hasRoute fdo: .
+
+fdo:CVGDTW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DTW ;
+    fdo:hasDepartureAirport fdo:CVG ;
+    fdo:hasRoute fdo: .
+
+fdo:CVGEWR a fdo:Route ;
+    fdo:hasArrivalAirport fdo:EWR ;
+    fdo:hasDepartureAirport fdo:CVG ;
+    fdo:hasRoute fdo: .
+
+fdo:CVGJFK a fdo:Route ;
+    fdo:hasArrivalAirport fdo:JFK ;
+    fdo:hasDepartureAirport fdo:CVG ;
+    fdo:hasRoute fdo: .
+
+fdo:CVGLGA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LGA ;
+    fdo:hasDepartureAirport fdo:CVG ;
+    fdo:hasRoute fdo: .
+
+fdo:CVGPHL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHL ;
+    fdo:hasDepartureAirport fdo:CVG ;
+    fdo:hasRoute fdo: .
+
+fdo:CWAMSP a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MSP ;
+    fdo:hasDepartureAirport fdo:CWA ;
+    fdo:hasRoute fdo: .
+
+fdo:DAYATL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ATL ;
+    fdo:hasDepartureAirport fdo:DAY ;
+    fdo:hasRoute fdo: .
+
+fdo:DAYLGA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LGA ;
+    fdo:hasDepartureAirport fdo:DAY ;
+    fdo:hasRoute fdo: .
+
+fdo:DCAATL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ATL ;
+    fdo:hasDepartureAirport fdo:DCA ;
+    fdo:hasRoute fdo: .
+
+fdo:DCABDL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BDL ;
+    fdo:hasDepartureAirport fdo:DCA ;
+    fdo:hasRoute fdo: .
+
+fdo:DCABGR a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BGR ;
+    fdo:hasDepartureAirport fdo:DCA ;
+    fdo:hasRoute fdo: .
+
+fdo:DCABNA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BNA ;
+    fdo:hasDepartureAirport fdo:DCA ;
+    fdo:hasRoute fdo: .
+
+fdo:DCABOS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BOS ;
+    fdo:hasDepartureAirport fdo:DCA ;
+    fdo:hasRoute fdo: .
+
+fdo:DCABTV a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BTV ;
+    fdo:hasDepartureAirport fdo:DCA ;
+    fdo:hasRoute fdo: .
+
+fdo:DCABUF a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BUF ;
+    fdo:hasDepartureAirport fdo:DCA ;
+    fdo:hasRoute fdo: .
+
+fdo:DCACHS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CHS ;
+    fdo:hasDepartureAirport fdo:DCA ;
+    fdo:hasRoute fdo: .
+
+fdo:DCACLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:DCA ;
+    fdo:hasRoute fdo: .
+
+fdo:DCACVG a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CVG ;
+    fdo:hasDepartureAirport fdo:DCA ;
+    fdo:hasRoute fdo: .
+
+fdo:DCADFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:DCA ;
+    fdo:hasRoute fdo: .
+
+fdo:DCAJAX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:JAX ;
+    fdo:hasDepartureAirport fdo:DCA ;
+    fdo:hasRoute fdo: .
+
+fdo:DCALAX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LAX ;
+    fdo:hasDepartureAirport fdo:DCA ;
+    fdo:hasRoute fdo: .
+
+fdo:DCAMCO a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MCO ;
+    fdo:hasDepartureAirport fdo:DCA ;
+    fdo:hasRoute fdo: .
+
+fdo:DCAMIA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MIA ;
+    fdo:hasDepartureAirport fdo:DCA ;
+    fdo:hasRoute fdo: .
+
+fdo:DCAOKC a fdo:Route ;
+    fdo:hasArrivalAirport fdo:OKC ;
+    fdo:hasDepartureAirport fdo:DCA ;
+    fdo:hasRoute fdo: .
+
+fdo:DCAORD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORD ;
+    fdo:hasDepartureAirport fdo:DCA ;
+    fdo:hasRoute fdo: .
+
+fdo:DCAPBI a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PBI ;
+    fdo:hasDepartureAirport fdo:DCA ;
+    fdo:hasRoute fdo: .
+
+fdo:DCAPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:DCA ;
+    fdo:hasRoute fdo: .
+
+fdo:DCAPVD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PVD ;
+    fdo:hasDepartureAirport fdo:DCA ;
+    fdo:hasRoute fdo: .
+
+fdo:DCAPWM a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PWM ;
+    fdo:hasDepartureAirport fdo:DCA ;
+    fdo:hasRoute fdo: .
+
+fdo:DCARDU a fdo:Route ;
+    fdo:hasArrivalAirport fdo:RDU ;
+    fdo:hasDepartureAirport fdo:DCA ;
+    fdo:hasRoute fdo: .
+
+fdo:DCASRQ a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SRQ ;
+    fdo:hasDepartureAirport fdo:DCA ;
+    fdo:hasRoute fdo: .
+
+fdo:DCATPA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:TPA ;
+    fdo:hasDepartureAirport fdo:DCA ;
+    fdo:hasRoute fdo: .
+
+fdo:DENCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:DEN ;
+    fdo:hasRoute fdo: .
+
+fdo:DENDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:DEN ;
+    fdo:hasRoute fdo: .
+
+fdo:DENMIA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MIA ;
+    fdo:hasDepartureAirport fdo:DEN ;
+    fdo:hasRoute fdo: .
+
+fdo:DENORD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORD ;
+    fdo:hasDepartureAirport fdo:DEN ;
+    fdo:hasRoute fdo: .
+
+fdo:DENPHL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHL ;
+    fdo:hasDepartureAirport fdo:DEN ;
+    fdo:hasRoute fdo: .
+
+fdo:DENPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:DEN ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWABQ a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ABQ ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWALB a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ALB ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWANC a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ANC ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWATL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ATL ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWAUS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:AUS ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWAVL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:AVL ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWBDL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BDL ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWBFL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BFL ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWBNA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BNA ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWBOI a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BOI ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWBOS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BOS ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWBTV a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BTV ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWBUF a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BUF ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWBUR a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BUR ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWBWI a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BWI ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWBZN a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BZN ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWCHS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CHS ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWCID a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CID ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWCLE a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLE ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWCMH a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CMH ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWCOS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:COS ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWCVG a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CVG ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWDCA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DCA ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWDEN a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DEN ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWDSM a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DSM ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWDTW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DTW ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWECP a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ECP ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWEGE a fdo:Route ;
+    fdo:hasArrivalAirport fdo:EGE ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWELP a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ELP ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWEUG a fdo:Route ;
+    fdo:hasArrivalAirport fdo:EUG ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWEWR a fdo:Route ;
+    fdo:hasArrivalAirport fdo:EWR ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWEYW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:EYW ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWFAT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:FAT ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWFCA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:FCA ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWFLL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:FLL ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWFSD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:FSD ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWGEG a fdo:Route ;
+    fdo:hasArrivalAirport fdo:GEG ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWGRR a fdo:Route ;
+    fdo:hasArrivalAirport fdo:GRR ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWGSO a fdo:Route ;
+    fdo:hasArrivalAirport fdo:GSO ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWGSP a fdo:Route ;
+    fdo:hasArrivalAirport fdo:GSP ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWHNL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:HNL ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWIAD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:IAD ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWIAH a fdo:Route ;
+    fdo:hasArrivalAirport fdo:IAH ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWICT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ICT ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWIND a fdo:Route ;
+    fdo:hasArrivalAirport fdo:IND ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWJAC a fdo:Route ;
+    fdo:hasArrivalAirport fdo:JAC ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWJAX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:JAX ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWJFK a fdo:Route ;
+    fdo:hasArrivalAirport fdo:JFK ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWLAS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LAS ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWLAX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LAX ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWLEX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LEX ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWLGA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LGA ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWLIT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LIT ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWMCI a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MCI ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWMCO a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MCO ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWMDT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MDT ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWMEM a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MEM ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWMFE a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MFE ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWMIA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MIA ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWMKE a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MKE ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWMRY a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MRY ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWMSN a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MSN ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWMSO a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MSO ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWMSP a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MSP ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWMSY a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MSY ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWMTJ a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MTJ ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWOGG a fdo:Route ;
+    fdo:hasArrivalAirport fdo:OGG ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWOKC a fdo:Route ;
+    fdo:hasArrivalAirport fdo:OKC ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWOMA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:OMA ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWONT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ONT ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWORD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORD ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWORF a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORF ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWPBI a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PBI ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWPDX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PDX ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWPHL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHL ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWPIT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PIT ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWPNS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PNS ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWPSP a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PSP ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWPWM a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PWM ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWRAP a fdo:Route ;
+    fdo:hasArrivalAirport fdo:RAP ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWRDM a fdo:Route ;
+    fdo:hasArrivalAirport fdo:RDM ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWRDU a fdo:Route ;
+    fdo:hasArrivalAirport fdo:RDU ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWRNO a fdo:Route ;
+    fdo:hasArrivalAirport fdo:RNO ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWRSW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:RSW ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWSAN a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SAN ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWSAT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SAT ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWSAV a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SAV ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWSBA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SBA ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWSBP a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SBP ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWSDF a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SDF ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWSEA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SEA ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWSFO a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SFO ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWSJC a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SJC ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWSJU a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SJU ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWSLC a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SLC ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWSMF a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SMF ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWSNA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SNA ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWSRQ a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SRQ ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWSTL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:STL ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWSTS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:STS ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWSTT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:STT ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWSYR a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SYR ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWTPA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:TPA ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWTUL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:TUL ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWTUS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:TUS ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWTVC a fdo:Route ;
+    fdo:hasArrivalAirport fdo:TVC ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWTYS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:TYS ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWVPS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:VPS ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DFWXNA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:XNA ;
+    fdo:hasDepartureAirport fdo:DFW ;
+    fdo:hasRoute fdo: .
+
+fdo:DLHMSP a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MSP ;
+    fdo:hasDepartureAirport fdo:DLH ;
+    fdo:hasRoute fdo: .
+
+fdo:DSMCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:DSM ;
+    fdo:hasRoute fdo: .
+
+fdo:DSMDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:DSM ;
+    fdo:hasRoute fdo: .
+
+fdo:DSMDTW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DTW ;
+    fdo:hasDepartureAirport fdo:DSM ;
+    fdo:hasRoute fdo: .
+
+fdo:DSMLGA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LGA ;
+    fdo:hasDepartureAirport fdo:DSM ;
+    fdo:hasRoute fdo: .
+
+fdo:DSMMSP a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MSP ;
+    fdo:hasDepartureAirport fdo:DSM ;
+    fdo:hasRoute fdo: .
+
+fdo:DSMPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:DSM ;
+    fdo:hasRoute fdo: .
+
+fdo:DTWALB a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ALB ;
+    fdo:hasDepartureAirport fdo:DTW ;
+    fdo:hasRoute fdo: .
+
+fdo:DTWBGM a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BGM ;
+    fdo:hasDepartureAirport fdo:DTW ;
+    fdo:hasRoute fdo: .
+
+fdo:DTWBTV a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BTV ;
+    fdo:hasDepartureAirport fdo:DTW ;
+    fdo:hasRoute fdo: .
+
+fdo:DTWBUF a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BUF ;
+    fdo:hasDepartureAirport fdo:DTW ;
+    fdo:hasRoute fdo: .
+
+fdo:DTWCHA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CHA ;
+    fdo:hasDepartureAirport fdo:DTW ;
+    fdo:hasRoute fdo: .
+
+fdo:DTWCHS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CHS ;
+    fdo:hasDepartureAirport fdo:DTW ;
+    fdo:hasRoute fdo: .
+
+fdo:DTWCLE a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLE ;
+    fdo:hasDepartureAirport fdo:DTW ;
+    fdo:hasRoute fdo:,
+        fdo:OO .
+
+fdo:DTWCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:DTW ;
+    fdo:hasRoute fdo: .
+
+fdo:DTWCVG a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CVG ;
+    fdo:hasDepartureAirport fdo:DTW ;
+    fdo:hasRoute fdo: .
+
+fdo:DTWDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:DTW ;
+    fdo:hasRoute fdo: .
+
+fdo:DTWDSM a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DSM ;
+    fdo:hasDepartureAirport fdo:DTW ;
+    fdo:hasRoute fdo: .
+
+fdo:DTWGRR a fdo:Route ;
+    fdo:hasArrivalAirport fdo:GRR ;
+    fdo:hasDepartureAirport fdo:DTW ;
+    fdo:hasRoute fdo: .
+
+fdo:DTWGSO a fdo:Route ;
+    fdo:hasArrivalAirport fdo:GSO ;
+    fdo:hasDepartureAirport fdo:DTW ;
+    fdo:hasRoute fdo: .
+
+fdo:DTWGSP a fdo:Route ;
+    fdo:hasArrivalAirport fdo:GSP ;
+    fdo:hasDepartureAirport fdo:DTW ;
+    fdo:hasRoute fdo: .
+
+fdo:DTWIND a fdo:Route ;
+    fdo:hasArrivalAirport fdo:IND ;
+    fdo:hasDepartureAirport fdo:DTW ;
+    fdo:hasRoute fdo: .
+
+fdo:DTWJFK a fdo:Route ;
+    fdo:hasArrivalAirport fdo:JFK ;
+    fdo:hasDepartureAirport fdo:DTW ;
+    fdo:hasRoute fdo: .
+
+fdo:DTWLAN a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LAN ;
+    fdo:hasDepartureAirport fdo:DTW ;
+    fdo:hasRoute fdo: .
+
+fdo:DTWMBS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MBS ;
+    fdo:hasDepartureAirport fdo:DTW ;
+    fdo:hasRoute fdo: .
+
+fdo:DTWMEM a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MEM ;
+    fdo:hasDepartureAirport fdo:DTW ;
+    fdo:hasRoute fdo: .
+
+fdo:DTWMIA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MIA ;
+    fdo:hasDepartureAirport fdo:DTW ;
+    fdo:hasRoute fdo: .
+
+fdo:DTWMSN a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MSN ;
+    fdo:hasDepartureAirport fdo:DTW ;
+    fdo:hasRoute fdo: .
+
+fdo:DTWORD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORD ;
+    fdo:hasDepartureAirport fdo:DTW ;
+    fdo:hasRoute fdo: .
+
+fdo:DTWORF a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORF ;
+    fdo:hasDepartureAirport fdo:DTW ;
+    fdo:hasRoute fdo: .
+
+fdo:DTWPHL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHL ;
+    fdo:hasDepartureAirport fdo:DTW ;
+    fdo:hasRoute fdo: .
+
+fdo:DTWPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:DTW ;
+    fdo:hasRoute fdo: .
+
+fdo:DTWPIT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PIT ;
+    fdo:hasDepartureAirport fdo:DTW ;
+    fdo:hasRoute fdo: .
+
+fdo:DTWPWM a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PWM ;
+    fdo:hasDepartureAirport fdo:DTW ;
+    fdo:hasRoute fdo: .
+
+fdo:DTWRIC a fdo:Route ;
+    fdo:hasArrivalAirport fdo:RIC ;
+    fdo:hasDepartureAirport fdo:DTW ;
+    fdo:hasRoute fdo: .
+
+fdo:DTWROC a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ROC ;
+    fdo:hasDepartureAirport fdo:DTW ;
+    fdo:hasRoute fdo: .
+
+fdo:DTWSDF a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SDF ;
+    fdo:hasDepartureAirport fdo:DTW ;
+    fdo:hasRoute fdo: .
+
+fdo:DTWSYR a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SYR ;
+    fdo:hasDepartureAirport fdo:DTW ;
+    fdo:hasRoute fdo: .
+
+fdo:DTWTVC a fdo:Route ;
+    fdo:hasArrivalAirport fdo:TVC ;
+    fdo:hasDepartureAirport fdo:DTW ;
+    fdo:hasRoute fdo: .
+
+fdo:DTWTYS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:TYS ;
+    fdo:hasDepartureAirport fdo:DTW ;
+    fdo:hasRoute fdo: .
+
+fdo:ECPDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:ECP ;
+    fdo:hasRoute fdo: .
+
+fdo:EGEDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:EGE ;
+    fdo:hasRoute fdo: .
+
+fdo:ELPDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:ELP ;
+    fdo:hasRoute fdo: .
+
+fdo:ELPPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:ELP ;
+    fdo:hasRoute fdo: .
+
+fdo:EUGDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:EUG ;
+    fdo:hasRoute fdo: .
+
+fdo:EUGPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:EUG ;
+    fdo:hasRoute fdo: .
+
+fdo:EVVATL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ATL ;
+    fdo:hasDepartureAirport fdo:EVV ;
+    fdo:hasRoute fdo: .
+
+fdo:EWRCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:EWR ;
+    fdo:hasRoute fdo: .
+
+fdo:EWRCVG a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CVG ;
+    fdo:hasDepartureAirport fdo:EWR ;
+    fdo:hasRoute fdo: .
+
+fdo:EWRDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:EWR ;
+    fdo:hasRoute fdo: .
+
+fdo:EWRMIA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MIA ;
+    fdo:hasDepartureAirport fdo:EWR ;
+    fdo:hasRoute fdo: .
+
+fdo:EWRORD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORD ;
+    fdo:hasDepartureAirport fdo:EWR ;
+    fdo:hasRoute fdo: .
+
+fdo:EWRRDU a fdo:Route ;
+    fdo:hasArrivalAirport fdo:RDU ;
+    fdo:hasDepartureAirport fdo:EWR ;
+    fdo:hasRoute fdo: .
+
+fdo:EYWCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:EYW ;
+    fdo:hasRoute fdo: .
+
+fdo:EYWDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:EYW ;
+    fdo:hasRoute fdo: .
+
+fdo:FARMSP a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MSP ;
+    fdo:hasDepartureAirport fdo:FAR ;
+    fdo:hasRoute fdo: .
+
+fdo:FATDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:FAT ;
+    fdo:hasRoute fdo: .
+
+fdo:FATPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:FAT ;
+    fdo:hasRoute fdo: .
+
+fdo:FCADFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:FCA ;
+    fdo:hasRoute fdo: .
+
+fdo:FCAORD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORD ;
+    fdo:hasDepartureAirport fdo:FCA ;
+    fdo:hasRoute fdo: .
+
+fdo:FLLCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:FLL ;
+    fdo:hasRoute fdo: .
+
+fdo:FLLDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:FLL ;
+    fdo:hasRoute fdo: .
+
+fdo:FLLPHL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHL ;
+    fdo:hasDepartureAirport fdo:FLL ;
+    fdo:hasRoute fdo: .
+
+fdo:FSDMSP a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MSP ;
+    fdo:hasDepartureAirport fdo:FSD ;
+    fdo:hasRoute fdo: .
+
+fdo:GEGCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:GEG ;
+    fdo:hasRoute fdo: .
+
+fdo:GEGDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:GEG ;
+    fdo:hasRoute fdo: .
+
+fdo:GEGPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:GEG ;
+    fdo:hasRoute fdo: .
+
+fdo:GNVATL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ATL ;
+    fdo:hasDepartureAirport fdo:GNV ;
+    fdo:hasRoute fdo: .
+
+fdo:GRRCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:GRR ;
+    fdo:hasRoute fdo: .
+
+fdo:GRRDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:GRR ;
+    fdo:hasRoute fdo: .
+
+fdo:GRRDTW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DTW ;
+    fdo:hasDepartureAirport fdo:GRR ;
+    fdo:hasRoute fdo: .
+
+fdo:GRRLGA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LGA ;
+    fdo:hasDepartureAirport fdo:GRR ;
+    fdo:hasRoute fdo: .
+
+fdo:GRRMSP a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MSP ;
+    fdo:hasDepartureAirport fdo:GRR ;
+    fdo:hasRoute fdo: .
+
+fdo:GRRORD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORD ;
+    fdo:hasDepartureAirport fdo:GRR ;
+    fdo:hasRoute fdo: .
+
+fdo:GSOCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:GSO ;
+    fdo:hasRoute fdo: .
+
+fdo:GSODFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:GSO ;
+    fdo:hasRoute fdo: .
+
+fdo:GSODTW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DTW ;
+    fdo:hasDepartureAirport fdo:GSO ;
+    fdo:hasRoute fdo: .
+
+fdo:GSOLGA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LGA ;
+    fdo:hasDepartureAirport fdo:GSO ;
+    fdo:hasRoute fdo: .
+
+fdo:GSPATL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ATL ;
+    fdo:hasDepartureAirport fdo:GSP ;
+    fdo:hasRoute fdo: .
+
+fdo:GSPCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:GSP ;
+    fdo:hasRoute fdo: .
+
+fdo:GSPDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:GSP ;
+    fdo:hasRoute fdo: .
+
+fdo:GSPDTW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DTW ;
+    fdo:hasDepartureAirport fdo:GSP ;
+    fdo:hasRoute fdo: .
+
+fdo:GSPLGA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LGA ;
+    fdo:hasDepartureAirport fdo:GSP ;
+    fdo:hasRoute fdo: .
+
+fdo:GTRATL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ATL ;
+    fdo:hasDepartureAirport fdo:GTR ;
+    fdo:hasRoute fdo: .
+
+fdo:HNLDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:HNL ;
+    fdo:hasRoute fdo: .
+
+fdo:HNLLAX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LAX ;
+    fdo:hasDepartureAirport fdo:HNL ;
+    fdo:hasRoute fdo: .
+
+fdo:HNLPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:HNL ;
+    fdo:hasRoute fdo: .
+
+fdo:HPNATL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ATL ;
+    fdo:hasDepartureAirport fdo:HPN ;
+    fdo:hasRoute fdo: .
+
+fdo:HSVATL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ATL ;
+    fdo:hasDepartureAirport fdo:HSV ;
+    fdo:hasRoute fdo: .
+
+fdo:IADDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:IAD ;
+    fdo:hasRoute fdo: .
+
+fdo:IAHCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:IAH ;
+    fdo:hasRoute fdo: .
+
+fdo:IAHDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:IAH ;
+    fdo:hasRoute fdo: .
+
+fdo:IAHMIA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MIA ;
+    fdo:hasDepartureAirport fdo:IAH ;
+    fdo:hasRoute fdo: .
+
+fdo:IAHORD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORD ;
+    fdo:hasDepartureAirport fdo:IAH ;
+    fdo:hasRoute fdo: .
+
+fdo:IAHPHL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHL ;
+    fdo:hasDepartureAirport fdo:IAH ;
+    fdo:hasRoute fdo: .
+
+fdo:ICTDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:ICT ;
+    fdo:hasRoute fdo: .
+
+fdo:ILMATL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ATL ;
+    fdo:hasDepartureAirport fdo:ILM ;
+    fdo:hasRoute fdo: .
+
+fdo:ILMCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:ILM ;
+    fdo:hasRoute fdo: .
+
+fdo:ILMLGA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LGA ;
+    fdo:hasDepartureAirport fdo:ILM ;
+    fdo:hasRoute fdo: .
+
+fdo:INDCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:IND ;
+    fdo:hasRoute fdo: .
+
+fdo:INDDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:IND ;
+    fdo:hasRoute fdo: .
+
+fdo:INDDTW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DTW ;
+    fdo:hasDepartureAirport fdo:IND ;
+    fdo:hasRoute fdo: .
+
+fdo:INDJFK a fdo:Route ;
+    fdo:hasArrivalAirport fdo:JFK ;
+    fdo:hasDepartureAirport fdo:IND ;
+    fdo:hasRoute fdo: .
+
+fdo:INDLAX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LAX ;
+    fdo:hasDepartureAirport fdo:IND ;
+    fdo:hasRoute fdo: .
+
+fdo:INDLGA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LGA ;
+    fdo:hasDepartureAirport fdo:IND ;
+    fdo:hasRoute fdo: .
+
+fdo:INDMIA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MIA ;
+    fdo:hasDepartureAirport fdo:IND ;
+    fdo:hasRoute fdo: .
+
+fdo:INDORD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORD ;
+    fdo:hasDepartureAirport fdo:IND ;
+    fdo:hasRoute fdo: .
+
+fdo:INDPHL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHL ;
+    fdo:hasDepartureAirport fdo:IND ;
+    fdo:hasRoute fdo: .
+
+fdo:INDPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:IND ;
+    fdo:hasRoute fdo: .
+
+fdo:ITHJFK a fdo:Route ;
+    fdo:hasArrivalAirport fdo:JFK ;
+    fdo:hasDepartureAirport fdo:ITH ;
+    fdo:hasRoute fdo: .
+
+fdo:JACCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:JAC ;
+    fdo:hasRoute fdo: .
+
+fdo:JACDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:JAC ;
+    fdo:hasRoute fdo: .
+
+fdo:JACORD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORD ;
+    fdo:hasDepartureAirport fdo:JAC ;
+    fdo:hasRoute fdo: .
+
+fdo:JAXCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:JAX ;
+    fdo:hasRoute fdo: .
+
+fdo:JAXDCA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DCA ;
+    fdo:hasDepartureAirport fdo:JAX ;
+    fdo:hasRoute fdo: .
+
+fdo:JAXDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:JAX ;
+    fdo:hasRoute fdo: .
+
+fdo:JAXJFK a fdo:Route ;
+    fdo:hasArrivalAirport fdo:JFK ;
+    fdo:hasDepartureAirport fdo:JAX ;
+    fdo:hasRoute fdo: .
+
+fdo:JAXLGA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LGA ;
+    fdo:hasDepartureAirport fdo:JAX ;
+    fdo:hasRoute fdo: .
+
+fdo:JAXMIA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MIA ;
+    fdo:hasDepartureAirport fdo:JAX ;
+    fdo:hasRoute fdo: .
+
+fdo:JAXORD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORD ;
+    fdo:hasDepartureAirport fdo:JAX ;
+    fdo:hasRoute fdo: .
+
+fdo:JFKAUS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:AUS ;
+    fdo:hasDepartureAirport fdo:JFK ;
+    fdo:hasRoute fdo: .
+
+fdo:JFKBGR a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BGR ;
+    fdo:hasDepartureAirport fdo:JFK ;
+    fdo:hasRoute fdo: .
+
+fdo:JFKBTV a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BTV ;
+    fdo:hasDepartureAirport fdo:JFK ;
+    fdo:hasRoute fdo: .
+
+fdo:JFKBUF a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BUF ;
+    fdo:hasDepartureAirport fdo:JFK ;
+    fdo:hasRoute fdo: .
+
+fdo:JFKBWI a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BWI ;
+    fdo:hasDepartureAirport fdo:JFK ;
+    fdo:hasRoute fdo: .
+
+fdo:JFKCHS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CHS ;
+    fdo:hasDepartureAirport fdo:JFK ;
+    fdo:hasRoute fdo: .
+
+fdo:JFKCLE a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLE ;
+    fdo:hasDepartureAirport fdo:JFK ;
+    fdo:hasRoute fdo: .
+
+fdo:JFKCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:JFK ;
+    fdo:hasRoute fdo: .
+
+fdo:JFKCVG a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CVG ;
+    fdo:hasDepartureAirport fdo:JFK ;
+    fdo:hasRoute fdo: .
+
+fdo:JFKDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:JFK ;
+    fdo:hasRoute fdo: .
+
+fdo:JFKDTW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DTW ;
+    fdo:hasDepartureAirport fdo:JFK ;
+    fdo:hasRoute fdo: .
+
+fdo:JFKIND a fdo:Route ;
+    fdo:hasArrivalAirport fdo:IND ;
+    fdo:hasDepartureAirport fdo:JFK ;
+    fdo:hasRoute fdo: .
+
+fdo:JFKITH a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ITH ;
+    fdo:hasDepartureAirport fdo:JFK ;
+    fdo:hasRoute fdo: .
+
+fdo:JFKJAX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:JAX ;
+    fdo:hasDepartureAirport fdo:JFK ;
+    fdo:hasRoute fdo: .
+
+fdo:JFKLAX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LAX ;
+    fdo:hasDepartureAirport fdo:JFK ;
+    fdo:hasRoute fdo: .
+
+fdo:JFKMCI a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MCI ;
+    fdo:hasDepartureAirport fdo:JFK ;
+    fdo:hasRoute fdo: .
+
+fdo:JFKMIA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MIA ;
+    fdo:hasDepartureAirport fdo:JFK ;
+    fdo:hasRoute fdo: .
+
+fdo:JFKORF a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORF ;
+    fdo:hasDepartureAirport fdo:JFK ;
+    fdo:hasRoute fdo: .
+
+fdo:JFKPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:JFK ;
+    fdo:hasRoute fdo: .
+
+fdo:JFKPIT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PIT ;
+    fdo:hasDepartureAirport fdo:JFK ;
+    fdo:hasRoute fdo: .
+
+fdo:JFKPWM a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PWM ;
+    fdo:hasDepartureAirport fdo:JFK ;
+    fdo:hasRoute fdo: .
+
+fdo:JFKRDU a fdo:Route ;
+    fdo:hasArrivalAirport fdo:RDU ;
+    fdo:hasDepartureAirport fdo:JFK ;
+    fdo:hasRoute fdo: .
+
+fdo:JFKRIC a fdo:Route ;
+    fdo:hasArrivalAirport fdo:RIC ;
+    fdo:hasDepartureAirport fdo:JFK ;
+    fdo:hasRoute fdo: .
+
+fdo:JFKROC a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ROC ;
+    fdo:hasDepartureAirport fdo:JFK ;
+    fdo:hasRoute fdo: .
+
+fdo:JFKSAV a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SAV ;
+    fdo:hasDepartureAirport fdo:JFK ;
+    fdo:hasRoute fdo: .
+
+fdo:JFKSFO a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SFO ;
+    fdo:hasDepartureAirport fdo:JFK ;
+    fdo:hasRoute fdo: .
+
+fdo:JFKSNA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SNA ;
+    fdo:hasDepartureAirport fdo:JFK ;
+    fdo:hasRoute fdo: .
+
+fdo:JFKSYR a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SYR ;
+    fdo:hasDepartureAirport fdo:JFK ;
+    fdo:hasRoute fdo: .
+
+fdo:KOALAX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LAX ;
+    fdo:hasDepartureAirport fdo:KOA ;
+    fdo:hasRoute fdo: .
+
+fdo:KOAPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:KOA ;
+    fdo:hasRoute fdo: .
+
+fdo:LANDTW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DTW ;
+    fdo:hasDepartureAirport fdo:LAN ;
+    fdo:hasRoute fdo: .
+
+fdo:LASAUS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:AUS ;
+    fdo:hasDepartureAirport fdo:LAS ;
+    fdo:hasRoute fdo: .
+
+fdo:LASCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:LAS ;
+    fdo:hasRoute fdo: .
+
+fdo:LASDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:LAS ;
+    fdo:hasRoute fdo: .
+
+fdo:LASLAX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LAX ;
+    fdo:hasDepartureAirport fdo:LAS ;
+    fdo:hasRoute fdo: .
+
+fdo:LASMIA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MIA ;
+    fdo:hasDepartureAirport fdo:LAS ;
+    fdo:hasRoute fdo: .
+
+fdo:LASORD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORD ;
+    fdo:hasDepartureAirport fdo:LAS ;
+    fdo:hasRoute fdo: .
+
+fdo:LASPHL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHL ;
+    fdo:hasDepartureAirport fdo:LAS ;
+    fdo:hasRoute fdo: .
+
+fdo:LASPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:LAS ;
+    fdo:hasRoute fdo: .
+
+fdo:LAXATL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ATL ;
+    fdo:hasDepartureAirport fdo:LAX ;
+    fdo:hasRoute fdo: .
+
+fdo:LAXAUS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:AUS ;
+    fdo:hasDepartureAirport fdo:LAX ;
+    fdo:hasRoute fdo: .
+
+fdo:LAXBNA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BNA ;
+    fdo:hasDepartureAirport fdo:LAX ;
+    fdo:hasRoute fdo: .
+
+fdo:LAXBOS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BOS ;
+    fdo:hasDepartureAirport fdo:LAX ;
+    fdo:hasRoute fdo: .
+
+fdo:LAXCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:LAX ;
+    fdo:hasRoute fdo: .
+
+fdo:LAXDCA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DCA ;
+    fdo:hasDepartureAirport fdo:LAX ;
+    fdo:hasRoute fdo: .
+
+fdo:LAXDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:LAX ;
+    fdo:hasRoute fdo: .
+
+fdo:LAXHNL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:HNL ;
+    fdo:hasDepartureAirport fdo:LAX ;
+    fdo:hasRoute fdo: .
+
+fdo:LAXIND a fdo:Route ;
+    fdo:hasArrivalAirport fdo:IND ;
+    fdo:hasDepartureAirport fdo:LAX ;
+    fdo:hasRoute fdo: .
+
+fdo:LAXJFK a fdo:Route ;
+    fdo:hasArrivalAirport fdo:JFK ;
+    fdo:hasDepartureAirport fdo:LAX ;
+    fdo:hasRoute fdo: .
+
+fdo:LAXKOA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:KOA ;
+    fdo:hasDepartureAirport fdo:LAX ;
+    fdo:hasRoute fdo: .
+
+fdo:LAXLAS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LAS ;
+    fdo:hasDepartureAirport fdo:LAX ;
+    fdo:hasRoute fdo: .
+
+fdo:LAXLIH a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LIH ;
+    fdo:hasDepartureAirport fdo:LAX ;
+    fdo:hasRoute fdo: .
+
+fdo:LAXMCO a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MCO ;
+    fdo:hasDepartureAirport fdo:LAX ;
+    fdo:hasRoute fdo: .
+
+fdo:LAXMIA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MIA ;
+    fdo:hasDepartureAirport fdo:LAX ;
+    fdo:hasRoute fdo: .
+
+fdo:LAXOGG a fdo:Route ;
+    fdo:hasArrivalAirport fdo:OGG ;
+    fdo:hasDepartureAirport fdo:LAX ;
+    fdo:hasRoute fdo: .
+
+fdo:LAXORD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORD ;
+    fdo:hasDepartureAirport fdo:LAX ;
+    fdo:hasRoute fdo: .
+
+fdo:LAXPHL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHL ;
+    fdo:hasDepartureAirport fdo:LAX ;
+    fdo:hasRoute fdo: .
+
+fdo:LAXPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:LAX ;
+    fdo:hasRoute fdo: .
+
+fdo:LEXCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:LEX ;
+    fdo:hasRoute fdo: .
+
+fdo:LEXDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:LEX ;
+    fdo:hasRoute fdo: .
+
+fdo:LFTATL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ATL ;
+    fdo:hasDepartureAirport fdo:LFT ;
+    fdo:hasRoute fdo: .
+
+fdo:LGAALB a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ALB ;
+    fdo:hasDepartureAirport fdo:LGA ;
+    fdo:hasRoute fdo: .
+
+fdo:LGAAVL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:AVL ;
+    fdo:hasDepartureAirport fdo:LGA ;
+    fdo:hasRoute fdo: .
+
+fdo:LGABDL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BDL ;
+    fdo:hasDepartureAirport fdo:LGA ;
+    fdo:hasRoute fdo: .
+
+fdo:LGABGR a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BGR ;
+    fdo:hasDepartureAirport fdo:LGA ;
+    fdo:hasRoute fdo: .
+
+fdo:LGABHM a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BHM ;
+    fdo:hasDepartureAirport fdo:LGA ;
+    fdo:hasRoute fdo: .
+
+fdo:LGABNA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BNA ;
+    fdo:hasDepartureAirport fdo:LGA ;
+    fdo:hasRoute fdo: .
+
+fdo:LGABTV a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BTV ;
+    fdo:hasDepartureAirport fdo:LGA ;
+    fdo:hasRoute fdo: .
+
+fdo:LGABUF a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BUF ;
+    fdo:hasDepartureAirport fdo:LGA ;
+    fdo:hasRoute fdo: .
+
+fdo:LGACAE a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CAE ;
+    fdo:hasDepartureAirport fdo:LGA ;
+    fdo:hasRoute fdo: .
+
+fdo:LGACHO a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CHO ;
+    fdo:hasDepartureAirport fdo:LGA ;
+    fdo:hasRoute fdo: .
+
+fdo:LGACHS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CHS ;
+    fdo:hasDepartureAirport fdo:LGA ;
+    fdo:hasRoute fdo: .
+
+fdo:LGACLE a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLE ;
+    fdo:hasDepartureAirport fdo:LGA ;
+    fdo:hasRoute fdo: .
+
+fdo:LGACLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:LGA ;
+    fdo:hasRoute fdo: .
+
+fdo:LGACVG a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CVG ;
+    fdo:hasDepartureAirport fdo:LGA ;
+    fdo:hasRoute fdo: .
+
+fdo:LGADAY a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DAY ;
+    fdo:hasDepartureAirport fdo:LGA ;
+    fdo:hasRoute fdo: .
+
+fdo:LGADCA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DCA ;
+    fdo:hasDepartureAirport fdo:LGA ;
+    fdo:hasRoute fdo: .
+
+fdo:LGADFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:LGA ;
+    fdo:hasRoute fdo: .
+
+fdo:LGADSM a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DSM ;
+    fdo:hasDepartureAirport fdo:LGA ;
+    fdo:hasRoute fdo: .
+
+fdo:LGAGRR a fdo:Route ;
+    fdo:hasArrivalAirport fdo:GRR ;
+    fdo:hasDepartureAirport fdo:LGA ;
+    fdo:hasRoute fdo: .
+
+fdo:LGAGSO a fdo:Route ;
+    fdo:hasArrivalAirport fdo:GSO ;
+    fdo:hasDepartureAirport fdo:LGA ;
+    fdo:hasRoute fdo: .
+
+fdo:LGAGSP a fdo:Route ;
+    fdo:hasArrivalAirport fdo:GSP ;
+    fdo:hasDepartureAirport fdo:LGA ;
+    fdo:hasRoute fdo: .
+
+fdo:LGAILM a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ILM ;
+    fdo:hasDepartureAirport fdo:LGA ;
+    fdo:hasRoute fdo: .
+
+fdo:LGAIND a fdo:Route ;
+    fdo:hasArrivalAirport fdo:IND ;
+    fdo:hasDepartureAirport fdo:LGA ;
+    fdo:hasRoute fdo: .
+
+fdo:LGAJAX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:JAX ;
+    fdo:hasDepartureAirport fdo:LGA ;
+    fdo:hasRoute fdo: .
+
+fdo:LGALIT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LIT ;
+    fdo:hasDepartureAirport fdo:LGA ;
+    fdo:hasRoute fdo: .
+
+fdo:LGAMCI a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MCI ;
+    fdo:hasDepartureAirport fdo:LGA ;
+    fdo:hasRoute fdo: .
+
+fdo:LGAMEM a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MEM ;
+    fdo:hasDepartureAirport fdo:LGA ;
+    fdo:hasRoute fdo: .
+
+fdo:LGAMIA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MIA ;
+    fdo:hasDepartureAirport fdo:LGA ;
+    fdo:hasRoute fdo: .
+
+fdo:LGAMKE a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MKE ;
+    fdo:hasDepartureAirport fdo:LGA ;
+    fdo:hasRoute fdo: .
+
+fdo:LGAMSN a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MSN ;
+    fdo:hasDepartureAirport fdo:LGA ;
+    fdo:hasRoute fdo: .
+
+fdo:LGAMYR a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MYR ;
+    fdo:hasDepartureAirport fdo:LGA ;
+    fdo:hasRoute fdo: .
+
+fdo:LGAOMA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:OMA ;
+    fdo:hasDepartureAirport fdo:LGA ;
+    fdo:hasRoute fdo: .
+
+fdo:LGAORD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORD ;
+    fdo:hasDepartureAirport fdo:LGA ;
+    fdo:hasRoute fdo: .
+
+fdo:LGAORF a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORF ;
+    fdo:hasDepartureAirport fdo:LGA ;
+    fdo:hasRoute fdo: .
+
+fdo:LGAORH a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORH ;
+    fdo:hasDepartureAirport fdo:LGA ;
+    fdo:hasRoute fdo: .
+
+fdo:LGAPIT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PIT ;
+    fdo:hasDepartureAirport fdo:LGA ;
+    fdo:hasRoute fdo: .
+
+fdo:LGAPNS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PNS ;
+    fdo:hasDepartureAirport fdo:LGA ;
+    fdo:hasRoute fdo: .
+
+fdo:LGAPVD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PVD ;
+    fdo:hasDepartureAirport fdo:LGA ;
+    fdo:hasRoute fdo: .
+
+fdo:LGAPWM a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PWM ;
+    fdo:hasDepartureAirport fdo:LGA ;
+    fdo:hasRoute fdo: .
+
+fdo:LGARDU a fdo:Route ;
+    fdo:hasArrivalAirport fdo:RDU ;
+    fdo:hasDepartureAirport fdo:LGA ;
+    fdo:hasRoute fdo: .
+
+fdo:LGARIC a fdo:Route ;
+    fdo:hasArrivalAirport fdo:RIC ;
+    fdo:hasDepartureAirport fdo:LGA ;
+    fdo:hasRoute fdo: .
+
+fdo:LGAROA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ROA ;
+    fdo:hasDepartureAirport fdo:LGA ;
+    fdo:hasRoute fdo: .
+
+fdo:LGAROC a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ROC ;
+    fdo:hasDepartureAirport fdo:LGA ;
+    fdo:hasRoute fdo: .
+
+fdo:LGASAV a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SAV ;
+    fdo:hasDepartureAirport fdo:LGA ;
+    fdo:hasRoute fdo: .
+
+fdo:LGASTL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:STL ;
+    fdo:hasDepartureAirport fdo:LGA ;
+    fdo:hasRoute fdo: .
+
+fdo:LGASYR a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SYR ;
+    fdo:hasDepartureAirport fdo:LGA ;
+    fdo:hasRoute fdo: .
+
+fdo:LGATVC a fdo:Route ;
+    fdo:hasArrivalAirport fdo:TVC ;
+    fdo:hasDepartureAirport fdo:LGA ;
+    fdo:hasRoute fdo: .
+
+fdo:LGATYS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:TYS ;
+    fdo:hasDepartureAirport fdo:LGA ;
+    fdo:hasRoute fdo: .
+
+fdo:LGAXNA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:XNA ;
+    fdo:hasDepartureAirport fdo:LGA ;
+    fdo:hasRoute fdo: .
+
+fdo:LIHLAX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LAX ;
+    fdo:hasDepartureAirport fdo:LIH ;
+    fdo:hasRoute fdo: .
+
+fdo:LIHPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:LIH ;
+    fdo:hasRoute fdo: .
+
+fdo:LITATL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ATL ;
+    fdo:hasDepartureAirport fdo:LIT ;
+    fdo:hasRoute fdo: .
+
+fdo:LITCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:LIT ;
+    fdo:hasRoute fdo: .
+
+fdo:LITDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:LIT ;
+    fdo:hasRoute fdo: .
+
+fdo:LITLGA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LGA ;
+    fdo:hasDepartureAirport fdo:LIT ;
+    fdo:hasRoute fdo: .
+
+fdo:MBSDTW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DTW ;
+    fdo:hasDepartureAirport fdo:MBS ;
+    fdo:hasRoute fdo: .
+
+fdo:MCICLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:MCI ;
+    fdo:hasRoute fdo: .
+
+fdo:MCIDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:MCI ;
+    fdo:hasRoute fdo: .
+
+fdo:MCIJFK a fdo:Route ;
+    fdo:hasArrivalAirport fdo:JFK ;
+    fdo:hasDepartureAirport fdo:MCI ;
+    fdo:hasRoute fdo: .
+
+fdo:MCILGA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LGA ;
+    fdo:hasDepartureAirport fdo:MCI ;
+    fdo:hasRoute fdo: .
+
+fdo:MCIORD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORD ;
+    fdo:hasDepartureAirport fdo:MCI ;
+    fdo:hasRoute fdo: .
+
+fdo:MCIPHL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHL ;
+    fdo:hasDepartureAirport fdo:MCI ;
+    fdo:hasRoute fdo: .
+
+fdo:MCIPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:MCI ;
+    fdo:hasRoute fdo: .
+
+fdo:MCOCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:MCO ;
+    fdo:hasRoute fdo: .
+
+fdo:MCODCA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DCA ;
+    fdo:hasDepartureAirport fdo:MCO ;
+    fdo:hasRoute fdo: .
+
+fdo:MCODFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:MCO ;
+    fdo:hasRoute fdo: .
+
+fdo:MCOLAX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LAX ;
+    fdo:hasDepartureAirport fdo:MCO ;
+    fdo:hasRoute fdo: .
+
+fdo:MCOMIA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MIA ;
+    fdo:hasDepartureAirport fdo:MCO ;
+    fdo:hasRoute fdo: .
+
+fdo:MCOORD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORD ;
+    fdo:hasDepartureAirport fdo:MCO ;
+    fdo:hasRoute fdo: .
+
+fdo:MCOPHL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHL ;
+    fdo:hasDepartureAirport fdo:MCO ;
+    fdo:hasRoute fdo: .
+
+fdo:MCOPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:MCO ;
+    fdo:hasRoute fdo: .
+
+fdo:MDTCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:MDT ;
+    fdo:hasRoute fdo: .
+
+fdo:MDTDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:MDT ;
+    fdo:hasRoute fdo: .
+
+fdo:MEMCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:MEM ;
+    fdo:hasRoute fdo: .
+
+fdo:MEMDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:MEM ;
+    fdo:hasRoute fdo: .
+
+fdo:MEMDTW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DTW ;
+    fdo:hasDepartureAirport fdo:MEM ;
+    fdo:hasRoute fdo: .
+
+fdo:MEMLGA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LGA ;
+    fdo:hasDepartureAirport fdo:MEM ;
+    fdo:hasRoute fdo: .
+
+fdo:MEMMIA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MIA ;
+    fdo:hasDepartureAirport fdo:MEM ;
+    fdo:hasRoute fdo: .
+
+fdo:MEMMSP a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MSP ;
+    fdo:hasDepartureAirport fdo:MEM ;
+    fdo:hasRoute fdo: .
+
+fdo:MFEDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:MFE ;
+    fdo:hasRoute fdo: .
+
+fdo:MGMATL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ATL ;
+    fdo:hasDepartureAirport fdo:MGM ;
+    fdo:hasRoute fdo: .
+
+fdo:MIAATL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ATL ;
+    fdo:hasDepartureAirport fdo:MIA ;
+    fdo:hasRoute fdo: .
+
+fdo:MIAAUS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:AUS ;
+    fdo:hasDepartureAirport fdo:MIA ;
+    fdo:hasRoute fdo: .
+
+fdo:MIABNA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BNA ;
+    fdo:hasDepartureAirport fdo:MIA ;
+    fdo:hasRoute fdo: .
+
+fdo:MIABOS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BOS ;
+    fdo:hasDepartureAirport fdo:MIA ;
+    fdo:hasRoute fdo: .
+
+fdo:MIABWI a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BWI ;
+    fdo:hasDepartureAirport fdo:MIA ;
+    fdo:hasRoute fdo: .
+
+fdo:MIACHS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CHS ;
+    fdo:hasDepartureAirport fdo:MIA ;
+    fdo:hasRoute fdo: .
+
+fdo:MIACLE a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLE ;
+    fdo:hasDepartureAirport fdo:MIA ;
+    fdo:hasRoute fdo: .
+
+fdo:MIACLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:MIA ;
+    fdo:hasRoute fdo: .
+
+fdo:MIADCA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DCA ;
+    fdo:hasDepartureAirport fdo:MIA ;
+    fdo:hasRoute fdo: .
+
+fdo:MIADEN a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DEN ;
+    fdo:hasDepartureAirport fdo:MIA ;
+    fdo:hasRoute fdo: .
+
+fdo:MIADFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:MIA ;
+    fdo:hasRoute fdo: .
+
+fdo:MIAEWR a fdo:Route ;
+    fdo:hasArrivalAirport fdo:EWR ;
+    fdo:hasDepartureAirport fdo:MIA ;
+    fdo:hasRoute fdo: .
+
+fdo:MIAIAH a fdo:Route ;
+    fdo:hasArrivalAirport fdo:IAH ;
+    fdo:hasDepartureAirport fdo:MIA ;
+    fdo:hasRoute fdo: .
+
+fdo:MIAIND a fdo:Route ;
+    fdo:hasArrivalAirport fdo:IND ;
+    fdo:hasDepartureAirport fdo:MIA ;
+    fdo:hasRoute fdo: .
+
+fdo:MIAJAX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:JAX ;
+    fdo:hasDepartureAirport fdo:MIA ;
+    fdo:hasRoute fdo: .
+
+fdo:MIAJFK a fdo:Route ;
+    fdo:hasArrivalAirport fdo:JFK ;
+    fdo:hasDepartureAirport fdo:MIA ;
+    fdo:hasRoute fdo: .
+
+fdo:MIALAS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LAS ;
+    fdo:hasDepartureAirport fdo:MIA ;
+    fdo:hasRoute fdo: .
+
+fdo:MIALAX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LAX ;
+    fdo:hasDepartureAirport fdo:MIA ;
+    fdo:hasRoute fdo: .
+
+fdo:MIALGA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LGA ;
+    fdo:hasDepartureAirport fdo:MIA ;
+    fdo:hasRoute fdo: .
+
+fdo:MIAMCI a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MCI ;
+    fdo:hasDepartureAirport fdo:MIA ;
+    fdo:hasRoute fdo: .
+
+fdo:MIAMCO a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MCO ;
+    fdo:hasDepartureAirport fdo:MIA ;
+    fdo:hasRoute fdo: .
+
+fdo:MIAMEM a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MEM ;
+    fdo:hasDepartureAirport fdo:MIA ;
+    fdo:hasRoute fdo: .
+
+fdo:MIAMSP a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MSP ;
+    fdo:hasDepartureAirport fdo:MIA ;
+    fdo:hasRoute fdo: .
+
+fdo:MIAMSY a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MSY ;
+    fdo:hasDepartureAirport fdo:MIA ;
+    fdo:hasRoute fdo: .
+
+fdo:MIAORD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORD ;
+    fdo:hasDepartureAirport fdo:MIA ;
+    fdo:hasRoute fdo: .
+
+fdo:MIAORF a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORF ;
+    fdo:hasDepartureAirport fdo:MIA ;
+    fdo:hasRoute fdo: .
+
+fdo:MIAPHL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHL ;
+    fdo:hasDepartureAirport fdo:MIA ;
+    fdo:hasRoute fdo: .
+
+fdo:MIAPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:MIA ;
+    fdo:hasRoute fdo: .
+
+fdo:MIAPIT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PIT ;
+    fdo:hasDepartureAirport fdo:MIA ;
+    fdo:hasRoute fdo: .
+
+fdo:MIARDU a fdo:Route ;
+    fdo:hasArrivalAirport fdo:RDU ;
+    fdo:hasDepartureAirport fdo:MIA ;
+    fdo:hasRoute fdo: .
+
+fdo:MIASAN a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SAN ;
+    fdo:hasDepartureAirport fdo:MIA ;
+    fdo:hasRoute fdo: .
+
+fdo:MIASAT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SAT ;
+    fdo:hasDepartureAirport fdo:MIA ;
+    fdo:hasRoute fdo: .
+
+fdo:MIASAV a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SAV ;
+    fdo:hasDepartureAirport fdo:MIA ;
+    fdo:hasRoute fdo: .
+
+fdo:MIASDF a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SDF ;
+    fdo:hasDepartureAirport fdo:MIA ;
+    fdo:hasRoute fdo: .
+
+fdo:MIASEA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SEA ;
+    fdo:hasDepartureAirport fdo:MIA ;
+    fdo:hasRoute fdo: .
+
+fdo:MIASJU a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SJU ;
+    fdo:hasDepartureAirport fdo:MIA ;
+    fdo:hasRoute fdo: .
+
+fdo:MIASTL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:STL ;
+    fdo:hasDepartureAirport fdo:MIA ;
+    fdo:hasRoute fdo: .
+
+fdo:MIASTT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:STT ;
+    fdo:hasDepartureAirport fdo:MIA ;
+    fdo:hasRoute fdo: .
+
+fdo:MIASTX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:STX ;
+    fdo:hasDepartureAirport fdo:MIA ;
+    fdo:hasRoute fdo: .
+
+fdo:MIATPA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:TPA ;
+    fdo:hasDepartureAirport fdo:MIA ;
+    fdo:hasRoute fdo: .
+
+fdo:MKECLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:MKE ;
+    fdo:hasRoute fdo: .
+
+fdo:MKEDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:MKE ;
+    fdo:hasRoute fdo: .
+
+fdo:MKELGA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LGA ;
+    fdo:hasDepartureAirport fdo:MKE ;
+    fdo:hasRoute fdo: .
+
+fdo:MKEMSP a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MSP ;
+    fdo:hasDepartureAirport fdo:MKE ;
+    fdo:hasRoute fdo: .
+
+fdo:MKEPHL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHL ;
+    fdo:hasDepartureAirport fdo:MKE ;
+    fdo:hasRoute fdo: .
+
+fdo:MKEPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:MKE ;
+    fdo:hasRoute fdo: .
+
+fdo:MLIATL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ATL ;
+    fdo:hasDepartureAirport fdo:MLI ;
+    fdo:hasRoute fdo: .
+
+fdo:MLUATL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ATL ;
+    fdo:hasDepartureAirport fdo:MLU ;
+    fdo:hasRoute fdo: .
+
+fdo:MOBATL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ATL ;
+    fdo:hasDepartureAirport fdo:MOB ;
+    fdo:hasRoute fdo: .
+
+fdo:MRYDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:MRY ;
+    fdo:hasRoute fdo: .
+
+fdo:MRYPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:MRY ;
+    fdo:hasRoute fdo: .
+
+fdo:MSNBOS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BOS ;
+    fdo:hasDepartureAirport fdo:MSN ;
+    fdo:hasRoute fdo: .
+
+fdo:MSNCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:MSN ;
+    fdo:hasRoute fdo: .
+
+fdo:MSNDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:MSN ;
+    fdo:hasRoute fdo: .
+
+fdo:MSNDTW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DTW ;
+    fdo:hasDepartureAirport fdo:MSN ;
+    fdo:hasRoute fdo: .
+
+fdo:MSNLGA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LGA ;
+    fdo:hasDepartureAirport fdo:MSN ;
+    fdo:hasRoute fdo: .
+
+fdo:MSNMSP a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MSP ;
+    fdo:hasDepartureAirport fdo:MSN ;
+    fdo:hasRoute fdo: .
+
+fdo:MSNORD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORD ;
+    fdo:hasDepartureAirport fdo:MSN ;
+    fdo:hasRoute fdo: .
+
+fdo:MSNPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:MSN ;
+    fdo:hasRoute fdo: .
+
+fdo:MSODFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:MSO ;
+    fdo:hasRoute fdo: .
+
+fdo:MSPATW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ATW ;
+    fdo:hasDepartureAirport fdo:MSP ;
+    fdo:hasRoute fdo: .
+
+fdo:MSPBIS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BIS ;
+    fdo:hasDepartureAirport fdo:MSP ;
+    fdo:hasRoute fdo: .
+
+fdo:MSPCLE a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLE ;
+    fdo:hasDepartureAirport fdo:MSP ;
+    fdo:hasRoute fdo: .
+
+fdo:MSPCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:MSP ;
+    fdo:hasRoute fdo: .
+
+fdo:MSPCMH a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CMH ;
+    fdo:hasDepartureAirport fdo:MSP ;
+    fdo:hasRoute fdo: .
+
+fdo:MSPCWA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CWA ;
+    fdo:hasDepartureAirport fdo:MSP ;
+    fdo:hasRoute fdo: .
+
+fdo:MSPDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:MSP ;
+    fdo:hasRoute fdo: .
+
+fdo:MSPDLH a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DLH ;
+    fdo:hasDepartureAirport fdo:MSP ;
+    fdo:hasRoute fdo: .
+
+fdo:MSPDSM a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DSM ;
+    fdo:hasDepartureAirport fdo:MSP ;
+    fdo:hasRoute fdo: .
+
+fdo:MSPFAR a fdo:Route ;
+    fdo:hasArrivalAirport fdo:FAR ;
+    fdo:hasDepartureAirport fdo:MSP ;
+    fdo:hasRoute fdo: .
+
+fdo:MSPFSD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:FSD ;
+    fdo:hasDepartureAirport fdo:MSP ;
+    fdo:hasRoute fdo: .
+
+fdo:MSPGRR a fdo:Route ;
+    fdo:hasArrivalAirport fdo:GRR ;
+    fdo:hasDepartureAirport fdo:MSP ;
+    fdo:hasRoute fdo: .
+
+fdo:MSPMEM a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MEM ;
+    fdo:hasDepartureAirport fdo:MSP ;
+    fdo:hasRoute fdo: .
+
+fdo:MSPMIA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MIA ;
+    fdo:hasDepartureAirport fdo:MSP ;
+    fdo:hasRoute fdo: .
+
+fdo:MSPMKE a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MKE ;
+    fdo:hasDepartureAirport fdo:MSP ;
+    fdo:hasRoute fdo: .
+
+fdo:MSPMSN a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MSN ;
+    fdo:hasDepartureAirport fdo:MSP ;
+    fdo:hasRoute fdo: .
+
+fdo:MSPOMA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:OMA ;
+    fdo:hasDepartureAirport fdo:MSP ;
+    fdo:hasRoute fdo: .
+
+fdo:MSPORD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORD ;
+    fdo:hasDepartureAirport fdo:MSP ;
+    fdo:hasRoute fdo: .
+
+fdo:MSPORF a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORF ;
+    fdo:hasDepartureAirport fdo:MSP ;
+    fdo:hasRoute fdo: .
+
+fdo:MSPPHL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHL ;
+    fdo:hasDepartureAirport fdo:MSP ;
+    fdo:hasRoute fdo: .
+
+fdo:MSPPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:MSP ;
+    fdo:hasRoute fdo: .
+
+fdo:MSPRAP a fdo:Route ;
+    fdo:hasArrivalAirport fdo:RAP ;
+    fdo:hasDepartureAirport fdo:MSP ;
+    fdo:hasRoute fdo: .
+
+fdo:MSPRIC a fdo:Route ;
+    fdo:hasArrivalAirport fdo:RIC ;
+    fdo:hasDepartureAirport fdo:MSP ;
+    fdo:hasRoute fdo: .
+
+fdo:MSPRST a fdo:Route ;
+    fdo:hasArrivalAirport fdo:RST ;
+    fdo:hasDepartureAirport fdo:MSP ;
+    fdo:hasRoute fdo: .
+
+fdo:MSPSDF a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SDF ;
+    fdo:hasDepartureAirport fdo:MSP ;
+    fdo:hasRoute fdo: .
+
+fdo:MSPSTL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:STL ;
+    fdo:hasDepartureAirport fdo:MSP ;
+    fdo:hasRoute fdo: .
+
+fdo:MSPSYR a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SYR ;
+    fdo:hasDepartureAirport fdo:MSP ;
+    fdo:hasRoute fdo: .
+
+fdo:MSPTYS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:TYS ;
+    fdo:hasDepartureAirport fdo:MSP ;
+    fdo:hasRoute fdo: .
+
+fdo:MSPXNA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:XNA ;
+    fdo:hasDepartureAirport fdo:MSP ;
+    fdo:hasRoute fdo: .
+
+fdo:MSYCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:MSY ;
+    fdo:hasRoute fdo: .
+
+fdo:MSYDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:MSY ;
+    fdo:hasRoute fdo: .
+
+fdo:MSYMIA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MIA ;
+    fdo:hasDepartureAirport fdo:MSY ;
+    fdo:hasRoute fdo: .
+
+fdo:MSYPHL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHL ;
+    fdo:hasDepartureAirport fdo:MSY ;
+    fdo:hasRoute fdo: .
+
+fdo:MSYPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:MSY ;
+    fdo:hasRoute fdo: .
+
+fdo:MTJDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:MTJ ;
+    fdo:hasRoute fdo: .
+
+fdo:MYRCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:MYR ;
+    fdo:hasRoute fdo: .
+
+fdo:MYRLGA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LGA ;
+    fdo:hasDepartureAirport fdo:MYR ;
+    fdo:hasRoute fdo: .
+
+fdo:OAJATL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ATL ;
+    fdo:hasDepartureAirport fdo:OAJ ;
+    fdo:hasRoute fdo: .
+
+fdo:OGGDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:OGG ;
+    fdo:hasRoute fdo: .
+
+fdo:OGGLAX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LAX ;
+    fdo:hasDepartureAirport fdo:OGG ;
+    fdo:hasRoute fdo: .
+
+fdo:OGGPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:OGG ;
+    fdo:hasRoute fdo: .
+
+fdo:OKCDCA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DCA ;
+    fdo:hasDepartureAirport fdo:OKC ;
+    fdo:hasRoute fdo: .
+
+fdo:OKCDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:OKC ;
+    fdo:hasRoute fdo: .
+
+fdo:OMACLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:OMA ;
+    fdo:hasRoute fdo: .
+
+fdo:OMADFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:OMA ;
+    fdo:hasRoute fdo: .
+
+fdo:OMALGA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LGA ;
+    fdo:hasDepartureAirport fdo:OMA ;
+    fdo:hasRoute fdo: .
+
+fdo:OMAMSP a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MSP ;
+    fdo:hasDepartureAirport fdo:OMA ;
+    fdo:hasRoute fdo: .
+
+fdo:OMAORD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORD ;
+    fdo:hasDepartureAirport fdo:OMA ;
+    fdo:hasRoute fdo: .
+
+fdo:ONTCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:ONT ;
+    fdo:hasRoute fdo: .
+
+fdo:ONTDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:ONT ;
+    fdo:hasRoute fdo: .
+
+fdo:ONTPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:ONT ;
+    fdo:hasRoute fdo: .
+
+fdo:ORDATL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ATL ;
+    fdo:hasDepartureAirport fdo:ORD ;
+    fdo:hasRoute fdo: .
+
+fdo:ORDAUS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:AUS ;
+    fdo:hasDepartureAirport fdo:ORD ;
+    fdo:hasRoute fdo: .
+
+fdo:ORDBDL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BDL ;
+    fdo:hasDepartureAirport fdo:ORD ;
+    fdo:hasRoute fdo: .
+
+fdo:ORDBNA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BNA ;
+    fdo:hasDepartureAirport fdo:ORD ;
+    fdo:hasRoute fdo: .
+
+fdo:ORDBOS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BOS ;
+    fdo:hasDepartureAirport fdo:ORD ;
+    fdo:hasRoute fdo: .
+
+fdo:ORDBUF a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BUF ;
+    fdo:hasDepartureAirport fdo:ORD ;
+    fdo:hasRoute fdo: .
+
+fdo:ORDBWI a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BWI ;
+    fdo:hasDepartureAirport fdo:ORD ;
+    fdo:hasRoute fdo: .
+
+fdo:ORDBZN a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BZN ;
+    fdo:hasDepartureAirport fdo:ORD ;
+    fdo:hasRoute fdo: .
+
+fdo:ORDCID a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CID ;
+    fdo:hasDepartureAirport fdo:ORD ;
+    fdo:hasRoute fdo: .
+
+fdo:ORDCLE a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLE ;
+    fdo:hasDepartureAirport fdo:ORD ;
+    fdo:hasRoute fdo: .
+
+fdo:ORDCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:ORD ;
+    fdo:hasRoute fdo: .
+
+fdo:ORDDCA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DCA ;
+    fdo:hasDepartureAirport fdo:ORD ;
+    fdo:hasRoute fdo: .
+
+fdo:ORDDEN a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DEN ;
+    fdo:hasDepartureAirport fdo:ORD ;
+    fdo:hasRoute fdo: .
+
+fdo:ORDDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:ORD ;
+    fdo:hasRoute fdo: .
+
+fdo:ORDDSM a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DSM ;
+    fdo:hasDepartureAirport fdo:ORD ;
+    fdo:hasRoute fdo: .
+
+fdo:ORDEWR a fdo:Route ;
+    fdo:hasArrivalAirport fdo:EWR ;
+    fdo:hasDepartureAirport fdo:ORD ;
+    fdo:hasRoute fdo: .
+
+fdo:ORDFCA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:FCA ;
+    fdo:hasDepartureAirport fdo:ORD ;
+    fdo:hasRoute fdo: .
+
+fdo:ORDGRR a fdo:Route ;
+    fdo:hasArrivalAirport fdo:GRR ;
+    fdo:hasDepartureAirport fdo:ORD ;
+    fdo:hasRoute fdo: .
+
+fdo:ORDIAH a fdo:Route ;
+    fdo:hasArrivalAirport fdo:IAH ;
+    fdo:hasDepartureAirport fdo:ORD ;
+    fdo:hasRoute fdo: .
+
+fdo:ORDIND a fdo:Route ;
+    fdo:hasArrivalAirport fdo:IND ;
+    fdo:hasDepartureAirport fdo:ORD ;
+    fdo:hasRoute fdo: .
+
+fdo:ORDJAC a fdo:Route ;
+    fdo:hasArrivalAirport fdo:JAC ;
+    fdo:hasDepartureAirport fdo:ORD ;
+    fdo:hasRoute fdo: .
+
+fdo:ORDJAX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:JAX ;
+    fdo:hasDepartureAirport fdo:ORD ;
+    fdo:hasRoute fdo: .
+
+fdo:ORDJFK a fdo:Route ;
+    fdo:hasArrivalAirport fdo:JFK ;
+    fdo:hasDepartureAirport fdo:ORD ;
+    fdo:hasRoute fdo: .
+
+fdo:ORDLAS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LAS ;
+    fdo:hasDepartureAirport fdo:ORD ;
+    fdo:hasRoute fdo: .
+
+fdo:ORDLAX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LAX ;
+    fdo:hasDepartureAirport fdo:ORD ;
+    fdo:hasRoute fdo: .
+
+fdo:ORDLGA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LGA ;
+    fdo:hasDepartureAirport fdo:ORD ;
+    fdo:hasRoute fdo: .
+
+fdo:ORDMCI a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MCI ;
+    fdo:hasDepartureAirport fdo:ORD ;
+    fdo:hasRoute fdo: .
+
+fdo:ORDMCO a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MCO ;
+    fdo:hasDepartureAirport fdo:ORD ;
+    fdo:hasRoute fdo: .
+
+fdo:ORDMIA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MIA ;
+    fdo:hasDepartureAirport fdo:ORD ;
+    fdo:hasRoute fdo: .
+
+fdo:ORDMSP a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MSP ;
+    fdo:hasDepartureAirport fdo:ORD ;
+    fdo:hasRoute fdo: .
+
+fdo:ORDMSY a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MSY ;
+    fdo:hasDepartureAirport fdo:ORD ;
+    fdo:hasRoute fdo: .
+
+fdo:ORDOMA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:OMA ;
+    fdo:hasDepartureAirport fdo:ORD ;
+    fdo:hasRoute fdo: .
+
+fdo:ORDPBI a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PBI ;
+    fdo:hasDepartureAirport fdo:ORD ;
+    fdo:hasRoute fdo: .
+
+fdo:ORDPHL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHL ;
+    fdo:hasDepartureAirport fdo:ORD ;
+    fdo:hasRoute fdo: .
+
+fdo:ORDPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:ORD ;
+    fdo:hasRoute fdo: .
+
+fdo:ORDPIT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PIT ;
+    fdo:hasDepartureAirport fdo:ORD ;
+    fdo:hasRoute fdo: .
+
+fdo:ORDPVD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PVD ;
+    fdo:hasDepartureAirport fdo:ORD ;
+    fdo:hasRoute fdo: .
+
+fdo:ORDRNO a fdo:Route ;
+    fdo:hasArrivalAirport fdo:RNO ;
+    fdo:hasDepartureAirport fdo:ORD ;
+    fdo:hasRoute fdo: .
+
+fdo:ORDSAN a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SAN ;
+    fdo:hasDepartureAirport fdo:ORD ;
+    fdo:hasRoute fdo: .
+
+fdo:ORDSAT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SAT ;
+    fdo:hasDepartureAirport fdo:ORD ;
+    fdo:hasRoute fdo: .
+
+fdo:ORDSAV a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SAV ;
+    fdo:hasDepartureAirport fdo:ORD ;
+    fdo:hasRoute fdo: .
+
+fdo:ORDSEA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SEA ;
+    fdo:hasDepartureAirport fdo:ORD ;
+    fdo:hasRoute fdo: .
+
+fdo:ORDSFO a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SFO ;
+    fdo:hasDepartureAirport fdo:ORD ;
+    fdo:hasRoute fdo: .
+
+fdo:ORDSMF a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SMF ;
+    fdo:hasDepartureAirport fdo:ORD ;
+    fdo:hasRoute fdo: .
+
+fdo:ORDSTL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:STL ;
+    fdo:hasDepartureAirport fdo:ORD ;
+    fdo:hasRoute fdo: .
+
+fdo:ORDSYR a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SYR ;
+    fdo:hasDepartureAirport fdo:ORD ;
+    fdo:hasRoute fdo: .
+
+fdo:ORDTPA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:TPA ;
+    fdo:hasDepartureAirport fdo:ORD ;
+    fdo:hasRoute fdo: .
+
+fdo:ORDTUS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:TUS ;
+    fdo:hasDepartureAirport fdo:ORD ;
+    fdo:hasRoute fdo: .
+
+fdo:ORFCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:ORF ;
+    fdo:hasRoute fdo: .
+
+fdo:ORFDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:ORF ;
+    fdo:hasRoute fdo: .
+
+fdo:ORFDTW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DTW ;
+    fdo:hasDepartureAirport fdo:ORF ;
+    fdo:hasRoute fdo: .
+
+fdo:ORFJFK a fdo:Route ;
+    fdo:hasArrivalAirport fdo:JFK ;
+    fdo:hasDepartureAirport fdo:ORF ;
+    fdo:hasRoute fdo: .
+
+fdo:ORFLGA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LGA ;
+    fdo:hasDepartureAirport fdo:ORF ;
+    fdo:hasRoute fdo: .
+
+fdo:ORFMIA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MIA ;
+    fdo:hasDepartureAirport fdo:ORF ;
+    fdo:hasRoute fdo: .
+
+fdo:ORFMSP a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MSP ;
+    fdo:hasDepartureAirport fdo:ORF ;
+    fdo:hasRoute fdo: .
+
+fdo:ORHLGA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LGA ;
+    fdo:hasDepartureAirport fdo:ORH ;
+    fdo:hasRoute fdo: .
+
+fdo:PBICLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:PBI ;
+    fdo:hasRoute fdo: .
+
+fdo:PBIDCA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DCA ;
+    fdo:hasDepartureAirport fdo:PBI ;
+    fdo:hasRoute fdo: .
+
+fdo:PBIDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:PBI ;
+    fdo:hasRoute fdo: .
+
+fdo:PBIORD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORD ;
+    fdo:hasDepartureAirport fdo:PBI ;
+    fdo:hasRoute fdo: .
+
+fdo:PBIPHL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHL ;
+    fdo:hasDepartureAirport fdo:PBI ;
+    fdo:hasRoute fdo: .
+
+fdo:PDXCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:PDX ;
+    fdo:hasRoute fdo: .
+
+fdo:PDXDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:PDX ;
+    fdo:hasRoute fdo: .
+
+fdo:PDXPHL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHL ;
+    fdo:hasDepartureAirport fdo:PDX ;
+    fdo:hasRoute fdo: .
+
+fdo:PDXPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:PDX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHLATL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ATL ;
+    fdo:hasDepartureAirport fdo:PHL ;
+    fdo:hasRoute fdo: .
+
+fdo:PHLAUS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:AUS ;
+    fdo:hasDepartureAirport fdo:PHL ;
+    fdo:hasRoute fdo: .
+
+fdo:PHLBDL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BDL ;
+    fdo:hasDepartureAirport fdo:PHL ;
+    fdo:hasRoute fdo: .
+
+fdo:PHLBGR a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BGR ;
+    fdo:hasDepartureAirport fdo:PHL ;
+    fdo:hasRoute fdo: .
+
+fdo:PHLBNA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BNA ;
+    fdo:hasDepartureAirport fdo:PHL ;
+    fdo:hasRoute fdo: .
+
+fdo:PHLBOS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BOS ;
+    fdo:hasDepartureAirport fdo:PHL ;
+    fdo:hasRoute fdo: .
+
+fdo:PHLBTV a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BTV ;
+    fdo:hasDepartureAirport fdo:PHL ;
+    fdo:hasRoute fdo: .
+
+fdo:PHLBUF a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BUF ;
+    fdo:hasDepartureAirport fdo:PHL ;
+    fdo:hasRoute fdo: .
+
+fdo:PHLCHS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CHS ;
+    fdo:hasDepartureAirport fdo:PHL ;
+    fdo:hasRoute fdo: .
+
+fdo:PHLCLE a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLE ;
+    fdo:hasDepartureAirport fdo:PHL ;
+    fdo:hasRoute fdo: .
+
+fdo:PHLCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:PHL ;
+    fdo:hasRoute fdo: .
+
+fdo:PHLCMH a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CMH ;
+    fdo:hasDepartureAirport fdo:PHL ;
+    fdo:hasRoute fdo: .
+
+fdo:PHLCVG a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CVG ;
+    fdo:hasDepartureAirport fdo:PHL ;
+    fdo:hasRoute fdo: .
+
+fdo:PHLDEN a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DEN ;
+    fdo:hasDepartureAirport fdo:PHL ;
+    fdo:hasRoute fdo: .
+
+fdo:PHLDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:PHL ;
+    fdo:hasRoute fdo: .
+
+fdo:PHLDTW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DTW ;
+    fdo:hasDepartureAirport fdo:PHL ;
+    fdo:hasRoute fdo: .
+
+fdo:PHLEYW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:EYW ;
+    fdo:hasDepartureAirport fdo:PHL ;
+    fdo:hasRoute fdo: .
+
+fdo:PHLFLL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:FLL ;
+    fdo:hasDepartureAirport fdo:PHL ;
+    fdo:hasRoute fdo: .
+
+fdo:PHLIAH a fdo:Route ;
+    fdo:hasArrivalAirport fdo:IAH ;
+    fdo:hasDepartureAirport fdo:PHL ;
+    fdo:hasRoute fdo: .
+
+fdo:PHLIND a fdo:Route ;
+    fdo:hasArrivalAirport fdo:IND ;
+    fdo:hasDepartureAirport fdo:PHL ;
+    fdo:hasRoute fdo: .
+
+fdo:PHLJAX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:JAX ;
+    fdo:hasDepartureAirport fdo:PHL ;
+    fdo:hasRoute fdo: .
+
+fdo:PHLLAS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LAS ;
+    fdo:hasDepartureAirport fdo:PHL ;
+    fdo:hasRoute fdo: .
+
+fdo:PHLLAX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LAX ;
+    fdo:hasDepartureAirport fdo:PHL ;
+    fdo:hasRoute fdo: .
+
+fdo:PHLMCI a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MCI ;
+    fdo:hasDepartureAirport fdo:PHL ;
+    fdo:hasRoute fdo: .
+
+fdo:PHLMCO a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MCO ;
+    fdo:hasDepartureAirport fdo:PHL ;
+    fdo:hasRoute fdo: .
+
+fdo:PHLMIA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MIA ;
+    fdo:hasDepartureAirport fdo:PHL ;
+    fdo:hasRoute fdo: .
+
+fdo:PHLMKE a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MKE ;
+    fdo:hasDepartureAirport fdo:PHL ;
+    fdo:hasRoute fdo: .
+
+fdo:PHLMSP a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MSP ;
+    fdo:hasDepartureAirport fdo:PHL ;
+    fdo:hasRoute fdo: .
+
+fdo:PHLORD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORD ;
+    fdo:hasDepartureAirport fdo:PHL ;
+    fdo:hasRoute fdo: .
+
+fdo:PHLPBI a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PBI ;
+    fdo:hasDepartureAirport fdo:PHL ;
+    fdo:hasRoute fdo: .
+
+fdo:PHLPDX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PDX ;
+    fdo:hasDepartureAirport fdo:PHL ;
+    fdo:hasRoute fdo: .
+
+fdo:PHLPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:PHL ;
+    fdo:hasRoute fdo: .
+
+fdo:PHLPIT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PIT ;
+    fdo:hasDepartureAirport fdo:PHL ;
+    fdo:hasRoute fdo: .
+
+fdo:PHLPNS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PNS ;
+    fdo:hasDepartureAirport fdo:PHL ;
+    fdo:hasRoute fdo: .
+
+fdo:PHLPVD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PVD ;
+    fdo:hasDepartureAirport fdo:PHL ;
+    fdo:hasRoute fdo: .
+
+fdo:PHLPWM a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PWM ;
+    fdo:hasDepartureAirport fdo:PHL ;
+    fdo:hasRoute fdo: .
+
+fdo:PHLRDU a fdo:Route ;
+    fdo:hasArrivalAirport fdo:RDU ;
+    fdo:hasDepartureAirport fdo:PHL ;
+    fdo:hasRoute fdo: .
+
+fdo:PHLRSW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:RSW ;
+    fdo:hasDepartureAirport fdo:PHL ;
+    fdo:hasRoute fdo: .
+
+fdo:PHLSAN a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SAN ;
+    fdo:hasDepartureAirport fdo:PHL ;
+    fdo:hasRoute fdo: .
+
+fdo:PHLSEA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SEA ;
+    fdo:hasDepartureAirport fdo:PHL ;
+    fdo:hasRoute fdo: .
+
+fdo:PHLSFO a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SFO ;
+    fdo:hasDepartureAirport fdo:PHL ;
+    fdo:hasRoute fdo: .
+
+fdo:PHLSJU a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SJU ;
+    fdo:hasDepartureAirport fdo:PHL ;
+    fdo:hasRoute fdo: .
+
+fdo:PHLSLC a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SLC ;
+    fdo:hasDepartureAirport fdo:PHL ;
+    fdo:hasRoute fdo: .
+
+fdo:PHLSTL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:STL ;
+    fdo:hasDepartureAirport fdo:PHL ;
+    fdo:hasRoute fdo: .
+
+fdo:PHLSTT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:STT ;
+    fdo:hasDepartureAirport fdo:PHL ;
+    fdo:hasRoute fdo: .
+
+fdo:PHLTPA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:TPA ;
+    fdo:hasDepartureAirport fdo:PHL ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXABQ a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ABQ ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXATL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ATL ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXAUS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:AUS ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXBFL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BFL ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXBNA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BNA ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXBOS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BOS ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXBUR a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BUR ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXCMH a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CMH ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXDCA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DCA ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXDEN a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DEN ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXDSM a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DSM ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXDTW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DTW ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXELP a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ELP ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXEUG a fdo:Route ;
+    fdo:hasArrivalAirport fdo:EUG ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXEWR a fdo:Route ;
+    fdo:hasArrivalAirport fdo:EWR ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXFAT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:FAT ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXGEG a fdo:Route ;
+    fdo:hasArrivalAirport fdo:GEG ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXHNL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:HNL ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXIAH a fdo:Route ;
+    fdo:hasArrivalAirport fdo:IAH ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXIND a fdo:Route ;
+    fdo:hasArrivalAirport fdo:IND ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXJFK a fdo:Route ;
+    fdo:hasArrivalAirport fdo:JFK ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXKOA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:KOA ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXLAS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LAS ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXLAX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LAX ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXLIH a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LIH ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXMCI a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MCI ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXMCO a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MCO ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXMIA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MIA ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXMKE a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MKE ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXMRY a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MRY ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXMSN a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MSN ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXMSP a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MSP ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXMSY a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MSY ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXOGG a fdo:Route ;
+    fdo:hasArrivalAirport fdo:OGG ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXONT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ONT ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXORD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORD ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXPDX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PDX ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXPHL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHL ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXRDU a fdo:Route ;
+    fdo:hasArrivalAirport fdo:RDU ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXRNO a fdo:Route ;
+    fdo:hasArrivalAirport fdo:RNO ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXSAN a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SAN ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXSAT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SAT ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXSBA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SBA ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXSBP a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SBP ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXSFO a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SFO ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXSMF a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SMF ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXSNA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:SNA ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXSTL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:STL ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXTPA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:TPA ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PHXTUS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:TUS ;
+    fdo:hasDepartureAirport fdo:PHX ;
+    fdo:hasRoute fdo: .
+
+fdo:PITCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:PIT ;
+    fdo:hasRoute fdo: .
+
+fdo:PITDCA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DCA ;
+    fdo:hasDepartureAirport fdo:PIT ;
+    fdo:hasRoute fdo: .
+
+fdo:PITDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:PIT ;
+    fdo:hasRoute fdo: .
+
+fdo:PITDTW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DTW ;
+    fdo:hasDepartureAirport fdo:PIT ;
+    fdo:hasRoute fdo: .
+
+fdo:PITJFK a fdo:Route ;
+    fdo:hasArrivalAirport fdo:JFK ;
+    fdo:hasDepartureAirport fdo:PIT ;
+    fdo:hasRoute fdo: .
+
+fdo:PITLGA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LGA ;
+    fdo:hasDepartureAirport fdo:PIT ;
+    fdo:hasRoute fdo: .
+
+fdo:PITMIA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MIA ;
+    fdo:hasDepartureAirport fdo:PIT ;
+    fdo:hasRoute fdo: .
+
+fdo:PITPHL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHL ;
+    fdo:hasDepartureAirport fdo:PIT ;
+    fdo:hasRoute fdo: .
+
+fdo:PNSCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:PNS ;
+    fdo:hasRoute fdo: .
+
+fdo:PNSDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:PNS ;
+    fdo:hasRoute fdo: .
+
+fdo:PNSLGA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LGA ;
+    fdo:hasDepartureAirport fdo:PNS ;
+    fdo:hasRoute fdo: .
+
+fdo:PNSPHL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHL ;
+    fdo:hasDepartureAirport fdo:PNS ;
+    fdo:hasRoute fdo: .
+
+fdo:PSPDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:PSP ;
+    fdo:hasRoute fdo: .
+
+fdo:PVDCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:PVD ;
+    fdo:hasRoute fdo: .
+
+fdo:PVDDCA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DCA ;
+    fdo:hasDepartureAirport fdo:PVD ;
+    fdo:hasRoute fdo: .
+
+fdo:PVDLGA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LGA ;
+    fdo:hasDepartureAirport fdo:PVD ;
+    fdo:hasRoute fdo: .
+
+fdo:PVDORD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORD ;
+    fdo:hasDepartureAirport fdo:PVD ;
+    fdo:hasRoute fdo: .
+
+fdo:PVDPHL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHL ;
+    fdo:hasDepartureAirport fdo:PVD ;
+    fdo:hasRoute fdo: .
+
+fdo:PWMCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:PWM ;
+    fdo:hasRoute fdo: .
+
+fdo:PWMDCA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DCA ;
+    fdo:hasDepartureAirport fdo:PWM ;
+    fdo:hasRoute fdo: .
+
+fdo:PWMDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:PWM ;
+    fdo:hasRoute fdo: .
+
+fdo:PWMDTW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DTW ;
+    fdo:hasDepartureAirport fdo:PWM ;
+    fdo:hasRoute fdo: .
+
+fdo:PWMJFK a fdo:Route ;
+    fdo:hasArrivalAirport fdo:JFK ;
+    fdo:hasDepartureAirport fdo:PWM ;
+    fdo:hasRoute fdo: .
+
+fdo:PWMLGA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LGA ;
+    fdo:hasDepartureAirport fdo:PWM ;
+    fdo:hasRoute fdo: .
+
+fdo:PWMPHL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHL ;
+    fdo:hasDepartureAirport fdo:PWM ;
+    fdo:hasRoute fdo: .
+
+fdo:RAPDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:RAP ;
+    fdo:hasRoute fdo: .
+
+fdo:RAPMSP a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MSP ;
+    fdo:hasDepartureAirport fdo:RAP ;
+    fdo:hasRoute fdo: .
+
+fdo:RDMDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:RDM ;
+    fdo:hasRoute fdo: .
+
+fdo:RDUATL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ATL ;
+    fdo:hasDepartureAirport fdo:RDU ;
+    fdo:hasRoute fdo: .
+
+fdo:RDUBNA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:BNA ;
+    fdo:hasDepartureAirport fdo:RDU ;
+    fdo:hasRoute fdo: .
+
+fdo:RDUCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:RDU ;
+    fdo:hasRoute fdo: .
+
+fdo:RDUDCA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DCA ;
+    fdo:hasDepartureAirport fdo:RDU ;
+    fdo:hasRoute fdo: .
+
+fdo:RDUDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:RDU ;
+    fdo:hasRoute fdo: .
+
+fdo:RDUEWR a fdo:Route ;
+    fdo:hasArrivalAirport fdo:EWR ;
+    fdo:hasDepartureAirport fdo:RDU ;
+    fdo:hasRoute fdo: .
+
+fdo:RDUJFK a fdo:Route ;
+    fdo:hasArrivalAirport fdo:JFK ;
+    fdo:hasDepartureAirport fdo:RDU ;
+    fdo:hasRoute fdo: .
+
+fdo:RDULAX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LAX ;
+    fdo:hasDepartureAirport fdo:RDU ;
+    fdo:hasRoute fdo: .
+
+fdo:RDULGA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LGA ;
+    fdo:hasDepartureAirport fdo:RDU ;
+    fdo:hasRoute fdo: .
+
+fdo:RDUMIA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MIA ;
+    fdo:hasDepartureAirport fdo:RDU ;
+    fdo:hasRoute fdo: .
+
+fdo:RDUORD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORD ;
+    fdo:hasDepartureAirport fdo:RDU ;
+    fdo:hasRoute fdo: .
+
+fdo:RDUPHL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHL ;
+    fdo:hasDepartureAirport fdo:RDU ;
+    fdo:hasRoute fdo: .
+
+fdo:RDUPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:RDU ;
+    fdo:hasRoute fdo: .
+
+fdo:RICCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:RIC ;
+    fdo:hasRoute fdo: .
+
+fdo:RICDTW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DTW ;
+    fdo:hasDepartureAirport fdo:RIC ;
+    fdo:hasRoute fdo: .
+
+fdo:RICJFK a fdo:Route ;
+    fdo:hasArrivalAirport fdo:JFK ;
+    fdo:hasDepartureAirport fdo:RIC ;
+    fdo:hasRoute fdo: .
+
+fdo:RICLGA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LGA ;
+    fdo:hasDepartureAirport fdo:RIC ;
+    fdo:hasRoute fdo: .
+
+fdo:RICMIA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MIA ;
+    fdo:hasDepartureAirport fdo:RIC ;
+    fdo:hasRoute fdo: .
+
+fdo:RICMSP a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MSP ;
+    fdo:hasDepartureAirport fdo:RIC ;
+    fdo:hasRoute fdo: .
+
+fdo:RNODFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:RNO ;
+    fdo:hasRoute fdo: .
+
+fdo:RNOORD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORD ;
+    fdo:hasDepartureAirport fdo:RNO ;
+    fdo:hasRoute fdo: .
+
+fdo:RNOPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:RNO ;
+    fdo:hasRoute fdo: .
+
+fdo:ROAATL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ATL ;
+    fdo:hasDepartureAirport fdo:ROA ;
+    fdo:hasRoute fdo: .
+
+fdo:ROALGA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LGA ;
+    fdo:hasDepartureAirport fdo:ROA ;
+    fdo:hasRoute fdo: .
+
+fdo:ROCCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:ROC ;
+    fdo:hasRoute fdo: .
+
+fdo:ROCDTW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DTW ;
+    fdo:hasDepartureAirport fdo:ROC ;
+    fdo:hasRoute fdo: .
+
+fdo:ROCJFK a fdo:Route ;
+    fdo:hasArrivalAirport fdo:JFK ;
+    fdo:hasDepartureAirport fdo:ROC ;
+    fdo:hasRoute fdo: .
+
+fdo:ROCLGA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LGA ;
+    fdo:hasDepartureAirport fdo:ROC ;
+    fdo:hasRoute fdo: .
+
+fdo:RSTMSP a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MSP ;
+    fdo:hasDepartureAirport fdo:RST ;
+    fdo:hasRoute fdo: .
+
+fdo:RSWCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:RSW ;
+    fdo:hasRoute fdo: .
+
+fdo:RSWDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:RSW ;
+    fdo:hasRoute fdo: .
+
+fdo:RSWPHL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHL ;
+    fdo:hasDepartureAirport fdo:RSW ;
+    fdo:hasRoute fdo: .
+
+fdo:SANCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:SAN ;
+    fdo:hasRoute fdo: .
+
+fdo:SANDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:SAN ;
+    fdo:hasRoute fdo: .
+
+fdo:SANORD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORD ;
+    fdo:hasDepartureAirport fdo:SAN ;
+    fdo:hasRoute fdo: .
+
+fdo:SANPHL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHL ;
+    fdo:hasDepartureAirport fdo:SAN ;
+    fdo:hasRoute fdo: .
+
+fdo:SANPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:SAN ;
+    fdo:hasRoute fdo: .
+
+fdo:SATCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:SAT ;
+    fdo:hasRoute fdo: .
+
+fdo:SATDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:SAT ;
+    fdo:hasRoute fdo: .
+
+fdo:SATMIA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MIA ;
+    fdo:hasDepartureAirport fdo:SAT ;
+    fdo:hasRoute fdo: .
+
+fdo:SATORD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORD ;
+    fdo:hasDepartureAirport fdo:SAT ;
+    fdo:hasRoute fdo: .
+
+fdo:SATPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:SAT ;
+    fdo:hasRoute fdo: .
+
+fdo:SAVCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:SAV ;
+    fdo:hasRoute fdo: .
+
+fdo:SAVDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:SAV ;
+    fdo:hasRoute fdo: .
+
+fdo:SAVJFK a fdo:Route ;
+    fdo:hasArrivalAirport fdo:JFK ;
+    fdo:hasDepartureAirport fdo:SAV ;
+    fdo:hasRoute fdo: .
+
+fdo:SAVLGA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LGA ;
+    fdo:hasDepartureAirport fdo:SAV ;
+    fdo:hasRoute fdo: .
+
+fdo:SAVMIA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MIA ;
+    fdo:hasDepartureAirport fdo:SAV ;
+    fdo:hasRoute fdo: .
+
+fdo:SAVORD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORD ;
+    fdo:hasDepartureAirport fdo:SAV ;
+    fdo:hasRoute fdo: .
+
+fdo:SBADFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:SBA ;
+    fdo:hasRoute fdo: .
+
+fdo:SBAPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:SBA ;
+    fdo:hasRoute fdo: .
+
+fdo:SBPPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:SBP ;
+    fdo:hasRoute fdo: .
+
+fdo:SDFCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:SDF ;
+    fdo:hasRoute fdo: .
+
+fdo:SDFDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:SDF ;
+    fdo:hasRoute fdo: .
+
+fdo:SDFDTW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DTW ;
+    fdo:hasDepartureAirport fdo:SDF ;
+    fdo:hasRoute fdo: .
+
+fdo:SDFMIA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MIA ;
+    fdo:hasDepartureAirport fdo:SDF ;
+    fdo:hasRoute fdo: .
+
+fdo:SDFMSP a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MSP ;
+    fdo:hasDepartureAirport fdo:SDF ;
+    fdo:hasRoute fdo: .
+
+fdo:SEACLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:SEA ;
+    fdo:hasRoute fdo: .
+
+fdo:SEADFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:SEA ;
+    fdo:hasRoute fdo: .
+
+fdo:SEAMIA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MIA ;
+    fdo:hasDepartureAirport fdo:SEA ;
+    fdo:hasRoute fdo: .
+
+fdo:SEAORD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORD ;
+    fdo:hasDepartureAirport fdo:SEA ;
+    fdo:hasRoute fdo: .
+
+fdo:SEAPHL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHL ;
+    fdo:hasDepartureAirport fdo:SEA ;
+    fdo:hasRoute fdo: .
+
+fdo:SFOCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:SFO ;
+    fdo:hasRoute fdo: .
+
+fdo:SFODFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:SFO ;
+    fdo:hasRoute fdo: .
+
+fdo:SFOJFK a fdo:Route ;
+    fdo:hasArrivalAirport fdo:JFK ;
+    fdo:hasDepartureAirport fdo:SFO ;
+    fdo:hasRoute fdo: .
+
+fdo:SFOMIA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MIA ;
+    fdo:hasDepartureAirport fdo:SFO ;
+    fdo:hasRoute fdo: .
+
+fdo:SFOORD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORD ;
+    fdo:hasDepartureAirport fdo:SFO ;
+    fdo:hasRoute fdo: .
+
+fdo:SFOPHL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHL ;
+    fdo:hasDepartureAirport fdo:SFO ;
+    fdo:hasRoute fdo: .
+
+fdo:SFOPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:SFO ;
+    fdo:hasRoute fdo: .
+
+fdo:SGFATL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ATL ;
+    fdo:hasDepartureAirport fdo:SGF ;
+    fdo:hasRoute fdo: .
+
+fdo:SHVATL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ATL ;
+    fdo:hasDepartureAirport fdo:SHV ;
+    fdo:hasRoute fdo: .
+
+fdo:SJCDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:SJC ;
+    fdo:hasRoute fdo: .
+
+fdo:SJCPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:SJC ;
+    fdo:hasRoute fdo: .
+
+fdo:SJUCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:SJU ;
+    fdo:hasRoute fdo: .
+
+fdo:SJUDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:SJU ;
+    fdo:hasRoute fdo: .
+
+fdo:SJUMIA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MIA ;
+    fdo:hasDepartureAirport fdo:SJU ;
+    fdo:hasRoute fdo: .
+
+fdo:SJUPHL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHL ;
+    fdo:hasDepartureAirport fdo:SJU ;
+    fdo:hasRoute fdo: .
+
+fdo:SLCCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:SLC ;
+    fdo:hasRoute fdo: .
+
+fdo:SLCDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:SLC ;
+    fdo:hasRoute fdo: .
+
+fdo:SLCPHL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHL ;
+    fdo:hasDepartureAirport fdo:SLC ;
+    fdo:hasRoute fdo: .
+
+fdo:SMFCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:SMF ;
+    fdo:hasRoute fdo: .
+
+fdo:SMFDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:SMF ;
+    fdo:hasRoute fdo: .
+
+fdo:SMFORD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORD ;
+    fdo:hasDepartureAirport fdo:SMF ;
+    fdo:hasRoute fdo: .
+
+fdo:SMFPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:SMF ;
+    fdo:hasRoute fdo: .
+
+fdo:SNAAUS a fdo:Route ;
+    fdo:hasArrivalAirport fdo:AUS ;
+    fdo:hasDepartureAirport fdo:SNA ;
+    fdo:hasRoute fdo: .
+
+fdo:SNADFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:SNA ;
+    fdo:hasRoute fdo: .
+
+fdo:SNAJFK a fdo:Route ;
+    fdo:hasArrivalAirport fdo:JFK ;
+    fdo:hasDepartureAirport fdo:SNA ;
+    fdo:hasRoute fdo: .
+
+fdo:SNAMIA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MIA ;
+    fdo:hasDepartureAirport fdo:SNA ;
+    fdo:hasRoute fdo: .
+
+fdo:SNAORD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORD ;
+    fdo:hasDepartureAirport fdo:SNA ;
+    fdo:hasRoute fdo: .
+
+fdo:SNAPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:SNA ;
+    fdo:hasRoute fdo: .
+
+fdo:SRQCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:SRQ ;
+    fdo:hasRoute fdo: .
+
+fdo:SRQDCA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DCA ;
+    fdo:hasDepartureAirport fdo:SRQ ;
+    fdo:hasRoute fdo: .
+
+fdo:SRQDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:SRQ ;
+    fdo:hasRoute fdo: .
+
+fdo:STLCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:STL ;
+    fdo:hasRoute fdo: .
+
+fdo:STLDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:STL ;
+    fdo:hasRoute fdo: .
+
+fdo:STLLAX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LAX ;
+    fdo:hasDepartureAirport fdo:STL ;
+    fdo:hasRoute fdo: .
+
+fdo:STLLGA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LGA ;
+    fdo:hasDepartureAirport fdo:STL ;
+    fdo:hasRoute fdo: .
+
+fdo:STLMSP a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MSP ;
+    fdo:hasDepartureAirport fdo:STL ;
+    fdo:hasRoute fdo: .
+
+fdo:STLORD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORD ;
+    fdo:hasDepartureAirport fdo:STL ;
+    fdo:hasRoute fdo: .
+
+fdo:STLPHL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHL ;
+    fdo:hasDepartureAirport fdo:STL ;
+    fdo:hasRoute fdo: .
+
+fdo:STLPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:STL ;
+    fdo:hasRoute fdo: .
+
+fdo:STSDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:STS ;
+    fdo:hasRoute fdo: .
+
+fdo:STTCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:STT ;
+    fdo:hasRoute fdo: .
+
+fdo:STTDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:STT ;
+    fdo:hasRoute fdo: .
+
+fdo:STTJFK a fdo:Route ;
+    fdo:hasArrivalAirport fdo:JFK ;
+    fdo:hasDepartureAirport fdo:STT ;
+    fdo:hasRoute fdo: .
+
+fdo:STTMIA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MIA ;
+    fdo:hasDepartureAirport fdo:STT ;
+    fdo:hasRoute fdo: .
+
+fdo:STTPHL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHL ;
+    fdo:hasDepartureAirport fdo:STT ;
+    fdo:hasRoute fdo: .
+
+fdo:SYRCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:SYR ;
+    fdo:hasRoute fdo: .
+
+fdo:SYRDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:SYR ;
+    fdo:hasRoute fdo: .
+
+fdo:SYRDTW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DTW ;
+    fdo:hasDepartureAirport fdo:SYR ;
+    fdo:hasRoute fdo: .
+
+fdo:SYRJFK a fdo:Route ;
+    fdo:hasArrivalAirport fdo:JFK ;
+    fdo:hasDepartureAirport fdo:SYR ;
+    fdo:hasRoute fdo: .
+
+fdo:SYRLGA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LGA ;
+    fdo:hasDepartureAirport fdo:SYR ;
+    fdo:hasRoute fdo: .
+
+fdo:SYRMSP a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MSP ;
+    fdo:hasDepartureAirport fdo:SYR ;
+    fdo:hasRoute fdo: .
+
+fdo:SYRORD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORD ;
+    fdo:hasDepartureAirport fdo:SYR ;
+    fdo:hasRoute fdo: .
+
+fdo:TLHATL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ATL ;
+    fdo:hasDepartureAirport fdo:TLH ;
+    fdo:hasRoute fdo: .
+
+fdo:TPACLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:TPA ;
+    fdo:hasRoute fdo: .
+
+fdo:TPADCA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DCA ;
+    fdo:hasDepartureAirport fdo:TPA ;
+    fdo:hasRoute fdo: .
+
+fdo:TPADFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:TPA ;
+    fdo:hasRoute fdo: .
+
+fdo:TPAMIA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MIA ;
+    fdo:hasDepartureAirport fdo:TPA ;
+    fdo:hasRoute fdo: .
+
+fdo:TPAORD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORD ;
+    fdo:hasDepartureAirport fdo:TPA ;
+    fdo:hasRoute fdo: .
+
+fdo:TPAPHL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHL ;
+    fdo:hasDepartureAirport fdo:TPA ;
+    fdo:hasRoute fdo: .
+
+fdo:TPAPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:TPA ;
+    fdo:hasRoute fdo: .
+
+fdo:TRIATL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ATL ;
+    fdo:hasDepartureAirport fdo:TRI ;
+    fdo:hasRoute fdo: .
+
+fdo:TULCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:TUL ;
+    fdo:hasRoute fdo: .
+
+fdo:TULDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:TUL ;
+    fdo:hasRoute fdo: .
+
+fdo:TUSDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:TUS ;
+    fdo:hasRoute fdo: .
+
+fdo:TUSORD a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ORD ;
+    fdo:hasDepartureAirport fdo:TUS ;
+    fdo:hasRoute fdo: .
+
+fdo:TUSPHX a fdo:Route ;
+    fdo:hasArrivalAirport fdo:PHX ;
+    fdo:hasDepartureAirport fdo:TUS ;
+    fdo:hasRoute fdo: .
+
+fdo:TVCDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:TVC ;
+    fdo:hasRoute fdo: .
+
+fdo:TVCDTW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DTW ;
+    fdo:hasDepartureAirport fdo:TVC ;
+    fdo:hasRoute fdo: .
+
+fdo:TVCLGA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LGA ;
+    fdo:hasDepartureAirport fdo:TVC ;
+    fdo:hasRoute fdo: .
+
+fdo:TYSATL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ATL ;
+    fdo:hasDepartureAirport fdo:TYS ;
+    fdo:hasRoute fdo: .
+
+fdo:TYSCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:TYS ;
+    fdo:hasRoute fdo: .
+
+fdo:TYSDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:TYS ;
+    fdo:hasRoute fdo: .
+
+fdo:TYSDTW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DTW ;
+    fdo:hasDepartureAirport fdo:TYS ;
+    fdo:hasRoute fdo: .
+
+fdo:TYSLGA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LGA ;
+    fdo:hasDepartureAirport fdo:TYS ;
+    fdo:hasRoute fdo: .
+
+fdo:TYSMSP a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MSP ;
+    fdo:hasDepartureAirport fdo:TYS ;
+    fdo:hasRoute fdo: .
+
+fdo:VLDATL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ATL ;
+    fdo:hasDepartureAirport fdo:VLD ;
+    fdo:hasRoute fdo: .
+
+fdo:VPSCLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:VPS ;
+    fdo:hasRoute fdo: .
+
+fdo:VPSDFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:VPS ;
+    fdo:hasRoute fdo: .
+
+fdo:XNAATL a fdo:Route ;
+    fdo:hasArrivalAirport fdo:ATL ;
+    fdo:hasDepartureAirport fdo:XNA ;
+    fdo:hasRoute fdo: .
+
+fdo:XNACLT a fdo:Route ;
+    fdo:hasArrivalAirport fdo:CLT ;
+    fdo:hasDepartureAirport fdo:XNA ;
+    fdo:hasRoute fdo: .
+
+fdo:XNADFW a fdo:Route ;
+    fdo:hasArrivalAirport fdo:DFW ;
+    fdo:hasDepartureAirport fdo:XNA ;
+    fdo:hasRoute fdo: .
+
+fdo:XNALGA a fdo:Route ;
+    fdo:hasArrivalAirport fdo:LGA ;
+    fdo:hasDepartureAirport fdo:XNA ;
+    fdo:hasRoute fdo: .
+
+fdo:XNAMSP a fdo:Route ;
+    fdo:hasArrivalAirport fdo:MSP ;
+    fdo:hasDepartureAirport fdo:XNA ;
+    fdo:hasRoute fdo: .
+
