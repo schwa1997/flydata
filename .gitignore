@@ -1,5 +1,5 @@
 desktop.ini
-/DataCollection/5-flight-raw.asc
-/DataCollection/7-aircrafts.txt
 DataCollection/CSVData/flights.csv
 DataCollection/OriginalData/ontime.td.202408.asc
+/DataCollection/OriginalData/aircraft.txt
+/DataCollection/OriginalData/model.txt
