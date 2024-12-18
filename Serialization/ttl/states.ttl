@@ -1,0 +1,156 @@
+@prefix fdo: <http://www.semanticweb.org/nele/ontologies/2024/10/flydata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+fdo:Alabama a fdo:State ;
+    fdo:name "Alabama"^^xsd:string .
+
+fdo:Alaska a fdo:State ;
+    fdo:name "Alaska"^^xsd:string .
+
+fdo:Arizona a fdo:State ;
+    fdo:name "Arizona"^^xsd:string .
+
+fdo:Arkansas a fdo:State ;
+    fdo:name "Arkansas"^^xsd:string .
+
+fdo:California a fdo:State ;
+    fdo:name "California"^^xsd:string .
+
+fdo:Colorado a fdo:State ;
+    fdo:name "Colorado"^^xsd:string .
+
+fdo:Connecticut a fdo:State ;
+    fdo:name "Connecticut"^^xsd:string .
+
+fdo:Delaware a fdo:State ;
+    fdo:name "Delaware"^^xsd:string .
+
+fdo:District_of_Columbia a fdo:State ;
+    fdo:name "District of Columbia"^^xsd:string .
+
+fdo:Florida a fdo:State ;
+    fdo:name "Florida"^^xsd:string .
+
+fdo:Georgia a fdo:State ;
+    fdo:name "Georgia"^^xsd:string .
+
+fdo:Hawaii a fdo:State ;
+    fdo:name "Hawaii"^^xsd:string .
+
+fdo:Idaho a fdo:State ;
+    fdo:name "Idaho"^^xsd:string .
+
+fdo:Illinois a fdo:State ;
+    fdo:name "Illinois"^^xsd:string .
+
+fdo:Indiana a fdo:State ;
+    fdo:name "Indiana"^^xsd:string .
+
+fdo:Iowa a fdo:State ;
+    fdo:name "Iowa"^^xsd:string .
+
+fdo:Kansas a fdo:State ;
+    fdo:name "Kansas"^^xsd:string .
+
+fdo:Kentucky a fdo:State ;
+    fdo:name "Kentucky"^^xsd:string .
+
+fdo:Louisiana a fdo:State ;
+    fdo:name "Louisiana"^^xsd:string .
+
+fdo:Maine a fdo:State ;
+    fdo:name "Maine"^^xsd:string .
+
+fdo:Maryland a fdo:State ;
+    fdo:name "Maryland"^^xsd:string .
+
+fdo:Massachusetts a fdo:State ;
+    fdo:name "Massachusetts"^^xsd:string .
+
+fdo:Michigan a fdo:State ;
+    fdo:name "Michigan"^^xsd:string .
+
+fdo:Minnesota a fdo:State ;
+    fdo:name "Minnesota"^^xsd:string .
+
+fdo:Mississippi a fdo:State ;
+    fdo:name "Mississippi"^^xsd:string .
+
+fdo:Missouri a fdo:State ;
+    fdo:name "Missouri"^^xsd:string .
+
+fdo:Montana a fdo:State ;
+    fdo:name "Montana"^^xsd:string .
+
+fdo:Nebraska a fdo:State ;
+    fdo:name "Nebraska"^^xsd:string .
+
+fdo:Nevada a fdo:State ;
+    fdo:name "Nevada"^^xsd:string .
+
+fdo:New_Hampshire a fdo:State ;
+    fdo:name "New Hampshire"^^xsd:string .
+
+fdo:New_Jersey a fdo:State ;
+    fdo:name "New Jersey"^^xsd:string .
+
+fdo:New_Mexico a fdo:State ;
+    fdo:name "New Mexico"^^xsd:string .
+
+fdo:New_York a fdo:State ;
+    fdo:name "New York"^^xsd:string .
+
+fdo:North_Carolina a fdo:State ;
+    fdo:name "North Carolina"^^xsd:string .
+
+fdo:North_Dakota a fdo:State ;
+    fdo:name "North Dakota"^^xsd:string .
+
+fdo:Ohio a fdo:State ;
+    fdo:name "Ohio"^^xsd:string .
+
+fdo:Oklahoma a fdo:State ;
+    fdo:name "Oklahoma"^^xsd:string .
+
+fdo:Oregon a fdo:State ;
+    fdo:name "Oregon"^^xsd:string .
+
+fdo:Pennsylvania a fdo:State ;
+    fdo:name "Pennsylvania"^^xsd:string .
+
+fdo:Rhode_Island a fdo:State ;
+    fdo:name "Rhode Island"^^xsd:string .
+
+fdo:South_Carolina a fdo:State ;
+    fdo:name "South Carolina"^^xsd:string .
+
+fdo:South_Dakota a fdo:State ;
+    fdo:name "South Dakota"^^xsd:string .
+
+fdo:Tennessee a fdo:State ;
+    fdo:name "Tennessee"^^xsd:string .
+
+fdo:Texas a fdo:State ;
+    fdo:name "Texas"^^xsd:string .
+
+fdo:Utah a fdo:State ;
+    fdo:name "Utah"^^xsd:string .
+
+fdo:Vermont a fdo:State ;
+    fdo:name "Vermont"^^xsd:string .
+
+fdo:Virginia a fdo:State ;
+    fdo:name "Virginia"^^xsd:string .
+
+fdo:Washington a fdo:State ;
+    fdo:name "Washington"^^xsd:string .
+
+fdo:West_Virginia a fdo:State ;
+    fdo:name "West Virginia"^^xsd:string .
+
+fdo:Wisconsin a fdo:State ;
+    fdo:name "Wisconsin"^^xsd:string .
+
+fdo:Wyoming a fdo:State ;
+    fdo:name "Wyoming"^^xsd:string .
+
