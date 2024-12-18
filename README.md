@@ -33,9 +33,11 @@ Our project focuses on flight-related data, including flights, airlines, routes,
 - **GraphDB Free**
   - RDF database for querying the ontology
   - Download: https://graphdb.ontotext.com/
+
 ### 📁 File Structure
 
 #### 📁 Data Selection Folder
+
 Contains documentation about our chosen datasets and domain:
 
 - 📄 domain_selection.pdf
@@ -67,29 +69,40 @@ This folder contains the files related to the task 'Ontology'.
 #### 📁 Data Collection Folder
 
 This folder contains the files related to the task 'Data Collection'.
+
 - CSVData
   - airports.csv
   - cities.csv
   - countries.csv
   - routes.csv
-  - ...  
+  - ...
 - OriginalData
   - airports.dat
   - cities.xlsx
   - countries.bat
   - routes.dat
   - ...
+
 ##### DataConversion.py
+
 This script converts the original data into CSV format.
 
 #### 📁 Serialization Folder
+
 #### - ttl folder
-- airport.ttl
-- city.ttl
-- country.ttl
-- route.ttl
+
+- weather.ttl (:hasAirport)
+- Flight.ttl (:hasAircraft, :isOperatedBy( carrier ),:hasRoute)
+- airport,ttl(:isLocatedInCity)
+- cities.ttl(:isLocatedInState)
+- Aircraft.ttl (isOwnedByCarrier,:hasModel ),
+- Carrier.ttl(:hasRoute)
+- Model.ttl
+- Route.ttl(:hasArrivalAirport, :hasDepartureAirport）
+- city.ttl (:isLocatedInState)
+- states.ttl
 - ...
 
-#### - serializeAirportCity.py
-This script serializes the airport and city data into RDF format.
+#### - script
 
+You should use Jupyter Notebook to run the script.
