@@ -1,0 +1,8 @@
+Dataset,Rows,Columns,Column Names
+States,52,2,"State, Abbreviation"
+Cities,31120,17,"city, city_ascii, state_id, state_name, county_fips, county_name, lat, lng, population, density, source, military, incorporated, timezone, ranking, zips, id"
+Airports,1512,14,"ID, Name, City, Country, IATA, ICAO, LAT, LONG, Unnamed: 8, Unnamed: 9, Unnamed: 10, Unnamed: 11, Unnamed: 12, Unnamed: 13"
+Carriers,1498,8,"AirlineID, Name, Alias, IATA, ICAO, Callsign, Country, Active"
+Aircraft,299689,4,"AircraftID, ModelCode, AircraftType, RegisterCity"
+Models,92339,2,"ModelCode, ModelName"
+Manufacturers,92339,2,"ManufactureCode, ManufacturerName"

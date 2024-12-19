@@ -1,12 +1,84 @@
-# serializeAirportCity.py
+<img src="https://www.unidformazione.com/wp-content/uploads/2018/04/unipd-universita-di-padova.png" alt="University of Padova Logo" style="float: right; width: 150px;">
 
-## Overview
+# FLYDATA - RDF Dataset Documentation
 
-This script converts airport and city data from CSV files into RDF (Resource Description Framework) format using the Turtle serialization. It creates two separate TTL files: one for airports and one for cities.
+## Table of Contents
 
-## Key Components
+1. [Group Information](#group-information)
+2. [Project Overview](#project-overview)
+3. [Dataset Information](#dataset-information)
+4. [Technical Implementation](#technical-implementation)
+5. [Data Model](#data-model)
+6. [Repository Access](#repository-access)
 
-### 1. File Paths Setup
+## Group Information
+
+- **Group Name:** FLYDATA
+- **Group Members:**
+  1. Huimin Chen - huimin.chen@studenti.unipd.it - Computer Engineering
+  2. Luca Pellegrini - luca.pellegrini.5@studenti.unipd.it - Computer Engineering
+  3. Nele Lauryssen - nele.lauryssen@studenti.unipd.it - Computer Science
+
+## Project Overview
+
+This project involves transforming flight-related data into RDF format using a systematic approach that preserves relationships while ensuring semantic clarity. The result is a rich, interconnected graph of aviation data.
+
+## Dataset Information
+
+### Dataset Statistics
+
+| Dataset       | Entities | Properties |
+| ------------- | -------- | ---------- |
+| States        | 52       | 2          |
+| Cities        | 31,120   | 17         |
+| Airports      | 1,512    | 14         |
+| Carriers      | 1,498    | 8          |
+| Aircraft      | 299,689  | 4          |
+| Models        | 92,339   | 2          |
+| Manufacturers | 92,339   | 2          |
+
+### Core RDF Classes and Relations
+
+**Primary Entities**:
+
+- Manufacturers
+- Models
+- Aircrafts
+- Carriers
+- Airports
+- Cities
+- States
+- Flights
+- Routes
+- Weather
+
+**Key Relationships**:
+
+```turtle
+airport isLocatedInCity city
+route hasDepartureAirport airport
+route hasArrivalAirport airport
+route hasCarrier carrier
+aircraft hasModel model
+city isLocatedInState state
+flight isOperatedBy carrier
+flight hasAircraft aircraft
+flight hasRoute route
+model hasManufacturer manufacturer
+weather hasAirport airport
+```
+
+## Technical Implementation
+
+### Configuration
+
+- **Ontology Namespace**: `http://www.semanticweb.org/nele/ontologies/2024/10/flydata/`
+- **Format**: Turtle (.ttl)
+- **Implementation**: Custom Python scripts for CSV-to-RDF transformation
+
+### Key Components
+
+1. **File Structure**
 
 ```python
 BASE_PATH = Path(r"C:\Users\14369\Desktop\flydata")
@@ -16,57 +88,19 @@ OUTPUT_PATH_AIRPORT = BASE_PATH / "Serialization" /"ttl"/ "airport.ttl"
 OUTPUT_PATH_CITY = BASE_PATH / "Serialization" /"ttl"/ "city.ttl"
 ```
 
-- Defines paths for input CSV files and output TTL files
+2. **Data Processing Functions**
 
-### 2. Data Reading Functions
-
-#### `read_cities()`
-
-- Reads the cities CSV file using pandas
-- Creates a dictionary with city_ascii as key
-- Stores city name and population for each city
-- Skips entries with missing city names
-- Returns a dictionary of cities
-
-#### `read_airports()`
-
-- Reads the airports CSV file using CSV reader
-- Filters for airports with IATA codes only
-- Extracts airport name, city, and IATA code
-- Returns a list of airport dictionaries
-
-### 3. Main Serialization Function (`serialize_to_ttl()`)
-
-#### Setup
-
-- Creates two RDF graphs: one for airports and one for cities
-- Defines and binds the custom namespace (FDO)
-- Establishes the `isLocatedInCity` property relationship
-
-#### City Processing
-
-- Iterates through cities dictionary
-- Creates URI for each city
-- Adds triples for:
-  - City type
-  - City name
-  - Population
-
-#### Airport Processing
-
-- Iterates through airports list
-- Creates URI using IATA code
-- Adds triples for:
-  - Airport type
-  - Airport name
-  - Relationship to city (if city exists in dataset)
-
-#### Output
-
-- Serializes both graphs to separate TTL files in Turtle format
+- `read_cities()`: Processes city data from CSV
+- `read_airports()`: Processes airport data from CSV
+- `serialize_to_ttl()`: Converts data to RDF format
 
 ## Data Model
 
 - Uses custom ontology (FDO namespace)
-- Creates relationships between airports and cities
-- Maintains separate graphs for airports and cities
+- Maintains separate graphs for different entity types
+- Creates semantic relationships between entities
+- Serializes data in Turtle format
+
+## Repository Access
+
+The complete RDF dataset is available in Turtle format at our [GitHub Repository](https://github.com/schwa1997/flydata/tree/main/Serialization/ttl)
