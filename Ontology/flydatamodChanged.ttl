@@ -30,17 +30,6 @@
 #    Object Properties
 #################################################################
 
-###  http://www.semanticweb.org/nele/ontologies/2024/10/flydata#isRegisteredInCity
-:isRegisteredInCity rdf:type owl:ObjectProperty ;
-                    rdfs:domain :Aircraft ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty :isRegisteredInCity ;
-                                  owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                  owl:onClass :City
-                                ] ;
-                    rdfs:range :City .
-
-
 ###  http://www.semanticweb.org/nele/ontologies/2024/10/flydata/hasAircraft
 :hasAircraft rdf:type owl:ObjectProperty ,
                       owl:FunctionalProperty ,
@@ -198,10 +187,15 @@
 #    Data properties
 #################################################################
 
+###  http://www.semanticweb.org/nele/ontologies/2024/10/flydata#abbreviation
+:abbreviation rdf:type owl:DatatypeProperty ;
+              rdfs:domain :State .
+
+
 ###  http://www.semanticweb.org/nele/ontologies/2024/10/flydata#aircraftType
 :aircraftType rdf:type owl:DatatypeProperty ;
               rdfs:domain :Aircraft ;
-              rdfs:range xsd:integer ;
+              rdfs:range xsd:string ;
               rdfs:comment """1 - Glider
 2 - Balloon
 3 - Blimp/Dirigible
@@ -344,6 +338,11 @@ O - Other""" .
 ###  http://www.semanticweb.org/nele/ontologies/2024/10/flydata/name
 :name rdf:type owl:DatatypeProperty ,
                owl:FunctionalProperty ;
+      rdfs:domain [ rdf:type owl:Class ;
+                    owl:unionOf ( :Airport
+                                  :Carrier
+                                )
+                  ] ;
       rdfs:range xsd:string .
 
 

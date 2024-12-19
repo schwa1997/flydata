@@ -1,6 +1,4 @@
 @prefix fdo: <http://www.semanticweb.org/nele/ontologies/2024/10/flydata/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 fdo:AAF a fdo:Airport ;
@@ -4836,8 +4834,4 @@ fdo:ZPH a fdo:Airport ;
 fdo:ZZV a fdo:Airport ;
     fdo:isLocatedInCity fdo:Zanesville ;
     fdo:name "Zanesville Municipal Airport"^^xsd:string .
-
-fdo:isLocatedInCity a rdf:Property ;
-    rdfs:domain fdo:Airport ;
-    rdfs:range fdo:City .
 
