@@ -14,6 +14,7 @@ CARRIERS_PATH = BASE_PATH / "DataCollection" / "CSVData" / "carriers.csv"
 #ROUTES_PATH = BASE_PATH / "DataCollection" / "CSVData" / "routes.csv"
 AIRCRAFT_PATH = BASE_PATH / "DataCollection" / "CSVData" / "aircrafts.csv"
 MODEL_PATH = BASE_PATH / "DataCollection" / "CSVData" / "model.csv"
+MANUFACTURER_PATH = BASE_PATH / "DataCollection" / "CSVData" / "manufacturer.csv"
 # Output paths
 OUTPUT_PATH_AIRPORT = BASE_PATH / "Serialization" /"ttl"/ "airports.ttl"
 OUTPUT_PATH_CARRIER = BASE_PATH / "Serialization" / "ttl" / "carriers.ttl"
@@ -21,6 +22,7 @@ OUTPUT_PATH_STATE = BASE_PATH / "Serialization" /"ttl"/ "states.ttl"
 OUTPUT_PATH_CITY = BASE_PATH / "Serialization" /"ttl"/ "cities.ttl"
 OUTPUT_PATH_AIRCRAFT = BASE_PATH / "Serialization" /"ttl"/ "aircrafts.ttl"
 OUTPUT_PATH_MODEL = BASE_PATH / "Serialization" /"ttl"/ "model.ttl"
+OUTPUT_PATH_MANUFACTURER = BASE_PATH / "Serialization" /"ttl"/ "manufacturer.ttl"
 
 def read_cities():
     try:
@@ -77,6 +79,21 @@ def read_routes():
         raise
     return routes
 '''
+
+def read_manufacturer():
+    manufacturer = []
+    try:
+        with open(MANUFACTURER_PATH, 'r', encoding='utf-8') as file:
+            reader = csv.DictReader(file)
+            for row in reader:
+                manufacturer.append({
+                    'manufacture_code': row['ManufactureCode'].strip(),
+                    'manufacturer_name': row['ManufacturerName'].strip()
+                })
+    except Exception as e:
+        print(f"Error reading manufacturer file: {str(e)}")
+        raise
+    return manufacturer
 def read_carriers():
     carriers = []
     try:
@@ -146,12 +163,13 @@ def serialize_to_ttl():
     g_carrier = Graph()
     g_aircraft = Graph()
     g_model = Graph()
+    g_manufacturer = Graph()
     
     # Define namespaces
     FDO = Namespace("http://www.semanticweb.org/nele/ontologies/2024/10/flydata/")
     
     # Bind namespaces for all graphs
-    for g in [g_state, g_city, g_airport, g_carrier, g_aircraft, g_model]:
+    for g in [g_state, g_city, g_airport, g_carrier, g_aircraft, g_model, g_manufacturer]:
         g.bind("fdo", FDO)
         g.bind("xsd", XSD)
     
@@ -165,6 +183,7 @@ def serialize_to_ttl():
     g_city.add((FDO.isLocatedInState, RDF.type, RDF.Property))
     g_city.add((FDO.isLocatedInState, RDFS.domain, FDO.City))
     g_city.add((FDO.isLocatedInState, RDFS.range, FDO.State))
+
     
     
     states = read_states()
@@ -175,6 +194,7 @@ def serialize_to_ttl():
     airports = read_airports()
     aircrafts = read_aircrafts()
     model = read_model()
+    manufacturer = read_manufacturer()
     # Create a mapping of state abbreviations to URIs
     state_uri_mapping = {
         state['abbreviation']: URIRef(str(FDO) + quote(state['name'].replace(" ", "_"))) 
@@ -286,14 +306,24 @@ def serialize_to_ttl():
         g_model.add((model_uri, RDF.type, FDO.Model))
         g_model.add((model_uri, FDO.name, Literal(model_data['model_name'], datatype=XSD.string)))
         g_model.add((model_uri, FDO.modelCode, Literal(model_data['model_code'], datatype=XSD.string)))
-    
+        g_model.add((model_uri, FDO.hasManufacturer, manufacturer_uri))
+
+        
+    g_model.add((FDO.hasManufacturer, RDF.type, RDF.Property))
+    g_model.add((FDO.hasManufacturer, RDFS.domain, FDO.Model))
+    g_model.add((FDO.hasManufacturer, RDFS.range, FDO.Manufacturer))
    
-    # Serializell graphs
+    for manufacturer in manufacturer:
+        manufacturer_uri = FDO[manufacturer['manufacture_code']]
+        g_manufacturer.add((manufacturer_uri, RDF.type, FDO.Manufacturer))
+        g_manufacturer.add((manufacturer_uri, FDO.name, Literal(manufacturer['manufacturerName'], datatype=XSD.string)))
+        
     g_state.serialize(destination=str(OUTPUT_PATH_STATE), format='turtle')
     g_city.serialize(destination=str(OUTPUT_PATH_CITY), format='turtle')
     g_airport.serialize(destination=str(OUTPUT_PATH_AIRPORT), format='turtle')
     g_carrier.serialize(destination=str(OUTPUT_PATH_CARRIER), format='turtle')
     g_aircraft.serialize(destination=str(OUTPUT_PATH_AIRCRAFT), format='turtle')
     g_model.serialize(destination=str(OUTPUT_PATH_MODEL), format='turtle')
+    g_manufacturer.serialize(destination=str(OUTPUT_PATH_MANUFACTURER), format='turtle')
 if __name__ == "__main__":
     serialize_to_ttl()
