@@ -11,7 +11,7 @@ STATE_PATH = BASE_PATH / "DataCollection" / "CSVData" / "states.csv"
 CITIES_PATH = BASE_PATH / "DataCollection" / "CSVData" / "cities.csv"
 AIRPORTS_PATH = BASE_PATH / "DataCollection" / "CSVData" / "airports.csv"
 CARRIERS_PATH = BASE_PATH / "DataCollection" / "CSVData" / "carriers.csv"
-ROUTES_PATH = BASE_PATH / "DataCollection" / "CSVData" / "routes.csv"
+#ROUTES_PATH = BASE_PATH / "DataCollection" / "CSVData" / "routes.csv"
 AIRCRAFT_PATH = BASE_PATH / "DataCollection" / "CSVData" / "aircrafts.csv"
 MODEL_PATH = BASE_PATH / "DataCollection" / "CSVData" / "model.csv"
 # Output paths
@@ -59,6 +59,8 @@ def read_states():
         print(f"Error reading states file: {str(e)}")
         raise
     return states
+# not needed because we are popularing routes from flights
+'''
 def read_routes():
     routes = []
     try:
@@ -74,7 +76,7 @@ def read_routes():
         print(f"Error reading routes file: {str(e)}")
         raise
     return routes
-
+'''
 def read_carriers():
     carriers = []
     try:
@@ -168,7 +170,8 @@ def serialize_to_ttl():
     states = read_states()
     cities = read_cities()
     carriers = read_carriers()
-    routes = read_routes()
+    # not needed because we are popularing routes from flights
+    #routes = read_routes()
     airports = read_airports()
     aircrafts = read_aircrafts()
     model = read_model()
@@ -244,13 +247,16 @@ def serialize_to_ttl():
     for carrier in carriers:
         carrier_uri = FDO[carrier['iata']]
         g_carrier.add((carrier_uri, RDF.type, FDO.Carrier))
-        g_carrier.add((carrier_uri, RDFS.label, Literal(carrier['name'])))
-        g_carrier.add((carrier_uri, FDO.callSign, Literal(carrier['callsign'])))
+        g_carrier.add((carrier_uri, RDFS.label, Literal(carrier['name'], datatype=XSD.string)))
+        g_carrier.add((carrier_uri, FDO.callSign, Literal(carrier['callsign'], datatype=XSD.string)))
         # Add routes for this carrier
+        # not needed because we are popularing routes from flights
+        '''
         for route in routes:
             if route['airline'] == carrier['iata']:
                 route_uri = FDO[f"{route['source_airport']}{route['destination_airport']}"]
                 g_carrier.add((carrier_uri, FDO.hasRoute, route_uri))
+        '''
 
     # Define hasModel property
     g_aircraft.add((FDO.hasModel, RDF.type, RDF.Property))
