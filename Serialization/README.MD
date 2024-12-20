@@ -49,7 +49,7 @@ Our primary objective is to transform diverse aviation-related CSV datasets into
 | Models        | 92,339   | 2          |
 | Manufacturers | 92,339   | 2          |
 | Weather       | 647.458  | 3          |
-| Flights       | 1,512    | 23         |
+| Flights       | 552,218  | 23         |
 | Routes        | 67,663   | 4          |
 
 ## RDF Model
@@ -154,30 +154,45 @@ OUTPUT_PATH_CITY = OUTPUT_PATH / "city.ttl"
 
 ### Entity Statistics
 
-| Dataset           | Entities | Property Count | Property Names |
-| ----------------- | -------- | -------------- | ----- |
-| States.ttl        | 52       | 2              | abbreviation, name|
-| Cities.ttl        | 31,120   | 4              | name, population, isLocatedInState|
-| Airports.ttl      | 1,512    | 2              | name, isLocatedInCity|
-| Carriers.ttl      | 1,498    | 2              | name, callSign   |
+| Dataset           | Entities | Property Count | Property Names   |
+| ----------------- | -------- | -------------- | ----------------------------------------- |
+| States.ttl        | 52       | 2              | abbreviation, name |
+| Cities.ttl        | 31,120   | 4              | name, population, isLocatedInState |
+| Airports.ttl      | 1,512    | 2              | name, isLocatedInCity |
+| Carriers.ttl      | 1,498    | 2              | name, callSign|
 | Aircraft.ttl      | 299,689  | 2              | aircraftType, hasModel  |
-| Models.ttl        | 92,339   | 2              | name, hasManufacturer  |
-| Manufacturers.ttl | 92,339   | 2              | name |
-| Weather.ttl       | 647,458  | 3              | hasAirport, weatherDate, weatherType |
-| Flights.ttl       | 1,572,598| 23             | hasAircraft, hasRoute, isOperatedBy, ActualArrivalDelayTime, ActualDepartureDelayTime, ActualElapsedTimeDifference, ActualGate-to-gateTime, ActualGateArrivalTime, ActualGateDepartureTime, ActualWheels-offTime, ActualWheels-onTime, LateE, LateF, LateG, LateH, LateI, ScheduledArrivalTimePerCRS, ScheduledArrivalTimePerOAG, ScheduledDepartureCRSTime, ScheduledDepartureOAGTime, ScheduledElapsedTimePerCRS, flightDate|
-| Routes.ttl        | 67,663   | 4              | hasDepartureAirport, hasArrivalAirport, hasCarrier|
+| Models.ttl        | 92,339   | 2              | name, hasManufacturer |
+| Manufacturers.ttl | 92,339   | 2              | name|
+| Weather.ttl       | 647,458  | 3              | hasAirport, weatherDate, weatherType|
+| Flights.ttl       | 552,218  | 23             | hasAircraft, hasRoute, isOperatedBy, ActualArrivalDelayTime, ActualDepartureDelayTime, ActualElapsedTimeDifference, ActualGate-to-gateTime, ActualGateArrivalTime, ActualGateDepartureTime, ActualWheels-offTime, ActualWheels-onTime, LateE, LateF, LateG, LateH, LateI, ScheduledArrivalTimePerCRS, ScheduledArrivalTimePerOAG, ScheduledDepartureCRSTime, ScheduledDepartureOAGTime, ScheduledElapsedTimePerCRS, flightDate |
+| Routes.ttl        | 67,663   | 4              | hasDepartureAirport, hasArrivalAirport, hasCarrier |
 
-## statistics of the RDF file
+### statistics of the RDF file
 
-| Dataset           | Entities  |
-| ----------------- | --------- |
-| States.ttl        | 52        |
-| Cities.ttl        | 31,120    |
-| Airports.ttl      | 1,512     |
-| Carriers.ttl      | 1,498     |
-| Aircraft.ttl      | 299,689   |
-| Models.ttl        | 92,339    |
-| Manufacturers.ttl | 92,339    |
-| Flights.ttl       | 1,572,598 |
-| Routes.ttl        | 67,663    |
-| Weather.ttl       | 647.458   |
+| TTL               | Entities |
+| ----------------- | -------- |
+| States.ttl        | 52       |
+| Cities.ttl        | 31,120   |
+| Airports.ttl      | 1,512    |
+| Carriers.ttl      | 1,498    |
+| Aircraft.ttl      | 299,689  |
+| Models.ttl        | 92,339   |
+| Manufacturers.ttl | 92,339   |
+| Flights.ttl       | 552,218  |
+| Routes.ttl        | 67,663   |
+| Weather.ttl       | 647.458  |
+
+### RDF Import Statistics in GraphDB
+
+| Dataset           | Import Time | Statement Count |
+| ----------------- | ----------- | --------------- |
+| Weather.ttl       | 29s         | 2,589,832       |
+| States.ttl        | <1s         | 156             |
+| Routes.ttl        | <1s         | 27,986          |
+| Models.ttl        | 6s          | 369,356         |
+| Manufacturers.ttl | 2s          | 134,606         |
+| Cities.ttl        | 2s          | 186,720         |
+| Carriers.ttl      | <1s         | 4,017           |
+| Airports.ttl      | <1s         | 6,085           |
+| Aircraft.ttl      | 10s         | 899,067         |
+| Flights.ttl       | >10s        | 14,789,917      |
