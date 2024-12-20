@@ -200,7 +200,6 @@ OUTPUT_PATH_CITY = OUTPUT_PATH / "city.ttl"
        g_aircraft.serialize(destination=str(OUTPUT_AIRCRAFT_PATH), format='turtle')
    ```
 
-```
 
 ## RDF Statistics
 
@@ -255,4 +254,4 @@ OUTPUT_PATH_CITY = OUTPUT_PATH / "city.ttl"
 | Airports.ttl      | <1s         | 6,085           |
 | Aircraft.ttl      | 10s         | 899,067         |
 | Flights.ttl       | >2m         | 14,789,917      |
-```
+
