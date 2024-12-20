@@ -216,15 +216,15 @@ OUTPUT_PATH_CITY = OUTPUT_PATH / "city.ttl"
 | Dataset           | Entities | Property Count | Property Names   |
 | ----------------- | -------- | -------------- | ----------------------------------------- |
 | States.ttl        | 52       | 2              | abbreviation, name |
-| Cities.ttl        | 31,120   | 4              | name, population, isLocatedInState |
-| Airports.ttl      | 1,512    | 2              | name, isLocatedInCity |
+| Cities.ttl        | 31,120   | 5              | name, population, isLocatedInState, lat, lng |
+| Airports.ttl      | 1,512    | 4              | name, isLocatedInCity, lat, lng |
 | Carriers.ttl      | 1,498    | 2              | name, callSign|
 | Aircraft.ttl      | 299,689  | 2              | aircraftType, hasModel  |
 | Models.ttl        | 92,339   | 2              | name, hasManufacturer |
-| Manufacturers.ttl | 92,339   | 2              | name|
+| Manufacturers.ttl | 92,339   | 1              | name|
 | Weather.ttl       | 647,458  | 3              | hasAirport, weatherDate, weatherType|
 | Flights.ttl       | 552,218  | 23             | hasAircraft, hasRoute, isOperatedBy, ActualArrivalDelayTime, ActualDepartureDelayTime, ActualElapsedTimeDifference, ActualGate-to-gateTime, ActualGateArrivalTime, ActualGateDepartureTime, ActualWheels-offTime, ActualWheels-onTime, LateE, LateF, LateG, LateH, LateI, ScheduledArrivalTimePerCRS, ScheduledArrivalTimePerOAG, ScheduledDepartureCRSTime, ScheduledDepartureOAGTime, ScheduledElapsedTimePerCRS, flightDate |
-| Routes.ttl        | 67,663   | 4              | hasDepartureAirport, hasArrivalAirport, hasCarrier |
+| Routes.ttl        | 67,663   | 3              | hasDepartureAirport, hasArrivalAirport, hasCarrier |
 
 ### statistics of the RDF file
 
@@ -254,5 +254,5 @@ OUTPUT_PATH_CITY = OUTPUT_PATH / "city.ttl"
 | Carriers.ttl      | <1s         | 4,017           |
 | Airports.ttl      | <1s         | 6,085           |
 | Aircraft.ttl      | 10s         | 899,067         |
-| Flights.ttl       | >10s        | 14,789,917      |
+| Flights.ttl       | >2m         | 14,789,917      |
 ```
