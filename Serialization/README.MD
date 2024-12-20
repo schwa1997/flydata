@@ -39,18 +39,17 @@ Our primary objective is to transform diverse aviation-related CSV datasets into
 
 ### Dataset Statistics
 
-| Dataset       | Entities | Properties |
-| ------------- | -------- | ---------- |
-| States        | 52       | 2          |
-| Cities        | 31,120   | 17         |
-| Airports      | 1,512    | 14         |
-| Carriers      | 1,498    | 8          |
-| Aircraft      | 299,689  | 4          |
-| Models        | 92,339   | 2          |
-| Manufacturers | 92,339   | 2          |
-| Weather       | 647.458  | 3          |
-| Flights       | 552,218  | 23         |
-| Routes        | 67,663   | 4          |
+| Dataset       | Entities | Properties | Column Names |
+| ------------- | -------- | ---------- | ------------ |
+| States.csv        | 52       | 2          | State, Abbreviation |
+| Cities.csv        | 31,120   | 17         | city, city_ascii, state_id, state_name, county_fips, county_name, lat, lng, population, density, source, military, incorporated, timezone, ranking, zips, id |
+| Airports.csv       | 1,512    | 14         | ID, Name, City, Country, IATA, ICAO, LAT, LONG, Unnamed: 8, Unnamed: 9, Unnamed: 10, Unnamed: 11, Unnamed: 12, Unnamed: 13 |
+| Carriers.csv      | 1,498    | 8          | AirlineID, Name, Alias, IATA, ICAO, Callsign, Country, Active |
+| Aircraft.csv      | 299,689  | 4          | AircraftID, ModelCode, AircraftType, RegisterCity |
+| Models.csv        | 92,339   | 2          | ModelCode, ModelName |
+| Manufacturers.csv | 92,339   | 2          | ManufactureCode, ManufacturerName |
+| Routes.csv        | 67,663   | 9          | Airline, Airline ID, Source airport, Source airport ID, Destination airport, Destination airport ID, Codeshare, stops, Equipment |
+| Flights.csv       | 552,218  | 23         |  |
 
 ## RDF Model
 

@@ -2,7 +2,7 @@ from pathlib import Path
 import pandas as pd
 from tabulate import tabulate
 
-BASE_PATH = Path(r"C:\Users\14369\Desktop\flydata")
+BASE_PATH = Path(r"C:\Users\huimin.chen\projects\chm-graphdb\flydata")
 STATE_PATH = BASE_PATH / "DataCollection" / "CSVData" / "states.csv"
 CITIES_PATH = BASE_PATH / "DataCollection" / "CSVData" / "cities.csv"
 AIRPORTS_PATH = BASE_PATH / "DataCollection" / "CSVData" / "airports.csv"
@@ -10,7 +10,9 @@ CARRIERS_PATH = BASE_PATH / "DataCollection" / "CSVData" / "carriers.csv"
 AIRCRAFT_PATH = BASE_PATH / "DataCollection" / "CSVData" / "aircrafts.csv"
 MODEL_PATH = BASE_PATH / "DataCollection" / "CSVData" / "model.csv"
 MANUFACTURER_PATH = BASE_PATH / "DataCollection" / "CSVData" / "manufacturer.csv"
-
+ROUTES_PATH = BASE_PATH / "DataCollection" / "CSVData" / "routes.csv"
+# FLIGHT_PATH = BASE_PATH / "DataCollection" / "CSVData" / "flights.csv"
+OUTPUT_PATH = BASE_PATH / "DataCollection" / "CSVData" / "data_statistics.csv"
 
 def get_file_statistics():
     stats = []
@@ -21,7 +23,8 @@ def get_file_statistics():
         "Carriers": CARRIERS_PATH,
         "Aircraft": AIRCRAFT_PATH,
         "Models": MODEL_PATH,
-        "Manufacturers": MANUFACTURER_PATH
+        "Manufacturers": MANUFACTURER_PATH,
+        "Routes": ROUTES_PATH
     }
     
     print("\nChecking data files...")
@@ -51,6 +54,10 @@ def get_file_statistics():
         print("No data files found to process!")
         return
         
+    # Convert stats to DataFrame and save to CSV
+    stats_df = pd.DataFrame(stats, columns=["Dataset", "Rows", "Columns", "Column Names"])
+    stats_df.to_csv(OUTPUT_PATH, index=False)
+    
     # Display the table
     print("\nDetailed Dataset Statistics:")
     print(tabulate(stats, headers=["Dataset", "Rows", "Columns", "Column Names"], tablefmt="grid"))
