@@ -133,43 +133,71 @@ OUTPUT_PATH_CITY = OUTPUT_PATH / "city.ttl"
 
    ```python
    def read_data(file_path: Path) -> pd.DataFrame:
-       """Reads and validates source CSV data"""
-       #read the aircrafts
-         aircrafts = []
-         try:
-            with open(AIRCRAFT_PATH, 'r', encoding='utf-8') as file:
+       """Reads and validates source CSV data from aircraft files
+       
+       Args:
+           file_path (Path): Path to the CSV file containing aircraft data
+           
+       Returns:
+           List[dict]: List of dictionaries containing aircraft data
+           
+       Raises:
+           Exception: If there's an error reading the file
+       """
+       # Initialize empty list for aircraft data
+       aircrafts = []
+       try:
+           with open(AIRCRAFT_PATH, 'r', encoding='utf-8') as file:
                reader = csv.DictReader(file)
                for row in reader:
-                     aircrafts.append({
-                        'n_number': row['AircraftID'],
-                        'model_code': row['ModelCode'].strip(),
-                        'aircraft_type': row['AircraftType'].strip(),
-                        'register_city': row['RegisterCity'].strip()
-                     })
-         except Exception as e:
-            print(f"Error reading aircrafts file: {str(e)}")
-            raise
+                   # Clean and store each aircraft record
+                   aircrafts.append({
+                       'n_number': row['AircraftID'],
+                       'model_code': row['ModelCode'].strip(),
+                       'aircraft_type': row['AircraftType'].strip(),
+                       'register_city': row['RegisterCity'].strip()
+                   })
+       except Exception as e:
+           print(f"Error reading aircrafts file: {str(e)}")
+           raise
 
    def serialize_to_ttl(graph: RDFGraph, output_path: Path):
-       """Exports RDF graph to Turtle format"""
-       #serialization of the aircrafts and match with models to build the hasModel relationship
-      index = 0
-      for aircraft in aircrafts:
-            encoded_n_number = quote(aircraft['n_number'].strip())
-            aircraft_uri = FDO[encoded_n_number]
-            g_aircraft.add((aircraft_uri, RDF.type, FDO.Aircraft))
-            g_aircraft.add((aircraft_uri, FDO.aircraftType, Literal(aircraft['aircraft_type'], datatype=XSD.string)))
+       """Exports RDF graph to Turtle format and creates relationships
+       
+       Args:
+           graph (RDFGraph): The RDF graph to serialize
+           output_path (Path): Path where the TTL file will be saved
+           
+       Note:
+           - Creates Aircraft nodes with their properties
+           - Establishes hasModel relationships between Aircraft and Model nodes
+           - Uses URL encoding for aircraft numbers to ensure valid URIs
+       """
+       # Process each aircraft and create RDF triples
+       index = 0
+       for aircraft in aircrafts:
+           # URL encode the aircraft number for valid URI
+           encoded_n_number = quote(aircraft['n_number'].strip())
+           aircraft_uri = FDO[encoded_n_number]
+           
+           # Add aircraft type information
+           g_aircraft.add((aircraft_uri, RDF.type, FDO.Aircraft))
+           g_aircraft.add((aircraft_uri, FDO.aircraftType, 
+                          Literal(aircraft['aircraft_type'], datatype=XSD.string)))
 
-            for model in models:
+           # Link aircraft to its model if found
+           for model in models:
                if aircraft['model_code'] == model['model_code']:
-                     model_code = aircraft['model_code']
-                     model_uri = FDO[model_code]
-                     g_aircraft.add((aircraft_uri, FDO.hasModel, model_uri))
-            print(f"{int(index/len(aircrafts)*100)} % complete \r", end="")
-            index+=1
+                   model_code = aircraft['model_code']
+                   model_uri = FDO[model_code]
+                   g_aircraft.add((aircraft_uri, FDO.hasModel, model_uri))
+           
+           # Show progress
+           print(f"{int(index/len(aircrafts)*100)} % complete \r", end="")
+           index += 1
 
-         print(f"serialization \r")
-         g_aircraft.serialize(destination=str(OUTPUT_AIRCRAFT_PATH), format='turtle')
+       print(f"serialization \r")
+       g_aircraft.serialize(destination=str(OUTPUT_AIRCRAFT_PATH), format='turtle')
    ```
 
 ```
