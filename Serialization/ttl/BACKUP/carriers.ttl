@@ -1,0 +1,5108 @@
+@prefix fdo: <http://www.semanticweb.org/nele/ontologies/2024/10/flydata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+fdo:0A a fdo:Carrier ;
+    fdo:callSign "GINTA"^^xsd:string ;
+    fdo:name "Amber Air"^^xsd:string .
+
+fdo:0B a fdo:Carrier ;
+    fdo:callSign "BLUE TRANSPORT"^^xsd:string ;
+    fdo:name "Blue Air"^^xsd:string .
+
+fdo:0D a fdo:Carrier ;
+    fdo:callSign "DARWIN"^^xsd:string ;
+    fdo:name "Darwin Airline"^^xsd:string .
+
+fdo:0E a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Dummy"^^xsd:string .
+
+fdo:0G a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Global Airlines"^^xsd:string .
+
+fdo:0J a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "JETCLUB"^^xsd:string ;
+    fdo:name "Jetclub"^^xsd:string .
+
+fdo:0M a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "All America MX"^^xsd:string .
+
+fdo:0P a fdo:Carrier ;
+    fdo:callSign "BOPY"^^xsd:string ;
+    fdo:name "All America BOPY"^^xsd:string .
+
+fdo:0X a fdo:Carrier ;
+    fdo:callSign "Copex"^^xsd:string ;
+    fdo:name "Copenhagen Express"^^xsd:string .
+
+fdo:0Y a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "All America CO"^^xsd:string .
+
+fdo:1A a fdo:Carrier ;
+    fdo:callSign "AMADEUS"^^xsd:string ;
+    fdo:name "Amadeus Global Travel Distribution"^^xsd:string .
+
+fdo:1B a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Abacus International"^^xsd:string .
+
+fdo:1C a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Electronic Data Systems"^^xsd:string,
+        "OneChina"^^xsd:string .
+
+fdo:1D a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Radixx Solutions International"^^xsd:string .
+
+fdo:1E a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "TransRussiaAirlines"^^xsd:string,
+        "Travelsky Technology"^^xsd:string .
+
+fdo:1F a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "CB Airways UK ( Interliging Flights )"^^xsd:string,
+        "INFINI Travel Information"^^xsd:string .
+
+fdo:1G a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Galileo International"^^xsd:string .
+
+fdo:1H a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "Hellenic"^^xsd:string ;
+    fdo:name "Hellenic Airways"^^xsd:string,
+        "Siren-Travel"^^xsd:string .
+
+fdo:1I a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "CIVIL AIR AMBULANCE"^^xsd:string,
+        "EXECJET"^^xsd:string,
+        "NAVIGATOR"^^xsd:string,
+        "PHAZER"^^xsd:string ;
+    fdo:name "Deutsche Rettungsflugwacht"^^xsd:string,
+        "NetJets"^^xsd:string,
+        "Novair"^^xsd:string,
+        "Pegasus Hava Tasimaciligi"^^xsd:string,
+        "Sierra Nevada Airlines"^^xsd:string,
+        "Sky Trek International Airlines"^^xsd:string .
+
+fdo:1K a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "BudgetAir"^^xsd:string,
+        "Southern Cross Distribution"^^xsd:string,
+        "Sutra"^^xsd:string .
+
+fdo:1L a fdo:Carrier ;
+    fdo:callSign "OPEN SKIES"^^xsd:string ;
+    fdo:name "Open Skies Consultative Commission"^^xsd:string .
+
+fdo:1M a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "JSC Transport Automated Information Systems"^^xsd:string .
+
+fdo:1N a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Navitaire"^^xsd:string .
+
+fdo:1P a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Worldspan"^^xsd:string .
+
+fdo:1Q a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Sirena"^^xsd:string .
+
+fdo:1R a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "All America CL"^^xsd:string,
+        "Hainan Phoenix Information Systems"^^xsd:string .
+
+fdo:1S a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Sabre"^^xsd:string .
+
+fdo:1T a fdo:Carrier ;
+    fdo:callSign "NEXTIME"^^xsd:string ;
+    fdo:name "1Time Airline"^^xsd:string .
+
+fdo:1U a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "ITA Software"^^xsd:string,
+        "Polyot Sirena"^^xsd:string .
+
+fdo:1X a fdo:Carrier ;
+    fdo:callSign "Abby Air"^^xsd:string ;
+    fdo:name "Island Express Air"^^xsd:string .
+
+fdo:1Y a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "All America BR"^^xsd:string .
+
+fdo:1Z a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Sabre Pacific"^^xsd:string .
+
+fdo:2A a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Deutsche Bahn"^^xsd:string .
+
+fdo:2B a fdo:Carrier ;
+    fdo:callSign "AEROCONDOR"^^xsd:string ;
+    fdo:name "Aerocondor"^^xsd:string .
+
+fdo:2C a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "SNCF"^^xsd:string .
+
+fdo:2D a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "AVIP"^^xsd:string ;
+    fdo:name "Aero VIP"^^xsd:string,
+        "Aero VIP (2D)"^^xsd:string,
+        "Alaniya Airlines"^^xsd:string .
+
+fdo:2F a fdo:Carrier ;
+    fdo:callSign "FRONTIER-AIR"^^xsd:string ;
+    fdo:name "Frontier Flying Service"^^xsd:string .
+
+fdo:2G a fdo:Carrier ;
+    fdo:callSign "MARINER"^^xsd:string,
+        "WHITE PELICAN"^^xsd:string ;
+    fdo:name "Cargoitalia"^^xsd:string,
+        "San Juan Airlines"^^xsd:string .
+
+fdo:2H a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Thalys"^^xsd:string .
+
+fdo:2I a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Star Peru (2I)"^^xsd:string .
+
+fdo:2J a fdo:Carrier ;
+    fdo:callSign "BURKINA"^^xsd:string ;
+    fdo:name "Air Burkina"^^xsd:string .
+
+fdo:2K a fdo:Carrier ;
+    fdo:callSign "AEROGAL"^^xsd:string ;
+    fdo:name "Aerolineas Galapagos (Aerogal)"^^xsd:string .
+
+fdo:2L a fdo:Carrier ;
+    fdo:callSign "HELVETIC"^^xsd:string ;
+    fdo:name "Helvetic Airways"^^xsd:string .
+
+fdo:2M a fdo:Carrier ;
+    fdo:callSign "MOLDAVIAN"^^xsd:string ;
+    fdo:name "Moldavian Airlines"^^xsd:string .
+
+fdo:2N a fdo:Carrier ;
+    fdo:callSign "NEXTJET"^^xsd:string ;
+    fdo:name "NextJet"^^xsd:string .
+
+fdo:2O a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Air Salone"^^xsd:string .
+
+fdo:2P a fdo:Carrier ;
+    fdo:callSign "ORIENT PACIFIC"^^xsd:string ;
+    fdo:name "Air Philippines"^^xsd:string .
+
+fdo:2Q a fdo:Carrier ;
+    fdo:callSign "NIGHT CARGO"^^xsd:string ;
+    fdo:name "Air Cargo Carriers"^^xsd:string .
+
+fdo:2R a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "All America AR"^^xsd:string,
+        "VIA Rail Canada"^^xsd:string .
+
+fdo:2S a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "SANDY ISLE"^^xsd:string ;
+    fdo:name "Air Carnival"^^xsd:string,
+        "Island Express"^^xsd:string,
+        "Star Equatorial Airlines"^^xsd:string .
+
+fdo:2T a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Haiti Ambassador Airlines"^^xsd:string .
+
+fdo:2U a fdo:Carrier ;
+    fdo:callSign "FUTURE EXPRESS"^^xsd:string ;
+    fdo:name "Air Guinee Express"^^xsd:string .
+
+fdo:2W a fdo:Carrier ;
+    fdo:callSign "WELCOMEAIR"^^xsd:string ;
+    fdo:name "Welcome Air"^^xsd:string .
+
+fdo:2X a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Regionalia Uruguay"^^xsd:string .
+
+fdo:2Y a fdo:Carrier ;
+    fdo:callSign "AIR ANDAMAN"^^xsd:string ;
+    fdo:name "Air Andaman (2Y)"^^xsd:string .
+
+fdo:2Z a fdo:Carrier ;
+    fdo:callSign "CHANGAN"^^xsd:string ;
+    fdo:name "Changan Airlines"^^xsd:string .
+
+fdo:3B a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "JobAir"^^xsd:string .
+
+fdo:3C a fdo:Carrier ;
+    fdo:callSign "CORP-X"^^xsd:string ;
+    fdo:name "RegionsAir"^^xsd:string .
+
+fdo:3D a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Palair Macedonia"^^xsd:string,
+        "Palair Macedonia (3D)"^^xsd:string .
+
+fdo:3E a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Air Choice One"^^xsd:string .
+
+fdo:3F a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Fly Colombia ( Interliging Flights )"^^xsd:string .
+
+fdo:3G a fdo:Carrier ;
+    fdo:callSign "ATLANT-SOYUZ"^^xsd:string ;
+    fdo:name "Atlant-Soyuz Airlines"^^xsd:string .
+
+fdo:3I a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Air Comet Chile"^^xsd:string .
+
+fdo:3J a fdo:Carrier ;
+    fdo:callSign "ZIPPER"^^xsd:string ;
+    fdo:name "Zip"^^xsd:string .
+
+fdo:3K a fdo:Carrier ;
+    fdo:callSign "JETSTAR ASIA"^^xsd:string ;
+    fdo:name "Jetstar Asia Airways"^^xsd:string .
+
+fdo:3L a fdo:Carrier ;
+    fdo:callSign "INTERSKY"^^xsd:string ;
+    fdo:name "Intersky"^^xsd:string .
+
+fdo:3M a fdo:Carrier ;
+    fdo:callSign "Silver Wings"^^xsd:string ;
+    fdo:name "Silver Airways (3M)"^^xsd:string .
+
+fdo:3N a fdo:Carrier ;
+    fdo:callSign "URGA"^^xsd:string ;
+    fdo:name "Air Urga"^^xsd:string .
+
+fdo:3O a fdo:Carrier ;
+    fdo:callSign "Air Arabia"^^xsd:string ;
+    fdo:name "Air Arabia Maroc"^^xsd:string .
+
+fdo:3P a fdo:Carrier ;
+    fdo:callSign "TIARA"^^xsd:string ;
+    fdo:name "Tiara Air"^^xsd:string .
+
+fdo:3Q a fdo:Carrier ;
+    fdo:callSign "YUNNAN"^^xsd:string ;
+    fdo:name "Yunnan Airlines"^^xsd:string .
+
+fdo:3R a fdo:Carrier ;
+    fdo:callSign "GROMOV AIRLINE"^^xsd:string ;
+    fdo:name "Moskovia Airlines"^^xsd:string .
+
+fdo:3S a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "GREEN BIRD"^^xsd:string ;
+    fdo:name "Aeroland Airways"^^xsd:string,
+        "Air Antilles Express"^^xsd:string .
+
+fdo:3T a fdo:Carrier ;
+    fdo:callSign "TURAN"^^xsd:string ;
+    fdo:name "Turan Air"^^xsd:string .
+
+fdo:3U a fdo:Carrier ;
+    fdo:callSign "SI CHUAN"^^xsd:string ;
+    fdo:name "Sichuan Airlines"^^xsd:string .
+
+fdo:3V a fdo:Carrier ;
+    fdo:callSign "3 Valleys"^^xsd:string,
+        "QUALITY"^^xsd:string ;
+    fdo:name "3 Valleys Airlines"^^xsd:string,
+        "TNT Airways"^^xsd:string .
+
+fdo:3W a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "EUROMANX"^^xsd:string ;
+    fdo:name "Euromanx Airways"^^xsd:string,
+        "Malawian Airlines"^^xsd:string .
+
+fdo:3X a fdo:Carrier ;
+    fdo:callSign "Moonexpress"^^xsd:string ;
+    fdo:name "Aguilar Connect"^^xsd:string .
+
+fdo:4A a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Air Kiribati"^^xsd:string .
+
+fdo:4B a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Boutique Air (Priv)"^^xsd:string .
+
+fdo:4C a fdo:Carrier ;
+    fdo:callSign "Aerovias de Integracion Regional"^^xsd:string ;
+    fdo:name "Aires"^^xsd:string .
+
+fdo:4D a fdo:Carrier ;
+    fdo:callSign "AIR SINAI"^^xsd:string ;
+    fdo:name "Air Sinai"^^xsd:string .
+
+fdo:4F a fdo:Carrier ;
+    fdo:callSign "AIRCITY"^^xsd:string ;
+    fdo:name "Air City"^^xsd:string .
+
+fdo:4G a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "GAZPROMAVIA"^^xsd:string ;
+    fdo:name "Advance Leasing Company"^^xsd:string,
+        "Gazpromavia"^^xsd:string .
+
+fdo:4H a fdo:Carrier ;
+    fdo:callSign "UNITED BANGLADESH"^^xsd:string ;
+    fdo:name "United Airways"^^xsd:string .
+
+fdo:4K a fdo:Carrier ;
+    fdo:callSign "AL-AAS"^^xsd:string ;
+    fdo:name "Askari Aviation"^^xsd:string .
+
+fdo:4L a fdo:Carrier ;
+    fdo:callSign "GEO-LINE"^^xsd:string ;
+    fdo:name "Euroline"^^xsd:string .
+
+fdo:4M a fdo:Carrier ;
+    fdo:callSign "LAN AR"^^xsd:string ;
+    fdo:name "LAN Argentina"^^xsd:string .
+
+fdo:4N a fdo:Carrier ;
+    fdo:callSign "AIR NORTH"^^xsd:string ;
+    fdo:name "Air North Charter - Canada"^^xsd:string .
+
+fdo:4O a fdo:Carrier ;
+    fdo:callSign "INTERJET"^^xsd:string ;
+    fdo:name "Interjet (ABC Aerolineas)"^^xsd:string .
+
+fdo:4P a fdo:Carrier ;
+    fdo:callSign "AFRICAN BUSINESS"^^xsd:string ;
+    fdo:name "Business Aviation"^^xsd:string .
+
+fdo:4Q a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Safi Airlines"^^xsd:string .
+
+fdo:4R a fdo:Carrier ;
+    fdo:callSign "HAMBURG JET"^^xsd:string ;
+    fdo:name "Hamburg International"^^xsd:string .
+
+fdo:4S a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "FINALAIR CONGO"^^xsd:string ;
+    fdo:name "Finalair Congo"^^xsd:string,
+        "Vuola Italia"^^xsd:string .
+
+fdo:4T a fdo:Carrier ;
+    fdo:callSign "BELAIR"^^xsd:string ;
+    fdo:name "Belair Airlines"^^xsd:string .
+
+fdo:4U a fdo:Carrier ;
+    fdo:callSign "GERMAN WINGS"^^xsd:string ;
+    fdo:name "Germanwings"^^xsd:string .
+
+fdo:4X a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Red Jet Mexico"^^xsd:string .
+
+fdo:4Y a fdo:Carrier ;
+    fdo:callSign "AIRBUS FRANCE"^^xsd:string ;
+    fdo:name "Airbus France"^^xsd:string .
+
+fdo:4Z a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Airlink (SAA)"^^xsd:string .
+
+fdo:5A a fdo:Carrier ;
+    fdo:callSign "ALPINE AIR"^^xsd:string ;
+    fdo:name "Alpine Air Express"^^xsd:string .
+
+fdo:5B a fdo:Carrier ;
+    fdo:callSign "5B"^^xsd:string ;
+    fdo:name "Bassaka airlines"^^xsd:string .
+
+fdo:5C a fdo:Carrier ;
+    fdo:callSign "CAL"^^xsd:string ;
+    fdo:name "CAL Cargo Air Lines"^^xsd:string .
+
+fdo:5D a fdo:Carrier ;
+    fdo:callSign "COSTERA"^^xsd:string,
+        "DONBASS AERO"^^xsd:string ;
+    fdo:name "Aerolitoral"^^xsd:string,
+        "DonbassAero"^^xsd:string .
+
+fdo:5E a fdo:Carrier ;
+    fdo:callSign "SIAM"^^xsd:string ;
+    fdo:name "SGA Airlines"^^xsd:string .
+
+fdo:5F a fdo:Carrier ;
+    fdo:callSign "AIR ARCTIC"^^xsd:string ;
+    fdo:name "Arctic Circle Air Service"^^xsd:string .
+
+fdo:5G a fdo:Carrier ;
+    fdo:callSign "SKYTOUR"^^xsd:string ;
+    fdo:name "Skyservice Airlines"^^xsd:string .
+
+fdo:5H a fdo:Carrier ;
+    fdo:callSign "SWIFT TANGO"^^xsd:string ;
+    fdo:name "Fly540"^^xsd:string .
+
+fdo:5J a fdo:Carrier ;
+    fdo:callSign "CEBU AIR"^^xsd:string ;
+    fdo:name "Cebu Pacific"^^xsd:string .
+
+fdo:5K a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "SKY FLYER"^^xsd:string ;
+    fdo:name "Hi Fly"^^xsd:string,
+        "Hi Fly (5K)"^^xsd:string .
+
+fdo:5L a fdo:Carrier ;
+    fdo:callSign "AEROSUR"^^xsd:string ;
+    fdo:name "Aerosur"^^xsd:string .
+
+fdo:5M a fdo:Carrier ;
+    fdo:callSign "SIBAVIA"^^xsd:string ;
+    fdo:name "Sibaviatrans"^^xsd:string .
+
+fdo:5N a fdo:Carrier ;
+    fdo:callSign "DVINA"^^xsd:string ;
+    fdo:name "Aeroflot-Nord"^^xsd:string .
+
+fdo:5P a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Pal airlines"^^xsd:string .
+
+fdo:5Q a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "BQB Lineas Aereas"^^xsd:string .
+
+fdo:5T a fdo:Carrier ;
+    fdo:callSign "EMPRESS"^^xsd:string ;
+    fdo:name "Canadian North"^^xsd:string .
+
+fdo:5V a fdo:Carrier ;
+    fdo:callSign "UKRAINE WEST"^^xsd:string ;
+    fdo:name "Lviv Airlines"^^xsd:string .
+
+fdo:5W a fdo:Carrier ;
+    fdo:callSign "FLYSTAR"^^xsd:string ;
+    fdo:name "Astraeus"^^xsd:string .
+
+fdo:5X a fdo:Carrier ;
+    fdo:callSign "UPS"^^xsd:string ;
+    fdo:name "United Parcel Service"^^xsd:string .
+
+fdo:5Y a fdo:Carrier ;
+    fdo:callSign "GIANT"^^xsd:string ;
+    fdo:name "Atlas Air"^^xsd:string .
+
+fdo:5Z a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "BISMILLAH"^^xsd:string ;
+    fdo:name "Bismillah Airlines"^^xsd:string,
+        "VivaColombia"^^xsd:string .
+
+fdo:6A a fdo:Carrier ;
+    fdo:callSign "AVIACSA"^^xsd:string ;
+    fdo:name "Consorcio Aviaxsa"^^xsd:string .
+
+fdo:6B a fdo:Carrier ;
+    fdo:callSign "BLUESCAN"^^xsd:string ;
+    fdo:name "TUIfly Nordic"^^xsd:string .
+
+fdo:6C a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Vuela Cuba"^^xsd:string .
+
+fdo:6D a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Pelita"^^xsd:string .
+
+fdo:6E a fdo:Carrier ;
+    fdo:callSign "IFLY"^^xsd:string ;
+    fdo:name "IndiGo Airlines"^^xsd:string .
+
+fdo:6F a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "MAT Airways"^^xsd:string .
+
+fdo:6G a fdo:Carrier ;
+    fdo:callSign "RED DRAGON"^^xsd:string ;
+    fdo:name "Air Wales"^^xsd:string .
+
+fdo:6H a fdo:Carrier ;
+    fdo:callSign "ISRAIR"^^xsd:string ;
+    fdo:name "Israir"^^xsd:string .
+
+fdo:6I a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "INTERBIZ"^^xsd:string ;
+    fdo:name "Fly 6ix"^^xsd:string,
+        "International Business Air"^^xsd:string .
+
+fdo:6J a fdo:Carrier ;
+    fdo:callSign "NEWSKY"^^xsd:string ;
+    fdo:name "Skynet Asia Airways"^^xsd:string .
+
+fdo:6K a fdo:Carrier ;
+    fdo:callSign "ASIAN SPIRIT"^^xsd:string ;
+    fdo:name "Asian Spirit"^^xsd:string .
+
+fdo:6N a fdo:Carrier ;
+    fdo:callSign "NORTH RIDER"^^xsd:string ;
+    fdo:name "Nordic Regional"^^xsd:string .
+
+fdo:6P a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "CLUBAIR"^^xsd:string ;
+    fdo:name "Club Air"^^xsd:string,
+        "Gryphon Airlines"^^xsd:string .
+
+fdo:6Q a fdo:Carrier ;
+    fdo:callSign "SLOV LINE"^^xsd:string ;
+    fdo:name "Slovak Airlines"^^xsd:string .
+
+fdo:6R a fdo:Carrier ;
+    fdo:callSign "MIRNY"^^xsd:string ;
+    fdo:name "Alrosa Mirny Air Enterprise"^^xsd:string .
+
+fdo:6T a fdo:Carrier ;
+    fdo:callSign "Six Tango"^^xsd:string ;
+    fdo:name "Air Mandalay"^^xsd:string .
+
+fdo:6U a fdo:Carrier ;
+    fdo:callSign "AIR UKRAINE"^^xsd:string,
+        "Loadmaster"^^xsd:string ;
+    fdo:name "Air Cargo Germany"^^xsd:string,
+        "Air Ukraine"^^xsd:string .
+
+fdo:6V a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "AIR VEGAS"^^xsd:string,
+        "AVIAMARS"^^xsd:string,
+        "AXIS"^^xsd:string ;
+    fdo:name "Air Vegas"^^xsd:string,
+        "Axis Airways"^^xsd:string,
+        "Mars RK"^^xsd:string,
+        "Via Conectia Airlines"^^xsd:string .
+
+fdo:6W a fdo:Carrier ;
+    fdo:callSign "SARATOV AIR"^^xsd:string ;
+    fdo:name "Saratov Aviation Division"^^xsd:string .
+
+fdo:6Y a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "SmartLynx Airlines"^^xsd:string .
+
+fdo:6Z a fdo:Carrier ;
+    fdo:callSign "CARGOTRANS"^^xsd:string ;
+    fdo:name "Ukrainian Cargo Airways"^^xsd:string .
+
+fdo:7A a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Aztec Worldwide Airlines"^^xsd:string .
+
+fdo:7B a fdo:Carrier ;
+    fdo:callSign "KRASNOJARSKY AIR"^^xsd:string ;
+    fdo:name "Krasnojarsky Airlines"^^xsd:string .
+
+fdo:7C a fdo:Carrier ;
+    fdo:callSign "JEJU AIR"^^xsd:string ;
+    fdo:name "Jeju Air"^^xsd:string .
+
+fdo:7E a fdo:Carrier ;
+    fdo:callSign "SYLT-AIR"^^xsd:string ;
+    fdo:name "Aeroline GmbH"^^xsd:string .
+
+fdo:7F a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "First Air"^^xsd:string .
+
+fdo:7G a fdo:Carrier ;
+    fdo:callSign "STARFLYER"^^xsd:string ;
+    fdo:name "Star Flyer"^^xsd:string .
+
+fdo:7H a fdo:Carrier ;
+    fdo:callSign "ERAH"^^xsd:string ;
+    fdo:name "Era Alaska"^^xsd:string .
+
+fdo:7I a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Insel Air (7I/INC) (Priv)"^^xsd:string .
+
+fdo:7J a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Tajik Air"^^xsd:string .
+
+fdo:7K a fdo:Carrier ;
+    fdo:callSign "KOGALYM"^^xsd:string ;
+    fdo:name "Kogalymavia Air Company"^^xsd:string .
+
+fdo:7L a fdo:Carrier ;
+    fdo:callSign "ECHO ROMEO"^^xsd:string ;
+    fdo:name "Sun DOr"^^xsd:string .
+
+fdo:7M a fdo:Carrier ;
+    fdo:callSign "Mongol_AIr"^^xsd:string ;
+    fdo:name "Mongolian International Air Lines"^^xsd:string .
+
+fdo:7N a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Centavia"^^xsd:string .
+
+fdo:7O a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "GALAXY"^^xsd:string ;
+    fdo:name "All Colombia"^^xsd:string,
+        "Galaxy Air"^^xsd:string .
+
+fdo:7P a fdo:Carrier ;
+    fdo:callSign "BATAVIA"^^xsd:string ;
+    fdo:name "Metro Batavia"^^xsd:string .
+
+fdo:7Q a fdo:Carrier ;
+    fdo:callSign "PAWA"^^xsd:string ;
+    fdo:name "Pan Am World Airways Dominicana"^^xsd:string .
+
+fdo:7R a fdo:Carrier ;
+    fdo:callSign "BRA-TRANSPAEREOS"^^xsd:string,
+        "RussianConnecty"^^xsd:string ;
+    fdo:name "BRA-Transportes Aereos"^^xsd:string,
+        "Svyaz Rossiya"^^xsd:string .
+
+fdo:7T a fdo:Carrier ;
+    fdo:callSign "AIR GLACIERS"^^xsd:string,
+        "TOBRUK AIR"^^xsd:string ;
+    fdo:name "Air Glaciers"^^xsd:string,
+        "Tobruk Air"^^xsd:string .
+
+fdo:7V a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "ROYAL BRITAIN"^^xsd:string .
+
+fdo:7W a fdo:Carrier ;
+    fdo:callSign "WAYRAPER"^^xsd:string ;
+    fdo:name "Wayraper"^^xsd:string .
+
+fdo:7Y a fdo:Carrier ;
+    fdo:callSign "FLYING CARPET"^^xsd:string ;
+    fdo:name "Med Airways"^^xsd:string .
+
+fdo:7Z a fdo:Carrier ;
+    fdo:callSign "CREOLE"^^xsd:string ;
+    fdo:name "Halcyonair"^^xsd:string .
+
+fdo:8A a fdo:Carrier ;
+    fdo:callSign "ATLAS BLUE"^^xsd:string ;
+    fdo:name "Atlas Blue"^^xsd:string .
+
+fdo:8B a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "CARIB STAR"^^xsd:string ;
+    fdo:name "BusinessAir"^^xsd:string,
+        "Caribbean Star Airlines"^^xsd:string .
+
+fdo:8C a fdo:Carrier ;
+    fdo:callSign "AIR TRANSPORT"^^xsd:string,
+        "HORIZON TOGO"^^xsd:string,
+        "SHANXI"^^xsd:string ;
+    fdo:name "Air Horizon"^^xsd:string,
+        "Air Transport International"^^xsd:string,
+        "Shanxi Airlines"^^xsd:string .
+
+fdo:8D a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "EXPOAVIA"^^xsd:string ;
+    fdo:name "Astair"^^xsd:string,
+        "Expo Aviation"^^xsd:string,
+        "Servant Air"^^xsd:string .
+
+fdo:8E a fdo:Carrier ;
+    fdo:callSign "BERING AIR"^^xsd:string ;
+    fdo:name "Bering Air"^^xsd:string .
+
+fdo:8F a fdo:Carrier ;
+    fdo:callSign "FISCHER"^^xsd:string,
+        "SAOTOME AIRWAYS"^^xsd:string ;
+    fdo:name "Fischer Air"^^xsd:string,
+        "STP Airways"^^xsd:string .
+
+fdo:8H a fdo:Carrier ;
+    fdo:callSign "HELIFRANCE"^^xsd:string ;
+    fdo:name "Heli France"^^xsd:string .
+
+fdo:8I a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Myway Airlines"^^xsd:string .
+
+fdo:8J a fdo:Carrier ;
+    fdo:callSign "ARGAN"^^xsd:string,
+        "KOMIINTER"^^xsd:string ;
+    fdo:name "Jet4You"^^xsd:string,
+        "Komiinteravia"^^xsd:string .
+
+fdo:8K a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Voestar"^^xsd:string .
+
+fdo:8L a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "REDAIR"^^xsd:string ;
+    fdo:name "Cargo Plus Aviation"^^xsd:string,
+        "Redhill Aviation"^^xsd:string .
+
+fdo:8M a fdo:Carrier ;
+    fdo:callSign "MAXAIR"^^xsd:string,
+        "assignment postponed"^^xsd:string ;
+    fdo:name "Maxair"^^xsd:string,
+        "Myanmar Airways International"^^xsd:string .
+
+fdo:8N a fdo:Carrier ;
+    fdo:callSign "NORDFLIGHT"^^xsd:string ;
+    fdo:name "Barents AirLink"^^xsd:string .
+
+fdo:8O a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "West Coast Air"^^xsd:string .
+
+fdo:8P a fdo:Carrier ;
+    fdo:callSign "PASCO"^^xsd:string ;
+    fdo:name "Pacific Coastal Airline"^^xsd:string .
+
+fdo:8Q a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "BAKER AVIATION"^^xsd:string,
+        "ONUR AIR"^^xsd:string,
+        "\\N"^^xsd:string ;
+    fdo:name "Baker Aviation"^^xsd:string,
+        "Maldivian Air Taxi"^^xsd:string,
+        "Onur Air"^^xsd:string,
+        "Princess Air"^^xsd:string .
+
+fdo:8R a fdo:Carrier ;
+    fdo:callSign "TRIP"^^xsd:string ;
+    fdo:name "TRIP Linhas A"^^xsd:string .
+
+fdo:8S a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Scorpio Aviation"^^xsd:string .
+
+fdo:8T a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Air Tindi"^^xsd:string .
+
+fdo:8U a fdo:Carrier ;
+    fdo:callSign "AFRIQIYAH"^^xsd:string ;
+    fdo:name "Afriqiyah Airways"^^xsd:string .
+
+fdo:8V a fdo:Carrier ;
+    fdo:callSign "ASTRAL CARGO"^^xsd:string,
+        "WRIGHT FLYER"^^xsd:string ;
+    fdo:name "Astral Aviation"^^xsd:string,
+        "Wright Air Service"^^xsd:string .
+
+fdo:8W a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "PRIVATE WINGS"^^xsd:string ;
+    fdo:name "BAX Global"^^xsd:string,
+        "Private Wings Flugcharter"^^xsd:string .
+
+fdo:8Y a fdo:Carrier ;
+    fdo:callSign "AIR-BURUNDI"^^xsd:string,
+        "CHINA POST"^^xsd:string ;
+    fdo:name "Air Burundi"^^xsd:string,
+        "China Postal Airlines"^^xsd:string .
+
+fdo:8Z a fdo:Carrier ;
+    fdo:callSign "WIZZBUL"^^xsd:string ;
+    fdo:name "Wizz Air Hungary"^^xsd:string .
+
+fdo:8z a fdo:Carrier ;
+    fdo:callSign "LASER"^^xsd:string ;
+    fdo:name "Linea Aerea de Servicio Ejecutivo Regional"^^xsd:string .
+
+fdo:9A a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "Atlantic"^^xsd:string ;
+    fdo:name "Air Atlantic"^^xsd:string,
+        "All Africa"^^xsd:string .
+
+fdo:9C a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "China SSS"^^xsd:string .
+
+fdo:9E a fdo:Carrier ;
+    fdo:callSign "FLAGSHIP"^^xsd:string ;
+    fdo:name "Pinnacle Airlines"^^xsd:string .
+
+fdo:9F a fdo:Carrier ;
+    fdo:callSign "9F"^^xsd:string ;
+    fdo:name "Tramm Airlines"^^xsd:string .
+
+fdo:9H a fdo:Carrier ;
+    fdo:callSign "MDLR"^^xsd:string ;
+    fdo:name "MDLR Airlines"^^xsd:string .
+
+fdo:9I a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "THAI SKY"^^xsd:string ;
+    fdo:name "International Europe"^^xsd:string,
+        "Thai Sky Airlines"^^xsd:string .
+
+fdo:9J a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Regionalia Chile"^^xsd:string .
+
+fdo:9K a fdo:Carrier ;
+    fdo:callSign "CAIR"^^xsd:string ;
+    fdo:name "Cape Air"^^xsd:string .
+
+fdo:9L a fdo:Carrier ;
+    fdo:callSign "COLGAN"^^xsd:string ;
+    fdo:name "Colgan Air"^^xsd:string .
+
+fdo:9N a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Regional Air Iceland"^^xsd:string .
+
+fdo:9O a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "National Airways Cameroon"^^xsd:string .
+
+fdo:9P a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Pelangi"^^xsd:string .
+
+fdo:9Q a fdo:Carrier ;
+    fdo:callSign "PEEBEE AIR"^^xsd:string ;
+    fdo:name "PB Air"^^xsd:string .
+
+fdo:9R a fdo:Carrier ;
+    fdo:callSign "PHUKET AIR"^^xsd:string,
+        "SATENA"^^xsd:string ;
+    fdo:name "Phuket Air"^^xsd:string,
+        "SATENA"^^xsd:string .
+
+fdo:9S a fdo:Carrier ;
+    fdo:callSign "AIR SPRING"^^xsd:string ;
+    fdo:name "Spring Airlines"^^xsd:string .
+
+fdo:9T a fdo:Carrier ;
+    fdo:callSign "ATHABASKA"^^xsd:string ;
+    fdo:name "Transwest Air"^^xsd:string .
+
+fdo:9U a fdo:Carrier ;
+    fdo:callSign "AIR MOLDOVA"^^xsd:string ;
+    fdo:name "Air Moldova"^^xsd:string .
+
+fdo:9V a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Volotea Costa Rica"^^xsd:string .
+
+fdo:9W a fdo:Carrier ;
+    fdo:callSign "JET AIRWAYS"^^xsd:string ;
+    fdo:name "Jet Airways"^^xsd:string .
+
+fdo:9X a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "ITALI"^^xsd:string ;
+    fdo:name "Itali Airlines"^^xsd:string,
+        "Regionalia Venezuela"^^xsd:string .
+
+fdo:9Y a fdo:Carrier ;
+    fdo:callSign "Kazakh"^^xsd:string ;
+    fdo:name "Air Kazakhstan"^^xsd:string .
+
+fdo:A1 a fdo:Carrier ;
+    fdo:callSign "atifly"^^xsd:string ;
+    fdo:name "Atifly"^^xsd:string .
+
+fdo:A2 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "CIELOS"^^xsd:string ;
+    fdo:name "All America"^^xsd:string,
+        "Cielos Airlines"^^xsd:string .
+
+fdo:A3 a fdo:Carrier ;
+    fdo:callSign "AEGEAN"^^xsd:string ;
+    fdo:name "Aegean Airlines"^^xsd:string .
+
+fdo:A4 a fdo:Carrier ;
+    fdo:callSign "SOUTHERN WINDS"^^xsd:string ;
+    fdo:name "Southern Winds Airlines"^^xsd:string .
+
+fdo:A5 a fdo:Carrier ;
+    fdo:callSign "AIRLINAIR"^^xsd:string ;
+    fdo:name "Airlinair"^^xsd:string .
+
+fdo:A6 a fdo:Carrier ;
+    fdo:callSign "ALPAV"^^xsd:string ;
+    fdo:name "Air Alps Aviation"^^xsd:string,
+        "Air Alps Aviation (A6)"^^xsd:string .
+
+fdo:A7 a fdo:Carrier ;
+    fdo:callSign "RED COMET"^^xsd:string ;
+    fdo:name "Air Plus Comet"^^xsd:string .
+
+fdo:A8 a fdo:Carrier ;
+    fdo:callSign "BENIN GOLF"^^xsd:string ;
+    fdo:name "Benin Golf Air"^^xsd:string .
+
+fdo:A9 a fdo:Carrier ;
+    fdo:callSign "TAMAZI"^^xsd:string ;
+    fdo:name "Georgian Airways"^^xsd:string .
+
+fdo:AA a fdo:Carrier ;
+    fdo:callSign "AMERICAN"^^xsd:string ;
+    fdo:name "American Airlines"^^xsd:string .
+
+fdo:AB a fdo:Carrier ;
+    fdo:callSign "AIR BERLIN"^^xsd:string ;
+    fdo:name "Air Berlin"^^xsd:string .
+
+fdo:AC a fdo:Carrier ;
+    fdo:callSign "AIR CANADA"^^xsd:string ;
+    fdo:name "Air Canada"^^xsd:string .
+
+fdo:AD a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "RADISAIR"^^xsd:string ;
+    fdo:name "Air Paradise International"^^xsd:string,
+        "Azul"^^xsd:string .
+
+fdo:AE a fdo:Carrier ;
+    fdo:callSign "Mandarin"^^xsd:string ;
+    fdo:name "Mandarin Airlines"^^xsd:string .
+
+fdo:AF a fdo:Carrier ;
+    fdo:callSign "AIRFRANS"^^xsd:string ;
+    fdo:name "Air France"^^xsd:string .
+
+fdo:AG a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "CONTRACT"^^xsd:string ;
+    fdo:name "Air Contractors"^^xsd:string,
+        "All America US"^^xsd:string .
+
+fdo:AH a fdo:Carrier ;
+    fdo:callSign "AIR ALGERIE"^^xsd:string ;
+    fdo:name "Air Algerie"^^xsd:string .
+
+fdo:AI a fdo:Carrier ;
+    fdo:callSign "AIRINDIA"^^xsd:string ;
+    fdo:name "Air India Limited"^^xsd:string .
+
+fdo:AJ a fdo:Carrier ;
+    fdo:callSign "AEROLINE"^^xsd:string ;
+    fdo:name "Aero Contractors"^^xsd:string .
+
+fdo:AK a fdo:Carrier ;
+    fdo:callSign "ASIAN EXPRESS"^^xsd:string ;
+    fdo:name "AirAsia"^^xsd:string .
+
+fdo:AL a fdo:Carrier ;
+    fdo:callSign "SKYWAY-EX"^^xsd:string,
+        "TRANSEXPORT"^^xsd:string ;
+    fdo:name "Skywalk Airlines"^^xsd:string,
+        "Transaviaexport"^^xsd:string .
+
+fdo:AM a fdo:Carrier ;
+    fdo:callSign "AEROMEXICO"^^xsd:string ;
+    fdo:name "AeroMéxico"^^xsd:string .
+
+fdo:AN a fdo:Carrier ;
+    fdo:callSign "ANSETT"^^xsd:string ;
+    fdo:name "Ansett Australia"^^xsd:string .
+
+fdo:AO a fdo:Carrier ;
+    fdo:callSign "AUSTRALIAN"^^xsd:string,
+        "Nova"^^xsd:string ;
+    fdo:name "Australian Airlines"^^xsd:string,
+        "Avianova (Russia)"^^xsd:string .
+
+fdo:AP a fdo:Carrier ;
+    fdo:callSign "AIRBUS INDUSTRIE"^^xsd:string,
+        "HERON"^^xsd:string ;
+    fdo:name "Air One"^^xsd:string,
+        "Airbus Industrie"^^xsd:string .
+
+fdo:AQ a fdo:Carrier ;
+    fdo:callSign "ALOHA"^^xsd:string ;
+    fdo:name "Aloha Airlines"^^xsd:string .
+
+fdo:AR a fdo:Carrier ;
+    fdo:callSign "ARGENTINA"^^xsd:string ;
+    fdo:name "Aerolineas Argentinas"^^xsd:string .
+
+fdo:AS a fdo:Carrier ;
+    fdo:callSign "Inc."^^xsd:string ;
+    fdo:name "Alaska Airlines"^^xsd:string .
+
+fdo:AT a fdo:Carrier ;
+    fdo:callSign "ROYALAIR MAROC"^^xsd:string ;
+    fdo:name "Royal Air Maroc"^^xsd:string .
+
+fdo:AU a fdo:Carrier ;
+    fdo:callSign "AUSTRAL"^^xsd:string ;
+    fdo:name "Austral Lineas Aereas"^^xsd:string .
+
+fdo:AV a fdo:Carrier ;
+    fdo:callSign "S.A."^^xsd:string ;
+    fdo:name "Avianca - Aerovias Nacionales de Colombia"^^xsd:string .
+
+fdo:AW a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "Asian Star"^^xsd:string,
+        "DIRGANTARA"^^xsd:string ;
+    fdo:name "Asian Wings Airways"^^xsd:string,
+        "CHC Airways"^^xsd:string,
+        "Dirgantara Air Service"^^xsd:string .
+
+fdo:AX a fdo:Carrier ;
+    fdo:callSign "WATERSKI"^^xsd:string ;
+    fdo:name "Trans States Airlines"^^xsd:string .
+
+fdo:AY a fdo:Carrier ;
+    fdo:callSign "FINNAIR"^^xsd:string ;
+    fdo:name "Finnair"^^xsd:string .
+
+fdo:AZ a fdo:Carrier ;
+    fdo:callSign "ALITALIA"^^xsd:string ;
+    fdo:name "Alitalia"^^xsd:string .
+
+fdo:B0 a fdo:Carrier ;
+    fdo:callSign "aws"^^xsd:string ;
+    fdo:name "Aws express"^^xsd:string .
+
+fdo:B1 a fdo:Carrier ;
+    fdo:callSign "Baltic"^^xsd:string ;
+    fdo:name "Baltic Air lines"^^xsd:string .
+
+fdo:B2 a fdo:Carrier ;
+    fdo:callSign "BELARUS AVIA"^^xsd:string ;
+    fdo:name "Belavia Belarusian Airlines"^^xsd:string .
+
+fdo:B3 a fdo:Carrier ;
+    fdo:callSign "BELLVIEW AIRLINES"^^xsd:string ;
+    fdo:name "Bellview Airlines"^^xsd:string .
+
+fdo:B4 a fdo:Carrier ;
+    fdo:callSign "BACH"^^xsd:string,
+        "BANKAIR"^^xsd:string,
+        "GLOBESPAN"^^xsd:string ;
+    fdo:name "BACH Flugbetriebsges"^^xsd:string,
+        "Bankair"^^xsd:string,
+        "Flyglobespan"^^xsd:string .
+
+fdo:B5 a fdo:Carrier ;
+    fdo:callSign "FLIGHTLINE"^^xsd:string ;
+    fdo:name "Flightline"^^xsd:string .
+
+fdo:B6 a fdo:Carrier ;
+    fdo:callSign "JETBLUE"^^xsd:string ;
+    fdo:name "JetBlue Airways"^^xsd:string .
+
+fdo:B7 a fdo:Carrier ;
+    fdo:callSign "Glory"^^xsd:string ;
+    fdo:name "Uni Air"^^xsd:string .
+
+fdo:B8 a fdo:Carrier ;
+    fdo:callSign "ERITREAN"^^xsd:string ;
+    fdo:name "Eritrean Airlines"^^xsd:string .
+
+fdo:B9 a fdo:Carrier ;
+    fdo:callSign "AIR BANGLA"^^xsd:string ;
+    fdo:name "Air Bangladesh"^^xsd:string .
+
+fdo:BA a fdo:Carrier ;
+    fdo:callSign "SPEEDBIRD"^^xsd:string ;
+    fdo:name "British Airways"^^xsd:string .
+
+fdo:BB a fdo:Carrier ;
+    fdo:callSign "SEABORNE"^^xsd:string ;
+    fdo:name "Seaborne Airlines"^^xsd:string .
+
+fdo:BC a fdo:Carrier ;
+    fdo:callSign "SKYMARK"^^xsd:string ;
+    fdo:name "Skymark Airlines"^^xsd:string .
+
+fdo:BD a fdo:Carrier ;
+    fdo:callSign "MIDLAND"^^xsd:string ;
+    fdo:name "bmi"^^xsd:string .
+
+fdo:BE a fdo:Carrier ;
+    fdo:callSign "JERSEY"^^xsd:string ;
+    fdo:name "Flybe"^^xsd:string .
+
+fdo:BF a fdo:Carrier ;
+    fdo:callSign "BLUE CARGO"^^xsd:string,
+        "CONGOSERV"^^xsd:string ;
+    fdo:name "Aero-Service"^^xsd:string,
+        "Bluebird Cargo"^^xsd:string .
+
+fdo:BG a fdo:Carrier ;
+    fdo:callSign "BANGLADESH"^^xsd:string ;
+    fdo:name "Biman Bangladesh Airlines"^^xsd:string .
+
+fdo:BH a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Hawkair"^^xsd:string .
+
+fdo:BI a fdo:Carrier ;
+    fdo:callSign "BRUNEI"^^xsd:string ;
+    fdo:name "Royal Brunei Airlines"^^xsd:string .
+
+fdo:BJ a fdo:Carrier ;
+    fdo:callSign "NOUVELAIR"^^xsd:string ;
+    fdo:name "Nouvel Air Tunisie"^^xsd:string .
+
+fdo:BK a fdo:Carrier ;
+    fdo:callSign "DISTRICT"^^xsd:string ;
+    fdo:name "Potomac Air"^^xsd:string .
+
+fdo:BL a fdo:Carrier ;
+    fdo:callSign "PACIFIC AIRLINES"^^xsd:string ;
+    fdo:name "Jetstar Pacific"^^xsd:string .
+
+fdo:BM a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "BAYU"^^xsd:string ;
+    fdo:name "Air Sicilia"^^xsd:string,
+        "Bayu Indonesia Air"^^xsd:string .
+
+fdo:BN a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "Braniff"^^xsd:string ;
+    fdo:name "Braniff International Airways"^^xsd:string,
+        "Forward Air International Airlines"^^xsd:string,
+        "Horizon Airlines"^^xsd:string .
+
+fdo:BO a fdo:Carrier ;
+    fdo:callSign "BOURAQ"^^xsd:string ;
+    fdo:name "Bouraq Indonesia Airlines"^^xsd:string .
+
+fdo:BP a fdo:Carrier ;
+    fdo:callSign "BOTSWANA"^^xsd:string ;
+    fdo:name "Air Botswana"^^xsd:string .
+
+fdo:BQ a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "BRAVO QUEBEC"^^xsd:string ;
+    fdo:name "Aeromar"^^xsd:string,
+        "Buquebus Líneas Aéreas"^^xsd:string .
+
+fdo:BR a fdo:Carrier ;
+    fdo:callSign "EVA"^^xsd:string ;
+    fdo:name "EVA Air"^^xsd:string .
+
+fdo:BS a fdo:Carrier ;
+    fdo:callSign "BRINTEL"^^xsd:string ;
+    fdo:name "British International Helicopters"^^xsd:string .
+
+fdo:BT a fdo:Carrier ;
+    fdo:callSign "AIRBALTIC"^^xsd:string ;
+    fdo:name "Air Baltic"^^xsd:string .
+
+fdo:BU a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "Braathens"^^xsd:string ;
+    fdo:name "Baikotovitchestrian Airlines"^^xsd:string,
+        "Blue Sky America"^^xsd:string,
+        "Braathens"^^xsd:string .
+
+fdo:BV a fdo:Carrier ;
+    fdo:callSign "BLUE PANOROMA"^^xsd:string ;
+    fdo:name "Blue Panorama Airlines"^^xsd:string .
+
+fdo:BW a fdo:Carrier ;
+    fdo:callSign "CARIBBEAN AIRLINES"^^xsd:string ;
+    fdo:name "Caribbean Airlines"^^xsd:string .
+
+fdo:BX a fdo:Carrier ;
+    fdo:callSign "Air Busan"^^xsd:string,
+        "COAST CENTER"^^xsd:string ;
+    fdo:name "Air Busan"^^xsd:string,
+        "Coast Air"^^xsd:string .
+
+fdo:BY a fdo:Carrier ;
+    fdo:callSign "TOMSON"^^xsd:string ;
+    fdo:name "Thomsonfly"^^xsd:string .
+
+fdo:BZ a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "BLUE DART"^^xsd:string,
+        "KEYSTONE"^^xsd:string,
+        "Stallion"^^xsd:string ;
+    fdo:name "Aero Brazil"^^xsd:string,
+        "Black Stallion Airways"^^xsd:string,
+        "Blue Dart Aviation"^^xsd:string,
+        "Keystone Air Services"^^xsd:string .
+
+fdo:C0 a fdo:Carrier ;
+    fdo:callSign "CENTRALWINGS"^^xsd:string ;
+    fdo:name "Centralwings"^^xsd:string .
+
+fdo:C1 a fdo:Carrier ;
+    fdo:callSign "CAX"^^xsd:string ;
+    fdo:name "CanXpress"^^xsd:string .
+
+fdo:C2 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "CanXplorer"^^xsd:string .
+
+fdo:C3 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "CONTACTAIR"^^xsd:string ;
+    fdo:name "Contact Air"^^xsd:string,
+        "ICAR Airlines"^^xsd:string,
+        "QatXpress"^^xsd:string .
+
+fdo:C4 a fdo:Carrier ;
+    fdo:callSign "LIX"^^xsd:string,
+        "ZIMEX"^^xsd:string ;
+    fdo:name "LionXpress"^^xsd:string,
+        "Zimex Aviation"^^xsd:string .
+
+fdo:C5 a fdo:Carrier ;
+    fdo:callSign "COMMUTAIR"^^xsd:string ;
+    fdo:name "CommutAir"^^xsd:string .
+
+fdo:C6 a fdo:Carrier ;
+    fdo:callSign "CANJET"^^xsd:string ;
+    fdo:name "CanJet"^^xsd:string .
+
+fdo:C7 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "RICO"^^xsd:string ;
+    fdo:name "Rico Linhas A"^^xsd:string,
+        "Sky Wing Pacific"^^xsd:string .
+
+fdo:C8 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "WINDY CITY"^^xsd:string ;
+    fdo:name "Chicago Express"^^xsd:string,
+        "Chicago Express (C8)"^^xsd:string .
+
+fdo:C9 a fdo:Carrier ;
+    fdo:callSign "CIRRUS AIR"^^xsd:string ;
+    fdo:name "Cirrus Airlines"^^xsd:string .
+
+fdo:CA a fdo:Carrier ;
+    fdo:callSign "AIR CHINA"^^xsd:string ;
+    fdo:name "Air China"^^xsd:string .
+
+fdo:CB a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "CCML Airlines"^^xsd:string,
+        "Suckling Airways"^^xsd:string .
+
+fdo:CC a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "ATLANTA"^^xsd:string ;
+    fdo:name "Air Atlanta Icelandic"^^xsd:string,
+        "Macair Airlines"^^xsd:string .
+
+fdo:CD a fdo:Carrier ;
+    fdo:callSign "ALLIED"^^xsd:string ;
+    fdo:name "Air India Regional"^^xsd:string,
+        "Alliance Air"^^xsd:string .
+
+fdo:CE a fdo:Carrier ;
+    fdo:callSign "NATIONWIDE"^^xsd:string ;
+    fdo:name "Nationwide Airlines"^^xsd:string .
+
+fdo:CF a fdo:Carrier ;
+    fdo:callSign "SWEDESTAR"^^xsd:string ;
+    fdo:name "City Airline"^^xsd:string .
+
+fdo:CG a fdo:Carrier ;
+    fdo:callSign "BALUS"^^xsd:string ;
+    fdo:name "Airlines PNG"^^xsd:string .
+
+fdo:CH a fdo:Carrier ;
+    fdo:callSign "BEMIDJI"^^xsd:string ;
+    fdo:name "Bemidji Airlines"^^xsd:string .
+
+fdo:CI a fdo:Carrier ;
+    fdo:callSign "DYNASTY"^^xsd:string ;
+    fdo:name "China Airlines"^^xsd:string .
+
+fdo:CJ a fdo:Carrier ;
+    fdo:callSign "CHINA NORTHERN"^^xsd:string,
+        "FLYER"^^xsd:string ;
+    fdo:name "BA CityFlyer"^^xsd:string,
+        "China Northern Airlines"^^xsd:string .
+
+fdo:CK a fdo:Carrier ;
+    fdo:callSign "CARGO KING"^^xsd:string ;
+    fdo:name "China Cargo Airlines"^^xsd:string .
+
+fdo:CL a fdo:Carrier ;
+    fdo:callSign "HANSALINE"^^xsd:string ;
+    fdo:name "Lufthansa CityLine"^^xsd:string .
+
+fdo:CM a fdo:Carrier ;
+    fdo:callSign "COPA"^^xsd:string ;
+    fdo:name "Copa Airlines"^^xsd:string .
+
+fdo:CN a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "CaNational"^^xsd:string,
+        "WESTWARD"^^xsd:string ;
+    fdo:name "Canadian National Airways"^^xsd:string,
+        "Islands Nationair"^^xsd:string,
+        "Westward Airways"^^xsd:string .
+
+fdo:CO a fdo:Carrier ;
+    fdo:callSign "CONTINENTAL"^^xsd:string,
+        "JETLINK"^^xsd:string ;
+    fdo:name "Continental Airlines"^^xsd:string,
+        "Continental Express"^^xsd:string .
+
+fdo:CP a fdo:Carrier ;
+    fdo:callSign "CANADIAN"^^xsd:string,
+        "Compass Rose"^^xsd:string ;
+    fdo:name "Canadian Airlines"^^xsd:string,
+        "Compass Airlines"^^xsd:string .
+
+fdo:CQ a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "SLOW FROG"^^xsd:string ;
+    fdo:name "SOCHI AIR"^^xsd:string,
+        "Sunshine Express Airlines"^^xsd:string .
+
+fdo:CR a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Air Ops"^^xsd:string,
+        "OAG"^^xsd:string .
+
+fdo:CS a fdo:Carrier ;
+    fdo:callSign "AIR MIKE"^^xsd:string ;
+    fdo:name "Continental Micronesia"^^xsd:string .
+
+fdo:CT a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "Mandarin"^^xsd:string ;
+    fdo:name "Alitalia Cityliner"^^xsd:string,
+        "Civil Air Transport"^^xsd:string .
+
+fdo:CU a fdo:Carrier ;
+    fdo:callSign "CUBANA"^^xsd:string ;
+    fdo:name "Cubana de Aviación"^^xsd:string .
+
+fdo:CV a fdo:Carrier ;
+    fdo:callSign "CARGOLUX"^^xsd:string,
+        "CHATHAM"^^xsd:string ;
+    fdo:name "Air Chathams"^^xsd:string,
+        "Cargolux"^^xsd:string .
+
+fdo:CW a fdo:Carrier ;
+    fdo:callSign "AIR MARSHALLS"^^xsd:string ;
+    fdo:name "Air Marshall Islands"^^xsd:string .
+
+fdo:CX a fdo:Carrier ;
+    fdo:callSign "CATHAY"^^xsd:string ;
+    fdo:name "Cathay Pacific"^^xsd:string .
+
+fdo:CY a fdo:Carrier ;
+    fdo:callSign "CYPRUS"^^xsd:string ;
+    fdo:name "Cyprus Airways"^^xsd:string .
+
+fdo:CZ a fdo:Carrier ;
+    fdo:callSign "CHINA SOUTHERN"^^xsd:string ;
+    fdo:name "China Southern Airlines"^^xsd:string .
+
+fdo:D1 a fdo:Carrier ;
+    fdo:callSign "Domenican"^^xsd:string ;
+    fdo:name "Domenican Airlines"^^xsd:string .
+
+fdo:D2 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Severstal Air Company"^^xsd:string .
+
+fdo:D3 a fdo:Carrier ;
+    fdo:callSign "DALO AIRLINES"^^xsd:string ;
+    fdo:name "Daallo Airlines"^^xsd:string .
+
+fdo:D4 a fdo:Carrier ;
+    fdo:callSign "ALIDA"^^xsd:string ;
+    fdo:name "Alidaunia"^^xsd:string .
+
+fdo:D5 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "DAUAIR"^^xsd:string ;
+    fdo:name "Dauair"^^xsd:string,
+        "NEPC Airlines"^^xsd:string,
+        "Skyline nepc"^^xsd:string .
+
+fdo:D6 a fdo:Carrier ;
+    fdo:callSign "INLINE"^^xsd:string ;
+    fdo:name "Interair South Africa"^^xsd:string .
+
+fdo:D7 a fdo:Carrier ;
+    fdo:callSign "AERO DINAR"^^xsd:string,
+        "XANADU"^^xsd:string ;
+    fdo:name "AirAsia X"^^xsd:string,
+        "Dinar"^^xsd:string .
+
+fdo:D8 a fdo:Carrier ;
+    fdo:callSign "DJIBOUTI AIR"^^xsd:string ;
+    fdo:name "Djibouti Airlines"^^xsd:string .
+
+fdo:D9 a fdo:Carrier ;
+    fdo:callSign "DONAVIA"^^xsd:string ;
+    fdo:name "Aeroflot-Don"^^xsd:string .
+
+fdo:DA a fdo:Carrier ;
+    fdo:callSign "AIR GEORGIA"^^xsd:string,
+        "DANACO"^^xsd:string ;
+    fdo:name "Air Georgia"^^xsd:string,
+        "Dana Air"^^xsd:string .
+
+fdo:DB a fdo:Carrier ;
+    fdo:callSign "BRITAIR"^^xsd:string ;
+    fdo:name "Brit Air"^^xsd:string .
+
+fdo:DC a fdo:Carrier ;
+    fdo:callSign "GOLDEN"^^xsd:string ;
+    fdo:name "Golden Air"^^xsd:string .
+
+fdo:DD a fdo:Carrier ;
+    fdo:callSign "NOK AIR"^^xsd:string ;
+    fdo:name "Nok Air"^^xsd:string .
+
+fdo:DE a fdo:Carrier ;
+    fdo:callSign "CONDOR"^^xsd:string ;
+    fdo:name "Condor Flugdienst"^^xsd:string .
+
+fdo:DF a fdo:Carrier ;
+    fdo:callSign "MJG"^^xsd:string ;
+    fdo:name "Michael Airlines"^^xsd:string .
+
+fdo:DG a fdo:Carrier ;
+    fdo:callSign "SEAIR"^^xsd:string ;
+    fdo:name "South East Asian Airlines"^^xsd:string .
+
+fdo:DH a fdo:Carrier ;
+    fdo:callSign "DISCOVERY AIRWAYS"^^xsd:string,
+        "DSY"^^xsd:string,
+        "INDEPENDENCE AIR"^^xsd:string ;
+    fdo:name "Dennis Sky"^^xsd:string,
+        "Discovery Airways"^^xsd:string,
+        "Independence Air"^^xsd:string .
+
+fdo:DI a fdo:Carrier ;
+    fdo:callSign "SPEEDWAY"^^xsd:string ;
+    fdo:name "dba"^^xsd:string .
+
+fdo:DJ a fdo:Carrier ;
+    fdo:callSign "BLUEBIRD"^^xsd:string,
+        "BLUEY"^^xsd:string,
+        "POLYBLUE"^^xsd:string ;
+    fdo:name "Pacific Blue"^^xsd:string,
+        "Polynesian Blue"^^xsd:string,
+        "Virgin Blue"^^xsd:string .
+
+fdo:DK a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Eastland Air"^^xsd:string .
+
+fdo:DL a fdo:Carrier ;
+    fdo:callSign "DELTA"^^xsd:string ;
+    fdo:name "Delta Air Lines"^^xsd:string .
+
+fdo:DM a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Maersk"^^xsd:string .
+
+fdo:DN a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Alinord"^^xsd:string,
+        "Senegal Airlines"^^xsd:string,
+        "Voronezhskie Airlanes"^^xsd:string .
+
+fdo:DO a fdo:Carrier ;
+    fdo:callSign "DOMINICANA"^^xsd:string ;
+    fdo:name "Dominicana de Aviaci"^^xsd:string .
+
+fdo:DP a fdo:Carrier ;
+    fdo:callSign "JETSET"^^xsd:string ;
+    fdo:name "First Choice Airways"^^xsd:string .
+
+fdo:DQ a fdo:Carrier ;
+    fdo:callSign "U.S. Virgin Islands"^^xsd:string ;
+    fdo:name "Coastal Air"^^xsd:string .
+
+fdo:DR a fdo:Carrier ;
+    fdo:callSign "MEDITERRANEE"^^xsd:string ;
+    fdo:name "Air Mediterranee"^^xsd:string .
+
+fdo:DS a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "EasyJet (DS)"^^xsd:string .
+
+fdo:DT a fdo:Carrier ;
+    fdo:callSign "DTA"^^xsd:string ;
+    fdo:name "TAAG Angola Airlines"^^xsd:string .
+
+fdo:DU a fdo:Carrier ;
+    fdo:callSign "HEMUS AIR"^^xsd:string,
+        "NORSTAR"^^xsd:string ;
+    fdo:name "Hemus Air"^^xsd:string,
+        "Norwegian Long Haul AS"^^xsd:string .
+
+fdo:DV a fdo:Carrier ;
+    fdo:callSign "ACK AIR"^^xsd:string,
+        "Garfield"^^xsd:string,
+        "VLASTA"^^xsd:string ;
+    fdo:name "Lufttaxi Fluggesellschaft"^^xsd:string,
+        "Nantucket Airlines"^^xsd:string,
+        "Scat Air"^^xsd:string .
+
+fdo:DW a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "CHARTER UKRAINE"^^xsd:string ;
+    fdo:name "Aero-Charter Ukraine"^^xsd:string,
+        "Deutsche Luftverkehrsgesellschaft"^^xsd:string,
+        "Deutsche Luftverkehrsgesellschaft (DLT)"^^xsd:string .
+
+fdo:DX a fdo:Carrier ;
+    fdo:callSign "DANISH"^^xsd:string ;
+    fdo:name "DAT Danish Air Transport"^^xsd:string .
+
+fdo:DY a fdo:Carrier ;
+    fdo:callSign "NOR SHUTTLE"^^xsd:string ;
+    fdo:name "Norwegian Air Shuttle"^^xsd:string .
+
+fdo:DZ a fdo:Carrier ;
+    fdo:callSign "ALUNK"^^xsd:string ;
+    fdo:name "Starline.kz"^^xsd:string .
+
+fdo:E0 a fdo:Carrier ;
+    fdo:callSign "NEW DAWN"^^xsd:string ;
+    fdo:name "Eos Airlines"^^xsd:string .
+
+fdo:E1 a fdo:Carrier ;
+    fdo:callSign "USKY"^^xsd:string ;
+    fdo:name "Usa Sky Cargo"^^xsd:string .
+
+fdo:E2 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "GRANDE"^^xsd:string,
+        "KAMPUCHEA"^^xsd:string ;
+    fdo:name "Eagle Atlantic Airlines"^^xsd:string,
+        "Kampuchea Airlines"^^xsd:string,
+        "Rio Grande Air"^^xsd:string .
+
+fdo:E3 a fdo:Carrier ;
+    fdo:callSign "DOMODEDOVO"^^xsd:string ;
+    fdo:name "Domodedovo Airlines"^^xsd:string .
+
+fdo:E4 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "AERO ASIA"^^xsd:string ;
+    fdo:name "Aero Asia International"^^xsd:string,
+        "Elysian Airlines"^^xsd:string .
+
+fdo:E5 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "BERYOZA"^^xsd:string ;
+    fdo:name "Air Arabia Egypt"^^xsd:string,
+        "Samara Airlines"^^xsd:string .
+
+fdo:E6 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Aviaexpresscruise"^^xsd:string,
+        "Bringer Air Cargo Taxi Aereo"^^xsd:string .
+
+fdo:E7 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "EUROCHARTER"^^xsd:string ;
+    fdo:name "Estafeta Carga Aerea"^^xsd:string,
+        "European Aviation Air Charter"^^xsd:string .
+
+fdo:E8 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "ALPI EAGLES"^^xsd:string,
+        "CITY AIR"^^xsd:string ;
+    fdo:name "Alpi Eagles"^^xsd:string,
+        "Alpi Eagles (E8)"^^xsd:string,
+        "City Airways"^^xsd:string,
+        "US Africa Airways"^^xsd:string .
+
+fdo:E9 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "AFRICOMPANY"^^xsd:string,
+        "CLIPPER CONNECTION"^^xsd:string ;
+    fdo:name "AJT Air International"^^xsd:string,
+        "Boston-Maine Airways"^^xsd:string,
+        "Compagnie Africaine d\\\\Aviation"^^xsd:string .
+
+fdo:EA a fdo:Carrier ;
+    fdo:callSign "STAR WING"^^xsd:string ;
+    fdo:name "European Air Express"^^xsd:string .
+
+fdo:EC a fdo:Carrier ;
+    fdo:callSign "TWINARROW"^^xsd:string ;
+    fdo:name "Avialeasing Aviation Company"^^xsd:string .
+
+fdo:ED a fdo:Carrier ;
+    fdo:callSign "PAKBLUE"^^xsd:string ;
+    fdo:name "Airblue"^^xsd:string .
+
+fdo:EE a fdo:Carrier ;
+    fdo:callSign "REVAL"^^xsd:string ;
+    fdo:name "Aero Airlines"^^xsd:string,
+        "Nordica"^^xsd:string .
+
+fdo:EF a fdo:Carrier ;
+    fdo:callSign "Far Eastern"^^xsd:string ;
+    fdo:name "Far Eastern Air Transport"^^xsd:string .
+
+fdo:EG a fdo:Carrier ;
+    fdo:callSign "ASIA"^^xsd:string ;
+    fdo:name "Japan Asia Airways"^^xsd:string .
+
+fdo:EH a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "ALFA WING"^^xsd:string,
+        "SAETA"^^xsd:string ;
+    fdo:name "Air Nippon Network Co. Ltd."^^xsd:string,
+        "Euro Harmony"^^xsd:string,
+        "SAETA"^^xsd:string .
+
+fdo:EI a fdo:Carrier ;
+    fdo:callSign "SHAMROCK"^^xsd:string ;
+    fdo:name "Aer Lingus"^^xsd:string .
+
+fdo:EJ a fdo:Carrier ;
+    fdo:callSign "NEW ENGLAND"^^xsd:string ;
+    fdo:name "New England Airlines"^^xsd:string .
+
+fdo:EK a fdo:Carrier ;
+    fdo:callSign "EMIRATES"^^xsd:string ;
+    fdo:name "Emirates"^^xsd:string .
+
+fdo:EL a fdo:Carrier ;
+    fdo:callSign "ANK AIR"^^xsd:string ;
+    fdo:name "Air Nippon"^^xsd:string .
+
+fdo:EM a fdo:Carrier ;
+    fdo:callSign "AEROBEN"^^xsd:string,
+        "EMPIRE AIR"^^xsd:string ;
+    fdo:name "Aero Benin"^^xsd:string,
+        "Empire Airlines"^^xsd:string .
+
+fdo:EN a fdo:Carrier ;
+    fdo:callSign "DOLOMOTI"^^xsd:string ;
+    fdo:name "Air Dolomiti"^^xsd:string .
+
+fdo:EO a fdo:Carrier ;
+    fdo:callSign "ALLCONGO"^^xsd:string,
+        "LONGHORN"^^xsd:string ;
+    fdo:name "Express One International"^^xsd:string,
+        "Hewa Bora Airways"^^xsd:string .
+
+fdo:EP a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Iran Aseman Airlines"^^xsd:string .
+
+fdo:EQ a fdo:Carrier ;
+    fdo:callSign "TAME"^^xsd:string ;
+    fdo:name "TAME"^^xsd:string .
+
+fdo:ER a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "DAHL"^^xsd:string ;
+    fdo:name "Astar Air Cargo"^^xsd:string,
+        "Fly Europa"^^xsd:string .
+
+fdo:ES a fdo:Carrier ;
+    fdo:callSign "DILMUN"^^xsd:string,
+        "EuropeSky"^^xsd:string ;
+    fdo:name "DHL International"^^xsd:string,
+        "EuropeSky"^^xsd:string .
+
+fdo:ET a fdo:Carrier ;
+    fdo:callSign "ETHIOPIAN"^^xsd:string ;
+    fdo:name "Ethiopian Airlines"^^xsd:string .
+
+fdo:EU a fdo:Carrier ;
+    fdo:callSign "ECUATORIANA"^^xsd:string ;
+    fdo:name "Empresa Ecuatoriana De Aviacion"^^xsd:string .
+
+fdo:EV a fdo:Carrier ;
+    fdo:callSign "ACEY"^^xsd:string ;
+    fdo:name "Atlantic Southeast Airlines"^^xsd:string .
+
+fdo:EW a fdo:Carrier ;
+    fdo:callSign "EUROWINGS"^^xsd:string ;
+    fdo:name "Eurowings"^^xsd:string .
+
+fdo:EX a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "AERO DOMINGO"^^xsd:string ;
+    fdo:name "Air Santo Domingo"^^xsd:string,
+        "Europe Jet"^^xsd:string,
+        "Wings of England"^^xsd:string .
+
+fdo:EY a fdo:Carrier ;
+    fdo:callSign "ETIHAD"^^xsd:string ;
+    fdo:name "Etihad Airways"^^xsd:string .
+
+fdo:EZ a fdo:Carrier ;
+    fdo:callSign "EVERGREEN"^^xsd:string,
+        "SUNSCAN"^^xsd:string ;
+    fdo:name "Evergreen International Airlines"^^xsd:string,
+        "Sun Air of Scandinavia"^^xsd:string .
+
+fdo:F1 a fdo:Carrier ;
+    fdo:callSign "FBL"^^xsd:string ;
+    fdo:name "Fly Brasil"^^xsd:string .
+
+fdo:F2 a fdo:Carrier ;
+    fdo:callSign "FLY WORLD"^^xsd:string ;
+    fdo:name "Fly Air"^^xsd:string .
+
+fdo:F3 a fdo:Carrier ;
+    fdo:callSign "FASO"^^xsd:string ;
+    fdo:name "Faso Airways"^^xsd:string .
+
+fdo:F4 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "AL-AIR"^^xsd:string ;
+    fdo:name "Albarka Air"^^xsd:string,
+        "International Flying Service"^^xsd:string .
+
+fdo:F5 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "COSMIC AIR"^^xsd:string,
+        "Freight"^^xsd:string ;
+    fdo:name "Cosmic Air"^^xsd:string,
+        "Fly One"^^xsd:string,
+        "Global Freightways"^^xsd:string .
+
+fdo:F6 a fdo:Carrier ;
+    fdo:callSign "ROCKROSE"^^xsd:string ;
+    fdo:name "Faroejet"^^xsd:string .
+
+fdo:F7 a fdo:Carrier ;
+    fdo:callSign "BABOO"^^xsd:string ;
+    fdo:name "Flybaboo"^^xsd:string .
+
+fdo:F8 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Air2there"^^xsd:string .
+
+fdo:F9 a fdo:Carrier ;
+    fdo:callSign "FRONTIER FLIGHT"^^xsd:string ;
+    fdo:name "Frontier Airlines"^^xsd:string .
+
+fdo:FA a fdo:Carrier ;
+    fdo:callSign "CARGO"^^xsd:string,
+        "Epic"^^xsd:string ;
+    fdo:name "Epic Holiday"^^xsd:string,
+        "Safair"^^xsd:string .
+
+fdo:FB a fdo:Carrier ;
+    fdo:callSign "FLYING BULGARIA"^^xsd:string ;
+    fdo:name "Bulgaria Air"^^xsd:string .
+
+fdo:FC a fdo:Carrier ;
+    fdo:callSign "WESTBIRD"^^xsd:string ;
+    fdo:name "Finncomm Airlines"^^xsd:string .
+
+fdo:FD a fdo:Carrier ;
+    fdo:callSign "THAI ASIA"^^xsd:string ;
+    fdo:name "Thai AirAsia"^^xsd:string .
+
+fdo:FE a fdo:Carrier ;
+    fdo:callSign "WHITECAP"^^xsd:string ;
+    fdo:name "Primaris Airlines"^^xsd:string .
+
+fdo:FF a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "TEE AIR"^^xsd:string ;
+    fdo:name "Airshop"^^xsd:string,
+        "Fly France"^^xsd:string,
+        "Tower Air"^^xsd:string .
+
+fdo:FG a fdo:Carrier ;
+    fdo:callSign "ARIANA"^^xsd:string ;
+    fdo:name "Ariana Afghan Airlines"^^xsd:string .
+
+fdo:FH a fdo:Carrier ;
+    fdo:callSign "FLYHIRELAND"^^xsd:string,
+        "FUTURA"^^xsd:string ;
+    fdo:name "FlyHigh Airlines Ireland (FH)"^^xsd:string,
+        "Futura International Airways"^^xsd:string .
+
+fdo:FI a fdo:Carrier ;
+    fdo:callSign "ICEAIR"^^xsd:string ;
+    fdo:name "Icelandair"^^xsd:string .
+
+fdo:FJ a fdo:Carrier ;
+    fdo:callSign "PACIFIC"^^xsd:string ;
+    fdo:name "Air Pacific"^^xsd:string .
+
+fdo:FK a fdo:Carrier ;
+    fdo:callSign "WEST TOGO"^^xsd:string ;
+    fdo:name "Africa West"^^xsd:string .
+
+fdo:FL a fdo:Carrier ;
+    fdo:callSign "CITRUS"^^xsd:string ;
+    fdo:name "AirTran Airways"^^xsd:string .
+
+fdo:FM a fdo:Carrier ;
+    fdo:callSign "SHANGHAI AIR"^^xsd:string ;
+    fdo:name "Shanghai Airlines"^^xsd:string .
+
+fdo:FN a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Regional Airlines"^^xsd:string .
+
+fdo:FO a fdo:Carrier ;
+    fdo:callSign "AIRTAS"^^xsd:string ;
+    fdo:name "Airlines Of Tasmania"^^xsd:string .
+
+fdo:FP a fdo:Carrier ;
+    fdo:callSign "FREEDOM"^^xsd:string ;
+    fdo:name "Freedom Air"^^xsd:string .
+
+fdo:FQ a fdo:Carrier ;
+    fdo:callSign "THOMAS COOK"^^xsd:string ;
+    fdo:name "Thomas Cook Airlines"^^xsd:string .
+
+fdo:FR a fdo:Carrier ;
+    fdo:callSign "RYANAIR"^^xsd:string ;
+    fdo:name "Ryanair"^^xsd:string .
+
+fdo:FS a fdo:Carrier ;
+    fdo:callSign "FUEGUINO"^^xsd:string ;
+    fdo:name "Servicios de Transportes A"^^xsd:string .
+
+fdo:FT a fdo:Carrier ;
+    fdo:callSign "SIEMREAP AIR"^^xsd:string ;
+    fdo:name "Siem Reap Airways"^^xsd:string .
+
+fdo:FU a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Felix Airways"^^xsd:string .
+
+fdo:FV a fdo:Carrier ;
+    fdo:callSign "PULKOVO"^^xsd:string ;
+    fdo:name "Rossiya-Russian Airlines"^^xsd:string .
+
+fdo:FW a fdo:Carrier ;
+    fdo:callSign "IBEX"^^xsd:string ;
+    fdo:name "Ibex Airlines"^^xsd:string .
+
+fdo:FX a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "FEDEX"^^xsd:string ;
+    fdo:name "FOX Linhas Aereas"^^xsd:string,
+        "Federal Express"^^xsd:string .
+
+fdo:FY a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "FIREFLY"^^xsd:string ;
+    fdo:name "Firefly"^^xsd:string,
+        "Northwest Regional Airlines"^^xsd:string .
+
+fdo:FZ a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Fly Dubai"^^xsd:string .
+
+fdo:G0 a fdo:Carrier ;
+    fdo:callSign "GHANA AIRLINES"^^xsd:string ;
+    fdo:name "Ghana International Airlines"^^xsd:string .
+
+fdo:G1 a fdo:Carrier ;
+    fdo:callSign "GORKHA AIRLINES"^^xsd:string,
+        "Indya1"^^xsd:string ;
+    fdo:name "Gorkha Airlines"^^xsd:string,
+        "Indya Airline Group"^^xsd:string .
+
+fdo:G2 a fdo:Carrier ;
+    fdo:callSign "AVIREX-GABON"^^xsd:string ;
+    fdo:name "Avirex"^^xsd:string .
+
+fdo:G3 a fdo:Carrier ;
+    fdo:callSign "AIR CRETE"^^xsd:string,
+        "CONNEXION"^^xsd:string,
+        "GOL TRANSPORTE"^^xsd:string ;
+    fdo:name "City Connexion Airlines"^^xsd:string,
+        "Gol Transportes Aéreos"^^xsd:string,
+        "Sky Express"^^xsd:string .
+
+fdo:G4 a fdo:Carrier ;
+    fdo:callSign "ALLEGIANT"^^xsd:string ;
+    fdo:name "Allegiant Air"^^xsd:string .
+
+fdo:G5 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Huaxia"^^xsd:string .
+
+fdo:G6 a fdo:Carrier ;
+    fdo:callSign "BISSAU AIRLINES"^^xsd:string,
+        "GOUMRAK"^^xsd:string ;
+    fdo:name "Air Volga"^^xsd:string,
+        "Guine Bissaur Airlines"^^xsd:string .
+
+fdo:G7 a fdo:Carrier ;
+    fdo:callSign "GATEWAY"^^xsd:string,
+        "Gandalf"^^xsd:string ;
+    fdo:name "Gandalf Airlines"^^xsd:string,
+        "GoJet Airlines"^^xsd:string .
+
+fdo:G8 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "ENKOR"^^xsd:string,
+        "GOAIR"^^xsd:string,
+        "GUJARATAIR"^^xsd:string ;
+    fdo:name "Air Service Gabon"^^xsd:string,
+        "Enkor JSC"^^xsd:string,
+        "Go Air"^^xsd:string,
+        "Gujarat Airways"^^xsd:string .
+
+fdo:G9 a fdo:Carrier ;
+    fdo:callSign "ARABIA"^^xsd:string ;
+    fdo:name "Air Arabia"^^xsd:string .
+
+fdo:GA a fdo:Carrier ;
+    fdo:callSign "INDONESIA"^^xsd:string ;
+    fdo:name "Garuda Indonesia"^^xsd:string .
+
+fdo:GB a fdo:Carrier ;
+    fdo:callSign "ABEX"^^xsd:string,
+        "BRAZIL AIR"^^xsd:string ;
+    fdo:name "ABX Air"^^xsd:string,
+        "Airborne Express"^^xsd:string,
+        "BRAZIL AIR"^^xsd:string .
+
+fdo:GC a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "GAMBIA INTERNATIONAL"^^xsd:string ;
+    fdo:name "Gambia International Airlines"^^xsd:string,
+        "Lina Congo"^^xsd:string .
+
+fdo:GD a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "AIR ALPHA"^^xsd:string ;
+    fdo:name "Air Alpha Greenland"^^xsd:string,
+        "GoDutch"^^xsd:string .
+
+fdo:GE a fdo:Carrier ;
+    fdo:callSign "TransAsia"^^xsd:string ;
+    fdo:name "TransAsia Airways"^^xsd:string .
+
+fdo:GF a fdo:Carrier ;
+    fdo:callSign "GULF BAHRAIN"^^xsd:string ;
+    fdo:name "Gulf Air Bahrain"^^xsd:string .
+
+fdo:GG a fdo:Carrier ;
+    fdo:callSign "AIR COMORES"^^xsd:string,
+        "GREEN BIRD"^^xsd:string,
+        "LONG-HAUL"^^xsd:string ;
+    fdo:name "Air Comores International"^^xsd:string,
+        "Air Guyane"^^xsd:string,
+        "Cargo 360"^^xsd:string .
+
+fdo:GH a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Globus"^^xsd:string .
+
+fdo:GI a fdo:Carrier ;
+    fdo:callSign "ITEK-AIR"^^xsd:string ;
+    fdo:name "Itek Air"^^xsd:string .
+
+fdo:GJ a fdo:Carrier ;
+    fdo:callSign "EUROFLY"^^xsd:string,
+        "MEXICARGO"^^xsd:string ;
+    fdo:name "Compania Mexicargo"^^xsd:string,
+        "Eurofly Service"^^xsd:string .
+
+fdo:GK a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Genesis"^^xsd:string,
+        "Go One Airways"^^xsd:string .
+
+fdo:GL a fdo:Carrier ;
+    fdo:callSign "BISCAYNE"^^xsd:string,
+        "GREENLAND"^^xsd:string ;
+    fdo:name "Air Greenland"^^xsd:string,
+        "Miami Air International"^^xsd:string .
+
+fdo:GM a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "SLOVAKIA"^^xsd:string ;
+    fdo:name "Air Slovakia"^^xsd:string,
+        "Flitestar"^^xsd:string,
+        "German International Air Lines"^^xsd:string .
+
+fdo:GN a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "GOLF NOVEMBER"^^xsd:string ;
+    fdo:name "Air Gabon"^^xsd:string,
+        "GNB Linhas Aereas"^^xsd:string .
+
+fdo:GO a fdo:Carrier ;
+    fdo:callSign "KUZU CARGO"^^xsd:string ;
+    fdo:name "Kuzu Airlines Cargo"^^xsd:string .
+
+fdo:GP a fdo:Carrier ;
+    fdo:callSign "GADAIR"^^xsd:string,
+        "GESTAIR"^^xsd:string,
+        "TRANS PACIFIC"^^xsd:string ;
+    fdo:name "Gadair European Airlines"^^xsd:string,
+        "Gestair"^^xsd:string,
+        "Palau Trans Pacific Airline"^^xsd:string .
+
+fdo:GQ a fdo:Carrier ;
+    fdo:callSign "BIG SKY"^^xsd:string ;
+    fdo:name "Big Sky Airlines"^^xsd:string .
+
+fdo:GR a fdo:Carrier ;
+    fdo:callSign "AYLINE"^^xsd:string,
+        "GEMINI"^^xsd:string ;
+    fdo:name "Aurigny Air Services"^^xsd:string,
+        "Gemini Air Cargo"^^xsd:string .
+
+fdo:GS a fdo:Carrier ;
+    fdo:callSign "FOYLE"^^xsd:string,
+        "HOOT"^^xsd:string ;
+    fdo:name "Air Foyle"^^xsd:string,
+        "Grant Aviation"^^xsd:string .
+
+fdo:GT a fdo:Carrier ;
+    fdo:callSign "GEEBEE AIRWAYS"^^xsd:string ;
+    fdo:name "GB Airways"^^xsd:string .
+
+fdo:GU a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Gulisano airways"^^xsd:string .
+
+fdo:GV a fdo:Carrier ;
+    fdo:callSign "Aero Fox"^^xsd:string ;
+    fdo:name "Aero Flight"^^xsd:string .
+
+fdo:GW a fdo:Carrier ;
+    fdo:callSign "AIR KUBAN"^^xsd:string ;
+    fdo:name "Kuban Airlines"^^xsd:string .
+
+fdo:GX a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "JETBIRD"^^xsd:string ;
+    fdo:name "GREAT LAKES (GX)"^^xsd:string,
+        "GermanXL"^^xsd:string,
+        "Jetx Airlines"^^xsd:string,
+        "Pacificair"^^xsd:string .
+
+fdo:GY a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "GABON AIRLINES"^^xsd:string,
+        "TRILINES"^^xsd:string ;
+    fdo:name "Gabon Airlines"^^xsd:string,
+        "Guyana Airways 2000"^^xsd:string,
+        "Tri-MG Intra Asia Airlines"^^xsd:string .
+
+fdo:GZ a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Air Rarotonga"^^xsd:string .
+
+fdo:H1 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Hankook Air US"^^xsd:string .
+
+fdo:H2 a fdo:Carrier ;
+    fdo:callSign "AEROSKY"^^xsd:string ;
+    fdo:name "Sky Airline"^^xsd:string .
+
+fdo:H3 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Harbour Air (Priv)"^^xsd:string,
+        "THREE"^^xsd:string .
+
+fdo:H4 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Héli Sécurité Helicopter Airlines"^^xsd:string,
+        "Inter Islands Airlines"^^xsd:string .
+
+fdo:H5 a fdo:Carrier ;
+    fdo:callSign "HOLA"^^xsd:string,
+        "Mavial"^^xsd:string,
+        "RUSSIAN SKY"^^xsd:string ;
+    fdo:name "Hola Airlines"^^xsd:string,
+        "I-Fly"^^xsd:string,
+        "Mavial Magadan Airlines"^^xsd:string .
+
+fdo:H6 a fdo:Carrier ;
+    fdo:callSign "HAGELAND"^^xsd:string ;
+    fdo:name "Hageland Aviation Services"^^xsd:string .
+
+fdo:H7 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Eagle Air"^^xsd:string .
+
+fdo:H8 a fdo:Carrier ;
+    fdo:callSign "DALAVIA"^^xsd:string ;
+    fdo:name "Dalavia"^^xsd:string .
+
+fdo:H9 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "HAITI AVIA"^^xsd:string,
+        "IZMIR"^^xsd:string ;
+    fdo:name "Air DAyiti"^^xsd:string,
+        "Izair"^^xsd:string,
+        "PEGASUS AIRLINES-"^^xsd:string .
+
+fdo:HA a fdo:Carrier ;
+    fdo:callSign "HAWAIIAN"^^xsd:string ;
+    fdo:name "Hawaiian Airlines"^^xsd:string .
+
+fdo:HB a fdo:Carrier ;
+    fdo:callSign "HARBOR"^^xsd:string ;
+    fdo:name "Harbor Airlines"^^xsd:string .
+
+fdo:HC a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "Himalayan"^^xsd:string ;
+    fdo:name "Aero-Tropics Air Services"^^xsd:string,
+        "Himalayan Airlines"^^xsd:string .
+
+fdo:HD a fdo:Carrier ;
+    fdo:callSign "AIR DO"^^xsd:string ;
+    fdo:name "Hokkaido International Airlines"^^xsd:string .
+
+fdo:HE a fdo:Carrier ;
+    fdo:callSign "WALTER"^^xsd:string ;
+    fdo:name "Luftfahrtgesellschaft Walter"^^xsd:string .
+
+fdo:HF a fdo:Carrier ;
+    fdo:callSign "HAPAG LLOYD"^^xsd:string ;
+    fdo:name "Hapagfly"^^xsd:string .
+
+fdo:HG a fdo:Carrier ;
+    fdo:callSign "FLYNIKI"^^xsd:string ;
+    fdo:name "Niki"^^xsd:string .
+
+fdo:HH a fdo:Carrier ;
+    fdo:callSign "Air Hamburg"^^xsd:string,
+        "HOPE AIR"^^xsd:string ;
+    fdo:name "Air Hamburg (AHO)"^^xsd:string,
+        "Hope Air"^^xsd:string .
+
+fdo:HI a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Papillon Grand Canyon Helicopters"^^xsd:string .
+
+fdo:HJ a fdo:Carrier ;
+    fdo:callSign "FREIGHTEXPRESS"^^xsd:string ;
+    fdo:name "Asian Express Airlines"^^xsd:string .
+
+fdo:HK a fdo:Carrier ;
+    fdo:callSign "FOUR STAR"^^xsd:string,
+        "Hotel Kilo"^^xsd:string ;
+    fdo:name "Four Star Aviation / Four Star Cargo"^^xsd:string,
+        "Yangon Airways"^^xsd:string .
+
+fdo:HM a fdo:Carrier ;
+    fdo:callSign "SEYCHELLES"^^xsd:string ;
+    fdo:name "Air Seychelles"^^xsd:string .
+
+fdo:HN a fdo:Carrier ;
+    fdo:callSign "HEAVY CARGO"^^xsd:string,
+        "HNX"^^xsd:string ;
+    fdo:name "Hankook Airline"^^xsd:string,
+        "Heavylift Cargo Airlines"^^xsd:string .
+
+fdo:HO a fdo:Carrier ;
+    fdo:callSign "ANTINEA"^^xsd:string,
+        "JUNEYAO AIRLINES"^^xsd:string ;
+    fdo:name "Antinea Airlines"^^xsd:string,
+        "Juneyao Airlines"^^xsd:string .
+
+fdo:HP a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "CACTUS"^^xsd:string,
+        "PEARL AIRWAYS"^^xsd:string ;
+    fdo:name "America West Airlines"^^xsd:string,
+        "Hawaiian Pacific Airlines"^^xsd:string,
+        "Pearl Airways"^^xsd:string,
+        "Phoenix Airways"^^xsd:string .
+
+fdo:HQ a fdo:Carrier ;
+    fdo:callSign "BizEx"^^xsd:string,
+        "HARMONY"^^xsd:string ;
+    fdo:name "HQ- Business Express"^^xsd:string,
+        "Harmony Airways"^^xsd:string .
+
+fdo:HR a fdo:Carrier ;
+    fdo:callSign "LIANHANG"^^xsd:string,
+        "ROOSTER"^^xsd:string ;
+    fdo:name "China United Airlines"^^xsd:string,
+        "Hahn Air"^^xsd:string .
+
+fdo:HT a fdo:Carrier ;
+    fdo:callSign "AEROMIST"^^xsd:string,
+        "IMPERIAL"^^xsd:string ;
+    fdo:name "Aeromist-Kharkiv"^^xsd:string,
+        "Hellenic Imperial Airways"^^xsd:string .
+
+fdo:HU a fdo:Carrier ;
+    fdo:callSign "HAINAN"^^xsd:string ;
+    fdo:name "Hainan Airlines"^^xsd:string .
+
+fdo:HV a fdo:Carrier ;
+    fdo:callSign "TRANSAVIA"^^xsd:string ;
+    fdo:name "Transavia Holland"^^xsd:string .
+
+fdo:HW a fdo:Carrier ;
+    fdo:callSign "FLYHELLO"^^xsd:string,
+        "NORTHWRIGHT"^^xsd:string ;
+    fdo:name "Hello"^^xsd:string,
+        "North-Wright Airways"^^xsd:string .
+
+fdo:HX a fdo:Carrier ;
+    fdo:callSign "BAUHINIA"^^xsd:string ;
+    fdo:name "Hong Kong Airlines"^^xsd:string .
+
+fdo:HY a fdo:Carrier ;
+    fdo:callSign "UZBEK"^^xsd:string ;
+    fdo:name "Uzbekistan Airways"^^xsd:string .
+
+fdo:HZ a fdo:Carrier ;
+    fdo:callSign "SATCO"^^xsd:string ;
+    fdo:name "Sat Airlines"^^xsd:string .
+
+fdo:I2 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Iberia Express"^^xsd:string .
+
+fdo:I3 a fdo:Carrier ;
+    fdo:callSign "ATALAR"^^xsd:string ;
+    fdo:name "ATA Airlines (Iran)"^^xsd:string .
+
+fdo:I4 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "FREEWAYAIR"^^xsd:string ;
+    fdo:name "International AirLink"^^xsd:string,
+        "Interstate Airline"^^xsd:string .
+
+fdo:I5 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Indonesia Sky"^^xsd:string .
+
+fdo:I6 a fdo:Carrier ;
+    fdo:callSign "LINK"^^xsd:string,
+        "SKY EYES"^^xsd:string ;
+    fdo:name "MexicanaLink"^^xsd:string,
+        "Sky Eyes"^^xsd:string .
+
+fdo:I7 a fdo:Carrier ;
+    fdo:callSign "PARAWAY"^^xsd:string ;
+    fdo:name "Paramount Airways"^^xsd:string .
+
+fdo:I8 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "IzAvia"^^xsd:string .
+
+fdo:I9 a fdo:Carrier ;
+    fdo:callSign "AIR ITALY"^^xsd:string,
+        "INDIGO BLUE"^^xsd:string ;
+    fdo:name "Air Italy"^^xsd:string,
+        "Indigo"^^xsd:string .
+
+fdo:IA a fdo:Carrier ;
+    fdo:callSign "IRAQI"^^xsd:string ;
+    fdo:name "Iraqi Airways"^^xsd:string .
+
+fdo:IB a fdo:Carrier ;
+    fdo:callSign "IBERIA"^^xsd:string ;
+    fdo:name "Iberia Airlines"^^xsd:string .
+
+fdo:IC a fdo:Carrier ;
+    fdo:callSign "INDAIR"^^xsd:string ;
+    fdo:name "Indian Airlines"^^xsd:string .
+
+fdo:ID a fdo:Carrier ;
+    fdo:callSign "INTERLINK"^^xsd:string ;
+    fdo:name "Interlink Airlines"^^xsd:string .
+
+fdo:IE a fdo:Carrier ;
+    fdo:callSign "SOLOMON"^^xsd:string ;
+    fdo:name "Solomon Airlines"^^xsd:string .
+
+fdo:IF a fdo:Carrier ;
+    fdo:callSign "PINTADERA"^^xsd:string ;
+    fdo:name "Islas Airways"^^xsd:string .
+
+fdo:IG a fdo:Carrier ;
+    fdo:callSign "MERAIR"^^xsd:string ;
+    fdo:name "Meridiana"^^xsd:string .
+
+fdo:IH a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Falcon Air (IH)"^^xsd:string,
+        "Falcon Aviation"^^xsd:string .
+
+fdo:II a fdo:Carrier ;
+    fdo:callSign "CHASQUI"^^xsd:string,
+        "moose"^^xsd:string ;
+    fdo:name "IBC Airways"^^xsd:string,
+        "LSM International"^^xsd:string .
+
+fdo:IJ a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "GREAT WALL"^^xsd:string,
+        "INTELIJET"^^xsd:string ;
+    fdo:name "AirLiberté"^^xsd:string,
+        "Great Wall Airlines"^^xsd:string,
+        "InteliJet Airways"^^xsd:string,
+        "Spring Airlines Japan"^^xsd:string,
+        "T.A.T"^^xsd:string,
+        "Transport Aérien Transrégional"^^xsd:string .
+
+fdo:IK a fdo:Carrier ;
+    fdo:callSign "IMPROTEX"^^xsd:string,
+        "Lankair"^^xsd:string ;
+    fdo:name "Imair Airlines"^^xsd:string,
+        "Lankair"^^xsd:string .
+
+fdo:IL a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Fly Illi"^^xsd:string,
+        "Illinois Airways"^^xsd:string .
+
+fdo:IM a fdo:Carrier ;
+    fdo:callSign "MENAJET"^^xsd:string ;
+    fdo:name "Menajet"^^xsd:string .
+
+fdo:IN a fdo:Carrier ;
+    fdo:callSign "MAKAVIO"^^xsd:string ;
+    fdo:name "MAT Macedonian Airlines"^^xsd:string .
+
+fdo:IO a fdo:Carrier ;
+    fdo:callSign "INDO LINES"^^xsd:string ;
+    fdo:name "Indonesian Airlines"^^xsd:string .
+
+fdo:IP a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "EDIL"^^xsd:string ;
+    fdo:name "Atyrau Air Ways"^^xsd:string,
+        "Island Spirit"^^xsd:string .
+
+fdo:IQ a fdo:Carrier ;
+    fdo:callSign "AUGSBURG-AIR"^^xsd:string ;
+    fdo:name "Augsburg Airways"^^xsd:string .
+
+fdo:IR a fdo:Carrier ;
+    fdo:callSign "IRANAIR"^^xsd:string ;
+    fdo:name "Iran Air"^^xsd:string .
+
+fdo:IS a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Island Airlines"^^xsd:string .
+
+fdo:IT a fdo:Carrier ;
+    fdo:callSign "KINGFISHER"^^xsd:string ;
+    fdo:name "Kingfisher Airlines"^^xsd:string .
+
+fdo:IV a fdo:Carrier ;
+    fdo:callSign "GHIBLI"^^xsd:string ;
+    fdo:name "Wind Jet"^^xsd:string .
+
+fdo:IW a fdo:Carrier ;
+    fdo:callSign "French Lines"^^xsd:string,
+        "WINGS ABADI"^^xsd:string ;
+    fdo:name "AOM French Airlines"^^xsd:string,
+        "Wings Air"^^xsd:string .
+
+fdo:IX a fdo:Carrier ;
+    fdo:callSign "EXPRESS INDIA"^^xsd:string ;
+    fdo:name "Air India Express"^^xsd:string .
+
+fdo:IY a fdo:Carrier ;
+    fdo:callSign "YEMENI"^^xsd:string ;
+    fdo:name "Yemenia"^^xsd:string .
+
+fdo:IZ a fdo:Carrier ;
+    fdo:callSign "ARKIA"^^xsd:string ;
+    fdo:name "Arkia Israel Airlines"^^xsd:string .
+
+fdo:J1 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "OneJet"^^xsd:string .
+
+fdo:J2 a fdo:Carrier ;
+    fdo:callSign "AZAL"^^xsd:string ;
+    fdo:name "Azerbaijan Airlines"^^xsd:string .
+
+fdo:J3 a fdo:Carrier ;
+    fdo:callSign "POLARIS"^^xsd:string ;
+    fdo:name "Northwestern Air"^^xsd:string .
+
+fdo:J4 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "BUFFALO"^^xsd:string ;
+    fdo:name "ALAK"^^xsd:string,
+        "Buffalo Airways"^^xsd:string .
+
+fdo:J5 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Alaska Seaplane Service"^^xsd:string .
+
+fdo:J6 a fdo:Carrier ;
+    fdo:callSign "AERO AVCOM"^^xsd:string ;
+    fdo:name "AVCOM"^^xsd:string .
+
+fdo:J7 a fdo:Carrier ;
+    fdo:callSign "AVIACENTRE"^^xsd:string,
+        "CRITTER"^^xsd:string,
+        "DNM"^^xsd:string ;
+    fdo:name "Centre-Avia"^^xsd:string,
+        "Denim Air"^^xsd:string,
+        "ValueJet"^^xsd:string .
+
+fdo:J8 a fdo:Carrier ;
+    fdo:callSign "BERJAYA"^^xsd:string ;
+    fdo:name "Berjaya Air"^^xsd:string .
+
+fdo:J9 a fdo:Carrier ;
+    fdo:callSign "GUINEE AIRLINES"^^xsd:string,
+        "JAZEERA"^^xsd:string ;
+    fdo:name "Guinee Airlines"^^xsd:string,
+        "Jazeera Airways"^^xsd:string .
+
+fdo:JA a fdo:Carrier ;
+    fdo:callSign "AIR BOSNA"^^xsd:string,
+        "Air Bosna"^^xsd:string ;
+    fdo:name "Air Bosna"^^xsd:string,
+        "B&H Airlines"^^xsd:string .
+
+fdo:JB a fdo:Carrier ;
+    fdo:callSign "HELIJET"^^xsd:string ;
+    fdo:name "Helijet"^^xsd:string .
+
+fdo:JC a fdo:Carrier ;
+    fdo:callSign "JANEX"^^xsd:string ;
+    fdo:name "JAL Express"^^xsd:string .
+
+fdo:JD a fdo:Carrier ;
+    fdo:callSign "Air System"^^xsd:string ;
+    fdo:name "Japan Air System"^^xsd:string .
+
+fdo:JE a fdo:Carrier ;
+    fdo:callSign "TULCA"^^xsd:string ;
+    fdo:name "Mango"^^xsd:string .
+
+fdo:JF a fdo:Carrier ;
+    fdo:callSign "BEAUTY"^^xsd:string,
+        "LAB"^^xsd:string ;
+    fdo:name "Jetairfly"^^xsd:string,
+        "L.A.B. Flying Service"^^xsd:string .
+
+fdo:JG a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Jetgo Australia"^^xsd:string .
+
+fdo:JH a fdo:Carrier ;
+    fdo:callSign "FUJI DREAM"^^xsd:string,
+        "NORDESTE"^^xsd:string ;
+    fdo:name "Fuji Dream Airlines"^^xsd:string,
+        "Nordeste Linhas Aereas Regionais"^^xsd:string .
+
+fdo:JI a fdo:Carrier ;
+    fdo:callSign "MIDWAY"^^xsd:string ;
+    fdo:name "Midway Airlines"^^xsd:string .
+
+fdo:JJ a fdo:Carrier ;
+    fdo:callSign "TAM"^^xsd:string ;
+    fdo:name "TAM Brazilian Airlines"^^xsd:string .
+
+fdo:JK a fdo:Carrier ;
+    fdo:callSign "SPANAIR"^^xsd:string ;
+    fdo:name "Spanair"^^xsd:string .
+
+fdo:JL a fdo:Carrier ;
+    fdo:callSign "J-BIRD"^^xsd:string,
+        "JAPANAIR"^^xsd:string ;
+    fdo:name "Japan Airlines"^^xsd:string,
+        "Japan Airlines Domestic"^^xsd:string .
+
+fdo:JM a fdo:Carrier ;
+    fdo:callSign "JAMAICA"^^xsd:string ;
+    fdo:name "Air Jamaica"^^xsd:string .
+
+fdo:JN a fdo:Carrier ;
+    fdo:callSign "EXPO"^^xsd:string ;
+    fdo:name "Excel Airways"^^xsd:string .
+
+fdo:JO a fdo:Carrier ;
+    fdo:callSign "JALWAYS"^^xsd:string ;
+    fdo:name "JALways"^^xsd:string .
+
+fdo:JP a fdo:Carrier ;
+    fdo:callSign "ADRIA"^^xsd:string ;
+    fdo:name "Adria Airways"^^xsd:string .
+
+fdo:JQ a fdo:Carrier ;
+    fdo:callSign "JETSTAR"^^xsd:string ;
+    fdo:name "Jetstar Airways"^^xsd:string .
+
+fdo:JR a fdo:Carrier ;
+    fdo:callSign "AEROCALIFORNIA"^^xsd:string,
+        "JOY AIR"^^xsd:string ;
+    fdo:name "Aero California"^^xsd:string,
+        "Joy Air"^^xsd:string .
+
+fdo:JS a fdo:Carrier ;
+    fdo:callSign "AIR KORYO"^^xsd:string ;
+    fdo:name "Air Koryo"^^xsd:string .
+
+fdo:JT a fdo:Carrier ;
+    fdo:callSign "LION INTER"^^xsd:string ;
+    fdo:name "Lion Mentari Airlines"^^xsd:string .
+
+fdo:JU a fdo:Carrier ;
+    fdo:callSign "AIR SERBIA"^^xsd:string,
+        "JAT"^^xsd:string ;
+    fdo:name "Air Serbia"^^xsd:string,
+        "Jat Airways"^^xsd:string .
+
+fdo:JV a fdo:Carrier ;
+    fdo:callSign "BEARSKIN"^^xsd:string ;
+    fdo:name "Bearskin Lake Air Service"^^xsd:string .
+
+fdo:JW a fdo:Carrier ;
+    fdo:callSign "BIG A"^^xsd:string ;
+    fdo:name "Arrow Air"^^xsd:string .
+
+fdo:JX a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Jett8 Airlines Cargo"^^xsd:string,
+        "Jusur airways"^^xsd:string .
+
+fdo:JY a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "KERRMONT"^^xsd:string ;
+    fdo:name "Aereonautica militare"^^xsd:string,
+        "Air Turks and Caicos"^^xsd:string .
+
+fdo:JZ a fdo:Carrier ;
+    fdo:callSign "SKY EXPRESS"^^xsd:string ;
+    fdo:name "Skyways Express"^^xsd:string .
+
+fdo:K1 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Kostromskie avialinii"^^xsd:string .
+
+fdo:K2 a fdo:Carrier ;
+    fdo:callSign "EUROLOT"^^xsd:string ;
+    fdo:name "Eurolot"^^xsd:string .
+
+fdo:K3 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Atlantic Air Cargo"^^xsd:string .
+
+fdo:K4 a fdo:Carrier ;
+    fdo:callSign "CONNIE"^^xsd:string ;
+    fdo:name "Kalitta Air"^^xsd:string .
+
+fdo:K5 a fdo:Carrier ;
+    fdo:callSign "ABAN"^^xsd:string,
+        "SASQUATCH"^^xsd:string,
+        "WINGS ALASKA"^^xsd:string ;
+    fdo:name "Aban Air"^^xsd:string,
+        "SeaPort Airlines"^^xsd:string,
+        "Wings of Alaska"^^xsd:string .
+
+fdo:K6 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "BRAVO"^^xsd:string ;
+    fdo:name "Bravo Air Congo"^^xsd:string,
+        "Cambodia Angkor Air (K6)"^^xsd:string .
+
+fdo:K7 a fdo:Carrier ;
+    fdo:callSign "KORAL BLUE"^^xsd:string ;
+    fdo:name "KoralBlue Airlines"^^xsd:string .
+
+fdo:K8 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "ZAMBIA SKIES"^^xsd:string ;
+    fdo:name "Airlink Zambia"^^xsd:string,
+        "Zambia Skyways"^^xsd:string .
+
+fdo:K9 a fdo:Carrier ;
+    fdo:callSign "Krylo"^^xsd:string ;
+    fdo:name "Krylo Airlines"^^xsd:string .
+
+fdo:KA a fdo:Carrier ;
+    fdo:callSign "Hong Kong Dragon Airlines"^^xsd:string ;
+    fdo:name "Dragonair"^^xsd:string .
+
+fdo:KB a fdo:Carrier ;
+    fdo:callSign "ROYAL BHUTAN"^^xsd:string ;
+    fdo:name "Druk Air"^^xsd:string .
+
+fdo:KC a fdo:Carrier ;
+    fdo:callSign "ASTANALINE"^^xsd:string ;
+    fdo:name "Air Astana"^^xsd:string .
+
+fdo:KD a fdo:Carrier ;
+    fdo:callSign "KALININGRAD AIR"^^xsd:string ;
+    fdo:name "KD Avia"^^xsd:string .
+
+fdo:KE a fdo:Carrier ;
+    fdo:callSign "KOREANAIR"^^xsd:string ;
+    fdo:name "Korean Air"^^xsd:string .
+
+fdo:KF a fdo:Carrier ;
+    fdo:callSign "BLUEFIN"^^xsd:string ;
+    fdo:name "Blue1"^^xsd:string .
+
+fdo:KG a fdo:Carrier ;
+    fdo:callSign "AIR BARINAS"^^xsd:string,
+        "RAW"^^xsd:string ;
+    fdo:name "LAI - Linea Aerea IAACA"^^xsd:string,
+        "Royal Airways"^^xsd:string .
+
+fdo:KH a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Cook Island Air"^^xsd:string,
+        "Kharkiv Airlines"^^xsd:string .
+
+fdo:KI a fdo:Carrier ;
+    fdo:callSign "ADAM SKY"^^xsd:string,
+        "ATLANTIC"^^xsd:string ;
+    fdo:name "Adam Air"^^xsd:string,
+        "Air Atlantique"^^xsd:string .
+
+fdo:KJ a fdo:Carrier ;
+    fdo:callSign "BEE MED"^^xsd:string ;
+    fdo:name "British Mediterranean Airways"^^xsd:string .
+
+fdo:KK a fdo:Carrier ;
+    fdo:callSign "ATLASJET"^^xsd:string ;
+    fdo:name "Atlasjet"^^xsd:string .
+
+fdo:KL a fdo:Carrier ;
+    fdo:callSign "KLM"^^xsd:string ;
+    fdo:name "KLM Royal Dutch Airlines"^^xsd:string .
+
+fdo:KM a fdo:Carrier ;
+    fdo:callSign "AIR MALTA"^^xsd:string ;
+    fdo:name "Air Malta"^^xsd:string .
+
+fdo:KN a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "China United"^^xsd:string .
+
+fdo:KO a fdo:Carrier ;
+    fdo:callSign "ACE AIR"^^xsd:string ;
+    fdo:name "Alaska Central Express"^^xsd:string .
+
+fdo:KP a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "DENSE"^^xsd:string,
+        "KIWI AIR"^^xsd:string ;
+    fdo:name "Air Cape"^^xsd:string,
+        "Dense Airways"^^xsd:string,
+        "Kiwi International Air Lines"^^xsd:string .
+
+fdo:KQ a fdo:Carrier ;
+    fdo:callSign "KENYA"^^xsd:string ;
+    fdo:name "Kenya Airways"^^xsd:string .
+
+fdo:KR a fdo:Carrier ;
+    fdo:callSign "CONTICOM"^^xsd:string ;
+    fdo:name "Comores Airlines"^^xsd:string .
+
+fdo:KS a fdo:Carrier ;
+    fdo:callSign "PENINSULA"^^xsd:string ;
+    fdo:name "Peninsula Airways"^^xsd:string .
+
+fdo:KT a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "Vickjet"^^xsd:string ;
+    fdo:name "California Western"^^xsd:string,
+        "VickJet"^^xsd:string .
+
+fdo:KU a fdo:Carrier ;
+    fdo:callSign "KUWAITI"^^xsd:string ;
+    fdo:name "Kuwait Airways"^^xsd:string .
+
+fdo:KV a fdo:Carrier ;
+    fdo:callSign "AIR MINVODY"^^xsd:string ;
+    fdo:name "Kavminvodyavia"^^xsd:string .
+
+fdo:KW a fdo:Carrier ;
+    fdo:callSign "Carnival Air"^^xsd:string ;
+    fdo:name "Carnival Air Lines"^^xsd:string .
+
+fdo:KX a fdo:Carrier ;
+    fdo:callSign "CAYMAN"^^xsd:string ;
+    fdo:name "Cayman Airways"^^xsd:string .
+
+fdo:KY a fdo:Carrier ;
+    fdo:callSign "AIRKIBRIS"^^xsd:string,
+        "EQUATORIAL"^^xsd:string,
+        "KSY"^^xsd:string ;
+    fdo:name "Air S"^^xsd:string,
+        "KSY"^^xsd:string,
+        "Kibris T"^^xsd:string .
+
+fdo:KZ a fdo:Carrier ;
+    fdo:callSign "DC2"^^xsd:string,
+        "NIPPON CARGO"^^xsd:string ;
+    fdo:name "Dense Connection"^^xsd:string,
+        "Nippon Cargo Airlines"^^xsd:string .
+
+fdo:L1 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "All Argentina"^^xsd:string,
+        "Lufthansa Systems"^^xsd:string .
+
+fdo:L2 a fdo:Carrier ;
+    fdo:callSign "LYNDEN"^^xsd:string ;
+    fdo:name "Lynden Air Cargo"^^xsd:string .
+
+fdo:L3 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "BILLA TRANSPORT"^^xsd:string ;
+    fdo:name "DHL de Guatemala"^^xsd:string,
+        "LTU Austria"^^xsd:string .
+
+fdo:L4 a fdo:Carrier ;
+    fdo:callSign "russian sky"^^xsd:string ;
+    fdo:name "Luchsh Airlines"^^xsd:string .
+
+fdo:L5 a fdo:Carrier ;
+    fdo:callSign "LUFT TRANSPORT"^^xsd:string ;
+    fdo:name "Lufttransport"^^xsd:string .
+
+fdo:L6 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Mauritania Airlines International"^^xsd:string .
+
+fdo:L7 a fdo:Carrier ;
+    fdo:callSign "ENTERPRISE LUHANSK"^^xsd:string,
+        "LAOAG AIR"^^xsd:string,
+        "SAPSA"^^xsd:string ;
+    fdo:name "Laoag International Airlines"^^xsd:string,
+        "Linea Aerea SAPSA"^^xsd:string,
+        "Lugansk Airlines"^^xsd:string .
+
+fdo:L8 a fdo:Carrier ;
+    fdo:callSign "Bluebird"^^xsd:string,
+        "LUXOR GOLF"^^xsd:string ;
+    fdo:name "Air Luxor GB"^^xsd:string,
+        "Line Blue"^^xsd:string .
+
+fdo:L9 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "Teamline"^^xsd:string ;
+    fdo:name "All Asia"^^xsd:string,
+        "Teamline Air"^^xsd:string .
+
+fdo:LA a fdo:Carrier ;
+    fdo:callSign "LAN"^^xsd:string ;
+    fdo:name "LAN Airlines"^^xsd:string .
+
+fdo:LB a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "LLOYDAEREO"^^xsd:string ;
+    fdo:name "Air Costa"^^xsd:string,
+        "Lloyd Aereo Boliviano"^^xsd:string .
+
+fdo:LC a fdo:Carrier ;
+    fdo:callSign "VELOG"^^xsd:string ;
+    fdo:name "Varig Log"^^xsd:string .
+
+fdo:LD a fdo:Carrier ;
+    fdo:callSign "AEREOTUY"^^xsd:string,
+        "AIR HONG KONG"^^xsd:string ;
+    fdo:name "Air Hong Kong"^^xsd:string,
+        "Linea Turistica Aerotuy"^^xsd:string .
+
+fdo:LE a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Liberty Airways"^^xsd:string .
+
+fdo:LF a fdo:Carrier ;
+    fdo:callSign "NORDIC"^^xsd:string ;
+    fdo:name "FlyNordic"^^xsd:string .
+
+fdo:LG a fdo:Carrier ;
+    fdo:callSign "LUXAIR"^^xsd:string ;
+    fdo:name "Luxair"^^xsd:string .
+
+fdo:LH a fdo:Carrier ;
+    fdo:callSign "LUFTHANSA"^^xsd:string,
+        "LUFTHANSA CARGO"^^xsd:string ;
+    fdo:name "Lufthansa"^^xsd:string,
+        "Lufthansa Cargo"^^xsd:string .
+
+fdo:LI a fdo:Carrier ;
+    fdo:callSign "LIAT"^^xsd:string ;
+    fdo:name "Leeward Islands Air Transport"^^xsd:string .
+
+fdo:LJ a fdo:Carrier ;
+    fdo:callSign "Jin Air"^^xsd:string,
+        "SELAIR"^^xsd:string ;
+    fdo:name "Jin Air"^^xsd:string,
+        "Sierra National Airlines"^^xsd:string .
+
+fdo:LK a fdo:Carrier ;
+    fdo:callSign "AIRLUXOR"^^xsd:string ;
+    fdo:name "Air Luxor"^^xsd:string .
+
+fdo:LL a fdo:Carrier ;
+    fdo:callSign "ALLEGRO"^^xsd:string ;
+    fdo:name "Allegro"^^xsd:string .
+
+fdo:LM a fdo:Carrier ;
+    fdo:callSign "LIVINGSTON"^^xsd:string,
+        "MOZAMBIQUE"^^xsd:string ;
+    fdo:name "Linhas A"^^xsd:string,
+        "Livingston"^^xsd:string .
+
+fdo:LN a fdo:Carrier ;
+    fdo:callSign "LIBAIR"^^xsd:string ;
+    fdo:name "Libyan Arab Airlines"^^xsd:string .
+
+fdo:LO a fdo:Carrier ;
+    fdo:callSign "POLLOT"^^xsd:string ;
+    fdo:name "LOT Polish Airlines"^^xsd:string .
+
+fdo:LP a fdo:Carrier ;
+    fdo:callSign "LANPERU"^^xsd:string ;
+    fdo:name "LAN Peru"^^xsd:string .
+
+fdo:LQ a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "LAT"^^xsd:string ;
+    fdo:name "LCM AIRLINES"^^xsd:string,
+        "Lebanese Air Transport"^^xsd:string .
+
+fdo:LR a fdo:Carrier ;
+    fdo:callSign "LACSA"^^xsd:string ;
+    fdo:name "LACSA"^^xsd:string .
+
+fdo:LS a fdo:Carrier ;
+    fdo:callSign "CHANNEX"^^xsd:string ;
+    fdo:name "Jet2.com"^^xsd:string .
+
+fdo:LT a fdo:Carrier ;
+    fdo:callSign "LITUANICA"^^xsd:string,
+        "LTU"^^xsd:string ;
+    fdo:name "Air Lituanica"^^xsd:string,
+        "LTU International"^^xsd:string .
+
+fdo:LU a fdo:Carrier ;
+    fdo:callSign "LANEX"^^xsd:string ;
+    fdo:name "LAN Express"^^xsd:string .
+
+fdo:LV a fdo:Carrier ;
+    fdo:callSign "ALBANIAN"^^xsd:string ;
+    fdo:name "Albanian Airlines"^^xsd:string .
+
+fdo:LW a fdo:Carrier ;
+    fdo:callSign "TSUNAMI"^^xsd:string ;
+    fdo:name "Pacific Wings"^^xsd:string .
+
+fdo:LX a fdo:Carrier ;
+    fdo:callSign "SWISS"^^xsd:string ;
+    fdo:name "Swiss International Air Lines"^^xsd:string .
+
+fdo:LY a fdo:Carrier ;
+    fdo:callSign "ELAL"^^xsd:string ;
+    fdo:name "El Al Israel Airlines"^^xsd:string .
+
+fdo:LZ a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Balkan Bulgarian Airlines"^^xsd:string .
+
+fdo:M0 a fdo:Carrier ;
+    fdo:callSign "AERO MONGOLIA"^^xsd:string ;
+    fdo:name "Aero Mongolia"^^xsd:string .
+
+fdo:M1 a fdo:Carrier ;
+    fdo:callSign "Maryland Flight"^^xsd:string ;
+    fdo:name "Maryland Air"^^xsd:string .
+
+fdo:M2 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "MAHFOOZ"^^xsd:string ;
+    fdo:name "MHS Aviation GmbH"^^xsd:string,
+        "Mahfooz Aviation"^^xsd:string .
+
+fdo:M3 a fdo:Carrier ;
+    fdo:callSign "ABSA Cargo"^^xsd:string,
+        "AIR SKOPJE"^^xsd:string,
+        "NORTH FLYING"^^xsd:string ;
+    fdo:name "ABSA - Aerolinhas Brasileiras"^^xsd:string,
+        "Air Service"^^xsd:string,
+        "North Flying"^^xsd:string .
+
+fdo:M4 a fdo:Carrier ;
+    fdo:callSign "MARSHAK AIR"^^xsd:string,
+        "NOVANILE"^^xsd:string ;
+    fdo:name "Marysya Airlines"^^xsd:string,
+        "Nova Airline"^^xsd:string .
+
+fdo:M5 a fdo:Carrier ;
+    fdo:callSign "KENMORE"^^xsd:string ;
+    fdo:name "Kenmore Air"^^xsd:string .
+
+fdo:M6 a fdo:Carrier ;
+    fdo:callSign "AMERIJET"^^xsd:string ;
+    fdo:name "Amerijet International"^^xsd:string .
+
+fdo:M7 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "MARSLANDAIR"^^xsd:string,
+        "MAS CARGA"^^xsd:string ;
+    fdo:name "Marsland Aviation"^^xsd:string,
+        "MasAir"^^xsd:string,
+        "Tropical Airways"^^xsd:string .
+
+fdo:M8 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "TRANSNUSA"^^xsd:string ;
+    fdo:name "Trans Maldivian Airways"^^xsd:string,
+        "TransNusa Air"^^xsd:string .
+
+fdo:M9 a fdo:Carrier ;
+    fdo:callSign "MOTOR SICH"^^xsd:string ;
+    fdo:name "Motor Sich"^^xsd:string .
+
+fdo:MA a fdo:Carrier ;
+    fdo:callSign "MALEV"^^xsd:string ;
+    fdo:name "Malév"^^xsd:string .
+
+fdo:MB a fdo:Carrier ;
+    fdo:callSign "BLACK SEA"^^xsd:string,
+        "CANADIAN EXECAIRE"^^xsd:string ;
+    fdo:name "Execair Aviation"^^xsd:string,
+        "MNG Airlines"^^xsd:string .
+
+fdo:MC a fdo:Carrier ;
+    fdo:callSign "REACH"^^xsd:string ;
+    fdo:name "Air Mobility Command"^^xsd:string .
+
+fdo:MD a fdo:Carrier ;
+    fdo:callSign "AIR MADAGASCAR"^^xsd:string ;
+    fdo:name "Air Madagascar"^^xsd:string .
+
+fdo:ME a fdo:Carrier ;
+    fdo:callSign "CEDAR JET"^^xsd:string ;
+    fdo:name "Middle East Airlines"^^xsd:string .
+
+fdo:MF a fdo:Carrier ;
+    fdo:callSign "XIAMEN AIR"^^xsd:string ;
+    fdo:name "Xiamen Airlines"^^xsd:string .
+
+fdo:MG a fdo:Carrier ;
+    fdo:callSign "CHAMPION AIR"^^xsd:string ;
+    fdo:name "Champion Air"^^xsd:string .
+
+fdo:MH a fdo:Carrier ;
+    fdo:callSign "MALAYSIAN"^^xsd:string ;
+    fdo:name "Malaysia Airlines"^^xsd:string .
+
+fdo:MI a fdo:Carrier ;
+    fdo:callSign "SILKAIR"^^xsd:string ;
+    fdo:name "SilkAir"^^xsd:string .
+
+fdo:MJ a fdo:Carrier ;
+    fdo:callSign "LAPA"^^xsd:string ;
+    fdo:name "L"^^xsd:string .
+
+fdo:MK a fdo:Carrier ;
+    fdo:callSign "AIRMAURITIUS"^^xsd:string ;
+    fdo:name "Air Mauritius"^^xsd:string .
+
+fdo:ML a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "Maldivo"^^xsd:string ;
+    fdo:name "African Transport Trading and Investment Company"^^xsd:string,
+        "Maldivo Airlines"^^xsd:string .
+
+fdo:MM a fdo:Carrier ;
+    fdo:callSign "Air Peach"^^xsd:string ;
+    fdo:name "Peach Aviation"^^xsd:string .
+
+fdo:MN a fdo:Carrier ;
+    fdo:callSign "COMMERCIAL"^^xsd:string ;
+    fdo:name "Comair"^^xsd:string .
+
+fdo:MO a fdo:Carrier ;
+    fdo:callSign "CALM AIR"^^xsd:string,
+        "SULTAN"^^xsd:string ;
+    fdo:name "Abu Dhabi Amiri Flight"^^xsd:string,
+        "Calm Air"^^xsd:string .
+
+fdo:MP a fdo:Carrier ;
+    fdo:callSign "MARTINAIR"^^xsd:string ;
+    fdo:name "Martinair"^^xsd:string .
+
+fdo:MQ a fdo:Carrier ;
+    fdo:callSign "EAGLE FLIGHT"^^xsd:string ;
+    fdo:name "American Eagle Airlines"^^xsd:string .
+
+fdo:MR a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "MIKE ROMEO"^^xsd:string ;
+    fdo:name "Air Mauritanie"^^xsd:string,
+        "Homer Air"^^xsd:string .
+
+fdo:MS a fdo:Carrier ;
+    fdo:callSign "EGYPTAIR"^^xsd:string ;
+    fdo:name "Egyptair"^^xsd:string .
+
+fdo:MT a fdo:Carrier ;
+    fdo:callSign "KESTREL"^^xsd:string ;
+    fdo:name "Thomas Cook Airlines"^^xsd:string .
+
+fdo:MU a fdo:Carrier ;
+    fdo:callSign "CHINA EASTERN"^^xsd:string ;
+    fdo:name "China Eastern Airlines"^^xsd:string .
+
+fdo:MV a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Armenian International Airways"^^xsd:string .
+
+fdo:MW a fdo:Carrier ;
+    fdo:callSign "MYLAND"^^xsd:string ;
+    fdo:name "Maya Island Air"^^xsd:string .
+
+fdo:MX a fdo:Carrier ;
+    fdo:callSign "MEXICANA"^^xsd:string ;
+    fdo:name "Mexicana de Aviaci"^^xsd:string .
+
+fdo:MY a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "MAX-JET"^^xsd:string ;
+    fdo:name "Maxjet Airways"^^xsd:string,
+        "Midwest Airlines (Egypt)"^^xsd:string .
+
+fdo:MZ a fdo:Carrier ;
+    fdo:callSign "MERPATI"^^xsd:string ;
+    fdo:name "Merpati Nusantara Airlines"^^xsd:string .
+
+fdo:N0 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Norte Lineas Aereas"^^xsd:string .
+
+fdo:N1 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "N1"^^xsd:string .
+
+fdo:N2 a fdo:Carrier ;
+    fdo:callSign "DAGAL"^^xsd:string,
+        "KABO"^^xsd:string ;
+    fdo:name "Dagestan Airlines"^^xsd:string,
+        "Kabo Air"^^xsd:string .
+
+fdo:N3 a fdo:Carrier ;
+    fdo:callSign "OMSK"^^xsd:string ;
+    fdo:name "Omskavia Airline"^^xsd:string .
+
+fdo:N4 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "MOUNTAIN LEONE"^^xsd:string ;
+    fdo:name "Minerva Airlines"^^xsd:string,
+        "Mountain Air Company"^^xsd:string,
+        "National Airlines"^^xsd:string,
+        "Regionalia México"^^xsd:string .
+
+fdo:N5 a fdo:Carrier ;
+    fdo:callSign "BERMET"^^xsd:string,
+        "SKAGWAY AIR"^^xsd:string ;
+    fdo:name "Kyrgyz Airlines"^^xsd:string,
+        "Skagway Air Service"^^xsd:string .
+
+fdo:N6 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "AERO CONTINENTE"^^xsd:string ;
+    fdo:name "Aerocontinente (Priv)"^^xsd:string,
+        "Lagun Air"^^xsd:string,
+        "Nuevo Continente"^^xsd:string .
+
+fdo:N7 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "RED ROCK"^^xsd:string ;
+    fdo:name "All Spain"^^xsd:string,
+        "National Airlines"^^xsd:string .
+
+fdo:N8 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "SALAAMA"^^xsd:string ;
+    fdo:name "Fika Salaama Airlines"^^xsd:string,
+        "National Air Cargo"^^xsd:string .
+
+fdo:N9 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "All Europe"^^xsd:string,
+        "North Coast Aviation"^^xsd:string .
+
+fdo:NB a fdo:Carrier ;
+    fdo:callSign "STERLING"^^xsd:string ;
+    fdo:name "Sterling Airlines"^^xsd:string .
+
+fdo:NC a fdo:Carrier ;
+    fdo:callSign "NATIONAL JET"^^xsd:string,
+        "YUKON"^^xsd:string ;
+    fdo:name "National Jet Systems"^^xsd:string,
+        "Northern Air Cargo"^^xsd:string .
+
+fdo:NE a fdo:Carrier ;
+    fdo:callSign "RELAX"^^xsd:string ;
+    fdo:name "SkyEurope"^^xsd:string .
+
+fdo:NF a fdo:Carrier ;
+    fdo:callSign "AIR VAN"^^xsd:string ;
+    fdo:name "Air Vanuatu"^^xsd:string .
+
+fdo:NG a fdo:Carrier ;
+    fdo:callSign "LAUDA AIR"^^xsd:string ;
+    fdo:name "Lauda Air"^^xsd:string .
+
+fdo:NH a fdo:Carrier ;
+    fdo:callSign "ALL NIPPON"^^xsd:string ;
+    fdo:name "All Nippon Airways"^^xsd:string .
+
+fdo:NI a fdo:Carrier ;
+    fdo:callSign "PORTUGALIA"^^xsd:string ;
+    fdo:name "Portugalia"^^xsd:string .
+
+fdo:NJ a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "Nordic Global"^^xsd:string ;
+    fdo:name "Nihon.jet"^^xsd:string,
+        "Nordic Global Airlines"^^xsd:string .
+
+fdo:NK a fdo:Carrier ;
+    fdo:callSign "SPIRIT WINGS"^^xsd:string ;
+    fdo:name "Spirit Airlines"^^xsd:string .
+
+fdo:NL a fdo:Carrier ;
+    fdo:callSign "SHAHEEN AIR"^^xsd:string ;
+    fdo:name "Shaheen Air International"^^xsd:string .
+
+fdo:NM a fdo:Carrier ;
+    fdo:callSign "ALADA AIR"^^xsd:string,
+        "MOUNTCOOK"^^xsd:string ;
+    fdo:name "Air Madrid"^^xsd:string,
+        "Mount Cook Airlines"^^xsd:string .
+
+fdo:NN a fdo:Carrier ;
+    fdo:callSign "MOV AIR"^^xsd:string ;
+    fdo:name "VIM Airlines"^^xsd:string .
+
+fdo:NO a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "MOONFLOWER"^^xsd:string ;
+    fdo:name "Aus-Air"^^xsd:string,
+        "Neos"^^xsd:string,
+        "North Pacific Airlines"^^xsd:string .
+
+fdo:NP a fdo:Carrier ;
+    fdo:callSign "NILEBIRD"^^xsd:string ;
+    fdo:name "Nile Air"^^xsd:string .
+
+fdo:NQ a fdo:Carrier ;
+    fdo:callSign "AIR JAPAN"^^xsd:string ;
+    fdo:name "Air Japan"^^xsd:string .
+
+fdo:NR a fdo:Carrier ;
+    fdo:callSign "JETHAPPY"^^xsd:string,
+        "PAMIR"^^xsd:string ;
+    fdo:name "Jettor Airlines"^^xsd:string,
+        "Pamir Airways"^^xsd:string .
+
+fdo:NS a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Caucasus Airlines"^^xsd:string .
+
+fdo:NT a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Binter Canarias"^^xsd:string .
+
+fdo:NU a fdo:Carrier ;
+    fdo:callSign "JAI OCEAN"^^xsd:string ;
+    fdo:name "Japan Transocean Air"^^xsd:string .
+
+fdo:NV a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "AIR CENTRAL"^^xsd:string ;
+    fdo:name "Air Central"^^xsd:string,
+        "Naka Nihon Airlines Service"^^xsd:string .
+
+fdo:NW a fdo:Carrier ;
+    fdo:callSign "NORTHWEST"^^xsd:string ;
+    fdo:name "Northwest Airlines"^^xsd:string .
+
+fdo:NX a fdo:Carrier ;
+    fdo:callSign "AIR MACAO"^^xsd:string ;
+    fdo:name "Air Macau"^^xsd:string .
+
+fdo:NY a fdo:Carrier ;
+    fdo:callSign "FAXI"^^xsd:string ;
+    fdo:name "Air Iceland"^^xsd:string .
+
+fdo:NZ a fdo:Carrier ;
+    fdo:callSign "NEW ZEALAND"^^xsd:string ;
+    fdo:name "Air New Zealand"^^xsd:string .
+
+fdo:O1 a fdo:Carrier ;
+    fdo:callSign "Orbitaz"^^xsd:string ;
+    fdo:name "Orbit Airlines Azerbaijan"^^xsd:string .
+
+fdo:O2 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Oceanic Airlines"^^xsd:string .
+
+fdo:O6 a fdo:Carrier ;
+    fdo:callSign "OCEANAIR"^^xsd:string ;
+    fdo:name "Oceanair"^^xsd:string .
+
+fdo:O7 a fdo:Carrier ;
+    fdo:callSign "AUSJET"^^xsd:string ;
+    fdo:name "Ozjet Airlines"^^xsd:string .
+
+fdo:O8 a fdo:Carrier ;
+    fdo:callSign "OASIS"^^xsd:string ;
+    fdo:name "Oasis Hong Kong Airlines"^^xsd:string .
+
+fdo:OA a fdo:Carrier ;
+    fdo:callSign "OLYMPIC"^^xsd:string ;
+    fdo:name "Olympic Airlines"^^xsd:string .
+
+fdo:OB a fdo:Carrier ;
+    fdo:callSign "AIR ASTRAKHAN"^^xsd:string ;
+    fdo:name "Astrakhan Airlines"^^xsd:string .
+
+fdo:OC a fdo:Carrier ;
+    fdo:callSign "CATOVAIR"^^xsd:string ;
+    fdo:name "Catovair"^^xsd:string .
+
+fdo:OD a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "Malindo"^^xsd:string ;
+    fdo:name "Malindo Air"^^xsd:string,
+        "Zuliana de Aviacion"^^xsd:string .
+
+fdo:OE a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "ASIA OVERNIGHT"^^xsd:string ;
+    fdo:name "Asia Overnight Express"^^xsd:string,
+        "WestAir"^^xsd:string,
+        "WestAir Airlines"^^xsd:string .
+
+fdo:OF a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "AIR FINLAND"^^xsd:string ;
+    fdo:name "Air Finland"^^xsd:string,
+        "Transports et Travaux A"^^xsd:string .
+
+fdo:OG a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "1-2-go"^^xsd:string,
+        "AirOnix"^^xsd:string .
+
+fdo:OH a fdo:Carrier ;
+    fdo:callSign "COMAIR"^^xsd:string ;
+    fdo:name "Comair"^^xsd:string .
+
+fdo:OI a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Orchid Airlines"^^xsd:string .
+
+fdo:OJ a fdo:Carrier ;
+    fdo:callSign "OVERLAND"^^xsd:string ;
+    fdo:name "Overland Airways"^^xsd:string .
+
+fdo:OK a fdo:Carrier ;
+    fdo:callSign "CSA-LINES"^^xsd:string ;
+    fdo:name "Czech Airlines"^^xsd:string .
+
+fdo:OL a fdo:Carrier ;
+    fdo:callSign "OLTRA"^^xsd:string ;
+    fdo:name "Ostfriesische Lufttransport"^^xsd:string .
+
+fdo:OM a fdo:Carrier ;
+    fdo:callSign "MONGOL AIR"^^xsd:string ;
+    fdo:name "MIAT Mongolian Airlines"^^xsd:string .
+
+fdo:ON a fdo:Carrier ;
+    fdo:callSign "AIR NAURU"^^xsd:string,
+        "OUR AIRLINE"^^xsd:string ;
+    fdo:name "Nauru Air Corporation"^^xsd:string,
+        "Our Airline"^^xsd:string .
+
+fdo:OO a fdo:Carrier ;
+    fdo:callSign "SKYWEST"^^xsd:string ;
+    fdo:name "SkyWest"^^xsd:string .
+
+fdo:OP a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "CHALKS"^^xsd:string ;
+    fdo:name "Air Pegasus"^^xsd:string,
+        "Chalks Ocean Airways"^^xsd:string .
+
+fdo:OQ a fdo:Carrier ;
+    fdo:callSign "CHONG QING"^^xsd:string ;
+    fdo:name "Chongqing Airlines"^^xsd:string .
+
+fdo:OR a fdo:Carrier ;
+    fdo:callSign "ARKEFLY"^^xsd:string ;
+    fdo:name "Arkefly"^^xsd:string .
+
+fdo:OS a fdo:Carrier ;
+    fdo:callSign "AUSTRIAN"^^xsd:string ;
+    fdo:name "Austrian Airlines"^^xsd:string .
+
+fdo:OT a fdo:Carrier ;
+    fdo:callSign "PELICAN"^^xsd:string ;
+    fdo:name "Aeropelican Air Services"^^xsd:string .
+
+fdo:OU a fdo:Carrier ;
+    fdo:callSign "CROATIA"^^xsd:string ;
+    fdo:name "Croatia Airlines"^^xsd:string .
+
+fdo:OV a fdo:Carrier ;
+    fdo:callSign "ESTONIAN"^^xsd:string ;
+    fdo:name "Estonian Air"^^xsd:string .
+
+fdo:OW a fdo:Carrier ;
+    fdo:callSign "EXECUTIVE EAGLE"^^xsd:string ;
+    fdo:name "Executive Airlines"^^xsd:string .
+
+fdo:OX a fdo:Carrier ;
+    fdo:callSign "ORIENT THAI"^^xsd:string ;
+    fdo:name "Orient Thai Airlines"^^xsd:string .
+
+fdo:OY a fdo:Carrier ;
+    fdo:callSign "OMNI-EXPRESS"^^xsd:string ;
+    fdo:name "Omni Air International"^^xsd:string .
+
+fdo:OZ a fdo:Carrier ;
+    fdo:callSign "ASIANA"^^xsd:string,
+        "OZARK"^^xsd:string ;
+    fdo:name "Asiana Airlines"^^xsd:string,
+        "Ozark Air Lines"^^xsd:string .
+
+fdo:P0 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Proflight Commuter Services"^^xsd:string .
+
+fdo:P4 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Patriot Airways"^^xsd:string .
+
+fdo:P5 a fdo:Carrier ;
+    fdo:callSign "AEROREPUBLICA"^^xsd:string ;
+    fdo:name "AeroRep"^^xsd:string .
+
+fdo:P7 a fdo:Carrier ;
+    fdo:callSign "RADUGA"^^xsd:string,
+        "REGIOPAR"^^xsd:string ;
+    fdo:name "Regional Paraguaya"^^xsd:string,
+        "Russian Sky Airlines"^^xsd:string .
+
+fdo:P8 a fdo:Carrier ;
+    fdo:callSign "Air Mekong"^^xsd:string,
+        "PANTANAL"^^xsd:string ;
+    fdo:name "Air Mekong"^^xsd:string,
+        "Pantanal Linhas Aéreas"^^xsd:string .
+
+fdo:P9 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "PERM AIR"^^xsd:string ;
+    fdo:name "Nas Air"^^xsd:string,
+        "Perm Airlines"^^xsd:string,
+        "Peruvian Airlines"^^xsd:string .
+
+fdo:PA a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "CLIPPER"^^xsd:string,
+        "FLORIDA COASTAL"^^xsd:string,
+        "IPV"^^xsd:string ;
+    fdo:name "Florida Coastal Airlines"^^xsd:string,
+        "Pan American Airways"^^xsd:string,
+        "Pan American World Airways"^^xsd:string,
+        "Parmiss Airlines (IPV)"^^xsd:string .
+
+fdo:PC a fdo:Carrier ;
+    fdo:callSign "CONTAIR"^^xsd:string,
+        "FIJIAIR"^^xsd:string,
+        "SUNTURK"^^xsd:string ;
+    fdo:name "Air Fiji"^^xsd:string,
+        "Continental Airways"^^xsd:string,
+        "Pegasus Airlines"^^xsd:string .
+
+fdo:PD a fdo:Carrier ;
+    fdo:callSign "PORTER AIR"^^xsd:string ;
+    fdo:name "Porter Airlines"^^xsd:string .
+
+fdo:PE a fdo:Carrier ;
+    fdo:callSign "AIR EUROPE"^^xsd:string ;
+    fdo:name "Air Europe"^^xsd:string .
+
+fdo:PF a fdo:Carrier ;
+    fdo:callSign "PALESTINIAN"^^xsd:string,
+        "PRIMERA"^^xsd:string ;
+    fdo:name "Palestinian Airlines"^^xsd:string,
+        "Primera Air"^^xsd:string .
+
+fdo:PG a fdo:Carrier ;
+    fdo:callSign "BANGKOK AIR"^^xsd:string ;
+    fdo:name "Bangkok Airways"^^xsd:string .
+
+fdo:PH a fdo:Carrier ;
+    fdo:callSign "POLYNESIAN"^^xsd:string ;
+    fdo:name "Polynesian Airlines"^^xsd:string .
+
+fdo:PI a fdo:Carrier ;
+    fdo:callSign "PIEDMONT"^^xsd:string,
+        "SUNFLOWER"^^xsd:string ;
+    fdo:name "Piedmont Airlines (1948-1989)"^^xsd:string,
+        "Sun Air (Fiji)"^^xsd:string .
+
+fdo:PJ a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Air Saint Pierre"^^xsd:string .
+
+fdo:PK a fdo:Carrier ;
+    fdo:callSign "PAKISTAN"^^xsd:string ;
+    fdo:name "Pakistan International Airlines"^^xsd:string .
+
+fdo:PL a fdo:Carrier ;
+    fdo:callSign "Aeroperu"^^xsd:string,
+        "MOROZOV"^^xsd:string ;
+    fdo:name "Aeroper"^^xsd:string,
+        "Airstars"^^xsd:string .
+
+fdo:PM a fdo:Carrier ;
+    fdo:callSign "TROPISER"^^xsd:string ;
+    fdo:name "Tropic Air"^^xsd:string .
+
+fdo:PN a fdo:Carrier ;
+    fdo:callSign "WEST CHINA"^^xsd:string ;
+    fdo:name "West Air China"^^xsd:string .
+
+fdo:PO a fdo:Carrier ;
+    fdo:callSign "FlyPortugal"^^xsd:string,
+        "POLAR"^^xsd:string ;
+    fdo:name "FlyPortugal"^^xsd:string,
+        "Polar Air Cargo"^^xsd:string .
+
+fdo:PP a fdo:Carrier ;
+    fdo:callSign "AIPL"^^xsd:string ;
+    fdo:name "Air Indus"^^xsd:string .
+
+fdo:PQ a fdo:Carrier ;
+    fdo:callSign "PANWAYS"^^xsd:string,
+        "slowbird"^^xsd:string ;
+    fdo:name "LSM Airlines"^^xsd:string,
+        "Panafrican Airways"^^xsd:string .
+
+fdo:PR a fdo:Carrier ;
+    fdo:callSign "PHILIPPINE"^^xsd:string ;
+    fdo:name "Philippine Airlines"^^xsd:string .
+
+fdo:PS a fdo:Carrier ;
+    fdo:callSign "SMILEY"^^xsd:string,
+        "UKRAINE INTERNATIONAL"^^xsd:string ;
+    fdo:name "Pacific Southwest Airlines"^^xsd:string,
+        "Ukraine International Airlines"^^xsd:string .
+
+fdo:PT a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "AIR SWEDEN"^^xsd:string,
+        "CAPPY"^^xsd:string ;
+    fdo:name "Capital Cargo International Airlines"^^xsd:string,
+        "Red Jet Andes"^^xsd:string,
+        "West Air Sweden"^^xsd:string .
+
+fdo:PU a fdo:Carrier ;
+    fdo:callSign "PLUNA"^^xsd:string ;
+    fdo:name "PLUNA"^^xsd:string .
+
+fdo:PV a fdo:Carrier ;
+    fdo:callSign "SKYJET"^^xsd:string ;
+    fdo:name "PAN Air"^^xsd:string .
+
+fdo:PW a fdo:Carrier ;
+    fdo:callSign "PRECISION AIR"^^xsd:string ;
+    fdo:name "Precision Air"^^xsd:string .
+
+fdo:PX a fdo:Carrier ;
+    fdo:callSign "NUIGINI"^^xsd:string ;
+    fdo:name "Air Niugini"^^xsd:string .
+
+fdo:PY a fdo:Carrier ;
+    fdo:callSign "SURINAM"^^xsd:string ;
+    fdo:name "Surinam Airways"^^xsd:string .
+
+fdo:PZ a fdo:Carrier ;
+    fdo:callSign "PARAGUAYA"^^xsd:string ;
+    fdo:name "TAM Mercosur"^^xsd:string .
+
+fdo:Q2 a fdo:Carrier ;
+    fdo:callSign "ISLAND AVIATION"^^xsd:string ;
+    fdo:name "Maldivian"^^xsd:string .
+
+fdo:Q3 a fdo:Carrier ;
+    fdo:callSign "ZAMBIANA"^^xsd:string,
+        "russian doll"^^xsd:string ;
+    fdo:name "SOCHI AIR CHATER"^^xsd:string,
+        "Zambian Airways"^^xsd:string .
+
+fdo:Q4 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "ADLER EXPRESS"^^xsd:string ;
+    fdo:name "Mastertop Linhas Aereas"^^xsd:string,
+        "SOCHI AIR EXPRESS"^^xsd:string .
+
+fdo:Q5 a fdo:Carrier ;
+    fdo:callSign "MILE-AIR"^^xsd:string ;
+    fdo:name "40-Mile Air"^^xsd:string .
+
+fdo:Q6 a fdo:Carrier ;
+    fdo:callSign "CONDOR-PERU"^^xsd:string ;
+    fdo:name "Aero Condor Peru"^^xsd:string .
+
+fdo:Q7 a fdo:Carrier ;
+    fdo:callSign "TROPICAL SKY"^^xsd:string ;
+    fdo:name "SkyBahamas Airlines"^^xsd:string .
+
+fdo:Q8 a fdo:Carrier ;
+    fdo:callSign "PAC-EAST CARGO"^^xsd:string ;
+    fdo:name "Pacific East Asia Cargo Airlines"^^xsd:string .
+
+fdo:Q9 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Afrinat International Airlines"^^xsd:string,
+        "Arik Niger"^^xsd:string .
+
+fdo:QA a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Click (Mexicana)"^^xsd:string .
+
+fdo:QB a fdo:Carrier ;
+    fdo:callSign "NATIONAL"^^xsd:string ;
+    fdo:name "Georgian National Airlines"^^xsd:string .
+
+fdo:QC a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "AIR CORRIDOR"^^xsd:string ;
+    fdo:name "Air Corridor"^^xsd:string,
+        "Camair-co"^^xsd:string .
+
+fdo:QD a fdo:Carrier ;
+    fdo:callSign "ACLA"^^xsd:string,
+        "DOBROLET"^^xsd:string ;
+    fdo:name "Air Class Lineas Aereas"^^xsd:string,
+        "Dobrolet"^^xsd:string .
+
+fdo:QE a fdo:Carrier ;
+    fdo:callSign "Cigogne"^^xsd:string ;
+    fdo:name "Crossair Europe"^^xsd:string .
+
+fdo:QF a fdo:Carrier ;
+    fdo:callSign "QANTAS"^^xsd:string ;
+    fdo:name "Qantas"^^xsd:string .
+
+fdo:QG a fdo:Carrier ;
+    fdo:callSign "SUPERGREEN"^^xsd:string ;
+    fdo:name "Citilink Indonesia"^^xsd:string .
+
+fdo:QH a fdo:Carrier ;
+    fdo:callSign "AIR FLORIDA"^^xsd:string,
+        "ALTYN AVIA"^^xsd:string ;
+    fdo:name "Air Florida"^^xsd:string,
+        "Kyrgyzstan"^^xsd:string .
+
+fdo:QI a fdo:Carrier ;
+    fdo:callSign "CIMBER"^^xsd:string ;
+    fdo:name "Cimber Air"^^xsd:string .
+
+fdo:QJ a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Jet Airways"^^xsd:string .
+
+fdo:QK a fdo:Carrier ;
+    fdo:callSign "JAZZ"^^xsd:string ;
+    fdo:name "Air Canada Jazz"^^xsd:string .
+
+fdo:QL a fdo:Carrier ;
+    fdo:callSign "AERO LANKA"^^xsd:string ;
+    fdo:name "Aero Lanka"^^xsd:string .
+
+fdo:QM a fdo:Carrier ;
+    fdo:callSign "MALAWI"^^xsd:string ;
+    fdo:name "Air Malawi"^^xsd:string .
+
+fdo:QN a fdo:Carrier ;
+    fdo:callSign "AIR ARMENIA"^^xsd:string,
+        "Roy"^^xsd:string ;
+    fdo:name "Air Armenia"^^xsd:string,
+        "Royal"^^xsd:string .
+
+fdo:QO a fdo:Carrier ;
+    fdo:callSign "AEROMEXPRESS"^^xsd:string,
+        "ORIGIN"^^xsd:string ;
+    fdo:name "Aeromexpress"^^xsd:string,
+        "Origin Pacific Airways"^^xsd:string .
+
+fdo:QP a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Air Kenya (Priv)"^^xsd:string .
+
+fdo:QQ a fdo:Carrier ;
+    fdo:callSign "RENO AIR"^^xsd:string,
+        "UNITY"^^xsd:string ;
+    fdo:name "Alliance Airlines"^^xsd:string,
+        "Reno Air"^^xsd:string .
+
+fdo:QR a fdo:Carrier ;
+    fdo:callSign "QATARI"^^xsd:string ;
+    fdo:name "Qatar Airways"^^xsd:string .
+
+fdo:QS a fdo:Carrier ;
+    fdo:callSign "SKYTRAVEL"^^xsd:string,
+        "ZEBRA"^^xsd:string ;
+    fdo:name "African Safari Airways"^^xsd:string,
+        "Travel Service"^^xsd:string .
+
+fdo:QT a fdo:Carrier ;
+    fdo:callSign "TAMPA"^^xsd:string ;
+    fdo:name "TAMPA"^^xsd:string .
+
+fdo:QU a fdo:Carrier ;
+    fdo:callSign "CRANE"^^xsd:string ;
+    fdo:name "East African"^^xsd:string .
+
+fdo:QV a fdo:Carrier ;
+    fdo:callSign "LAO"^^xsd:string ;
+    fdo:name "Lao Airlines"^^xsd:string .
+
+fdo:QW a fdo:Carrier ;
+    fdo:callSign "BLUE WINGS"^^xsd:string ;
+    fdo:name "Blue Wings"^^xsd:string .
+
+fdo:QX a fdo:Carrier ;
+    fdo:callSign "HORIZON AIR"^^xsd:string ;
+    fdo:name "Horizon Air"^^xsd:string .
+
+fdo:QY a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "EUROTRANS"^^xsd:string ;
+    fdo:name "European Air Transport"^^xsd:string,
+        "Red Jet Canada"^^xsd:string .
+
+fdo:QZ a fdo:Carrier ;
+    fdo:callSign "WAGON AIR"^^xsd:string ;
+    fdo:name "Indonesia AirAsia"^^xsd:string .
+
+fdo:R0 a fdo:Carrier ;
+    fdo:callSign "ROYAL PAKISTAN"^^xsd:string ;
+    fdo:name "Royal Airlines"^^xsd:string .
+
+fdo:R1 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "RSA"^^xsd:string ;
+    fdo:name "Royal Southern Airlines."^^xsd:string,
+        "Sirin"^^xsd:string .
+
+fdo:R2 a fdo:Carrier ;
+    fdo:callSign "ORENBURG"^^xsd:string ;
+    fdo:name "Orenburg Airlines"^^xsd:string .
+
+fdo:R3 a fdo:Carrier ;
+    fdo:callSign "AIR YAKUTIA"^^xsd:string ;
+    fdo:name "Aircompany Yakutia"^^xsd:string .
+
+fdo:R4 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Rossiya"^^xsd:string .
+
+fdo:R5 a fdo:Carrier ;
+    fdo:callSign "JORDAN AVIATION"^^xsd:string,
+        "MALTA CHARTER"^^xsd:string ;
+    fdo:name "Jordan Aviation"^^xsd:string,
+        "Malta Air Charter"^^xsd:string .
+
+fdo:R6 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "RACSA"^^xsd:string .
+
+fdo:R7 a fdo:Carrier ;
+    fdo:callSign "AROSCA"^^xsd:string ;
+    fdo:name "Aserca Airlines"^^xsd:string .
+
+fdo:R8 a fdo:Carrier ;
+    fdo:callSign "KYRGYZ"^^xsd:string,
+        "russiancloud"^^xsd:string ;
+    fdo:name "AirRussia"^^xsd:string,
+        "Kyrgyzstan Airlines"^^xsd:string .
+
+fdo:R9 a fdo:Carrier ;
+    fdo:callSign "AIR CAMAI"^^xsd:string ;
+    fdo:name "Camai Air"^^xsd:string .
+
+fdo:RA a fdo:Carrier ;
+    fdo:callSign "ROYAL NEPAL"^^xsd:string ;
+    fdo:name "Nepal Airlines"^^xsd:string,
+        "Royal Nepal Airlines"^^xsd:string .
+
+fdo:RB a fdo:Carrier ;
+    fdo:callSign "Air Srpska"^^xsd:string,
+        "SYRIANAIR"^^xsd:string ;
+    fdo:name "Air Srpska"^^xsd:string,
+        "Syrian Arab Airlines"^^xsd:string .
+
+fdo:RC a fdo:Carrier ;
+    fdo:callSign "FAROELINE"^^xsd:string ;
+    fdo:name "Atlantic Airways"^^xsd:string .
+
+fdo:RD a fdo:Carrier ;
+    fdo:callSign "RYAN INTERNATIONAL"^^xsd:string ;
+    fdo:name "Ryan International Airlines"^^xsd:string .
+
+fdo:RE a fdo:Carrier ;
+    fdo:callSign "AER ARANN"^^xsd:string ;
+    fdo:name "Aer Arann"^^xsd:string .
+
+fdo:RF a fdo:Carrier ;
+    fdo:callSign "FLO WEST"^^xsd:string ;
+    fdo:name "Florida West International Airways"^^xsd:string .
+
+fdo:RG a fdo:Carrier ;
+    fdo:callSign "VARIG"^^xsd:string ;
+    fdo:name "VRG Linhas Aereas"^^xsd:string .
+
+fdo:RH a fdo:Carrier ;
+    fdo:callSign "PUBLIC EXPRESS"^^xsd:string ;
+    fdo:name "Republic Express Airlines"^^xsd:string .
+
+fdo:RI a fdo:Carrier ;
+    fdo:callSign "MANDALA"^^xsd:string ;
+    fdo:name "Mandala Airlines"^^xsd:string .
+
+fdo:RJ a fdo:Carrier ;
+    fdo:callSign "JORDANIAN"^^xsd:string ;
+    fdo:name "Royal Jordanian"^^xsd:string .
+
+fdo:RK a fdo:Carrier ;
+    fdo:callSign "AIRAFRIC"^^xsd:string,
+        "KHMER AIR"^^xsd:string ;
+    fdo:name "Air Afrique"^^xsd:string,
+        "Royal Khmer Airlines"^^xsd:string .
+
+fdo:RL a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Royal Falcon"^^xsd:string .
+
+fdo:RM a fdo:Carrier ;
+    fdo:callSign "Rainbow Air"^^xsd:string ;
+    fdo:name "Rainbow Air US"^^xsd:string .
+
+fdo:RN a fdo:Carrier ;
+    fdo:callSign "Rainbow"^^xsd:string ;
+    fdo:name "Rainbow Air (RAI)"^^xsd:string .
+
+fdo:RO a fdo:Carrier ;
+    fdo:callSign "TAROM"^^xsd:string ;
+    fdo:name "Tarom"^^xsd:string .
+
+fdo:RP a fdo:Carrier ;
+    fdo:callSign "CHAUTAUQUA"^^xsd:string ;
+    fdo:name "Chautauqua Airlines"^^xsd:string .
+
+fdo:RQ a fdo:Carrier ;
+    fdo:callSign "KAMGAR"^^xsd:string ;
+    fdo:name "Kam Air"^^xsd:string .
+
+fdo:RR a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "RAFAIR"^^xsd:string,
+        "Rexair"^^xsd:string ;
+    fdo:name "REXAIR VIRTUEL"^^xsd:string,
+        "Red Jet America"^^xsd:string,
+        "Royal Air Force"^^xsd:string .
+
+fdo:RS a fdo:Carrier ;
+    fdo:callSign "CONTAVIA"^^xsd:string,
+        "MAJAN"^^xsd:string,
+        "Sky Regional"^^xsd:string ;
+    fdo:name "Intercontinental de Aviaci"^^xsd:string,
+        "Royal Air Force of Oman"^^xsd:string,
+        "Sky Regional"^^xsd:string .
+
+fdo:RT a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Real Tonga"^^xsd:string .
+
+fdo:RU a fdo:Carrier ;
+    fdo:callSign "AIRBRIDGE CARGO"^^xsd:string,
+        "Rainbow Air"^^xsd:string,
+        "SKYKING"^^xsd:string ;
+    fdo:name "AirBridge Cargo"^^xsd:string,
+        "Rainbow Air Euro"^^xsd:string,
+        "SkyKing Turks and Caicos Airways"^^xsd:string .
+
+fdo:RV a fdo:Carrier ;
+    fdo:callSign "CASPIAN"^^xsd:string ;
+    fdo:name "Caspian Airlines"^^xsd:string .
+
+fdo:RW a fdo:Carrier ;
+    fdo:callSign "BRICKYARD"^^xsd:string ;
+    fdo:name "Republic Airlines"^^xsd:string .
+
+fdo:RX a fdo:Carrier ;
+    fdo:callSign "Avex"^^xsd:string,
+        "Rainbow Air"^^xsd:string ;
+    fdo:name "Aviaexpress"^^xsd:string,
+        "Rainbow Air Polynesia"^^xsd:string .
+
+fdo:RY a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "Rainbow CAN"^^xsd:string ;
+    fdo:name "Rainbow Air Canada"^^xsd:string,
+        "Reno Sky"^^xsd:string .
+
+fdo:RZ a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Euro Exec Express"^^xsd:string .
+
+fdo:S0 a fdo:Carrier ;
+    fdo:callSign "SLOK GAMBIA"^^xsd:string,
+        "Spike Air"^^xsd:string ;
+    fdo:name "Slok Air Gambia"^^xsd:string,
+        "Spike Airlines"^^xsd:string .
+
+fdo:S1 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Serbian Airlines"^^xsd:string .
+
+fdo:S2 a fdo:Carrier ;
+    fdo:callSign "SAHARA"^^xsd:string ;
+    fdo:name "Air Sahara"^^xsd:string .
+
+fdo:S3 a fdo:Carrier ;
+    fdo:callSign "SANTA BARBARA"^^xsd:string ;
+    fdo:name "Santa Barbara Airlines"^^xsd:string .
+
+fdo:S4 a fdo:Carrier ;
+    fdo:callSign "AIR AZORES"^^xsd:string ;
+    fdo:name "SATA International"^^xsd:string .
+
+fdo:S5 a fdo:Carrier ;
+    fdo:callSign "MERCURY"^^xsd:string,
+        "TRAST AERO"^^xsd:string ;
+    fdo:name "Shuttle America"^^xsd:string,
+        "Trast Aero"^^xsd:string .
+
+fdo:S6 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Salmon Air"^^xsd:string,
+        "Star Air"^^xsd:string .
+
+fdo:S7 a fdo:Carrier ;
+    fdo:callSign "SIBERIAN AIRLINES"^^xsd:string ;
+    fdo:name "S7 Airlines"^^xsd:string .
+
+fdo:S8 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "CHARI SERVICE"^^xsd:string,
+        "WAY AERO"^^xsd:string ;
+    fdo:name "Chari Aviation Services"^^xsd:string,
+        "Shovkoviy Shlyah"^^xsd:string,
+        "Snowbird Airlines"^^xsd:string .
+
+fdo:S9 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "DUMA"^^xsd:string ;
+    fdo:name "East African Safari Air"^^xsd:string,
+        "Starbow Airlines"^^xsd:string .
+
+fdo:SA a fdo:Carrier ;
+    fdo:callSign "SPRINGBOK"^^xsd:string ;
+    fdo:name "South African Airways"^^xsd:string .
+
+fdo:SB a fdo:Carrier ;
+    fdo:callSign "AIRCALIN"^^xsd:string ;
+    fdo:name "Air Caledonie International"^^xsd:string .
+
+fdo:SC a fdo:Carrier ;
+    fdo:callSign "SHANDONG"^^xsd:string ;
+    fdo:name "Shandong Airlines"^^xsd:string .
+
+fdo:SD a fdo:Carrier ;
+    fdo:callSign "SUDANAIR"^^xsd:string ;
+    fdo:name "Sudan Airways"^^xsd:string .
+
+fdo:SE a fdo:Carrier ;
+    fdo:callSign "STARWAY"^^xsd:string ;
+    fdo:name "XL Airways France"^^xsd:string .
+
+fdo:SF a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "TASSILI AIR"^^xsd:string ;
+    fdo:name "Air Charter International"^^xsd:string,
+        "Tassili Airlines"^^xsd:string .
+
+fdo:SG a fdo:Carrier ;
+    fdo:callSign "JETSGO"^^xsd:string,
+        "SPICEJET"^^xsd:string ;
+    fdo:name "JetsGo"^^xsd:string,
+        "Spicejet"^^xsd:string .
+
+fdo:SH a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "FLYBIRD"^^xsd:string,
+        "SHARP"^^xsd:string,
+        "Sierra Hotel"^^xsd:string ;
+    fdo:name "Aéris (Priv)"^^xsd:string,
+        "Fly Me Sweden"^^xsd:string,
+        "Sharp Airlines"^^xsd:string,
+        "TAN-SAHSA"^^xsd:string .
+
+fdo:SI a fdo:Carrier ;
+    fdo:callSign "BLUEJET"^^xsd:string ;
+    fdo:name "Skynet Airlines"^^xsd:string .
+
+fdo:SJ a fdo:Carrier ;
+    fdo:callSign "SRIWIJAYA"^^xsd:string ;
+    fdo:name "Sriwijaya Air"^^xsd:string .
+
+fdo:SK a fdo:Carrier ;
+    fdo:callSign "SCANDINAVIAN"^^xsd:string ;
+    fdo:name "Scandinavian Airlines System"^^xsd:string .
+
+fdo:SL a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "RIO SUL"^^xsd:string ;
+    fdo:name "Rio Sul Servi"^^xsd:string,
+        "Thai Lion Air"^^xsd:string .
+
+fdo:SM a fdo:Carrier ;
+    fdo:callSign "MANILA SKY"^^xsd:string,
+        "Starline"^^xsd:string ;
+    fdo:name "Spirit of Manila Airlines"^^xsd:string,
+        "Swedline Express"^^xsd:string .
+
+fdo:SN a fdo:Carrier ;
+    fdo:callSign "BEE-LINE"^^xsd:string ;
+    fdo:name "Brussels Airlines"^^xsd:string .
+
+fdo:SO a fdo:Carrier ;
+    fdo:callSign "SALSA"^^xsd:string,
+        "SOSOLISO"^^xsd:string,
+        "SPEND AIR"^^xsd:string ;
+    fdo:name "Salsa d\\\\Haiti"^^xsd:string,
+        "Sosoliso Airlines"^^xsd:string,
+        "Superior Aviation"^^xsd:string .
+
+fdo:SP a fdo:Carrier ;
+    fdo:callSign "SATA"^^xsd:string ;
+    fdo:name "SATA Air Acores"^^xsd:string .
+
+fdo:SQ a fdo:Carrier ;
+    fdo:callSign "SINGAPORE"^^xsd:string,
+        "SINGCARGO"^^xsd:string ;
+    fdo:name "Singapore Airlines"^^xsd:string,
+        "Singapore Airlines Cargo"^^xsd:string .
+
+fdo:SR a fdo:Carrier ;
+    fdo:callSign "Swissair"^^xsd:string ;
+    fdo:name "Swissair"^^xsd:string .
+
+fdo:SS a fdo:Carrier ;
+    fdo:callSign "CORSAIR"^^xsd:string ;
+    fdo:name "Corsairfly"^^xsd:string .
+
+fdo:ST a fdo:Carrier ;
+    fdo:callSign "GERMANIA"^^xsd:string ;
+    fdo:name "Germania"^^xsd:string .
+
+fdo:SU a fdo:Carrier ;
+    fdo:callSign "AEROFLOT"^^xsd:string ;
+    fdo:name "Aeroflot Russian Airlines"^^xsd:string .
+
+fdo:SV a fdo:Carrier ;
+    fdo:callSign "SAUDIA"^^xsd:string ;
+    fdo:name "Saudi Arabian Airlines"^^xsd:string .
+
+fdo:SW a fdo:Carrier ;
+    fdo:callSign "NAMIBIA"^^xsd:string ;
+    fdo:name "Air Namibia"^^xsd:string .
+
+fdo:SX a fdo:Carrier ;
+    fdo:callSign "SKYBUS"^^xsd:string,
+        "SKYFOX"^^xsd:string,
+        "STARLING"^^xsd:string ;
+    fdo:name "Sky Work Airlines"^^xsd:string,
+        "SkyWork Airlines"^^xsd:string,
+        "Skybus Airlines"^^xsd:string,
+        "Starling Airlines Spain"^^xsd:string .
+
+fdo:SY a fdo:Carrier ;
+    fdo:callSign "SUN COUNTRY"^^xsd:string ;
+    fdo:name "Sun Country Airlines"^^xsd:string .
+
+fdo:SZ a fdo:Carrier ;
+    fdo:callSign "SZA"^^xsd:string ;
+    fdo:name "Salzburg arrows"^^xsd:string .
+
+fdo:T0 a fdo:Carrier ;
+    fdo:callSign "TACA PERU"^^xsd:string ;
+    fdo:name "TACA Peru"^^xsd:string .
+
+fdo:T1 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "TROPICAL LINHAS AEREAS"^^xsd:string .
+
+fdo:T2 a fdo:Carrier ;
+    fdo:callSign "THAI CARGO"^^xsd:string ;
+    fdo:name "Thai Air Cargo"^^xsd:string .
+
+fdo:T3 a fdo:Carrier ;
+    fdo:callSign "EASTFLIGHT"^^xsd:string ;
+    fdo:name "Eastern Airways"^^xsd:string .
+
+fdo:T4 a fdo:Carrier ;
+    fdo:callSign "HELLAS JET"^^xsd:string ;
+    fdo:name "Hellas Jet"^^xsd:string .
+
+fdo:T5 a fdo:Carrier ;
+    fdo:callSign "TURKMENISTAN"^^xsd:string ;
+    fdo:name "Turkmenistan Airlines"^^xsd:string .
+
+fdo:T6 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "TAVREY"^^xsd:string ;
+    fdo:name "Tavrey Airlines"^^xsd:string,
+        "Trans Pas Air"^^xsd:string .
+
+fdo:T7 a fdo:Carrier ;
+    fdo:callSign "TWINJET"^^xsd:string ;
+    fdo:name "Twin Jet"^^xsd:string .
+
+fdo:T8 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "TAN"^^xsd:string .
+
+fdo:T9 a fdo:Carrier ;
+    fdo:callSign "THAI STAR"^^xsd:string,
+        "TRANS-MERIDIAN"^^xsd:string ;
+    fdo:name "Thai Star Airlines"^^xsd:string,
+        "TransMeridian Airlines"^^xsd:string .
+
+fdo:TA a fdo:Carrier ;
+    fdo:callSign "TACA-COSTARICA"^^xsd:string ;
+    fdo:name "Grupo TACA"^^xsd:string .
+
+fdo:TB a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "BEAUTY"^^xsd:string ;
+    fdo:name "TUI Airlines Belgium"^^xsd:string,
+        "TrasBrasil"^^xsd:string .
+
+fdo:TC a fdo:Carrier ;
+    fdo:callSign "TANZANIA"^^xsd:string ;
+    fdo:name "Air Tanzania"^^xsd:string .
+
+fdo:TD a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "TULIPAIR"^^xsd:string ;
+    fdo:name "Atlantis European Airways"^^xsd:string,
+        "Tulip Air"^^xsd:string .
+
+fdo:TE a fdo:Carrier ;
+    fdo:callSign "LITHUANIA AIR"^^xsd:string ;
+    fdo:name "FlyLal"^^xsd:string .
+
+fdo:TF a fdo:Carrier ;
+    fdo:callSign "Scanwings"^^xsd:string ;
+    fdo:name "Malmö Aviation"^^xsd:string .
+
+fdo:TG a fdo:Carrier ;
+    fdo:callSign "THAI"^^xsd:string ;
+    fdo:name "Thai Airways International"^^xsd:string .
+
+fdo:TH a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "TRANSMILE"^^xsd:string ;
+    fdo:name "BA Connect"^^xsd:string,
+        "TransBrasil Airlines"^^xsd:string,
+        "Transmile Air Services"^^xsd:string .
+
+fdo:TI a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "TOL AIR"^^xsd:string ;
+    fdo:name "Tol-Air Services"^^xsd:string,
+        "TransHolding"^^xsd:string .
+
+fdo:TJ a fdo:Carrier ;
+    fdo:callSign "Aereos Selva"^^xsd:string,
+        "T.J. Air"^^xsd:string ;
+    fdo:name "T.J. Air"^^xsd:string,
+        "Transportes Aéreos Nacionales de Selva"^^xsd:string .
+
+fdo:TK a fdo:Carrier ;
+    fdo:callSign "TURKAIR"^^xsd:string ;
+    fdo:name "Turkish Airlines"^^xsd:string .
+
+fdo:TL a fdo:Carrier ;
+    fdo:callSign "TANGO LIMA"^^xsd:string,
+        "TOPEND"^^xsd:string ;
+    fdo:name "Airnorth"^^xsd:string,
+        "Trans Mediterranean Airlines"^^xsd:string .
+
+fdo:TM a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Air Mozambique"^^xsd:string .
+
+fdo:TN a fdo:Carrier ;
+    fdo:callSign "TAHITI AIRLINES"^^xsd:string ;
+    fdo:name "Air Tahiti Nui"^^xsd:string .
+
+fdo:TO a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "FRENCH SUN"^^xsd:string ;
+    fdo:name "President Airlines"^^xsd:string,
+        "Transavia France"^^xsd:string .
+
+fdo:TP a fdo:Carrier ;
+    fdo:callSign "AIR PORTUGAL"^^xsd:string ;
+    fdo:name "TAP Portugal"^^xsd:string .
+
+fdo:TQ a fdo:Carrier ;
+    fdo:callSign "TANDEM"^^xsd:string,
+        "TXW"^^xsd:string ;
+    fdo:name "Tandem Aero"^^xsd:string,
+        "Texas Wings"^^xsd:string .
+
+fdo:TR a fdo:Carrier ;
+    fdo:callSign "GO CAT"^^xsd:string ;
+    fdo:name "Tiger Airways"^^xsd:string .
+
+fdo:TS a fdo:Carrier ;
+    fdo:callSign "TRANSAT"^^xsd:string ;
+    fdo:name "Air Transat"^^xsd:string .
+
+fdo:TT a fdo:Carrier ;
+    fdo:callSign "GO CAT"^^xsd:string,
+        "KAUNAS"^^xsd:string ;
+    fdo:name "Air Lithuania"^^xsd:string,
+        "Tiger Airways Australia"^^xsd:string .
+
+fdo:TU a fdo:Carrier ;
+    fdo:callSign "TUNAIR"^^xsd:string ;
+    fdo:name "Tunisair"^^xsd:string .
+
+fdo:TV a fdo:Carrier ;
+    fdo:callSign "VIRGIN EXPRESS"^^xsd:string ;
+    fdo:name "Virgin Express"^^xsd:string .
+
+fdo:TW a fdo:Carrier ;
+    fdo:callSign "TWA"^^xsd:string,
+        "TWAY AIR"^^xsd:string ;
+    fdo:name "Trans World Airlines"^^xsd:string,
+        "Tway Airlines"^^xsd:string .
+
+fdo:TX a fdo:Carrier ;
+    fdo:callSign "FRENCH WEST"^^xsd:string ;
+    fdo:name "Air Caraïbes"^^xsd:string .
+
+fdo:TY a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "AIRCAL"^^xsd:string ;
+    fdo:name "Air Cal"^^xsd:string,
+        "Iberworld"^^xsd:string .
+
+fdo:TZ a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Scoot"^^xsd:string .
+
+fdo:U1 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "AOC"^^xsd:string ;
+    fdo:name "AirOne Polska"^^xsd:string,
+        "Aviabus"^^xsd:string .
+
+fdo:U2 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "EASY"^^xsd:string ;
+    fdo:name "United Feeder Service"^^xsd:string,
+        "easyJet"^^xsd:string .
+
+fdo:U3 a fdo:Carrier ;
+    fdo:callSign "AVIES"^^xsd:string ;
+    fdo:name "Avies"^^xsd:string .
+
+fdo:U4 a fdo:Carrier ;
+    fdo:callSign "MULTITRADE"^^xsd:string ;
+    fdo:name "PMTair"^^xsd:string .
+
+fdo:U5 a fdo:Carrier ;
+    fdo:callSign "GETAWAY"^^xsd:string ;
+    fdo:name "USA3000 Airlines"^^xsd:string .
+
+fdo:U6 a fdo:Carrier ;
+    fdo:callSign "SVERDLOVSK AIR"^^xsd:string ;
+    fdo:name "Ural Airlines"^^xsd:string .
+
+fdo:U7 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "JET USA"^^xsd:string ;
+    fdo:name "Northern Dene Airways"^^xsd:string,
+        "USA Jet Airlines"^^xsd:string .
+
+fdo:U8 a fdo:Carrier ;
+    fdo:callSign "ARMAVIA"^^xsd:string ;
+    fdo:name "Armavia"^^xsd:string .
+
+fdo:U9 a fdo:Carrier ;
+    fdo:callSign "TATARSTAN"^^xsd:string ;
+    fdo:name "Tatarstan Airlines"^^xsd:string .
+
+fdo:UA a fdo:Carrier ;
+    fdo:callSign "UNITED"^^xsd:string ;
+    fdo:name "United Airlines"^^xsd:string .
+
+fdo:UB a fdo:Carrier ;
+    fdo:callSign "UNIONAIR"^^xsd:string ;
+    fdo:name "Myanma Airways"^^xsd:string .
+
+fdo:UD a fdo:Carrier ;
+    fdo:callSign "HEX AIRLINE"^^xsd:string ;
+    fdo:name "HexAir"^^xsd:string .
+
+fdo:UE a fdo:Carrier ;
+    fdo:callSign "NASAIRWAYS"^^xsd:string,
+        "TRANSEURLINE"^^xsd:string ;
+    fdo:name "Nasair"^^xsd:string,
+        "Transeuropean Airlines"^^xsd:string .
+
+fdo:UF a fdo:Carrier ;
+    fdo:callSign "UKRAINE MEDITERRANEE"^^xsd:string ;
+    fdo:name "UM Airlines"^^xsd:string .
+
+fdo:UG a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Tuninter"^^xsd:string .
+
+fdo:UH a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "US Helicopter Corporation"^^xsd:string .
+
+fdo:UI a fdo:Carrier ;
+    fdo:callSign "EUROCYPRIA"^^xsd:string ;
+    fdo:name "Eurocypria Airlines"^^xsd:string .
+
+fdo:UJ a fdo:Carrier ;
+    fdo:callSign "ALMASRIA"^^xsd:string ;
+    fdo:name "AlMasria Universal Airlines"^^xsd:string .
+
+fdo:UK a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "\\N"^^xsd:string ;
+    fdo:name "Air UK"^^xsd:string,
+        "Air Vistara"^^xsd:string,
+        "buzz"^^xsd:string .
+
+fdo:UL a fdo:Carrier ;
+    fdo:callSign "SRILANKAN"^^xsd:string ;
+    fdo:name "SriLankan Airlines"^^xsd:string .
+
+fdo:UM a fdo:Carrier ;
+    fdo:callSign "AIR ZIMBABWE"^^xsd:string ;
+    fdo:name "Air Zimbabwe"^^xsd:string .
+
+fdo:UN a fdo:Carrier ;
+    fdo:callSign "TRANSOVIET"^^xsd:string ;
+    fdo:name "Transaero Airlines"^^xsd:string .
+
+fdo:UO a fdo:Carrier ;
+    fdo:callSign "HONGKONG SHUTTLE"^^xsd:string ;
+    fdo:name "Hong Kong Express Airways"^^xsd:string .
+
+fdo:UP a fdo:Carrier ;
+    fdo:callSign "BAHAMAS"^^xsd:string ;
+    fdo:name "Bahamasair"^^xsd:string .
+
+fdo:UQ a fdo:Carrier ;
+    fdo:callSign "OCONNOR"^^xsd:string,
+        "SKYJET"^^xsd:string ;
+    fdo:name "OConnor Airlines"^^xsd:string,
+        "Skyjet Airlines"^^xsd:string .
+
+fdo:UR a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "UTair-Express"^^xsd:string .
+
+fdo:US a fdo:Carrier ;
+    fdo:callSign "U S AIR"^^xsd:string ;
+    fdo:name "US Airways"^^xsd:string .
+
+fdo:UT a fdo:Carrier ;
+    fdo:callSign "UTAIR"^^xsd:string ;
+    fdo:name "UTair Aviation"^^xsd:string .
+
+fdo:UU a fdo:Carrier ;
+    fdo:callSign "REUNION"^^xsd:string ;
+    fdo:name "Air Austral"^^xsd:string .
+
+fdo:UW a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "UVT Aero"^^xsd:string .
+
+fdo:UX a fdo:Carrier ;
+    fdo:callSign "EUROPA"^^xsd:string ;
+    fdo:name "Air Europa"^^xsd:string .
+
+fdo:UY a fdo:Carrier ;
+    fdo:callSign "CAM-AIR"^^xsd:string ;
+    fdo:name "Cameroon Airlines"^^xsd:string .
+
+fdo:UZ a fdo:Carrier ;
+    fdo:callSign "BURAQAIR"^^xsd:string ;
+    fdo:name "El-Buraq Air Transport"^^xsd:string .
+
+fdo:V0 a fdo:Carrier ;
+    fdo:callSign "CONVIASA"^^xsd:string ;
+    fdo:name "Conviasa"^^xsd:string .
+
+fdo:V1 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "VIA Líneas Aéreas"^^xsd:string .
+
+fdo:V2 a fdo:Carrier ;
+    fdo:callSign "AVIAKARAT"^^xsd:string,
+        "RUBY"^^xsd:string ;
+    fdo:name "Karat"^^xsd:string,
+        "Vision Airlines (V2)"^^xsd:string .
+
+fdo:V3 a fdo:Carrier ;
+    fdo:callSign "CARPATAIR"^^xsd:string ;
+    fdo:name "Carpatair"^^xsd:string .
+
+fdo:V4 a fdo:Carrier ;
+    fdo:callSign "REEM AIR"^^xsd:string ;
+    fdo:name "Reem Air"^^xsd:string .
+
+fdo:V5 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "AEROVOLAR"^^xsd:string,
+        "ROYAL ARUBAN"^^xsd:string ;
+    fdo:name "Avolar Aerolineas"^^xsd:string,
+        "Danube Wings (V5)"^^xsd:string,
+        "Royal Aruban Airline"^^xsd:string .
+
+fdo:V6 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "VIP Ecuador"^^xsd:string .
+
+fdo:V7 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "AIR SENEGAL"^^xsd:string ;
+    fdo:name "Air Senegal International"^^xsd:string,
+        "VOLOTEA Airways"^^xsd:string .
+
+fdo:V8 a fdo:Carrier ;
+    fdo:callSign "ATRAN"^^xsd:string ;
+    fdo:name "ATRAN Cargo Airlines"^^xsd:string .
+
+fdo:V9 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "BASHKIRIAN"^^xsd:string ;
+    fdo:name "BAL Bashkirian Airlines"^^xsd:string,
+        "Star1 Airlines"^^xsd:string .
+
+fdo:VA a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "KANGA"^^xsd:string,
+        "VIRGIN"^^xsd:string ;
+    fdo:name "V Australia Airlines"^^xsd:string,
+        "Viasa"^^xsd:string,
+        "Virgin Australia"^^xsd:string .
+
+fdo:VB a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Birmingham European"^^xsd:string,
+        "Pacific Express"^^xsd:string .
+
+fdo:VC a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "OCEANCARGO"^^xsd:string,
+        "VOYAGEUR"^^xsd:string ;
+    fdo:name "Ocean Airlines"^^xsd:string,
+        "Strategic Airlines"^^xsd:string,
+        "Voyageur Airways"^^xsd:string .
+
+fdo:VD a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "BLACKBIRD"^^xsd:string,
+        "KUNPENG"^^xsd:string ;
+    fdo:name "Air Libert"^^xsd:string,
+        "Kunpeng Airlines"^^xsd:string,
+        "SwedJet Airways"^^xsd:string .
+
+fdo:VE a fdo:Carrier ;
+    fdo:callSign "Avensa"^^xsd:string,
+        "UNION JET"^^xsd:string,
+        "VOLA"^^xsd:string ;
+    fdo:name "Avensa"^^xsd:string,
+        "EUjet"^^xsd:string,
+        "Volare Airlines"^^xsd:string .
+
+fdo:VF a fdo:Carrier ;
+    fdo:callSign "VALUAIR"^^xsd:string ;
+    fdo:name "Valuair"^^xsd:string .
+
+fdo:VG a fdo:Carrier ;
+    fdo:callSign "RUBENS"^^xsd:string ;
+    fdo:name "VLM Airlines"^^xsd:string .
+
+fdo:VH a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Virgin Pacific"^^xsd:string .
+
+fdo:VI a fdo:Carrier ;
+    fdo:callSign "VOLGA-DNEPR"^^xsd:string ;
+    fdo:name "Volga-Dnepr Airlines"^^xsd:string .
+
+fdo:VJ a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "JATAYU"^^xsd:string ;
+    fdo:name "Jatayu Airlines"^^xsd:string,
+        "Royal Air Cambodge"^^xsd:string .
+
+fdo:VK a fdo:Carrier ;
+    fdo:callSign "VIRGIN NIGERIA"^^xsd:string ;
+    fdo:name "Virgin Nigeria Airways"^^xsd:string .
+
+fdo:VL a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Air VIA"^^xsd:string .
+
+fdo:VM a fdo:Carrier ;
+    fdo:callSign "VIAGGIO"^^xsd:string ;
+    fdo:name "Viaggio Air"^^xsd:string .
+
+fdo:VN a fdo:Carrier ;
+    fdo:callSign "VIET NAM AIRLINES"^^xsd:string ;
+    fdo:name "Vietnam Airlines"^^xsd:string .
+
+fdo:VO a fdo:Carrier ;
+    fdo:callSign "TYROLEAN"^^xsd:string ;
+    fdo:name "Tyrolean Airways"^^xsd:string .
+
+fdo:VP a fdo:Carrier ;
+    fdo:callSign "VASP"^^xsd:string ;
+    fdo:name "VASP"^^xsd:string .
+
+fdo:VQ a fdo:Carrier ;
+    fdo:callSign "DELPHI"^^xsd:string ;
+    fdo:name "Viking Hellas"^^xsd:string .
+
+fdo:VR a fdo:Carrier ;
+    fdo:callSign "CABOVERDE"^^xsd:string ;
+    fdo:name "TACV"^^xsd:string .
+
+fdo:VS a fdo:Carrier ;
+    fdo:callSign "VIRGIN"^^xsd:string ;
+    fdo:name "Virgin Atlantic Airways"^^xsd:string .
+
+fdo:VT a fdo:Carrier ;
+    fdo:callSign "AIR TAHITI"^^xsd:string ;
+    fdo:name "Air Tahiti"^^xsd:string .
+
+fdo:VU a fdo:Carrier ;
+    fdo:callSign "AIRIVOIRE"^^xsd:string ;
+    fdo:name "Air Ivoire"^^xsd:string .
+
+fdo:VV a fdo:Carrier ;
+    fdo:callSign "AEROSVIT"^^xsd:string ;
+    fdo:name "Aerosvit Airlines"^^xsd:string .
+
+fdo:VW a fdo:Carrier ;
+    fdo:callSign "TRANS-AEROMAR"^^xsd:string ;
+    fdo:name "Aeromar"^^xsd:string .
+
+fdo:VX a fdo:Carrier ;
+    fdo:callSign "REDWOOD"^^xsd:string ;
+    fdo:name "Virgin America"^^xsd:string .
+
+fdo:VY a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "VUELING"^^xsd:string ;
+    fdo:name "Formosa Airlines"^^xsd:string,
+        "Vueling Airlines"^^xsd:string .
+
+fdo:VZ a fdo:Carrier ;
+    fdo:callSign "KESTREL"^^xsd:string ;
+    fdo:name "MyTravel Airways"^^xsd:string .
+
+fdo:W1 a fdo:Carrier ;
+    fdo:callSign "WEA"^^xsd:string ;
+    fdo:name "World Experience Airline"^^xsd:string .
+
+fdo:W2 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "CANADIAN WESTERN"^^xsd:string ;
+    fdo:name "Canadian Western Airlines"^^xsd:string,
+        "Maastricht Airlines"^^xsd:string .
+
+fdo:W3 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "ARIK AIR"^^xsd:string ;
+    fdo:name "Arik Air"^^xsd:string,
+        "World Scale Airlines"^^xsd:string .
+
+fdo:W4 a fdo:Carrier ;
+    fdo:callSign "BIRD EXPRESS"^^xsd:string,
+        "sovet"^^xsd:string ;
+    fdo:name "Aero Services Executive"^^xsd:string,
+        "AeroWorld"^^xsd:string .
+
+fdo:W5 a fdo:Carrier ;
+    fdo:callSign "MAHAN AIR"^^xsd:string ;
+    fdo:name "Mahan Air"^^xsd:string .
+
+fdo:W6 a fdo:Carrier ;
+    fdo:callSign "WIZZ AIR"^^xsd:string ;
+    fdo:name "Wizz Air"^^xsd:string .
+
+fdo:W7 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Austral Brasil"^^xsd:string .
+
+fdo:W8 a fdo:Carrier ;
+    fdo:callSign "CARGOJET"^^xsd:string ;
+    fdo:name "Cargojet Airways"^^xsd:string .
+
+fdo:W9 a fdo:Carrier ;
+    fdo:callSign "ABG"^^xsd:string,
+        "AIR BAGAN"^^xsd:string,
+        "STINGER"^^xsd:string ;
+    fdo:name "Abelag Aviation"^^xsd:string,
+        "Air Bagan"^^xsd:string,
+        "Eastwind Airlines"^^xsd:string .
+
+fdo:WA a fdo:Carrier ;
+    fdo:callSign "CITY"^^xsd:string,
+        "WESTERN"^^xsd:string ;
+    fdo:name "KLM Cityhopper"^^xsd:string,
+        "Western Airlines"^^xsd:string .
+
+fdo:WB a fdo:Carrier ;
+    fdo:callSign "RWANDAIR"^^xsd:string ;
+    fdo:name "Rwandair Express"^^xsd:string .
+
+fdo:WC a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Islena De Inversiones"^^xsd:string .
+
+fdo:WD a fdo:Carrier ;
+    fdo:callSign "AMSTEL"^^xsd:string,
+        "DAIRAIR"^^xsd:string ;
+    fdo:name "Amsterdam Airlines"^^xsd:string,
+        "DAS Air Cargo"^^xsd:string .
+
+fdo:WE a fdo:Carrier ;
+    fdo:callSign "CHALLENGE CARGO"^^xsd:string,
+        "THAI SMILE"^^xsd:string ;
+    fdo:name "Centurion Air Cargo"^^xsd:string,
+        "Thai Smile Airways"^^xsd:string .
+
+fdo:WF a fdo:Carrier ;
+    fdo:callSign "WIDEROE"^^xsd:string ;
+    fdo:name "Widerøe"^^xsd:string .
+
+fdo:WG a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "SUNWING"^^xsd:string,
+        "sunwing"^^xsd:string ;
+    fdo:name "Sunwing"^^xsd:string,
+        "Sunwing Airlines"^^xsd:string,
+        "Worldways"^^xsd:string .
+
+fdo:WH a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "CHINA NORTHWEST"^^xsd:string ;
+    fdo:name "China Northwest Airlines"^^xsd:string,
+        "China Northwest Airlines (WH)"^^xsd:string .
+
+fdo:WJ a fdo:Carrier ;
+    fdo:callSign "WEB-BRASIL"^^xsd:string ;
+    fdo:name "WebJet Linhas A"^^xsd:string .
+
+fdo:WK a fdo:Carrier ;
+    fdo:callSign "AMERICAN FALCON"^^xsd:string,
+        "EDELWEISS"^^xsd:string ;
+    fdo:name "American Falcon"^^xsd:string,
+        "Edelweiss Air"^^xsd:string .
+
+fdo:WL a fdo:Carrier ;
+    fdo:callSign "cheapflying"^^xsd:string ;
+    fdo:name "CheapFlyingInternational"^^xsd:string .
+
+fdo:WM a fdo:Carrier ;
+    fdo:callSign "Winair"^^xsd:string ;
+    fdo:name "Windward Islands Airways"^^xsd:string .
+
+fdo:WN a fdo:Carrier ;
+    fdo:callSign "SOUTHWEST"^^xsd:string ;
+    fdo:name "Southwest Airlines"^^xsd:string .
+
+fdo:WO a fdo:Carrier ;
+    fdo:callSign "WORLD"^^xsd:string ;
+    fdo:name "World Airways"^^xsd:string .
+
+fdo:WP a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Island Air (WP)"^^xsd:string .
+
+fdo:WQ a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "PanAm World Airways"^^xsd:string .
+
+fdo:WR a fdo:Carrier ;
+    fdo:callSign "Encore"^^xsd:string,
+        "TONGA ROYAL"^^xsd:string ;
+    fdo:name "Royal Tongan Airlines"^^xsd:string,
+        "WestJet Encore"^^xsd:string .
+
+fdo:WS a fdo:Carrier ;
+    fdo:callSign "WESTJET"^^xsd:string ;
+    fdo:name "WestJet"^^xsd:string .
+
+fdo:WU a fdo:Carrier ;
+    fdo:callSign "WIZZAIR UKRAINE"^^xsd:string ;
+    fdo:name "Wizz Air Ukraine"^^xsd:string .
+
+fdo:WV a fdo:Carrier ;
+    fdo:callSign "FLYING SWEDE"^^xsd:string ;
+    fdo:name "Swe Fly"^^xsd:string .
+
+fdo:WW a fdo:Carrier ;
+    fdo:callSign "BABY"^^xsd:string ;
+    fdo:name "bmibaby"^^xsd:string .
+
+fdo:WX a fdo:Carrier ;
+    fdo:callSign "CITY-IRELAND"^^xsd:string ;
+    fdo:name "CityJet"^^xsd:string .
+
+fdo:WY a fdo:Carrier ;
+    fdo:callSign "OMAN AIR"^^xsd:string ;
+    fdo:name "Oman Air"^^xsd:string .
+
+fdo:WZ a fdo:Carrier ;
+    fdo:callSign "AIR RED"^^xsd:string ;
+    fdo:name "Red Wings"^^xsd:string .
+
+fdo:X1 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Nik Airways"^^xsd:string .
+
+fdo:X3 a fdo:Carrier ;
+    fdo:callSign "YELLOW CAB"^^xsd:string ;
+    fdo:name "TUIfly"^^xsd:string .
+
+fdo:X5 a fdo:Carrier ;
+    fdo:callSign "TENDER AIR"^^xsd:string ;
+    fdo:name "Fly Romania"^^xsd:string .
+
+fdo:X7 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "CHITA"^^xsd:string ;
+    fdo:name "Atlantic Air Services"^^xsd:string,
+        "Chitaavia"^^xsd:string .
+
+fdo:X9 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "FA"^^xsd:string ;
+    fdo:name "FRA Air"^^xsd:string,
+        "Islands Express"^^xsd:string .
+
+fdo:XA a fdo:Carrier ;
+    fdo:callSign "XAIR"^^xsd:string ;
+    fdo:name "XAIR USA"^^xsd:string .
+
+fdo:XB a fdo:Carrier ;
+    fdo:callSign "XB"^^xsd:string ;
+    fdo:name "NEXT Brasil"^^xsd:string .
+
+fdo:XE a fdo:Carrier ;
+    fdo:callSign "JET LINK"^^xsd:string ;
+    fdo:name "ExpressJet"^^xsd:string .
+
+fdo:XF a fdo:Carrier ;
+    fdo:callSign "VLADAIR"^^xsd:string ;
+    fdo:name "Vladivostok Air"^^xsd:string .
+
+fdo:XG a fdo:Carrier ;
+    fdo:callSign "CALIMA"^^xsd:string ;
+    fdo:name "Calima Aviacion"^^xsd:string .
+
+fdo:XJ a fdo:Carrier ;
+    fdo:callSign "MESABA"^^xsd:string ;
+    fdo:name "Mesaba Airlines"^^xsd:string .
+
+fdo:XK a fdo:Carrier ;
+    fdo:callSign "CORSICA"^^xsd:string ;
+    fdo:name "Corse-Mediterranee"^^xsd:string .
+
+fdo:XL a fdo:Carrier ;
+    fdo:callSign "LAN ECUADOR"^^xsd:string ;
+    fdo:name "Aerolane"^^xsd:string .
+
+fdo:XM a fdo:Carrier ;
+    fdo:callSign "ALIEXPRESS"^^xsd:string ;
+    fdo:name "Alitalia Express"^^xsd:string .
+
+fdo:XN a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Xpressair"^^xsd:string .
+
+fdo:XO a fdo:Carrier ;
+    fdo:callSign "FUN JET"^^xsd:string,
+        "XINHUA"^^xsd:string ;
+    fdo:name "China Xinhua Airlines"^^xsd:string,
+        "LTE International Airways"^^xsd:string .
+
+fdo:XP a fdo:Carrier ;
+    fdo:callSign "RUBY MOUNTAIN"^^xsd:string,
+        "XPTO"^^xsd:string,
+        "caribbean Wings"^^xsd:string ;
+    fdo:name "Caribbean Wings"^^xsd:string,
+        "XPTO"^^xsd:string,
+        "Xtra Airways"^^xsd:string .
+
+fdo:XQ a fdo:Carrier ;
+    fdo:callSign "SUNEXPRESS"^^xsd:string ;
+    fdo:name "SunExpress"^^xsd:string .
+
+fdo:XR a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Skywest Australia"^^xsd:string .
+
+fdo:XS a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "SITA"^^xsd:string,
+        "Texas Spirit"^^xsd:string .
+
+fdo:XT a fdo:Carrier ;
+    fdo:callSign "EXEL COMMUTER"^^xsd:string ;
+    fdo:name "Air Exel"^^xsd:string .
+
+fdo:XV a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "BVI Airways"^^xsd:string .
+
+fdo:XW a fdo:Carrier ;
+    fdo:callSign "SKYSTORM"^^xsd:string ;
+    fdo:name "Sky Express"^^xsd:string .
+
+fdo:XX a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Greenfly"^^xsd:string .
+
+fdo:XY a fdo:Carrier ;
+    fdo:callSign "NAS EXPRESS"^^xsd:string ;
+    fdo:name "Nas Air"^^xsd:string .
+
+fdo:XZ a fdo:Carrier ;
+    fdo:callSign "EXPRESSWAYS"^^xsd:string ;
+    fdo:name "Congo Express"^^xsd:string .
+
+fdo:Y0 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Yellow Air Taxi"^^xsd:string .
+
+fdo:Y1 a fdo:Carrier ;
+    fdo:callSign "YCS"^^xsd:string ;
+    fdo:name "Yellowstone Club Private Shuttle"^^xsd:string .
+
+fdo:Y4 a fdo:Carrier ;
+    fdo:callSign "VOLARIS"^^xsd:string ;
+    fdo:name "Volaris"^^xsd:string .
+
+fdo:Y5 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "PACE"^^xsd:string ;
+    fdo:name "Asia Wings"^^xsd:string,
+        "Pace Airlines"^^xsd:string .
+
+fdo:Y7 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "NordStar Airlines"^^xsd:string .
+
+fdo:Y8 a fdo:Carrier ;
+    fdo:callSign "YANGTZE RIVER"^^xsd:string,
+        "snowball"^^xsd:string ;
+    fdo:name "Marusya Airways"^^xsd:string,
+        "Yangtze River Express"^^xsd:string .
+
+fdo:Y9 a fdo:Carrier ;
+    fdo:callSign "KISHAIR"^^xsd:string ;
+    fdo:name "Kish Air"^^xsd:string .
+
+fdo:YC a fdo:Carrier ;
+    fdo:callSign "Ciel"^^xsd:string ;
+    fdo:name "Ciel Canadien"^^xsd:string .
+
+fdo:YD a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Gomelavia"^^xsd:string .
+
+fdo:YE a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Yellowtail"^^xsd:string .
+
+fdo:YH a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Yangon Airways Ltd."^^xsd:string .
+
+fdo:YI a fdo:Carrier ;
+    fdo:callSign "TurAvrupa"^^xsd:string ;
+    fdo:name "TUR Avrupa Hava YollarÄ±"^^xsd:string .
+
+fdo:YK a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Cyprus Turkish Airlines"^^xsd:string .
+
+fdo:YL a fdo:Carrier ;
+    fdo:callSign "YAMAL"^^xsd:string ;
+    fdo:name "Yamal Airlines"^^xsd:string .
+
+fdo:YM a fdo:Carrier ;
+    fdo:callSign "MONTAIR"^^xsd:string ;
+    fdo:name "Montenegro Airlines"^^xsd:string .
+
+fdo:YO a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "TransHolding System"^^xsd:string .
+
+fdo:YP a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Aero Lloyd (YP)"^^xsd:string .
+
+fdo:YQ a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Polet Airlines (Priv)"^^xsd:string .
+
+fdo:YR a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "SENIC AIRLINES"^^xsd:string .
+
+fdo:YS a fdo:Carrier ;
+    fdo:callSign "REGIONAL EUROPE"^^xsd:string ;
+    fdo:name "Régional"^^xsd:string .
+
+fdo:YT a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "AIR TOGO"^^xsd:string ;
+    fdo:name "Air Togo"^^xsd:string,
+        "Yeti Airways"^^xsd:string .
+
+fdo:YV a fdo:Carrier ;
+    fdo:callSign "AIR SHUTTLE"^^xsd:string ;
+    fdo:name "Mesa Airlines"^^xsd:string .
+
+fdo:YW a fdo:Carrier ;
+    fdo:callSign "AIR NOSTRUM"^^xsd:string ;
+    fdo:name "Air Nostrum"^^xsd:string .
+
+fdo:YX a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Midwest Airlines"^^xsd:string .
+
+fdo:YY a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Virginwings"^^xsd:string .
+
+fdo:YZ a fdo:Carrier ;
+    fdo:callSign "Moscow frog"^^xsd:string ;
+    fdo:name "LSM AIRLINES"^^xsd:string .
+
+fdo:Z0 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "All Argentina Express"^^xsd:string .
+
+fdo:Z2 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Zest Air"^^xsd:string .
+
+fdo:Z3 a fdo:Carrier ;
+    fdo:callSign "AVAVIA"^^xsd:string ;
+    fdo:name "Avient Aviation"^^xsd:string .
+
+fdo:Z4 a fdo:Carrier ;
+    fdo:callSign "ZOOM"^^xsd:string ;
+    fdo:name "Zoom Airlines"^^xsd:string .
+
+fdo:Z5 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "INAVIA Internacional"^^xsd:string .
+
+fdo:Z6 a fdo:Carrier ;
+    fdo:callSign "BAIKAL"^^xsd:string ;
+    fdo:name "ZABAIKAL AIRLINES"^^xsd:string .
+
+fdo:Z7 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "ADCO"^^xsd:string ;
+    fdo:name "ADC Airlines"^^xsd:string,
+        "REDjet"^^xsd:string,
+        "Zimbabwean Airlines"^^xsd:string .
+
+fdo:Z8 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Amaszonas"^^xsd:string .
+
+fdo:Z9 a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Flightlink Tanzania"^^xsd:string .
+
+fdo:ZA a fdo:Carrier ;
+    fdo:callSign "ASTAIR"^^xsd:string,
+        "CYCLONE"^^xsd:string ;
+    fdo:name "Access Air"^^xsd:string,
+        "Interavia Airlines"^^xsd:string .
+
+fdo:ZB a fdo:Carrier ;
+    fdo:callSign "BOURBON"^^xsd:string,
+        "MONARCH"^^xsd:string ;
+    fdo:name "Air Bourbon"^^xsd:string,
+        "Monarch Airlines"^^xsd:string .
+
+fdo:ZC a fdo:Carrier ;
+    fdo:callSign "KORONGO"^^xsd:string ;
+    fdo:name "Korongo Airlines"^^xsd:string .
+
+fdo:ZE a fdo:Carrier ;
+    fdo:callSign "ARCUS AIR"^^xsd:string,
+        "Eastar"^^xsd:string,
+        "LINEAS AZTECA"^^xsd:string ;
+    fdo:name "Arcus-Air Logistic"^^xsd:string,
+        "Eastar Jet"^^xsd:string,
+        "Lineas Aereas Azteca"^^xsd:string .
+
+fdo:ZF a fdo:Carrier ;
+    fdo:callSign "ATHENSAIR"^^xsd:string ;
+    fdo:name "Athens Airways"^^xsd:string .
+
+fdo:ZG a fdo:Carrier ;
+    fdo:callSign "JACKPOT"^^xsd:string ;
+    fdo:name "Viva Macau"^^xsd:string .
+
+fdo:ZH a fdo:Carrier ;
+    fdo:callSign "SHENZHEN AIR"^^xsd:string ;
+    fdo:name "Shenzhen Airlines"^^xsd:string .
+
+fdo:ZI a fdo:Carrier ;
+    fdo:callSign "AIGLE AZUR"^^xsd:string ;
+    fdo:name "Aigle Azur"^^xsd:string .
+
+fdo:ZJ a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Zambezi Airlines (ZMA)"^^xsd:string .
+
+fdo:ZK a fdo:Carrier ;
+    fdo:callSign "LAKES AIR"^^xsd:string ;
+    fdo:name "Great Lakes Airlines"^^xsd:string .
+
+fdo:ZL a fdo:Carrier ;
+    fdo:callSign "REX"^^xsd:string ;
+    fdo:name "Regional Express"^^xsd:string .
+
+fdo:ZM a fdo:Carrier ;
+    fdo:callSign "APACHE"^^xsd:string ;
+    fdo:name "Apache Air"^^xsd:string .
+
+fdo:ZN a fdo:Carrier ;
+    fdo:callSign "ZENITH"^^xsd:string ;
+    fdo:name "Zenith International Airline"^^xsd:string .
+
+fdo:ZP a fdo:Carrier ;
+    fdo:callSign "Lakeair"^^xsd:string,
+        "SILK LINE"^^xsd:string ;
+    fdo:name "Silk Way Airlines"^^xsd:string,
+        "Zabaykalskii Airlines"^^xsd:string .
+
+fdo:ZQ a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "LOCAIR"^^xsd:string ;
+    fdo:name "Annsett New Zealand (NZA)"^^xsd:string,
+        "Locair"^^xsd:string .
+
+fdo:ZS a fdo:Carrier ;
+    fdo:callSign "NAJIM"^^xsd:string ;
+    fdo:name "Sama Airlines"^^xsd:string .
+
+fdo:ZT a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "ZAP"^^xsd:string ;
+    fdo:name "Titan Airways"^^xsd:string,
+        "Tomp Airlines"^^xsd:string .
+
+fdo:ZU a fdo:Carrier ;
+    fdo:callSign "HELIOS"^^xsd:string ;
+    fdo:name "Helios Airways"^^xsd:string .
+
+fdo:ZV a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "AIR MIDWEST"^^xsd:string ;
+    fdo:name "Air Midwest"^^xsd:string,
+        "V Air"^^xsd:string .
+
+fdo:ZW a fdo:Carrier ;
+    fdo:callSign "AIR WISCONSIN"^^xsd:string ;
+    fdo:name "Air Wisconsin"^^xsd:string .
+
+fdo:ZX a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string,
+        "GEORGIAN"^^xsd:string ;
+    fdo:name "Air Georgian"^^xsd:string,
+        "Japan Regio"^^xsd:string .
+
+fdo:ZY a fdo:Carrier ;
+    fdo:callSign "ADA AIR"^^xsd:string ;
+    fdo:name "Ada Air"^^xsd:string .
+
+fdo:ZZ a fdo:Carrier ;
+    fdo:callSign ""^^xsd:string ;
+    fdo:name "Zz"^^xsd:string .
+

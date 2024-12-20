@@ -5,22 +5,24 @@ from urllib.parse import quote
 from rdflib import Graph, Literal, RDF, URIRef, Namespace, XSD, RDFS, FOAF
 
 # Define all paths
-BASE_PATH = Path(r"C:\Users\14369\Desktop\flydata")
+BASE_PATH = Path(r"C:\Users\huimin.chen\projects\chm-graphdb\flydata")
 STATE_PATH = BASE_PATH / "DataCollection" / "CSVData" / "states.csv"
 CITIES_PATH = BASE_PATH / "DataCollection" / "CSVData" / "cities.csv"
 AIRPORTS_PATH = BASE_PATH / "DataCollection" / "CSVData" / "airports.csv"
 CARRIERS_PATH = BASE_PATH / "DataCollection" / "CSVData" / "carriers.csv"
 AIRCRAFT_PATH = BASE_PATH / "DataCollection" / "CSVData" / "aircrafts.csv"
-MODEL_PATH = BASE_PATH / "DataCollection" / "CSVData" / "model.csv"
-MANUFACTURER_PATH = BASE_PATH / "DataCollection" / "CSVData" / "manufacturer.csv"
+# MODEL_PATH = BASE_PATH / "DataCollection" / "CSVData" / "model.csv"
+# MANUFACTURER_PATH = BASE_PATH / "DataCollection" / "CSVData" / "manufacturer.csv"
+MFR_PATH = BASE_PATH / "DataCollection" / "CSVData" / "mfr.csv"
 # Output paths
 OUTPUT_PATH_AIRPORT = BASE_PATH / "Serialization" /"ttl"/ "airports.ttl"
 OUTPUT_PATH_CARRIER = BASE_PATH / "Serialization" / "ttl" / "carriers.ttl"
 OUTPUT_PATH_STATE = BASE_PATH / "Serialization" /"ttl"/ "states.ttl"
 OUTPUT_PATH_CITY = BASE_PATH / "Serialization" /"ttl"/ "cities.ttl"
 OUTPUT_PATH_AIRCRAFT = BASE_PATH / "Serialization" /"ttl"/ "aircrafts.ttl"
-OUTPUT_PATH_MODEL = BASE_PATH / "Serialization" /"ttl"/ "models.ttl"
-OUTPUT_PATH_MANUFACTURER = BASE_PATH / "Serialization" /"ttl"/ "manufacturers.ttl"
+# OUTPUT_PATH_MODEL = BASE_PATH / "Serialization" /"ttl"/ "models.ttl"
+# OUTPUT_PATH_MANUFACTURER = BASE_PATH / "Serialization" /"ttl"/ "manufacturers.ttl"
+OUTPUT_PATH_MFR = BASE_PATH / "Serialization" /"ttl"/ "mfr.ttl"
 
 def read_cities():
     cities = {}
@@ -58,20 +60,20 @@ def read_states():
         raise
     return states
 
-def read_manufacturer():
-    manufacturer = []
-    try:
-        with open(MANUFACTURER_PATH, 'r', encoding='utf-8') as file:
-            reader = csv.DictReader(file)
-            for row in reader:
-                manufacturer.append({
-                    'manufacture_code': row['ManufactureCode'].strip(),
-                    'manufacturer_name': row['ManufacturerName'].strip()
-                })
-    except Exception as e:
-        print(f"Error reading manufacturer file: {str(e)}")
-        raise
-    return manufacturer
+# def read_manufacturer():
+#     manufacturer = []
+#     try:
+#         with open(MANUFACTURER_PATH, 'r', encoding='utf-8') as file:
+#             reader = csv.DictReader(file)
+#             for row in reader:
+#                 manufacturer.append({
+#                     'manufacture_code': row['ManufactureCode'].strip(),
+#                     'manufacturer_name': row['ManufacturerName'].strip()
+#                 })
+#     except Exception as e:
+#         print(f"Error reading manufacturer file: {str(e)}")
+#         raise
+#     return manufacturer
 def read_carriers():
     carriers = []
     try:
@@ -113,7 +115,7 @@ def read_aircrafts():
             for row in reader:
                 aircrafts.append({
                     'n_number': row['AircraftID'],
-                    'model_code': row['ModelCode'].strip(),
+                    'MFRCode': row['MFRCode'].strip(),
                     'aircraft_type': row['AircraftType'].strip(),
                     'register_city': row['RegisterCity'].strip()
                 })
@@ -121,21 +123,36 @@ def read_aircrafts():
         print(f"Error reading aircrafts file: {str(e)}")
         raise
     return aircrafts
-def read_model():
-    model = []
+# def read_model():
+#     model = []
+#     try:
+#         with open(MODEL_PATH, 'r', encoding='utf-8') as file:
+#             reader = csv.DictReader(file)
+#             for row in reader:
+#                 model.append({
+#                     'model_code': row['ModelCode'].strip(),
+#                     'model_name': row['ModelName'].strip(),
+#                     'manufacture_code': row['ModelCode'].strip()
+#                 })
+#     except Exception as e:
+#         print(f"Error reading model file: {str(e)}")
+#         raise
+#     return model
+
+def read_mfr():
+    mfr = {}
     try:
-        with open(MODEL_PATH, 'r', encoding='utf-8') as file:
+        with open(MFR_PATH, 'r', encoding='utf-8') as file:
             reader = csv.DictReader(file)
             for row in reader:
-                model.append({
-                    'model_code': row['ModelCode'].strip(),
-                    'model_name': row['ModelName'].strip(),
-                    'manufacture_code': row['ModelCode'].strip()
-                })
+                mfr[row['mfrCode']] = { 
+                    'manufacturerName': row['manufaturerName'],
+                    'modelName': row['modelName']
+                }
     except Exception as e:
-        print(f"Error reading model file: {str(e)}")
+        print(f"Error reading file: {str(e)}")
         raise
-    return model
+    return mfr
 
 def serialize_to_ttl():
     g_state = Graph()
@@ -143,11 +160,12 @@ def serialize_to_ttl():
     g_airport = Graph()
     g_carrier = Graph()
     g_aircraft = Graph()
-    g_model = Graph()
-    g_manufacturer = Graph()
+    # g_model = Graph()
+    # g_manufacturer = Graph()
+    g_mfr = Graph()
     
     FDO = Namespace("http://www.semanticweb.org/nele/ontologies/2024/10/flydata/")
-    for g in [g_state, g_city, g_airport, g_carrier, g_aircraft, g_model, g_manufacturer]:
+    for g in [g_state, g_city, g_airport, g_carrier, g_aircraft, g_mfr]:
         g.bind("fdo", FDO)
         g.bind("xsd", XSD)
 
@@ -161,13 +179,16 @@ def serialize_to_ttl():
     print("airports.csv read")
     aircrafts = read_aircrafts()
     print("aircrafts.csv read")
-    models = read_model()
-    print("models.csv read")
-    manufacturers = read_manufacturer()
-    print("manufacturers.csv read")
+    # models = read_model()
+    # print("models.csv read")
+    # manufacturers = read_manufacturer()
+    # print("manufacturers.csv read")
     
-    model_uri_mapping = {model['model_code']: FDO[model['model_code']] for model in models}
-    manufacturer_uri_mapping = {mfr['manufacture_code']: FDO[mfr['manufacture_code']] for mfr in manufacturers}
+    mfrs = read_mfr()
+    print("mfr.csv read")
+
+    # model_uri_mapping = {model['model_code']: FDO[model['model_code']] for model in models}
+    # manufacturer_uri_mapping = {mfr['manufacture_code']: FDO[mfr['manufacture_code']] for mfr in manufacturers}
     state_uri_mapping = {state['abbreviation']: FDO[state['abbreviation']] for state in states}
     city_uri_mapping = {}
     for city_ascii, city_data in cities.items():
@@ -214,28 +235,44 @@ def serialize_to_ttl():
         aircraft_uri = FDO[encoded_n_number]
         g_aircraft.add((aircraft_uri, RDF.type, FDO.Aircraft))
         g_aircraft.add((aircraft_uri, FDO.aircraftType, Literal(aircraft['aircraft_type'], datatype=XSD.string)))
-
-        if aircraft['model_code']:
-            model_code = aircraft['model_code']
-            model_uri = model_uri_mapping[model_code]
-            g_aircraft.add((aircraft_uri, FDO.hasModel, model_uri))
+        if aircraft['MFRCode'] in mfrs:
+            mfr_code = aircraft['MFRCode']
+            mfr_uri = FDO[mfr_code]
+            g_aircraft.add((aircraft_uri, FDO.hasMfr, mfr_uri))
     print("aircrafts.ttl created")
  
-    for model in models:
-        model_uri = model_uri_mapping[model['model_code']]
-        g_model.add((model_uri, RDF.type, FDO.Model))
-        g_model.add((model_uri, FDO.name, Literal(model['model_name'], datatype=XSD.string)))
-        g_model.add((model_uri, FDO.modelCode, Literal(model['model_code'], datatype=XSD.string)))
+    # for model in models:
+    #     model_uri = model_uri_mapping[model['model_code']]
+    #     g_model.add((model_uri, RDF.type, FDO.Model))
+    #     g_model.add((model_uri, FDO.name, Literal(model['model_name'], datatype=XSD.string)))
+    #     g_model.add((model_uri, FDO.modelCode, Literal(model['model_code'], datatype=XSD.string)))
         
-        if model['manufacture_code'] in manufacturer_uri_mapping:
-            manufacturer_uri = manufacturer_uri_mapping[model['manufacture_code']]
-            g_model.add((model_uri, FDO.hasManufacturer, manufacturer_uri))
-    print("models.ttl created")
-    for manufacturer in manufacturers:
-        manufacturer_uri = URIRef(str(FDO) + manufacturer['manufacture_code'])
-        g_manufacturer.add((manufacturer_uri, RDF.type, FDO.Manufacturer))
-        g_manufacturer.add((manufacturer_uri, FDO.name, Literal(manufacturer['manufacturer_name'], datatype=XSD.string)))
-    print("manufacturers.ttl created")
+    #     if model['manufacture_code'] in manufacturer_uri_mapping:
+    #         manufacturer_uri = manufacturer_uri_mapping[model['manufacture_code']]
+    #         g_model.add((model_uri, FDO.hasManufacturer, manufacturer_uri))
+    # print("models.ttl created")
+    # for manufacturer in manufacturers:
+    #     manufacturer_uri = URIRef(str(FDO) + manufacturer['manufacture_code'])
+    #     g_manufacturer.add((manufacturer_uri, RDF.type, FDO.Manufacturer))
+    #     g_manufacturer.add((manufacturer_uri, FDO.name, Literal(manufacturer['manufacturer_name'], datatype=XSD.string)))
+    # print("manufacturers.ttl created")
+    
+        # Add some debug prints
+    print("First few items in mfrs:")
+    for i, (code, data) in enumerate(list(mfrs.items())[:3]):
+        print(f"  {i+1}. code: '{code}' ({type(code)})")
+        print(f"     data: {data}")
+    for mfr_code, mfr_data in mfrs.items():
+        try:
+            mfr_code_str = str(mfr_code)
+            mfr_uri = FDO[mfr_code_str]
+            g_mfr.add((mfr_uri, RDF.type, FDO.Manufacturer))
+            g_mfr.add((mfr_uri, FDO.manufacturerName, Literal(mfr_data['manufacturerName'], datatype=XSD.string)))
+            g_mfr.add((mfr_uri, FDO.modelName, Literal(mfr_data['modelName'], datatype=XSD.string)))
+        except Exception as e:
+            print(f"Error serializing mfr {mfr_code}: {str(e)}")
+    print("mfr.ttl created")
+
     g_state.serialize(destination=str(OUTPUT_PATH_STATE), format='turtle')
     print("states.ttl serialized")
     g_city.serialize(destination=str(OUTPUT_PATH_CITY), format='turtle')
@@ -246,9 +283,11 @@ def serialize_to_ttl():
     print("carriers.ttl serialized")
     g_aircraft.serialize(destination=str(OUTPUT_PATH_AIRCRAFT), format='turtle')
     print("aircrafts.ttl serialized")
-    g_model.serialize(destination=str(OUTPUT_PATH_MODEL), format='turtle')
-    print("models.ttl serialized")
-    g_manufacturer.serialize(destination=str(OUTPUT_PATH_MANUFACTURER), format='turtle')
-    print("manufacturers.ttl serialized")
+    # g_model.serialize(destination=str(OUTPUT_PATH_MODEL), format='turtle')
+    # print("models.ttl serialized")
+    # g_manufacturer.serialize(destination=str(OUTPUT_PATH_MANUFACTURER), format='turtle')
+    # print("manufacturers.ttl serialized")
+    g_mfr.serialize(destination=str(OUTPUT_PATH_MFR), format='turtle')
+    print("mfr.ttl serialized")
 if __name__ == "__main__":
     serialize_to_ttl()
