@@ -154,30 +154,30 @@ OUTPUT_PATH_CITY = OUTPUT_PATH / "city.ttl"
 
 ### Entity Statistics
 
-| Dataset           | Entities | Property Count | Property Names                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| ----------------- | -------- | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| States.ttl        | 52       | 2              | abbreviation, name                                                                                                                                                                                                                                                                                                                                                                                                                |
-| Cities.ttl        | 31,120   | 4              | name, population, isLocatedInState, a                                                                                                                                                                                                                                                                                                                                                                                             |
-| Airports.ttl      | 1,512    | 2              | name, isLocatedInCity                                                                                                                                                                                                                                                                                                                                                                                                             |
-| Carriers.ttl      | 1,498    | 2              | name, callSign                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| Aircraft.ttl      | 299,689  | 2              | aircraftType, hasModel                                                                                                                                                                                                                                                                                                                                                                                                            |
-| Models.ttl        | 92,339   | 2              | name, hasManufacturer                                                                                                                                                                                                                                                                                                                                                                                                             |
-| Manufacturers.ttl | 92,339   | 2              | name, a                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| Weather.ttl       | 1,512    | 3              | hasAirport, weatherDate, weatherType                                                                                                                                                                                                                                                                                                                                                                                              |
-| Flights.ttl       | 1,512    | 23             | hasAircraft, hasRoute, isOperatedBy, ActualArrivalDelayTime, ActualDepartureDelayTime, ActualElapsedTimeDifference, ActualGate-to-gateTime, ActualGateArrivalTime, ActualGateDepartureTime, ActualWheels-offTime, ActualWheels-onTime, LateE, LateF, LateG, LateH, LateI, ScheduledArrivalTimePerCRS, ScheduledArrivalTimePerOAG, ScheduledDepartureCRSTime, ScheduledDepartureOAGTime, ScheduledElapsedTimePerCRS, flightDate, a |
-| Routes.ttl        | 1,512    | 4              | hasDepartureAirport, hasArrivalAirport, hasCarrier                                                                                                                                                                                                                                                                                                                                                                                |
+| Dataset           | Entities | Property Count | Property Names |
+| ----------------- | -------- | -------------- | ----- |
+| States.ttl        | 52       | 2              | abbreviation, name|
+| Cities.ttl        | 31,120   | 4              | name, population, isLocatedInState|
+| Airports.ttl      | 1,512    | 2              | name, isLocatedInCity|
+| Carriers.ttl      | 1,498    | 2              | name, callSign   |
+| Aircraft.ttl      | 299,689  | 2              | aircraftType, hasModel  |
+| Models.ttl        | 92,339   | 2              | name, hasManufacturer  |
+| Manufacturers.ttl | 92,339   | 2              | name |
+| Weather.ttl       | 647,458  | 3              | hasAirport, weatherDate, weatherType |
+| Flights.ttl       | 1,572,598| 23             | hasAircraft, hasRoute, isOperatedBy, ActualArrivalDelayTime, ActualDepartureDelayTime, ActualElapsedTimeDifference, ActualGate-to-gateTime, ActualGateArrivalTime, ActualGateDepartureTime, ActualWheels-offTime, ActualWheels-onTime, LateE, LateF, LateG, LateH, LateI, ScheduledArrivalTimePerCRS, ScheduledArrivalTimePerOAG, ScheduledDepartureCRSTime, ScheduledDepartureOAGTime, ScheduledElapsedTimePerCRS, flightDate|
+| Routes.ttl        | 67,663   | 4              | hasDepartureAirport, hasArrivalAirport, hasCarrier|
 
 ## statistics of the RDF file
 
-| Dataset           | Entities |
-| ----------------- | -------- |
-| States.ttl        | 52       |
-| Cities.ttl        | 31,120   |
-| Airports.ttl      | 1,512    |
-| Carriers.ttl      | 1,498    |
-| Aircraft.ttl      | 299,689  |
-| Models.ttl        | 92,339   |
-| Manufacturers.ttl | 92,339   |
-| Flights.ttl       | 1,512    |
-| Routes.ttl        | 67,663   |
-| Weather.ttl       | 647.458  |
+| Dataset           | Entities  |
+| ----------------- | --------- |
+| States.ttl        | 52        |
+| Cities.ttl        | 31,120    |
+| Airports.ttl      | 1,512     |
+| Carriers.ttl      | 1,498     |
+| Aircraft.ttl      | 299,689   |
+| Models.ttl        | 92,339    |
+| Manufacturers.ttl | 92,339    |
+| Flights.ttl       | 1,572,598 |
+| Routes.ttl        | 67,663    |
+| Weather.ttl       | 647.458   |
