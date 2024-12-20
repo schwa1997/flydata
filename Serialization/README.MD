@@ -39,16 +39,16 @@ Our primary objective is to transform diverse aviation-related CSV datasets into
 
 ### Dataset Statistics
 
-| Dataset       | Entities | Properties | Column Names |
-| ------------- | -------- | ---------- | ------------ |
+| Dataset           | Entities | Properties | Column Names |
+| ----------------- | -------- | ---------- | -------------------------- |
 | States.csv        | 52       | 2          | State, Abbreviation |
 | Cities.csv        | 31,120   | 17         | city, city_ascii, state_id, state_name, county_fips, county_name, lat, lng, population, density, source, military, incorporated, timezone, ranking, zips, id |
-| Airports.csv       | 1,512    | 14         | ID, Name, City, Country, IATA, ICAO, LAT, LONG, Unnamed: 8, Unnamed: 9, Unnamed: 10, Unnamed: 11, Unnamed: 12, Unnamed: 13 |
+| Airports.csv      | 1,512    | 14         | ID, Name, City, Country, IATA, ICAO, LAT, LONG ...   |
 | Carriers.csv      | 1,498    | 8          | AirlineID, Name, Alias, IATA, ICAO, Callsign, Country, Active |
-| Aircraft.csv      | 299,689  | 4          | AircraftID, ModelCode, AircraftType, RegisterCity |
+| Aircraft.csv      | 299,689  | 4          | AircraftID, ModelCode, AircraftType, RegisterCity  |
 | Models.csv        | 92,339   | 2          | ModelCode, ModelName |
-| Manufacturers.csv | 92,339   | 2          | ManufactureCode, ManufacturerName |
-| Routes.csv        | 67,663   | 9          | Airline, Airline ID, Source airport, Source airport ID, Destination airport, Destination airport ID, Codeshare, stops, Equipment |
+| Manufacturers.csv | 92,339   | 2          | ManufactureCode, ManufacturerName|
+| Routes.csv        | 67,663   | 9          | Airline, Airline ID, Source airport, Source airport ID, Destination airport, Destination airport ID, Codeshare, stops, Equipment  |
 | Flights.csv       | 552,218  | 23         |  |
 
 ## RDF Model
@@ -114,11 +114,11 @@ BASE_PATH = 'your_base_path'
 DATA_PATH = BASE_PATH / "DataCollection" / "CSVData"
 OUTPUT_PATH = BASE_PATH / "Serialization" / "ttl"
 
-# Input files
+# Input files examples
 AIRPORTS_PATH = DATA_PATH / "airports.csv"
 CITIES_PATH = DATA_PATH / "cities.csv"
 
-# Output files
+# Output files examples
 OUTPUT_PATH_AIRPORT = OUTPUT_PATH / "airport.ttl"
 OUTPUT_PATH_CITY = OUTPUT_PATH / "city.ttl"
 ```
@@ -134,13 +134,45 @@ OUTPUT_PATH_CITY = OUTPUT_PATH / "city.ttl"
    ```python
    def read_data(file_path: Path) -> pd.DataFrame:
        """Reads and validates source CSV data"""
-
-   def process_entity(data: pd.DataFrame) -> RDFGraph:
-       """Converts DataFrame to RDF triples"""
+       #read the aircrafts
+         aircrafts = []
+         try:
+            with open(AIRCRAFT_PATH, 'r', encoding='utf-8') as file:
+               reader = csv.DictReader(file)
+               for row in reader:
+                     aircrafts.append({
+                        'n_number': row['AircraftID'],
+                        'model_code': row['ModelCode'].strip(),
+                        'aircraft_type': row['AircraftType'].strip(),
+                        'register_city': row['RegisterCity'].strip()
+                     })
+         except Exception as e:
+            print(f"Error reading aircrafts file: {str(e)}")
+            raise
 
    def serialize_to_ttl(graph: RDFGraph, output_path: Path):
        """Exports RDF graph to Turtle format"""
+       #serialization of the aircrafts and match with models to build the hasModel relationship
+      index = 0
+      for aircraft in aircrafts:
+            encoded_n_number = quote(aircraft['n_number'].strip())
+            aircraft_uri = FDO[encoded_n_number]
+            g_aircraft.add((aircraft_uri, RDF.type, FDO.Aircraft))
+            g_aircraft.add((aircraft_uri, FDO.aircraftType, Literal(aircraft['aircraft_type'], datatype=XSD.string)))
+
+            for model in models:
+               if aircraft['model_code'] == model['model_code']:
+                     model_code = aircraft['model_code']
+                     model_uri = FDO[model_code]
+                     g_aircraft.add((aircraft_uri, FDO.hasModel, model_uri))
+            print(f"{int(index/len(aircrafts)*100)} % complete \r", end="")
+            index+=1
+
+         print(f"serialization \r")
+         g_aircraft.serialize(destination=str(OUTPUT_AIRCRAFT_PATH), format='turtle')
    ```
+
+```
 
 ## RDF Statistics
 
@@ -195,3 +227,4 @@ OUTPUT_PATH_CITY = OUTPUT_PATH / "city.ttl"
 | Airports.ttl      | <1s         | 6,085           |
 | Aircraft.ttl      | 10s         | 899,067         |
 | Flights.ttl       | >10s        | 14,789,917      |
+```
