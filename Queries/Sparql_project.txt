@@ -1,0 +1,114 @@
+1. Shows for every manufacturer which models they produce and how many aircrafts per model there are:
+
+####
+
+prefix fly: <http://www.semanticweb.org/nele/ontologies/2024/10/flydata/>
+
+select ?manufacturer_name ?model_name (COUNT(?aircraft) as ?nr_aircrafts) where {
+    ?aircraft a fly:Aircraft ;
+    		fly:hasModel ?model.
+    ?model a fly:Model;
+    		fly:name ?model_name;
+    	fly:hasManufacturer ?manufacturer.
+    ?manufacturer a fly:Manufacturer;
+    		fly:name ?manufacturer_name.
+} group by ?manufacturer_name ?model_name
+order by ?manufacturer_name ?model_name
+
+#####
+
+2. Shows all the airports you can fly to from every departure airport:
+
+####
+
+prefix fly: <http://www.semanticweb.org/nele/ontologies/2024/10/flydata/>
+
+select ?departure_airport ?arrival_airport where {
+    ?dep a fly:Airport;
+    			fly:name ?departure_airport.
+    ?arr a fly:Airport;
+    			fly:name ?arrival_airport.
+    ?route a fly:Route;
+    		fly:hasDepartureAirport ?dep;
+    		fly:hasArrivalAirport ?arr.
+} group by ?departure_airport ?arrival_airport
+
+#######
+
+3. Same as above but now with the number of flights that flew that specific route, ordered by descending number of flights:
+
+######
+
+prefix fly: <http://www.semanticweb.org/nele/ontologies/2024/10/flydata/>
+
+select ?departure_airport ?arrival_airport (COUNT(?flight) as ?nr_flights) where {
+    ?dep a fly:Airport;
+    			fly:name ?departure_airport.
+    ?arr a fly:Airport;
+    			fly:name ?arrival_airport.
+    ?route a fly:Route;
+    		fly:hasDepartureAirport ?dep;
+    		fly:hasArrivalAirport ?arr.
+    ?flight a fly:Flight;
+    		fly:hasRoute ?route.
+    
+} group by ?departure_airport ?arrival_airport
+order by desc (?nr_flights)
+
+#######
+
+4.  Shows a state, a city and the number of airports in that city ordered by descending number of airports:
+
+#####
+
+prefix fly: <http://www.semanticweb.org/nele/ontologies/2024/10/flydata/>
+
+select ?state ?city (COUNT(?air) as ?nr_airp) where {
+    ?cty a fly:City;
+    	fly:isLocatedInState ?st;
+    	fly:name ?city.
+    ?air a ?Airport;
+            fly:isLocatedInCity ?cty.
+    ?st a fly:State;
+    	fly:name ?state.
+}group by ?state ?city
+order by desc (?nr_airp)
+
+#########
+
+5. number of airports per state with the total population of that state:
+
+#######
+
+prefix fly: <http://www.semanticweb.org/nele/ontologies/2024/10/flydata/>
+
+select ?state (COUNT(?air) as ?nr_airp) (SUM(?pop) as ?total_population) where{
+    ?cty a fly:City;
+    	fly:isLocatedInState ?st;
+    	fly:population ?pop;
+    	fly:name ?city.
+    ?air a ?Airport;
+            fly:isLocatedInCity ?cty.
+    ?st a fly:State;
+    	fly:name ?state.
+}group by ?state
+order by desc (?nr_airp)
+
+##########
+
+6. The carriers with a total delay time over all the flights in minutes ordered by most delay:
+
+########
+
+prefix fly: <http://www.semanticweb.org/nele/ontologies/2024/10/flydata/>
+
+select ?Carrier (SUM(?delay) as ?tot_delay) where {
+    ?Car a fly:Carrier;
+    	fly:name ?Carrier.
+    ?flight a fly:Flight;
+    	fly:isOperatedBy ?Car;
+    	fly:ActualArrivalDelayTime ?delay.
+} group by ?Carrier
+order by desc (?tot_delay )
+
+######
