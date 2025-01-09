@@ -65,7 +65,7 @@ select ?state ?city (COUNT(?air) as ?nr_airp) where {
 ?cty a fly:City;
 fly:isLocatedInState ?st;
 fly:name ?city.
-?air a ?Airport;
+?air a fly:Airport;
 fly:isLocatedInCity ?cty.
 ?st a fly:State;
 fly:name ?state.
@@ -77,22 +77,91 @@ order by desc (?nr_airp)
 5. number of airports per state with the total population of that state:
 
 ```sql
-
 prefix fly: <http://www.semanticweb.org/nele/ontologies/2024/10/flydata/>
 
-select ?state (COUNT(?air) as ?nr_airp) (SUM(?pop) as ?total_population) where{
-?cty a fly:City;
-fly:isLocatedInState ?st;
-fly:population ?pop;
-fly:name ?city.
-?air a ?Airport;
-fly:isLocatedInCity ?cty.
-?st a fly:State;
-fly:name ?state.
-}group by ?state
-order by desc (?nr_airp)
+SELECT ?state ?nr_airp ?total_population ?people_per_airport
+WHERE {
+  {
+    SELECT ?state (COUNT(?air) as ?nr_airp) (SUM(?pop) as ?total_population)
+    ((?total_population/?nr_airp) as ?people_per_airport)
+    WHERE {
+      ?cty a fly:City;
+      fly:isLocatedInState ?st;
+      fly:population ?pop;
+      fly:name ?city.
+      ?air a fly:Airport;
+      fly:isLocatedInCity ?cty.
+      ?st a fly:State;
+      fly:name ?state.
+    } GROUP BY ?state
+  }
+  {
+    # Top 3
+    SELECT ?state ?nr_airp ?total_population ?people_per_airport
+    WHERE {
+      # Subquery repeated here
+      {
+        SELECT ?state (COUNT(?air) as ?nr_airp) (SUM(?pop) as ?total_population)
+        ((?total_population/?nr_airp) as ?people_per_airport)
+        WHERE {
+          ?cty a fly:City;
+          fly:isLocatedInState ?st;
+          fly:population ?pop;
+          fly:name ?city.
+          ?air a fly:Airport;
+          fly:isLocatedInCity ?cty.
+          ?st a fly:State;
+          fly:name ?state.
+        } GROUP BY ?state
+      }
+    } ORDER BY DESC(?people_per_airport) LIMIT 3
+  }
+  UNION
+  {
+    # Bottom 3
+    SELECT ?state ?nr_airp ?total_population ?people_per_airport
+    WHERE {
+      # Subquery repeated here
+      {
+        SELECT ?state (COUNT(?air) as ?nr_airp) (SUM(?pop) as ?total_population)
+        ((?total_population/?nr_airp) as ?people_per_airport)
+        WHERE {
+          ?cty a fly:City;
+          fly:isLocatedInState ?st;
+          fly:population ?pop;
+          fly:name ?city.
+          ?air a fly:Airport;
+          fly:isLocatedInCity ?cty.
+          ?st a fly:State;
+          fly:name ?state.
+        } GROUP BY ?state
+      }
+    } ORDER BY ?people_per_airport LIMIT 3
+  }
+}
+ORDER BY DESC(?people_per_airport)
 
 ```
+
+## Result
+
+| State                | Number of Airports | Total Population | People per Airport |
+| -------------------- | ------------------ | ---------------- | ------------------ |
+| District of Columbia | 2                  | 10,232,756       | 5,116,378          |
+| New York             | 24                 | 79,064,833       | 3,294,368          |
+| Illinois             | 24                 | 35,529,902       | 1,480,413          |
+| Vermont              | 5                  | 150,177          | 30,035             |
+| Wyoming              | 13                 | 289,688          | 22,284             |
+| Alaska               | 144                | 1,178,370        | 8,183              |
+
+## Explanation
+
+The top 3 states are the ones with the most airports and the most people per airport. The bottom 3 states are the ones with the least airports and the least people per airport.
+
+There's a massive disparity between the most and least dense states in terms of airport service
+Urban areas (DC, NY) show high population pressure on airport infrastructure
+Rural/remote states (Alaska) show extensive airport networks serving smaller populations
+The data suggests that airport distribution is influenced by both population density and geographic factors
 
 6. The carriers with a total delay time over all the flights in minutes ordered by most delay:
 
@@ -191,3 +260,36 @@ fly:hasModel ?aircraft_model.
 order by ?carrier_name desc(?model_count)
 
 ```
+
+# Top 3 and Bottom 3 States by Airport Busyness (People per Airport)
+
+WITH {
+select ?state (COUNT(?air) as ?nr_airp) (SUM(?pop) as ?total_population)
+((?total_population/?nr_airp) as ?people_per_airport) where {
+?cty a fly:City;
+fly:isLocatedInState ?st;
+fly:population ?pop;
+fly:name ?city.
+?air a fly:Airport;
+fly:isLocatedInCity ?cty.
+?st a fly:State;
+fly:name ?state.
+}group by ?state
+} AS ?all_results
+
+SELECT ?state ?nr*airp ?total_population ?people_per_airport
+WHERE {
+INCLUDE ?all_results
+{ # Top 3
+SELECT * WHERE {
+INCLUDE ?all*results
+} ORDER BY DESC(?people_per_airport) LIMIT 3
+}
+UNION
+{ # Bottom 3
+SELECT * WHERE {
+INCLUDE ?all_results
+} ORDER BY ?people_per_airport LIMIT 3
+}
+}
+ORDER BY DESC(?people_per_airport)
