@@ -1,3 +1,5 @@
+# FLYDATA - Queries
+
 # Table of Contents
 
 1. [Model-Aircraft-Manufacturer](#model-aircraft-manufactuere)
@@ -17,9 +19,9 @@
    1. [Carrier Delays](#1-cariers-that-recovered-most-of-flight-delay)
    2. [Categories Delays](#2-analysis-of-delay-categories)
    3. [Busiest Routes](#3-busiest-routes-one-way-by-number-of-flights-and-average-delays)
-   4. [Weather]
-    1.  [Airports with most flights cancelled due to weather](#41-departure-airports-with-the-most-flight-cancellations-due-to-weather-conditions)
-    2.  [Weather type for cancelled flights](#42-flights-canceled-grouped-by-weather-conditions-at-newark-liberty-international-airport-airport)
+   4. [Weather](#weather)
+      1.  [Airports with most flights cancelled due to weather](#41-departure-airports-with-the-most-flight-cancellations-due-to-weather-conditions)
+       2.  [Weather type for cancelled flights](#42-flights-canceled-grouped-by-weather-conditions-at-newark-liberty-international-airport)
 
 ---
 
@@ -618,8 +620,11 @@ limit 10
 
 ### Explanation
 
-- Although the number of flightson the outbound and return routes are not identical, the first six routes maintain a similar number of flights in the same order. This trend does not hold for the subsequent routes.
+- This query shows the number of flights for each route and the average delay
+- Although the number of flights on the outbound and return routes are not identical, the first six routes maintain a similar number of flights in the same order. This trend does not hold for the subsequent routes.
 - The average delay is quite different between the outbound and return routes.
+
+# Weather
 
 ## 4.1. Departure airports with the most flight cancellations due to weather conditions
 
@@ -651,8 +656,11 @@ limit 5
 | La Guardia Airport                        | 447               |
 | Ronald Reagan Washington National Airport | 337               |
 
+### Explanation
 
-## 4.2. Flights canceled grouped by weather conditions at Newark Liberty International Airport Airport
+- This query shows the 5 airports with the highest number of canceled flights due to weather conditions.
+
+## 4.2. Flights canceled grouped by weather conditions at Newark Liberty International Airport
 
 ### code
 
@@ -692,5 +700,7 @@ order by asc(?weather_type)
 
 ### Explanation
 
+- This query shows the number of flights cancelled at Newark Liberty International Airport grouped by weather condition
+- The weather column translates the codes based on the index list https://dev.meteostat.net/formats.html#weather-condition-codes
 - The sum of the column for the number of canceled flights does not match the actual number of canceled flights because some of them were rescheduled and then canceled again, and this query also take count of multiple cancellations.
 - Some flights appear to be canceled under normal weather conditions at the departure airport. This is because adverse weather occurs at the arrival airport.
