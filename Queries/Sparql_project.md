@@ -1,4 +1,6 @@
-1. Shows for every manufacturer which models they produce and how many aircrafts per model there are:
+# 1. Shows for every manufacturer which models they produce and how many aircrafts per model there are:
+
+## Code
 
 ```sql
 prefix fly: <http://www.semanticweb.org/nele/ontologies/2024/10/flydata/>
@@ -14,6 +16,18 @@ fly:name ?manufacturer_name.
 } group by ?manufacturer_name ?model_name
 order by ?manufacturer_name ?model_name
 ```
+
+## Result
+
+| Manufacturer | Model | Number of Aircrafts |
+| ------------ | ----- | ------------------- |
+|              |       |                     |
+|              |       |                     |
+|              |       |                     |
+
+## Explanation
+
+This query groups the aircraft by manufacturer and model, counting the number of aircraft for each combination. The result shows the manufacturer, model, and the total number of aircraft for each model.
 
 2. Shows all the airports you can fly to from every departure airport:
 
@@ -74,7 +88,9 @@ order by desc (?nr_airp)
 
 ```
 
-5. number of airports per state with the total population of that state:
+# 5. The most busiest and least busiest 3 states by airport busyness (people per airport)
+
+## Code
 
 ```sql
 prefix fly: <http://www.semanticweb.org/nele/ontologies/2024/10/flydata/>
@@ -155,9 +171,6 @@ ORDER BY DESC(?people_per_airport)
 | Alaska               | 144                | 1,178,370        | 8,183              |
 
 ## Explanation
-
-The top 3 states are the ones with the most airports and the most people per airport. The bottom 3 states are the ones with the least airports and the least people per airport.
-
 There's a massive disparity between the most and least dense states in terms of airport service
 Urban areas (DC, NY) show high population pressure on airport infrastructure
 Rural/remote states (Alaska) show extensive airport networks serving smaller populations
