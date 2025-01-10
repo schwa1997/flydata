@@ -16,8 +16,6 @@
 3. [Route-Flights-Weather](#route-flights-weather)
    1. [Carrier Delays](#1-the-carriers-with-a-total-delay-time-over-all-the-flights-in-minutes-ordered-by-most-delay)
    2. [Model Delays](#2-shows-the-average-delay-time-per-aircraft-model-ordered-by-highest-average-delay)
-   3. [Weather Cancellations](#3-shows-weather-conditions-that-caused-flight-cancellations)
-   4. [Busiest Routes](#4-shows-the-busiest-routes-by-number-of-flights-and-their-average-delays)
 
 ---
 
@@ -459,6 +457,36 @@ order by desc (?tot_delay )
 
 ```
 
+## results
+
+Spirit Airlines,398096
+| Carrier | Total Delay (minutes) |
+|---------|---------------------|
+| American Airlines | 1,913,523 |
+| United Airlines | 737,631 |
+| Southwest Airlines | 643,731 |
+| SkyWest | 624,190 |
+| Delta Air Lines | 608,954 |
+| JetBlue Airways | 536,392 |
+| Spirit Airlines | 398,096 |
+| Frontier Airlines | 348,656 |
+| Comair | 329,258 |
+| Alaska Airlines | 189,913 |
+| Midwest Airlines | 174,630 |
+| Pinnacle Airlines | 154,721 |
+| Capital Cargo International Airlines | 148,660 |
+| West Air Sweden | 148,660 |
+| Red Jet Andes | 148,660 |
+| American Eagle Airlines | 147,806 |
+| Allegiant Air | 131,971 |
+| Air Wisconsin | 84,293 |
+| Mesa Airlines | 55,576 |
+| Horizon Air | 49,823 |
+| GoJet Airlines | 45,634 |
+| Gandalf Airlines | 45,634 |
+| CommutAir | 27,173 |
+| Hawaiian Airlines | 18,327 |
+
 ## 2. Average Delay Time per Aircraft Model
 
 ### code
@@ -475,53 +503,115 @@ fly:hasAircraft ?aircraft.
 ?model fly:name ?model_name.
 } group by ?model_name
 order by desc(?avg_delay)
-
-```
-
-## 3. Weather Conditions Causing Flight Cancellations
-
-### code
-
-```sql
-
-prefix fly: <http://www.semanticweb.org/nele/ontologies/2024/10/flydata/>
-
-select ?airport_name ?weather_type (COUNT(?flight) as ?cancelled_flights) where {
-?flight a fly:Flight;
-fly:cancellationCode "B"; # Weather-related cancellations
-fly:hasRoute ?route.
-?route fly:hasDepartureAirport ?airport.
-?airport fly:name ?airport_name.
-?weather fly:hasAirport ?airport;
-fly:weatherType ?weather_type;
-fly:weatherDate ?weather_date.
-?flight fly:flightDate ?flight_date.
-FILTER(DAY(?weather_date) = DAY(?flight_date))
-} group by ?airport_name ?weather_type
-order by desc(?cancelled_flights)
-
-```
-
-## 4. Busiest Routes by Number of Flights and Average Delays
-
-### code
-
-```sql
-
-prefix fly: <http://www.semanticweb.org/nele/ontologies/2024/10/flydata/>
-
-select ?dep_name ?arr_name
-(COUNT(?flight) as ?total_flights)
-(AVG(?delay) as ?avg_delay) where {
-?flight a fly:Flight;
-fly:hasRoute ?route;
-fly:ActualArrivalDelayTime ?delay.
-?route fly:hasDepartureAirport ?dep;
-fly:hasArrivalAirport ?arr.
-?dep fly:name ?dep_name.
-?arr fly:name ?arr_name.
-} group by ?dep_name ?arr_name
-order by desc(?total_flights)
 limit 10
 
 ```
+
+### results
+
+| Aircraft Model | Average Delay (minutes) | Number of Flights |
+| -------------- | ----------------------- | ----------------- |
+| 777-323ER      | 67.76                   | 63                |
+| 777-223        | 38.19                   | 177               |
+| 767-424ER      | 33.47                   | 70                |
+| A319-115       | 33.47                   | 3,292             |
+| A320-214       | 28.40                   | 4,022             |
+| 787-8          | 27.79                   | 389               |
+| A321-253N      | 27.37                   | 736               |
+| A319-112       | 27.23                   | 7,272             |
+| 767-432ER      | 23.63                   | 57                |
+| A321-231       | 23.49                   | 27,025            |
+
+## 2.1 Analysis of Delay Categories
+
+This query breaks down delays by their categories to understand which types of delays have the biggest impact on flight operations.
+
+### Code
+
+```sql
+prefix fly: <http://www.semanticweb.org/nele/ontologies/2024/10/flydata/>
+
+SELECT ?type ?total ?avg ?flights
+WHERE {
+  {
+    BIND("Late Type E" AS ?type)
+    {
+      SELECT (SUM(?LateE) AS ?total) (AVG(?LateE) AS ?avg) (COUNT(?flight) AS ?flights)
+      WHERE {
+        ?flight a fly:Flight ;
+                fly:LateE ?LateE .
+        FILTER(?LateE > 0)
+      }
+    }
+  }
+  UNION
+  {
+    BIND("Late Type F" AS ?type)
+    {
+      SELECT (SUM(?LateF) AS ?total) (AVG(?LateF) AS ?avg) (COUNT(?flight) AS ?flights)
+      WHERE {
+        ?flight a fly:Flight ;
+                fly:LateF ?LateF .
+        FILTER(?LateF > 0)
+      }
+    }
+  }
+  UNION
+  {
+    BIND("Late Type G" AS ?type)
+    {
+      SELECT (SUM(?LateG) AS ?total) (AVG(?LateG) AS ?avg) (COUNT(?flight) AS ?flights)
+      WHERE {
+        ?flight a fly:Flight ;
+                fly:LateG ?LateG .
+        FILTER(?LateG > 0)
+      }
+    }
+  }
+  UNION
+  {
+    BIND("Late Type H" AS ?type)
+    {
+      SELECT (SUM(?LateH) AS ?total) (AVG(?LateH) AS ?avg) (COUNT(?flight) AS ?flights)
+      WHERE {
+        ?flight a fly:Flight ;
+                fly:LateH ?LateH .
+        FILTER(?LateH > 0)
+      }
+    }
+  }
+  UNION
+  {
+    BIND("Late Type I" AS ?type)
+    {
+      SELECT (SUM(?LateI) AS ?total) (AVG(?LateI) AS ?avg) (COUNT(?flight) AS ?flights)
+      WHERE {
+        ?flight a fly:Flight ;
+                fly:LateI ?LateI .
+        FILTER(?LateI > 0)
+      }
+    }
+  }
+}
+ORDER BY DESC(?total)
+```
+
+### Results
+
+| Delay Type  | Total Minutes | Average Minutes | Affected Flights |
+| ----------- | ------------- | --------------- | ---------------- |
+| Late Type I | 4,527,160     | 58.0            | 78,029           |
+| Late Type E | 3,769,101     | 46.9            | 80,372           |
+| Late Type G | 2,278,113     | 29.9            | 76,227           |
+| Late Type F | 687,215       | 68.9            | 9,971            |
+| Late Type H | 14,808        | 22.3            | 664              |
+
+### Explanation
+
+The analysis reveals:
+
+- Late Type I (Carrier-caused) delays have the highest total impact with over 4.5M minutes of total delay, affecting 78,029 flights with an average delay of 58 minutes
+- Late Type E (Late Aircraft) delays are the second most significant cause with 3.7M total minutes, affecting the most flights (80,372) with an average delay of 47 minutes
+- Late Type G (NAS) delays account for 2.2M total minutes across 76,227 flights with a lower average delay of 30 minutes
+- Late Type F (Weather) delays affect fewer flights (9,971) but have the highest average delay time per flight at 69 minutes
+- Late Type H (Security) delays are relatively rare with only 664 affected flights and 14,808 total minutes of delay, averaging 22 minutes per delay
