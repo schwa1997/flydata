@@ -14,7 +14,9 @@ fly:hasManufacturer ?manufacturer.
 ?manufacturer a fly:Manufacturer;
 fly:name ?manufacturer_name.
 } group by ?manufacturer_name ?model_name
-order by ?manufacturer_name ?model_name
+order by desc(?nr_aircrafts)
+LIMIT 10
+
 ```
 
 ## Result
@@ -29,27 +31,52 @@ order by ?manufacturer_name ?model_name
 
 This query groups the aircraft by manufacturer and model, counting the number of aircraft for each combination. The result shows the manufacturer, model, and the total number of aircraft for each model.
 
-2. Shows all the airports you can fly to from every departure airport:
 
-```sql
+# 2. Show the top 10 airports that have the most routes departing from them, and which city and state they are in:
+
+```SQL
 
 prefix fly: <http://www.semanticweb.org/nele/ontologies/2024/10/flydata/>
 
-select ?departure_airport ?arrival_airport where {
-?dep a fly:Airport;
-fly:name ?departure_airport.
-?arr a fly:Airport;
-fly:name ?arrival_airport.
+select ?airport_name ?city_name ?state_name (COUNT(?route) as ?nr_routes) where {
+?airport a fly:Airport;
+fly:name ?airport_name;
+fly:isLocatedInCity ?city.
+?city a fly:City;
+fly:name ?city_name;
+fly:isLocatedInState ?state.
+?state a fly:State;
+fly:name ?state_name.
 ?route a fly:Route;
-fly:hasDepartureAirport ?dep;
-fly:hasArrivalAirport ?arr.
-} group by ?departure_airport ?arrival_airport
+fly:hasDepartureAirport ?airport.
+} group by ?airport ?airport_name ?city_name ?state_name
+order by desc(?nr_routes)
+limit 10
 
 ```
 
+## Result
+
+| Airport                                                    | City        | State                | Number of Routes |
+| ---------------------------------------------------------- | ----------- | -------------------- | ---------------- |
+| Denver International Airport                               | Denver      | Colorado             | 173              |
+| Chicago O'Hare International Airport                       | Chicago     | Illinois             | 161              |
+| Hartsfield Jackson Atlanta International Airport           | Atlanta     | Georgia              | 152              |
+| Charlotte Douglas International Airport                    | Charlotte   | North Carolina       | 141              |
+| McCarran International Airport                             | Las Vegas   | Nevada               | 125              |
+| Minneapolis-St Paul International/Wold-Chamberlain Airport | Minneapolis | Minnesota            | 111              |
+| George Bush Intercontinental Houston Airport               | Houston     | Texas                | 110              |
+| Ronald Reagan Washington National Airport                  | Washington  | District of Columbia | 100              |
+| Phoenix Sky Harbor International Airport                   | Phoenix     | Arizona              | 99               |
+| Los Angeles International Airport                          | Los Angeles | California           | 96               |
+
+## Explanation
+
+This query selects the top 10 airports with the most routes departing from them and the top 5 with the most routes arriving at them. It counts the number of routes for each airport and orders the results by the number of routes in descending order.
+
 3. Same as above but now with the number of flights that flew that specific route, ordered by descending number of flights:
 
-```sql
+```SQL
 
 prefix fly: <http://www.semanticweb.org/nele/ontologies/2024/10/flydata/>
 
