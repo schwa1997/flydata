@@ -171,6 +171,7 @@ ORDER BY DESC(?people_per_airport)
 | Alaska               | 144                | 1,178,370        | 8,183              |
 
 ## Explanation
+
 There's a massive disparity between the most and least dense states in terms of airport service
 Urban areas (DC, NY) show high population pressure on airport infrastructure
 Rural/remote states (Alaska) show extensive airport networks serving smaller populations
@@ -253,56 +254,3 @@ order by desc(?total_flights)
 limit 10
 
 ```
-
-10. Shows carriers with their fleet size and most common aircraft model:
-
-```sql
-
-prefix fly: <http://www.semanticweb.org/nele/ontologies/2024/10/flydata/>
-
-select ?carrier_name
-(COUNT(distinct ?aircraft) as ?fleet_size)
-?most_common_model
-(COUNT(?aircraft_model) as ?model_count) where {
-?carrier a fly:Carrier;
-fly:name ?carrier_name.
-?aircraft fly:isOwnedByCarrier ?carrier;
-fly:hasModel ?aircraft_model.
-?aircraft_model fly:name ?most_common_model.
-} group by ?carrier_name ?most_common_model
-order by ?carrier_name desc(?model_count)
-
-```
-
-# Top 3 and Bottom 3 States by Airport Busyness (People per Airport)
-
-WITH {
-select ?state (COUNT(?air) as ?nr_airp) (SUM(?pop) as ?total_population)
-((?total_population/?nr_airp) as ?people_per_airport) where {
-?cty a fly:City;
-fly:isLocatedInState ?st;
-fly:population ?pop;
-fly:name ?city.
-?air a fly:Airport;
-fly:isLocatedInCity ?cty.
-?st a fly:State;
-fly:name ?state.
-}group by ?state
-} AS ?all_results
-
-SELECT ?state ?nr*airp ?total_population ?people_per_airport
-WHERE {
-INCLUDE ?all_results
-{ # Top 3
-SELECT * WHERE {
-INCLUDE ?all*results
-} ORDER BY DESC(?people_per_airport) LIMIT 3
-}
-UNION
-{ # Bottom 3
-SELECT * WHERE {
-INCLUDE ?all_results
-} ORDER BY ?people_per_airport LIMIT 3
-}
-}
-ORDER BY DESC(?people_per_airport)
