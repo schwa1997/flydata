@@ -14,8 +14,12 @@
    3. [Airport Sharing by State Population](#3-airport-sharing-by-state-population)
 
 3. [Route-Flights-Weather](#route-flights-weather)
-   1. [Carrier Delays](#1-the-carriers-with-a-total-delay-time-over-all-the-flights-in-minutes-ordered-by-most-delay)
-   2. [Model Delays](#2-shows-the-average-delay-time-per-aircraft-model-ordered-by-highest-average-delay)
+   1. [Carrier Delays](#1-cariers-that-recovered-most-of-flight-delay)
+   2. [Categories Delays](#2-analysis-of-delay-categories)
+   3. [Busiest Routes](#3-busiest-routes-one-way-by-number-of-flights-and-average-delays)
+   4. [Weather]
+    1.  [Airports with most flights cancelled due to weather](#41-departure-airports-with-the-most-flight-cancellations-due-to-weather-conditions)
+    2.  [Weather type for cancelled flights](#42-flights-canceled-grouped-by-weather-conditions-at-newark-liberty-international-airport-airport)
 
 ---
 
@@ -438,7 +442,7 @@ ORDER BY DESC(?people_per_airport)
 
 # Route-Flights-Weather
 
-## 1. Carriers with Total Delay Time
+## 1. Cariers that recovered most of flight delay
 
 ### code
 
@@ -446,83 +450,39 @@ ORDER BY DESC(?people_per_airport)
 
 prefix fly: <http://www.semanticweb.org/nele/ontologies/2024/10/flydata/>
 
-select ?Carrier (SUM(?delay) as ?tot_delay) where {
-?Car a fly:Carrier;
-fly:name ?Carrier.
-?flight a fly:Flight;
-fly:isOperatedBy ?Car;
-fly:ActualArrivalDelayTime ?delay.
+select ?Carrier (ROUND(?avgDepDelay-?avgArrDelay) as ?recoveredTime) (AVG(?depDelay) as ?avgDepDelay) (AVG(?arrDelay) as ?avgArrDelay) where {
+	?Car a fly:Carrier;
+    	fly:name ?Carrier.
+    ?flight a fly:Flight;
+    	fly:isOperatedBy ?Car;
+    	fly:ActualArrivalDelayTime ?arrDelay;
+    	fly:ActualDepartureDelayTime ?depDelay.
 } group by ?Carrier
-order by desc (?tot_delay )
-
-```
-
-## results
-
-Spirit Airlines,398096
-| Carrier | Total Delay (minutes) |
-|---------|---------------------|
-| American Airlines | 1,913,523 |
-| United Airlines | 737,631 |
-| Southwest Airlines | 643,731 |
-| SkyWest | 624,190 |
-| Delta Air Lines | 608,954 |
-| JetBlue Airways | 536,392 |
-| Spirit Airlines | 398,096 |
-| Frontier Airlines | 348,656 |
-| Comair | 329,258 |
-| Alaska Airlines | 189,913 |
-| Midwest Airlines | 174,630 |
-| Pinnacle Airlines | 154,721 |
-| Capital Cargo International Airlines | 148,660 |
-| West Air Sweden | 148,660 |
-| Red Jet Andes | 148,660 |
-| American Eagle Airlines | 147,806 |
-| Allegiant Air | 131,971 |
-| Air Wisconsin | 84,293 |
-| Mesa Airlines | 55,576 |
-| Horizon Air | 49,823 |
-| GoJet Airlines | 45,634 |
-| Gandalf Airlines | 45,634 |
-| CommutAir | 27,173 |
-| Hawaiian Airlines | 18,327 |
-
-## 2. Average Delay Time per Aircraft Model
-
-### code
-
-```sql
-
-prefix fly: <http://www.semanticweb.org/nele/ontologies/2024/10/flydata/>
-
-select ?model_name (AVG(?delay) as ?avg_delay) (COUNT(?flight) as ?nr_flights) where {
-?flight a fly:Flight;
-fly:ActualArrivalDelayTime ?delay;
-fly:hasAircraft ?aircraft.
-?aircraft fly:hasModel ?model.
-?model fly:name ?model_name.
-} group by ?model_name
-order by desc(?avg_delay)
+order by desc (?recoveredTime)
 limit 10
 
 ```
 
-### results
+### Result
 
-| Aircraft Model | Average Delay (minutes) | Number of Flights |
-| -------------- | ----------------------- | ----------------- |
-| 777-323ER      | 67.76                   | 63                |
-| 777-223        | 38.19                   | 177               |
-| 767-424ER      | 33.47                   | 70                |
-| A319-115       | 33.47                   | 3,292             |
-| A320-214       | 28.40                   | 4,022             |
-| 787-8          | 27.79                   | 389               |
-| A321-253N      | 27.37                   | 736               |
-| A319-112       | 27.23                   | 7,272             |
-| 767-432ER      | 23.63                   | 57                |
-| A321-231       | 23.49                   | 27,025            |
+| Carrier              | Recovered Time     | Departure Delay (AVG) | Arrival Delay (AVG) |
+| -------------------- | ------------------ | --------------------- | ------------------- |
+| TOP 3                |                    |                       |
+| Southwest Airlines   | 6                  | 11.78                 | 6.00                |
+| Delta Air Lines      | 5                  | 12.22                 | 6.87                |
+| Spirit Airlines      | 5                  | 20.76                 | 16.13               |
+| BOTTOM 3             |                    |                       |
+| Frontier Airlines    | 1                  | 19.98                 | 18.63               |
+| Air Wisconsin        | 1                  | 18.58                 | 17.64               |
+| Horizon Air          | 0                  | 6.77                  | 7.16                |
 
-## 2.1 Analysis of Delay Categories
+### Explanation
+
+- Almost all carriers made up part of the delay during the in-flight phase of their flights
+- Only Horizon Air, on average, increased the delay during the flight
+- Some airlines experience significantly more delay than others, but the ability to make up for the delay is nearly the same across all airlines 
+
+## 2. Analysis of Delay Categories
 
 This query breaks down delays by their categories to understand which types of delays have the biggest impact on flight operations.
 
@@ -615,3 +575,122 @@ The analysis reveals:
 - Late Type G (NAS) delays account for 2.2M total minutes across 76,227 flights with a lower average delay of 30 minutes
 - Late Type F (Weather) delays affect fewer flights (9,971) but have the highest average delay time per flight at 69 minutes
 - Late Type H (Security) delays are relatively rare with only 664 affected flights and 14,808 total minutes of delay, averaging 22 minutes per delay
+
+
+## 3. Busiest Routes (one way) by Number of Flights and Average Delays
+
+### code
+
+```sql
+
+prefix fly: <http://www.semanticweb.org/nele/ontologies/2024/10/flydata/>
+
+select ?dep_name ?arr_name
+(COUNT(?flight) as ?total_flights)
+(AVG(?delay) as ?avg_delay) where {
+?flight a fly:Flight;
+fly:hasRoute ?route;
+fly:ActualArrivalDelayTime ?delay.
+?route fly:hasDepartureAirport ?dep;
+fly:hasArrivalAirport ?arr.
+?dep fly:name ?dep_name.
+?arr fly:name ?arr_name.
+} group by ?dep_name ?arr_name
+order by desc(?total_flights)
+limit 10
+
+```
+
+### Result
+
+| Departure Airport                        | Arrival Airport                                      | Total Flights | Delay (AVG) |
+| ---------------------------------------- | ---------------------------------------------------- | ------------- | ----------- |
+| San Francisco International Airport      | Los Angeles International Airport                    | 1667          | 2.32        |
+| Los Angeles International Airport        | San Francisco International Airport                  | 1516          | 6.41        |
+| La Guardia Airport                       | Chicago O'Hare International Airport                 | 1456          | 26.25       |
+| Chicago O'Hare International Airport     | La Guardia Airport                                   | 1367          | 21.57       |
+| Los Angeles International Airport        | McCarran International Airport                       | 1190          | 10.38       |
+| McCarran International Airport           | Los Angeles International Airport                    | 1156          | 6.55        |
+| Phoenix Sky Harbor International Airport | Denver International Airport                         | 1065          | 8.87        |
+| San Diego International Airport          | McCarran International Airport                       | 1043          | 6.23        |
+| Denver International Airport             | Phoenix Sky Harbor International Airport             | 1031          | 9.98        |
+| Chicago O'Hare International Airport     | General Edward Lawrence Logan International Airport  | 1028          | 16.53       |
+
+### Explanation
+
+- Although the number of flightson the outbound and return routes are not identical, the first six routes maintain a similar number of flights in the same order. This trend does not hold for the subsequent routes.
+- The average delay is quite different between the outbound and return routes.
+
+## 4.1. Departure airports with the most flight cancellations due to weather conditions
+
+### code
+
+```sql
+
+prefix fly: <http://www.semanticweb.org/nele/ontologies/2024/10/flydata/>
+
+select ?airport_name (COUNT(?flight) as ?cancelled_flights) where {
+	?flight a fly:Flight;
+		fly:CancellationCode "B"; # Weather-related cancellations
+		fly:hasRoute ?route.
+	?route fly:hasDepartureAirport ?airport.
+	?airport fly:name ?airport_name.
+}group by ?airport_name ?weather_type
+order by desc(?cancelled_flights)
+limit 5
+
+```
+
+### Result
+
+| Departure Airport Name                    | Cancelled Flights |
+| ----------------------------------------- | ----------------- |
+| Newark Liberty International Airport      | 621               |
+| Charlotte Douglas International Airport   | 576               |
+| Philadelphia International Airport        | 499               |
+| La Guardia Airport                        | 447               |
+| Ronald Reagan Washington National Airport | 337               |
+
+
+## 4.2. Flights canceled grouped by weather conditions at Newark Liberty International Airport Airport
+
+### code
+
+```sql
+
+prefix fly: <http://www.semanticweb.org/nele/ontologies/2024/10/flydata/>
+
+select ?weather_type (COUNT(?flight) as ?cancelled_flights) where {
+    ?weather a fly:Weather;
+        fly:hasAirport ?airport;
+		fly:weatherType ?weather_type;
+		fly:weatherDate ?flight_date.
+    ?flight a fly:Flight;
+            fly:CancellationCode "B"; # Weather-related cancellations
+            fly:hasRoute ?route;
+    		fly:flightDate ?flight_date.
+    ?route fly:hasDepartureAirport ?airport.
+    ?airport fly:name "Newark Liberty International Airport".
+}group by ?weather_type
+order by asc(?weather_type)
+
+```
+
+### Result
+
+| Weather Code       | Cancelled Flights  | Weather            |
+| ------------------ | ------------------ | ------------------ |
+| 1                  | 50                 | Clear              |
+| 2                  | 46                 | Fair               |
+| 3                  | 276                | Cloudy             |
+| 5                  | 12                 | Fog                |
+| 7                  | 62                 | Light Rain         |
+| 8                  | 89                 | Rain               |
+| 9                  | 70                 | Heavy Rain         |
+| 17                 | 71                 | Sleet Shower       |
+| 18                 | 53                 | Heavy Rain Shower  |
+
+### Explanation
+
+- The sum of the column for the number of canceled flights does not match the actual number of canceled flights because some of them were rescheduled and then canceled again, and this query also take count of multiple cancellations.
+- Some flights appear to be canceled under normal weather conditions at the departure airport. This is because adverse weather occurs at the arrival airport.
